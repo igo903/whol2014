@@ -1,0 +1,29 @@
+{
+  "family": "whol",
+  "name": "WuhanOnline",
+  "version": "1.0.0",
+  "description": "Wuhan Online 2014",
+  "homepage": "https://github.com/ZHEZ/whol",
+  "author": "Alain",
+  "maintainers": [
+    "Alain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZHEZ/whol.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "WuhanOnline.js",
+      "WuhanOnline.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
