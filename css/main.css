@@ -19,8 +19,9 @@
     margin: 0 auto;
     line-height: 28px;
 }
-.mininavInner a{
+.mininavInner a:link{
     padding-right: 10px;
+    color: #666;
 }
 
 
