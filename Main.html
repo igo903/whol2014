@@ -8,12 +8,18 @@
 </head>
 <body>
 	
-	<div class="wrapper">
-		
+	
 
-
+	<div id="slide-demo-1" class="slide-demo">
+	    <ul class="ui-switchable-content" data-switchable-role="content">
+	        <li class="ui-switchable-panel"><a href="#"><img src="./i/slide_1.jpg" /></a></li>
+	        <li class="hidden ui-switchable-panel"><a href="#"><img src="./i/slide_2.jpg" /></a></li>
+	        <li class="hidden ui-switchable-panel"><a href="#"><img src="./i/slide_3.jpg" /></a></li>
+	    </ul>
 	</div>
-	<!--//wrapper-->
+
+
+
 
 
 
@@ -21,12 +27,23 @@
 		seajs.config({
 			base:"./sea-modules",
 			alias:{
-				"jquery":"jquery/jquery/1.10.1/jquery.js",
+				"$":"jquery/jquery/1.10.1/jquery.js",
 				"jquery-easing":"jquery/easing/1.3.0/easing.js"
 			}
 		});
 
-		seajs.use("./js/main");
+		//seajs.use("./js/main");
+
+		seajs.use(['arale/switchable/1.0.2/slide'], function(Slide) {
+		    slide = new Slide({
+		        element: '#slide-demo-1',
+		        effect: 'scrolly',
+		        interval: 3000
+		    });
+		});
+
+
+
 	</script>
 
 
