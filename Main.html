@@ -149,25 +149,84 @@
 		</div>
 	</div><!--//nav-->
 
-	<div class="layout mt12">
+	<div class="layout mt12 fn-clear">
 		<div class="adLeft">
-			广告图 660 x 75
+			<a href="javascript:;"><img src="i/ad1.png" alt=""></a>
 		</div>
 		<div class="adRight">
-			广告图 320 x 75
+			<a href="javascript:;"><img src="i/ad2.png" alt=""></a>
 		</div>
 	</div><!--//layout-->
 
 
 
 
-	<div id="slide-demo-1" class="slide-demo">
-	    <ul class="ui-switchable-content" data-switchable-role="content">
-	        <li class="ui-switchable-panel"><a href="#"><img src="./i/slide_1.jpg" /></a></li>
-	        <li class="hidden ui-switchable-panel"><a href="#"><img src="./i/slide_2.jpg" /></a></li>
-	        <li class="hidden ui-switchable-panel"><a href="#"><img src="./i/slide_3.jpg" /></a></li>
-	    </ul>
+	<div class="layout mt12 fn-clear">
+		<div class="layoutLeft fn-clear">
+			<div class="leftArea fn-clear">
+				<div class="leftAreaContent leftView fn-left">
+					<div class="hd"><h2><a href="javascript:;">图片新闻</a></h2></div>
+					
+					<div id="slide-demo-1" class="slide-demo fn-clear">
+					    <ul class="ui-switchable-content" data-switchable-role="content">
+					        <li class="ui-switchable-panel">
+					        	<a href="#">
+					        		<img src="./i/news1.png"/>
+					        	</a>
+					        	<p>习近平会见荷兰国王威廉-亚历山大</p>
+					        </li>
+					        <li class="hidden ui-switchable-panel">
+					        	<a href="#">
+					        		<img src="./i/news2.png"/>
+					        	</a>
+					        	<p>新加坡Singapore</p>
+					        </li>
+					        <li class="hidden ui-switchable-panel">
+					        	<a href="#">
+					        		<img src="./i/news3.png"/>
+					        	</a>
+					        	<p>明星高调生二胎</p>
+					        </li>
+					    </ul>
+						
+						<ul data-switchable-role="nav" class="ui-switchable-nav">
+					        <li class="ui-switchable-trigger">●</li>
+					        <li class="ui-switchable-trigger ui-switchable-active">●</li>
+					        <li class="ui-switchable-trigger">●</li>
+					    </ul>
+					</div>
+					
+					<div id="picNews">
+						<ul class="ft">
+							<li>
+								<a href="javascript:;">2013销量超千套最火楼盘</a>
+								<a href="javascript:;">地铁4号线沿线商机揭秘</a>
+							</li>
+							<li><a href="javascript:;">马上有房不如马上有别墅</a><a href="javascript:;">不买房也可以落户在武汉</a></li>
+							<li><a href="javascript:;">联想湖北全民聚"惠"</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
+						</ul>
+					</div>
+				</div><!--//leftView-->
+
+				<div class="leftAreaContent leftNews fn-right">
+					
+				</div>
+
+
+			</div><!--//leftArea-->
+		</div><!--//layoutLeft-->
+
+		<div class="layoutRight">
+			
+		</div>
+
 	</div>
+
+
+
+
+
+	
 
 
 
@@ -183,14 +242,15 @@
 			}
 		});
 
-		//seajs.use("./js/main");
+		// seajs.use("./js/main");
 
 		seajs.use(['arale/switchable/1.0.2/slide'], function(Slide) {
-		    slide = new Slide({
+		    var slide = new Slide({
 		        element: '#slide-demo-1',
-		        effect: 'scrolly',
-		        interval: 3000
-		    });
+		        effect: 'fade',
+		        activeIndex: 1,
+		        interval:2600
+		    }).render();
 		});
 
 

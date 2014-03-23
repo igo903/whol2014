@@ -98,7 +98,7 @@ sub { bottom: -0.25em; }
 
 /* 正常链接 未访问 */
 a:link {
-    color: #08c;
+    color: #2D374B;
 }
 
 /* 鼠标悬停 */
