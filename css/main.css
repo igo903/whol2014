@@ -1,3 +1,19 @@
+.soso .searchBtn button{
+    background-image: url(../i/bg_1.6.1.png);
+    background-repeat: no-repeat;
+}
+.layout {
+    width: 1000px;
+    margin: 0 auto;
+}
+.mt12{margin-top: 12px;}
+
+
+
+
+
+
+
 .mininav {
     width: 100%;
     height: 28px;
@@ -24,6 +40,113 @@
     color: #666;
 }
 
+.soso {
+    width: 1000px;
+    height: 62px;
+    margin: 0 auto;
+    padding: 50px 0 21px;
+}
+.soso .logo {
+    float: left;
+    display: inline;
+}
+.soso .logo .whlogo {
+    display: block;
+    width: 410px;
+    height: 68px;
+    background-image: url(../i/logo.png);
+    background-repeat: no-repeat;
+}
+.soso .searchTxt {
+    float: left;
+    width: 399px;
+    height: 30px;
+    border: 2px solid #D3D3D3;
+    border-right: 0;
+    position: relative;
+    z-index: 20;
+    background: #FFF;
+}
+.soso #searchbar{
+    width: 487px;
+}
+.soso .weather{
+    padding: 5px 0;
+}
+.soso .search input {
+    float: left;
+    border: 0;
+    background: #FFF;
+    color: #333;
+    font: 14px/22px '宋体',verdana,tahoma,arial,'SimSun',sans-serif;
+    width: 221px;
+    height: 22px;
+    margin: 0;
+    outline: medium none;
+    padding: 4px;
+}
+.soso .searchBtn button {
+    background-position: -350px -110px;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    height: 34px;
+    text-indent: -9999px;
+    width: 86px;
+}
+.nav{
+    width: 984px;
+    height: 75px;
+    padding: 9px 8px 0 8px;
+    line-height: 22px;
+    font-size: 12px;
+    margin: 0 auto;
+    background-position: left -35px;
+    background-color: #328CC9;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.nav .navInner {
+    width: 987px;
+    height: 75px;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+.nav div {
+    float: left;
+    padding: 0 5px 0 5px;
+    width: 210px;
+    text-align: left;
+    margin: 0px 10px;
+}
+.nav a {
+    color: #FFF;
+    padding: 3px;
+    margin: 0 4px 0 3px;
+}
+.nav a:link{
+    color: #fff;
+}
+.nav a:hover{
+    background: #b3d9f2;
+    color: #003c71;
+    text-decoration: none;
+}
+.adLeft{
+    width: 660px;
+    height: 75px;
+    float: left;
+    background: #6c6c6c;
+}
+.adRight{
+    width: 320px;
+    height: 75px;
+    float: right;
+    background: #666;
+}
 
 
 
