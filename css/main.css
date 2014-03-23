@@ -1,4 +1,4 @@
-.soso .searchBtn button, .layoutLeft, .leftView .hd{
+.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,#announce .hd{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
@@ -162,7 +162,7 @@
     float: left;
 }
 .leftNews{
-    width: 340px;
+    width: 328px;
     overflow: hidden;
 }
 .leftView {
@@ -178,7 +178,7 @@
 .leftView .hd {
     height: 31px;
     border-bottom: 0 !important;
-    border-top: 1px solid #BDD7F2;
+    border-top: 1px solid #BDD7F2 !important;
     background-position: left -210px;
 }
 .leftAreaContent .hd {
@@ -188,7 +188,7 @@
     border-top: 2px solid #458FCE;
     border-bottom: 1px solid #DBECEC;
 }
-.leftAreaContent .hd h2 a {
+#announce .hd h2 a {
     color: #458FCE;
 }
 .leftView .hd h2 {
@@ -205,7 +205,7 @@
     float: left;
     font-weight: bold;
 }
-.leftAreaContent .ft li {
+.ft li {
     width: 100%;
     float: left;
     height: 26px;
@@ -214,8 +214,86 @@
     font-size: 14px;
     overflow: hidden;
 }
+.leftAreaContent #picNews{
+    padding-top: 12px;
+}
 .ft li a {
     padding-right: 5px;
+}
+.ft li.headline{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+.ft li.sub{
+    border-bottom: 1px dashed #ccc;
+}
+.ft li.headline a{
+    color: #3B639F;
+}
+.leftNews .hd{
+    border: 0;
+    height: 32px;
+    background-position: left -160px;
+}
+.leftNews .hd .newsTab {
+    float: left;
+    height: 32px;
+    overflow: hidden;
+}
+.leftNews .hd .newsTab h2.selected {
+    font-weight: bold;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+    border-top: 2px solid #458FCE;
+    border-left: 1px solid #BDD7F2;
+    border-right: 1px solid #BDD7F2;
+    background: #FFF!important;
+}
+.leftNews .hd .newsTab h2 {
+    float: left;
+    font-weight: normal;
+    width: 84px;
+    text-align: center;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 0px;
+    padding: 3px 1px 0;
+    overflow: hidden;
+}
+.leftNews .hd .newsTab h2#newsLife {
+    background-position: -450px -110px;
+}
+.leftAreaContent .hd h2 a {
+    color: #458FCE;
+}
+.leftNews .hd .newsTab h2 {
+    font-weight: normal;
+    text-align: center;
+    line-height: 28px;
+}
+.rightArea {
+    width: 318px;
+    border: 1px solid #D2E1F1;
+    background: #FFF;
+    float: right;
+}
+#announce .hd{
+    border-bottom: 0 !important;
+    background-position: left -210px;
+}
+#announce .hd h2{
+    color: #458FCE;
+    font-size: 14px;
+    padding-top: 6px;
+    font-weight: bold;
+    text-indent: 14px;
+}
+#announce .contents{
+    padding: 10px 10px 15px 12px;
+    height: 150px;
 }
 
 
