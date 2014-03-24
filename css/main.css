@@ -300,6 +300,9 @@
     height: 199px;
     padding-right: 30px;
     background: url(../i/navBg.png) no-repeat 288px top;
+    float: right;
+    border: 1px solid #D2E1F1;
+    font-size: 14px;
 }
 .rightProduct .productLine01 {
     width: 278px;
@@ -334,7 +337,16 @@
     height: 25px;
     padding-top: 10px;
 }
-
+.rightProduct .productFloatLayout {
+    position: absolute;
+    top: -1px;
+    right: 319px;
+    width: 14px;
+    height: 201px;
+}
+.rightProduct div a {
+    margin-right: 7px;
+}
 
 
 
