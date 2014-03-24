@@ -1,3 +1,5 @@
+/*develop by Alain*/
+
 .soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
@@ -307,7 +309,7 @@
 }
 #video .contents{
     padding: 10px 30px 10px 30px;
-    height: 445px;
+    height: 510px;
     font-size: 14px; 
 }
 #wholweibo .contents{
@@ -482,17 +484,49 @@
 	width: 100px;
 	height: 100px;
 }
-.footer{
+.footlinks{
 	border: 1px solid #dddddd;
 }
-.footer ul{
+.footlinks ul{
 	font-size: 13px;
 	padding: 15px 10px 10px 10px;
 }
-.footer ul li{
+.footlinks ul li{
 	margin-bottom: 5px;
 }
-
+.footer{
+	position: relative;
+	margin-bottom: 15px;
+}
+.footer .ctlogo{
+	width: 96px;
+	height: 89px;
+	background-image: url(../i/ct.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.footer .icplogo{
+	width: 212px;
+	height: 96px;
+	background-image: url(../i/icp.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.footer p{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.footer p.license{
+	color: red;
+	font-weight: bold;
+}
+.footer .copyrights{
+	width: 900px;
+}
 
 
 
