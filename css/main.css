@@ -341,6 +341,7 @@
     position: absolute;
     top: -1px;
     right: 319px;
+    /*right: 318px;*/
     width: 14px;
     height: 201px;
 }
@@ -397,7 +398,7 @@
     width: 339px;
 }
 .rightProduct .productFloatLayout .productFloat a {
-    margin: 0 0 0 8px;
+    margin: 0 5px 0 5px;
 }
 
 
