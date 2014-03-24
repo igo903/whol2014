@@ -1,4 +1,4 @@
-.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,#announce .hd, .leftZhuanti .hd, .leftApp .hd{
+.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
@@ -188,7 +188,7 @@
     border-top: 2px solid #458FCE;
     border-bottom: 1px solid #DBECEC;
 }
-#announce .hd h2 a {
+.rightNews .hd h2 a {
     color: #458FCE;
 }
 .leftView .hd h2, .leftZhuanti .hd h2, .leftApp .hd h2{
@@ -282,11 +282,11 @@
     background: #FFF;
     float: right;
 }
-#announce .hd{
+.rightNews .hd{
     border-bottom: 0 !important;
     background-position: left -210px;
 }
-#announce .hd h2{
+.rightNews .hd h2{
     color: #458FCE;
     font-size: 14px;
     padding-top: 6px;
@@ -296,6 +296,10 @@
 #announce .contents{
     padding: 10px 10px 15px 12px;
     height: 150px;
+}
+#mediafocus .contents{
+    padding: 5px 10px 0px 12px;
+    height: 135px;
 }
 .rightProduct{
     width: 288px;
@@ -424,6 +428,16 @@
     width: 80px;
     height: 80px;
     margin: 0px 0px 0 15px;
+}
+.weibos{
+    float: right;
+    width: 320px;
+    text-align: center;
+}
+.weibos a{
+    width: 124px;
+    height: 36px;
+    margin-right: 10px;
 }
 
 
