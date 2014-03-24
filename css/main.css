@@ -295,6 +295,46 @@
     padding: 10px 10px 15px 12px;
     height: 150px;
 }
+.rightProduct{
+    width: 288px;
+    height: 199px;
+    padding-right: 30px;
+    background: url(../i/navBg.png) no-repeat 288px top;
+}
+.rightProduct .productLine01 {
+    width: 278px;
+    padding-left: 10px;
+    height: 24px;
+    padding-top: 12px;
+}
+.rightProduct .productLine02 {
+    width: 278px;
+    padding-left: 10px;
+    height: 24px;
+    background: #F5F8FC;
+    padding-top: 11px;
+}
+.rightProduct .productLine03 {
+    width: 278px;
+    padding-left: 10px;
+    height: 26px;
+    padding-top: 11px;
+}
+.rightProduct .productLine04 {
+    width: 278px;
+    padding-left: 10px;
+    height: 50px;
+    background: #F5F8FC;
+    line-height: 22px;
+    padding-top: 5px;
+}
+.rightProduct .productLine05 {
+    width: 278px;
+    padding-left: 10px;
+    height: 25px;
+    padding-top: 10px;
+}
+
 
 
 
