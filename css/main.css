@@ -161,6 +161,9 @@
     width: 660px;
     float: left;
 }
+.leftArea.category > div{
+    margin-bottom: 12px;
+}
 .leftNews, .leftApp{
     width: 328px;
     overflow: hidden;
@@ -191,7 +194,8 @@
 .rightNews .hd h2 a {
     color: #458FCE;
 }
-.leftView .hd h2, .leftZhuanti .hd h2, .leftApp .hd h2{
+.leftView .hd h2, .leftZhuanti .hd h2, .leftApp .hd h2, .leftRealEstate .hd h2, .leftFurnish .hd h2,.leftTraffic .hd h2,
+.leftTour .hd h2, .leftLife .hd h2, .leftEntertain .hd h2, .leftMarriage .hd h2, .leftChild .hd h2{
     text-indent: 14px;
 }
 .leftAreaContent .hd h2 {
@@ -204,6 +208,9 @@
     margin-top: 6px;
     float: left;
     font-weight: bold;
+}
+.leftRealEstate, .leftFurnish, .leftTraffic, .leftTour, .leftLife, .leftEntertain, .leftMarriage, .leftChild{
+    width: 320px;
 }
 .ft li {
     width: 100%;
@@ -293,9 +300,25 @@
     font-weight: bold;
     text-indent: 14px;
 }
-#announce .contents{
+#announce .contents, #service .contents{
     padding: 10px 10px 10px 12px;
     height: 150px;
+    font-size: 14px;
+}
+#video .contents{
+    padding: 10px 10px 10px 12px;
+    height: 445px;
+    font-size: 14px; 
+}
+#wholweibo .contents{
+    padding: 10px 10px 10px 12px;
+    height: 235px;
+    font-size: 14px; 
+}
+#service .contents a{
+    margin-right: 7px;
+    height: 25px;
+    line-height: 25px;
 }
 #mediafocus .contents{
     padding: 10px 10px 5px 12px;
@@ -418,8 +441,11 @@
 .zhuanti .ft{
     width: 160px;
 }
+.zhuanti .ft.sub{
+    width: 100%;
+}
 .zhuanti .pic{
-    padding-top: 8px;
+    padding-top: 10px;
 }
 .appicons{
     padding: 15px 0 20px 10px;
