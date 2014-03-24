@@ -306,7 +306,7 @@
     font-size: 14px;
 }
 #video .contents{
-    padding: 10px 10px 10px 12px;
+    padding: 10px 30px 10px 30px;
     height: 445px;
     font-size: 14px; 
 }
@@ -468,6 +468,33 @@
     height: 36px;
     margin-right: 10px;
 }
+.vsector{
+	width: 120px;
+	height: 130px;
+
+}
+.vsector a{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+.vsector img{
+	width: 100px;
+	height: 100px;
+}
+.footer{
+	border: 1px solid #dddddd;
+}
+.footer ul{
+	font-size: 13px;
+	padding: 15px 10px 10px 10px;
+}
+.footer ul li{
+	margin-bottom: 5px;
+}
+
+
+
 
 
 
