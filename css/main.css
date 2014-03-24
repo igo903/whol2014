@@ -294,12 +294,12 @@
     text-indent: 14px;
 }
 #announce .contents{
-    padding: 10px 10px 15px 12px;
+    padding: 10px 10px 10px 12px;
     height: 150px;
 }
 #mediafocus .contents{
-    padding: 5px 10px 0px 12px;
-    height: 135px;
+    padding: 10px 10px 5px 12px;
+    height: 130px;
 }
 .rightProduct{
     width: 288px;
@@ -422,12 +422,15 @@
     padding-top: 8px;
 }
 .appicons{
-    padding: 20px 0 20px 10px;
+    padding: 15px 0 20px 10px;
+    text-align: center;
+    height: 100px;
 }
 .appicons a{
     width: 80px;
     height: 80px;
     margin: 0px 0px 0 15px;
+    float: left;
 }
 .weibos{
     float: right;
