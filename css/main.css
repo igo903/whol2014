@@ -228,8 +228,10 @@
 .ft li.sub{
     border-bottom: 1px dashed #ccc;
 }
-.ft li.headline a{
-    color: #3B639F;
+.headline a{
+    color: #3B639F !important;
+    font-size: 15px;
+    line-height: 30px;
 }
 .leftNews .hd{
     border: 0;
@@ -358,6 +360,15 @@
     cursor: pointer;
     background: url(../i/navBg.png) no-repeat right top;
 }
+.rightProduct .productFloatLayout .productFloatBtnClicked{
+    float:right;
+    width:14px;
+    height:37px;
+    background:#006;
+    margin-right:-1px;
+    cursor:pointer;
+    background:url(../i/navBg.png) no-repeat right bottom;
+}
 .rightProduct .productFloatLayout .productFloatBtn:hover {
     /*background: url(../i/navBg.png) no-repeat right -80px;*/
 }
@@ -375,7 +386,7 @@
     overflow: hidden;
     background: #FFF;
     overflow: hidden;
-    /*display: none;*/
+    display: none;
 }
 .rightProduct .productFloatLayout .productFloat .productLine01 {
     padding-left: 0px;
@@ -400,6 +411,15 @@
 .rightProduct .productFloatLayout .productFloat a {
     margin: 0 5px 0 5px;
 }
+.zhuanti .ft{
+    width: 160px;
+}
+.zhuanti .pic{
+    padding-top: 8px;
+}
+
+
+
 
 
 
