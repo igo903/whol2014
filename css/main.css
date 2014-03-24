@@ -1,4 +1,4 @@
-.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,#announce .hd{
+.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,#announce .hd, .leftZhuanti .hd, .leftApp .hd{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
@@ -161,11 +161,11 @@
     width: 660px;
     float: left;
 }
-.leftNews{
+.leftNews, .leftApp{
     width: 328px;
     overflow: hidden;
 }
-.leftView {
+.leftView, .leftZhuanti{
     /*height: 202px;*/
     width: 320px;
     overflow: hidden;
@@ -175,7 +175,7 @@
     height: 32px;
     background-position: left -160px;
 }
-.leftView .hd {
+.leftView .hd, .leftZhuanti .hd, .leftApp .hd {
     height: 31px;
     border-bottom: 0 !important;
     border-top: 1px solid #BDD7F2 !important;
@@ -191,7 +191,7 @@
 #announce .hd h2 a {
     color: #458FCE;
 }
-.leftView .hd h2 {
+.leftView .hd h2, .leftZhuanti .hd h2, .leftApp .hd h2{
     text-indent: 14px;
 }
 .leftAreaContent .hd h2 {
@@ -416,6 +416,14 @@
 }
 .zhuanti .pic{
     padding-top: 8px;
+}
+.appicons{
+    padding: 20px 0 20px 10px;
+}
+.appicons a{
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0 15px;
 }
 
 
