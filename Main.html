@@ -806,8 +806,6 @@
 			$('.newsTab h2').hover(function(){
 				var nameId = $(this).attr('name');
 				var currentDiv = $('#'+nameId);
-				//var contents = currentDiv.parent().parent().next();
-				//console.log(currentDiv.html());
 
 				currentDiv.show();
 				currentDiv.siblings().hide();
@@ -819,36 +817,17 @@
 				}
 			});
 
-
-			// $('.productFloatBtn').click(function(){
-			// 	var extendDiv = $(this).prev();
-			// 	extendDiv.show();
-			// 	$(this).parent().css("right","318px");
-			// 	extendDiv.animate({
-			// 		width:339
-			// 	},600,function(){
-
-			// 	});
-
-			// 	$(this).parent().animate({
-			// 		width:339 + 15
-			// 	},600,function(){
-
-			// 	});	
-			// });
-
-
 			$(".productFloatBtn").click(function(){
 		        var state = $(this).data('toggleState');
 		        var extendDiv = $(this).prev();
+		        $(this).attr('class','productFloatBtnClicked');
 		        if(!state){
-		            //click2();
 		            extendDiv.show();
 					$(this).parent().css("right","318px");
+
 					extendDiv.animate({
 						width:339
 					},600,function(){
-
 					});
 
 					$(this).parent().animate({
@@ -858,7 +837,7 @@
 					});
 
 		        } else {
-		            //click1();
+		            $(this).attr('class','productFloatBtn');
 					extendDiv.animate({
 						width:0
 					},600,function(){
