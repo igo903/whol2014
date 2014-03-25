@@ -211,11 +211,11 @@
 				<div class="leftAreaContent leftNews fn-right">
 					<div class="hd">
 						<div class="newsTab" id="whol-news-tab">
-							<h2 id="newsPolitic" class="selected">
+							<h2  class="selected" name="newsPolitic">
 								<a href="javascript:;" target="_blank">时政新闻</a>
 							</h2>
-							<h2 id="newsLife" class="undis select">
-								<a href="javascript:;" bosszone="hbnewsTAB" target="_blank">生活新闻</a>
+							<h2  class="" name="newsLife">
+								<a href="javascript:;" target="_blank">生活新闻</a>
 							</h2>
 						</div>
 					</div>
@@ -240,14 +240,14 @@
 									<li><a href="javascript:;">网传路灯编号可定位报警　武汉警方澄清：是谣传</a></li>
 							</ul>
 						</div>
-						<div id="newsLife" class="fn-hide">
+						<div class="fn-hide" id="newsLife">
 							<ul class="ft">
-								<li class="headline"><a href="javascript:;">阮成发：武汉地铁将增设环线减少换乘</a></li>
+								<li class="headline"><a href="javascript:;">MH370 has been lost, no one survive</a></li>
 								<li class="sub">
-									<a href="javascript:;">[武汉至杭州现白菜价车票]</a>
-									<a href="javascript:;">[本月还有三次降水]</a></li>
-								<li><a href="javascript:;">联想湖北全民聚"惠"</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
-								<li><a href="javascript:;">武汉市长：宁可放弃一些GDP，也不要增加PM2.5</a></li>
+									<a href="javascript:;">[马航MH370坠毁]</a>
+									<a href="javascript:;">[荷兰阿姆斯特丹郁金香泡沫]</a></li>
+								<li><a href="javascript:;">任何事就怕认真二字</a><a href="javascript:;">中国外交部发言人洪磊</a></li>
+								<li><a href="javascript:;">2014年巴西世界杯筹备工作进展缓慢</a></li>
 									<li><a href="javascript:;">智慧武汉手机门户直播“电视问政”助民参政议政</a></li>
 									<li><a href="javascript:;">武汉新港申报国内首个水果口岸　进口水果将降价</a></li>
 									<li><a href="javascript:;">武汉8座桥梁存隐患：年久抢修、超重车长期碾压</a></li>
@@ -799,6 +799,27 @@
 		        activeIndex: 1,
 		        interval:2600
 		    }).render();
+		});
+
+		seajs.use(['$'],function($){
+			
+			$('.newsTab h2').hover(function(){
+				var nameId = $(this).attr('name');
+				var currentDiv = $('#'+nameId);
+				//var contents = currentDiv.parent().parent().next();
+				//console.log(currentDiv.html());
+
+				currentDiv.show();
+				currentDiv.siblings().hide();
+
+				if($(this).hasClass('selected')){
+				} else {
+					$(this).siblings().removeClass('selected');
+					$(this).addClass('selected');
+				}
+			});
+
+
 		});
 
 
