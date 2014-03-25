@@ -380,6 +380,8 @@
     margin-right: 7px;
 }
 .rightProduct .productFloatLayout .productFloatBtn {
+    position: absolute;
+    left: 1px;
     float: right;
     width: 14px;
     height: 37px;
@@ -410,9 +412,8 @@
     border: 1px solid #D2E1F1;
     border-right: 0;
     width: 339px;
-    /*width: 0;*/
+    width: 0;
     height: 199px;
-    overflow: hidden;
     background: #FFF;
     overflow: hidden;
     display: none;
