@@ -820,26 +820,83 @@
 			});
 
 
-			$('.productFloatBtn').click(function(){
-				var extendDiv = $(this).prev();
-				var extendWidth = extendDiv.width();
-				extendDiv.show();
-				$(this).parent().css("right","318px");
+			// $('.productFloatBtn').click(function(){
+			// 	var extendDiv = $(this).prev();
+			// 	extendDiv.show();
+			// 	$(this).parent().css("right","318px");
+			// 	extendDiv.animate({
+			// 		width:339
+			// 	},600,function(){
+
+			// 	});
+
+			// 	$(this).parent().animate({
+			// 		width:339 + 15
+			// 	},600,function(){
+
+			// 	});	
+			// });
+
+
+			$(".productFloatBtn").click(function(){
+		        var state = $(this).data('toggleState');
+		        var extendDiv = $(this).prev();
+		        if(!state){
+		            //click2();
+		            extendDiv.show();
+					$(this).parent().css("right","318px");
+					extendDiv.animate({
+						width:339
+					},600,function(){
+
+					});
+
+					$(this).parent().animate({
+						width:339 + 15
+					},600,function(){
+
+					});
+
+		        } else {
+		            //click1();
+					extendDiv.animate({
+						width:0
+					},600,function(){
+						$(this).parent().css("right","318px");
+					});
+
+					$(this).parent().animate({
+						width:15
+					},600,function(){
+
+					});
+					extendDiv.show();
+		        }
+
+		        $(this).data('toggleState', !state);
+		    });
+
+
+
+
+
+
+
+			function backto(el){
+				var extendDiv = el.prev();
+				
 				extendDiv.animate({
-					width:339
+					width:0
+				},600,function(){
+					el.parent().css("right","319px");
+				});
+				extendDiv.hide();
+				el.parent().animate({
+					width:14
 				},600,function(){
 
 				});
 
-				$(this).parent().animate({
-					width:339 + 15
-				},600,function(){
-
-				});	
-			});
-
-			function goExtend(el){
-				
 			}
 
 
