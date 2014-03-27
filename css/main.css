@@ -9,8 +9,16 @@
     margin: 0 auto;
 }
 .mt12{margin-top: 12px;}
-
-
+.ui-popup{
+    border: 1px solid #EBEBEB;
+    border-top: 0;
+    padding: 3px 5px;
+    background: #fff;
+    margin: 0;
+}
+.ui-popup li a{
+    padding-right: 0;
+}
 
 
 
@@ -36,9 +44,11 @@
     height: 28px;
     margin: 0 auto;
     line-height: 28px;
+    color: #666;
 }
-.mininavInner a:link{
-    padding-right: 10px;
+.mininavInner a{
+    padding-right: 20px;
+    padding-bottom: 6px;
     color: #666;
 }
 

@@ -21,10 +21,34 @@
 			
 			<div class="fn-right">
 				<span>您好，<a href="javascript:;">胡迪</a></span>
-				<a href="javascript:;" class="arrow-down">智慧积分</a>
-				<a href="javascript:;" class="arrow-down">189邮箱</a>
-				<a href="javascript:;" class="arrow-down">电信业务</a>
-				<a href="javascript:;" class="arrow-down">个人设置</a>
+				<a href="javascript:;" class="arrow-down" id="smartPoint">智慧积分</a>
+				<ul id="popupPoint" class="fn-hide ui-popup">
+					<li><a href="javascript:;">我的智慧积分100</a></li>
+					<li><a href="javascript:;">你的智慧积分120</a></li>
+					<li><a href="javascript:;">他的智慧积分190</a></li>
+					<li><a href="javascript:;">她的智慧积分170</a></li>
+				</ul>
+				<a href="javascript:;" class="arrow-down" id="mail189">189邮箱</a>
+				<ul id="popupMail" class="fn-hide ui-popup">
+					<li><a href="javascript:;">我的189</a></li>
+					<li><a href="javascript:;">你的189</a></li>
+					<li><a href="javascript:;">他的189</a></li>
+					<li><a href="javascript:;">她的189</a></li>
+				</ul>
+				<a href="javascript:;" class="arrow-down" id="telBiz">电信业务</a>
+				<ul id="popupTel" class="fn-hide ui-popup">
+					<li><a href="javascript:;">我的电信业务</a></li>
+					<li><a href="javascript:;">你的电信业务</a></li>
+					<li><a href="javascript:;">他的电信业务</a></li>
+					<li><a href="javascript:;">她的电信业务</a></li>
+				</ul>
+				<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
+				<ul id="popupSetting" class="fn-hide ui-popup">
+					<li><a href="javascript:;">我的个人设置</a></li>
+					<li><a href="javascript:;">你的个人设置</a></li>
+					<li><a href="javascript:;">他的个人设置</a></li>
+					<li><a href="javascript:;">她的个人设置</a></li>
+				</ul>
 			</div>
 		</div>
 	</div><!--//topnav-->
@@ -803,6 +827,13 @@
 		    }).render();
 		});
 
+		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
+		    new Popup({
+		        trigger: '#smartPoint',
+		        element: '#popupPoint'
+		    }).show();
+		});
+
 		seajs.use(['$'],function($){
 			
 			var flag;
@@ -839,13 +870,13 @@
 
 				extendDiv.animate({
 					width:0
-				},600,function(){
+				},500,function(){
 					el.parent().css("right","318px");
 				});
 				extendDiv.hide();
 				el.parent().animate({
 					width:15
-				},600,function(){
+				},500,function(){
 
 				});
 
@@ -860,7 +891,7 @@
 
 				extendDiv.animate({
 					width:339
-				},600,function(){
+				},500,function(){
 					$('#productNav').mouseleave(function(event) {
 				     	if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
 				     		backto($('#productFloatBtn'));
@@ -872,7 +903,7 @@
 
 				el.parent().animate({
 					width:339 + 15
-				},600,function(){
+				},500,function(){
 
 				});
 			}
