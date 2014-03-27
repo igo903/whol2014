@@ -803,7 +803,7 @@
 
 		seajs.use(['$'],function($){
 			
-			var flagTo;
+			var flag;
 			$('.newsTab h2').hover(function(){
 				var nameId = $(this).attr('name');
 				var currentDiv = $('#'+nameId);
@@ -819,26 +819,17 @@
 			});
 
 			$(".productFloatBtn").click(function(){
-		        //var state = $(this).data('toggleState');
+		        var state = $(this).data('toggleState');
 		       
 		        if(!flag){
 					expandto($(this));
 
 		        } else {
 					backto($(this));
+					flag = true;
 		        }
-		        flagTo = false;
 		        //$(this).data('toggleState', !state);
 		    });
-
-			$('#productNav').mouseleave(function(event) {
-		     	if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
-		     		backto($('#productFloatBtn'));
-		     		flagTo = false;
-		     		//$('#productFloatBtn').data('toggleState', !state);
-		     	}
-
-		     }); 
 
 			function backto(el){
 				var extendDiv = el.prev();
@@ -868,6 +859,13 @@
 				extendDiv.animate({
 					width:339
 				},600,function(){
+					$('#productNav').mouseleave(function(event) {
+				     	if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
+				     		backto($('#productFloatBtn'));
+				     		flag = false;
+				     		//$('#productFloatBtn').data('toggleState', !state);
+				     	}
+				    }); 
 				});
 
 				el.parent().animate({
@@ -876,7 +874,10 @@
 
 				});
 			}
-			
+
+
+
+
 		});
 
 
