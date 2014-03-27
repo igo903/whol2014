@@ -17,7 +17,7 @@
     margin: 0;
 }
 .ui-popup li a{
-    padding-right: 0;
+    margin-left: 0;
 }
 
 
@@ -47,8 +47,17 @@
     color: #666;
 }
 .mininavInner a{
-    padding-right: 20px;
+    margin-left: 15px;
     padding-bottom: 6px;
+    color: #666;
+}
+.mininavInner a.user{
+    margin-left: 0;
+}
+.mininavInner i{
+    color: #328CC9;
+}
+.mininavInner i.app{
     color: #666;
 }
 
@@ -401,6 +410,9 @@
     margin-right: -1px;
     cursor: pointer;
     background: url(../i/navBg.png) no-repeat right top;
+}
+.rightProduct .productFloatLayout .productFloatBtn:hover {
+    background: url(../i/navBg.png) no-repeat -85px -40px;
 }
 .rightProduct .productFloatLayout .productFloatBtnClicked{
     position: absolute;
