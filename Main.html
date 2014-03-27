@@ -803,6 +803,7 @@
 
 		seajs.use(['$'],function($){
 			
+			var flagTo;
 			$('.newsTab h2').hover(function(){
 				var nameId = $(this).attr('name');
 				var currentDiv = $('#'+nameId);
@@ -818,69 +819,64 @@
 			});
 
 			$(".productFloatBtn").click(function(){
-		        var state = $(this).data('toggleState');
-		        var extendDiv = $(this).prev();
-		        $(this).attr('class','productFloatBtnClicked');
-		        if(!state){
-		            extendDiv.show();
-					$(this).parent().css("right","318px");
-
-					extendDiv.animate({
-						width:339
-					},600,function(){
-					});
-
-					$(this).parent().animate({
-						width:339 + 15
-					},600,function(){
-
-					});
+		        //var state = $(this).data('toggleState');
+		       
+		        if(!flag){
+					expandto($(this));
 
 		        } else {
-		            $(this).attr('class','productFloatBtn');
-					extendDiv.animate({
-						width:0
-					},600,function(){
-						$(this).parent().css("right","318px");
-					});
-
-					$(this).parent().animate({
-						width:15
-					},600,function(){
-
-					});
-					extendDiv.show();
+					backto($(this));
 		        }
-
-		        $(this).data('toggleState', !state);
+		        flagTo = false;
+		        //$(this).data('toggleState', !state);
 		    });
 
+			$('#productNav').mouseleave(function(event) {
+		     	if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
+		     		backto($('#productFloatBtn'));
+		     		flagTo = false;
+		     		//$('#productFloatBtn').data('toggleState', !state);
+		     	}
 
-
-
-
-
+		     }); 
 
 			function backto(el){
 				var extendDiv = el.prev();
-				
+				el.attr('class','productFloatBtn');
+
 				extendDiv.animate({
 					width:0
 				},600,function(){
-					el.parent().css("right","319px");
+					el.parent().css("right","318px");
 				});
 				extendDiv.hide();
 				el.parent().animate({
-					width:14
+					width:15
 				},600,function(){
 
 				});
 
+				extendDiv.show();
 			}
 
+			function expandto(el){
+				var extendDiv = el.prev();
+				el.attr('class','productFloatBtnClicked');
+	            extendDiv.show();
+				el.parent().css("right","318px");
 
+				extendDiv.animate({
+					width:339
+				},600,function(){
+				});
 
+				el.parent().animate({
+					width:339 + 15
+				},600,function(){
 
+				});
+			}
+			
 		});
 
 
