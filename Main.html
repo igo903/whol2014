@@ -36,7 +36,7 @@
 					<li><a href="javascript:;">她的189</a></li>
 				</ul>
 				<a href="javascript:;" class="arrow-down" id="telBiz">电信业务</a>
-				<ul id="popupTel" class="fn-hide ui-popup">
+				<ul id="popupTelBiz" class="fn-hide ui-popup">
 					<li><a href="javascript:;">我的电信业务</a></li>
 					<li><a href="javascript:;">你的电信业务</a></li>
 					<li><a href="javascript:;">他的电信业务</a></li>
@@ -831,7 +831,19 @@
 		    new Popup({
 		        trigger: '#smartPoint',
 		        element: '#popupPoint'
-		    }).show();
+		    });
+		    new Popup({
+		        trigger: '#telBiz',
+		        element: '#popupTelBiz'
+		    });
+		    new Popup({
+		        trigger: '#mail189',
+		        element: '#popupMail'
+		    });
+		    new Popup({
+		        trigger: '#personalSetting',
+		        element: '#popupSetting'
+		    });
 		});
 
 		seajs.use(['$'],function($){

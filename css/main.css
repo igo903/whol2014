@@ -13,7 +13,7 @@
     border: 1px solid #EBEBEB;
     border-top: 0;
     padding: 3px 5px;
-    background: #fff;
+    background: #FDFDFD;
     margin: 0;
 }
 .ui-popup li a{
@@ -36,7 +36,7 @@
     z-index: 999;
     top: 0;
     left: 0;
-    background-image: url(../i/bg_1.6.1.png);
+    /*background-image: url(../i/bg_1.6.1.png);*/
 }
 
 .mininavInner {
