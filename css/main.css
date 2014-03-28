@@ -44,6 +44,7 @@
     height: 28px;
     margin: 0 auto;
     line-height: 28px;
+    color: #666;
 }
 .mininavInner a{
     margin-left: 15px;
@@ -51,7 +52,10 @@
     color: #666;
 }
 .mininavInner a:hover,.mininavInner a:link,.mininavInner i.app {
-    color: #000;
+    color: #666;
+}
+.mininavInner .app{
+    margin-left: 0;
 }
 .mininavInner a.user{
     margin-left: 0;

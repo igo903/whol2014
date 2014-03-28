@@ -14,13 +14,16 @@
 		<div class="mininavInner">
 			<div class="fn-left">
 				<i class="fa fa-mobile fa-lg app"></i>
-				<a href="javascript:;" class="">智慧城市新闻客户端</a>
+				<a href="javascript:;" class="app" id="wholApp">智慧城市新闻客户端</a>
+				<ul id="popupApp" class="fn-hide ui-popup">
+					<li><a href="javascript:;"><img src="i/qrcode.jpg" alt=""></a></li>
+				</ul>
 				<a href="javascript:;">WAP版</a>
 				<a href="javascript:;">地市州门户</a>
 			</div>
 			
 			<div class="fn-right">
-				<span>您好，<a href="javascript:;" class="user">胡迪</a></span>
+				<span>您好，<span class="user">胡迪</span></span>
 				<a href="javascript:;" class="" id="smartPoint">智慧积分</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupPoint" class="fn-hide ui-popup">
@@ -847,6 +850,10 @@
 		    new Popup({
 		        trigger: '#personalSetting',
 		        element: '#popupSetting'
+		    });
+		    new Popup({
+		        trigger: '#wholApp',
+		        element: '#popupApp'
 		    });
 		});
 
