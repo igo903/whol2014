@@ -63,6 +63,17 @@
 .mininavInner i{
     color: #328CC9;
 }
+#popupApp a{
+    margin: 0;
+    padding: 0;
+    color: #328CC9;
+}
+#popupApp p{
+    line-height: 18px;
+}
+#popupApp .context{
+    width: 150px;
+}
 
 .soso {
     width: 1000px;

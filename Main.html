@@ -15,9 +15,14 @@
 			<div class="fn-left">
 				<i class="fa fa-mobile fa-lg app"></i>
 				<a href="javascript:;" class="app" id="wholApp">智慧城市新闻客户端</a>
-				<ul id="popupApp" class="fn-hide ui-popup">
-					<li><a href="javascript:;"><img src="i/qrcode.jpg" alt=""></a></li>
-				</ul>
+				<div id="popupApp" class="fn-hide ui-popup">
+					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
+					<div class="fn-left context">
+						<i class="fa fa-android fa-lg"></i>
+						<span><a href="javascript:;">手机客户端下载</a></span>
+						<p>温馨提示：电信用户发送ZHJS至106592013下载客户端。</p>
+					</div>
+				</div>
 				<a href="javascript:;">WAP版</a>
 				<a href="javascript:;">地市州门户</a>
 			</div>
@@ -854,7 +859,7 @@
 		    new Popup({
 		        trigger: '#wholApp',
 		        element: '#popupApp'
-		    });
+		    }).show();
 		});
 
 		seajs.use(['$'],function($){
