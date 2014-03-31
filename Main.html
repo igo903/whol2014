@@ -211,7 +211,7 @@
 				<div class="leftAreaContent leftView fn-left">
 					<div class="hd"><h2><a href="javascript:;">图片新闻</a></h2></div>
 					
-					<div id="slide-demo-1" class="slide-demo fn-clear">
+					<div id="slidePicNews" class="slide-demo fn-clear">
 					    <ul class="ui-switchable-content" data-switchable-role="content">
 					        <li class="ui-switchable-panel">
 					        	<a href="#">
@@ -233,11 +233,17 @@
 					        </li>
 					    </ul>
 						
-						<ul data-switchable-role="nav" class="ui-switchable-nav">
+						<!-- <ul data-switchable-role="nav" class="ui-switchable-nav">
 					        <li class="ui-switchable-trigger">●</li>
 					        <li class="ui-switchable-trigger ui-switchable-active">●</li>
 					        <li class="ui-switchable-trigger">●</li>
-					    </ul>
+					    </ul> -->
+
+					    <p class="move">
+					        <a id="prev" href="#">‹</a>
+					        <a id="next" href="#">›</a>
+					    </p>
+
 					</div>
 					
 					<div id="picNews">
@@ -306,9 +312,8 @@
 				</div><!--//leftNews-->
 
 				<div class="leftAreaContent leftZhuanti fn-left mt12">
-					<div class="hd"><h2><a href="javascript:;">热线专题</a></h2></div>
+					<div class="hd"><h2><a href="javascript:;">媒体聚焦</a></h2></div>
 					<div class="zhuanti fn-clear">
-						<p class="headline"><a href="javascript:;">武汉警方开展“三.五”学雷锋活动</a></p>
 						<a href="" class="pic fn-left"><img src="i/zt.png" alt=""></a>
 						<ul class="ft fn-right">
 							<li><a href="javascript:;">地铁4号线沿线商机揭秘</a></li>
@@ -317,14 +322,16 @@
 							<li><a href="javascript:;">嫦娥三号探月专题</a></li>
 						</ul>
 					</div>
-					<div class="zhuanti fn-clear">
-						<p class="headline"><a href="javascript:;">武汉警方开展“三.五”学雷锋活动</a></p>
-						<a href="" class="pic fn-left"><img src="i/zt.png" alt=""></a>
-						<ul class="ft fn-right">
-							<li><a href="javascript:;">地铁4号线沿线商机揭秘</a></li>
-							<li><a href="javascript:;">不买房也可以落户在武汉</a></li>
-							<li><a href="javascript:;">四款20万运动中级车推荐</a></li>
-							<li><a href="javascript:;">嫦娥三号探月专题</a></li>
+					<div class="zhuantiSub fn-clear">
+
+
+						<ul class="ft">
+							<li><a href="javascript:;">地铁4号线沿线商机揭秘</a><a href="javascript:;">地铁4号线沿线商机揭秘</a></li>
+							<li><a href="javascript:;">四款20万运动中级车推荐</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
+							<li><a href="javascript:;">嫦娥三号探月专题</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
+							<li><a href="javascript:;">不买房也可以落户在武汉</a><a href="javascript:;">不买房也可以落户在武汉</a></li>
+							<li><a href="javascript:;">四款20万运动中级车推荐</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
+							<li><a href="javascript:;">嫦娥三号探月专题</a><a href="javascript:;">四款20万运动中级车推荐</a></li>
 						</ul>
 					</div>
 				</div><!--//leftZhuanti-->
@@ -388,9 +395,6 @@
 				      	<a href="javascript:;" class="qq" target="_blank">爱游戏</a>
 				      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">爱音乐</a>
 				      	<a href="javascript:;" target="_blank">爱动漫</a>
-				      	<a href="javascript:;" class="qq" target="_blank">空间</a>
-				      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">翼聊</a>
-				      	<a href="javascript:;" target="_blank">商场</a>
 				</div>
 				<div class="productLine05">
 				      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">互动电视</a>
@@ -421,8 +425,6 @@
 					      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">爱音乐</a>
 					      	<a href="javascript:;" target="_blank">爱动漫</a>
 					      	<a href="javascript:;" class="qq" target="_blank">空间</a>
-					      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">翼聊</a>
-					      	<a href="javascript:;" target="_blank">商场</a>
 					</div>
 					<div class="productLine05">
 					      	<a href="javascript:;" class="qq" target="_blank" id="qqProduct">互动电视</a>
@@ -836,13 +838,28 @@
 
 		// seajs.use("./js/main");
 
-		seajs.use(['arale/switchable/1.0.2/slide'], function(Slide) {
+		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
 		    var slide = new Slide({
-		        element: '#slide-demo-1',
-		        effect: 'fade',
-		        activeIndex: 1,
-		        interval:2600
+		        element: '#slidePicNews',
+		        effect: 'scrollx',
+		        hasTriggers: false
+		        //activeIndex: 1,
+		        //interval:2600
 		    }).render();
+
+		    // 自定义 prev/next
+		    $("#slidePicNews #prev").click(function(e) {
+		        e.preventDefault();
+
+		        slide.prev();
+		    });
+
+		    $("#slidePicNews #next").click(function(e) {
+		        e.preventDefault();
+
+		        slide.next();
+		    });
+
 		});
 
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
