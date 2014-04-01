@@ -14,16 +14,17 @@
 		<div class="mininavInner">
 			<div class="fn-left">
 				<i class="fa fa-mobile fa-lg app"></i>
-				<a href="javascript:;" class="app" id="wholApp">智慧城市新闻客户端</a>
+				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
 				<div id="popupApp" class="fn-hide ui-popup">
 					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
 					<div class="fn-left context">
 						<i class="fa fa-android fa-lg"></i>
-						<span><a href="javascript:;">手机客户端下载</a></span>
-						<p>温馨提示：电信用户发送ZHJS至106592013下载客户端。</p>
+						<span><a href="javascript:;">APP下载</a></span>
+						<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
 					</div>
 				</div>
-				<a href="javascript:;">WAP版</a>
+				<a href="http://m.wuhan.net.cn">WAP版</a>
+                <!-- 
 				<a href="javascript:;" id="cities">地市州门户</a>
 				<ul id="popupCities" class="fn-hide ui-popup">
 					<li><a href="javascript:;">我的地市州门户</a></li>
@@ -31,26 +32,28 @@
 					<li><a href="javascript:;">他的地市州门户</a></li>
 					<li><a href="javascript:;">她的地市州门户</a></li>
 				</ul>
+				 -->
 			</div>
 			
 			<div class="fn-right">
 				<span>您好，<span class="user">胡迪</span></span>
-				<a href="javascript:;" class="" id="smartPoint">智慧积分</a>
+				<a href="javascript:;" class="" id="smartPoint">积分等级</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupPoint" class="fn-hide ui-popup">
-					<li><a href="javascript:;">我的智慧积分100</a></li>
-					<li><a href="javascript:;">你的智慧积分120</a></li>
-					<li><a href="javascript:;">他的智慧积分190</a></li>
-					<li><a href="javascript:;">她的智慧积分170</a></li>
+					<li><a href="javascript:;">LV</a></li>
+					<li><a href="javascript:;">金币数</a></li>
 				</ul>
-				<a href="javascript:;" class="" id="mail189">189邮箱</a>
+				<a href="javascript:;" class="" id="mail189">产品中心</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupMail" class="fn-hide ui-popup">
-					<li><a href="javascript:;">我的189</a></li>
-					<li><a href="javascript:;">你的189</a></li>
-					<li><a href="javascript:;">他的189</a></li>
-					<li><a href="javascript:;">她的189</a></li>
+					<li><a href="javascript:;">189邮箱</a></li>
+					<li><a href="javascript:;">天翼视讯</a></li>
+					<li><a href="javascript:;">网上营业厅</a></li>
+					<li><a href="javascript:;">爱游戏</a></li>
+					<li><a href="javascript:;">爱音乐</a></li>
+					<li><a href="javascript:;">爱动漫</a></li>
 				</ul>
+				<!-- 
 				<a href="javascript:;" class="arrow-down" id="telBiz">电信业务</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupTelBiz" class="fn-hide ui-popup">
@@ -59,13 +62,13 @@
 					<li><a href="javascript:;">他的电信业务</a></li>
 					<li><a href="javascript:;">她的电信业务</a></li>
 				</ul>
+				 -->
 				<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupSetting" class="fn-hide ui-popup">
-					<li><a href="javascript:;">我的个人设置</a></li>
-					<li><a href="javascript:;">你的个人设置</a></li>
-					<li><a href="javascript:;">他的个人设置</a></li>
-					<li><a href="javascript:;">她的个人设置</a></li>
+					<li><a href="javascript:;">设置昵称</a></li>
+					<li><a href="javascript:;">更改邮箱</a></li>
+					<li><a href="javascript:;">更改密码</a></li>
 				</ul>
 			</div>
 		</div>
@@ -867,10 +870,12 @@
 		        trigger: '#smartPoint',
 		        element: '#popupPoint'
 		    });
-		    new Popup({
-		        trigger: '#telBiz',
-		        element: '#popupTelBiz'
-		    });
+            
+		    // new Popup({
+		    //     trigger: '#telBiz',
+		    //     element: '#popupTelBiz'
+		    // });
+
 		    new Popup({
 		        trigger: '#mail189',
 		        element: '#popupMail'
