@@ -267,7 +267,7 @@
     color: #3B639F;
 }
 .ft li a {
-    padding-right: 5px;
+    padding-right: 3px;
 }
 .ft li.headline{
     text-align: center;
@@ -278,6 +278,10 @@
 .ft li.sub{
     border-bottom: 1px dashed #ccc;
     font-size: 13px;
+    text-align: center;
+}
+.ft li.sub a{
+    color: #666;
 }
 .headline a{
     color: #3B639F !important;
