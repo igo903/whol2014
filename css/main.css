@@ -507,7 +507,7 @@
     width: 100%;
 }
 .zhuanti .pic{
-    padding-top: 3px;
+    padding-top: 5px;
 }
 .appicons{
     padding: 15px 0 11px 10px;
@@ -527,8 +527,6 @@
 }
 .weibos a{
     width: 140px;
-    height: 80px;
-    margin-right: 10px;
 }
 .vsector{
 	width: 120px;
