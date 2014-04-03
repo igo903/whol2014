@@ -496,6 +496,10 @@
 .zhuanti .ft{
     width: 160px;
 }
+.zhuanti a > img{
+    width: 150px;
+    height: 95px;
+}
 .zhuantiSub{
     width: 320px;
 }
@@ -503,7 +507,7 @@
     width: 100%;
 }
 .zhuanti .pic{
-    padding-top: 10px;
+    padding-top: 3px;
 }
 .appicons{
     padding: 15px 0 11px 10px;
@@ -604,7 +608,8 @@
 #slidePicNews {
     position: relative;
     width: 320px;
-    height: 225px;
+    height: 215px;
+    margin-top: 10px;
     overflow: hidden;
 }
 #slidePicNews .ui-switchable-content {
@@ -620,7 +625,7 @@
 }
 #slidePicNews .ui-switchable-content .ui-switchable-panel p{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     z-index: 100;
     width: 100%;
     background:rgba(0,0,0,.5);
@@ -634,7 +639,7 @@
 }
 #slidePicNews .ui-switchable-nav {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 0;
     width: 100%;
     margin: 0;
