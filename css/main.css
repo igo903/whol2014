@@ -355,7 +355,7 @@
 }
 #video .contents{
     padding: 10px 30px 10px 30px;
-    height: 510px;
+    height: 380px;
     font-size: 14px; 
 }
 #wholweibo .contents{
@@ -526,7 +526,7 @@
     text-align: center;
 }
 .weibos a{
-    width: 140px;
+    width: 155px;
 }
 .vsector{
 	width: 120px;
