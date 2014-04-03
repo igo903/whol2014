@@ -138,10 +138,9 @@
     line-height: 22px;
     font-size: 12px;
     margin: 0 auto;
-    background-position: left -35px;
-    background-color: #328CC9;
+    background: #328cc9 url(../i/navbg.jpg) repeat-x;
     position: relative;
-    background-repeat: no-repeat;
+
 }
 .nav .navInner {
     width: 987px;
