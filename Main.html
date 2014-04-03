@@ -24,15 +24,6 @@
 					</div>
 				</div>
 				<a href="http://m.wuhan.net.cn">WAP版</a>
-                <!-- 
-				<a href="javascript:;" id="cities">地市州门户</a>
-				<ul id="popupCities" class="fn-hide ui-popup">
-					<li><a href="javascript:;">我的地市州门户</a></li>
-					<li><a href="javascript:;">你的地市州门户</a></li>
-					<li><a href="javascript:;">他的地市州门户</a></li>
-					<li><a href="javascript:;">她的地市州门户</a></li>
-				</ul>
-				 -->
 			</div>
 			
 			<div class="fn-right">
@@ -53,16 +44,6 @@
 					<li><a href="javascript:;">爱音乐</a></li>
 					<li><a href="javascript:;">爱动漫</a></li>
 				</ul>
-				<!-- 
-				<a href="javascript:;" class="arrow-down" id="telBiz">电信业务</a>
-				<i class="fa fa-angle-down"></i>
-				<ul id="popupTelBiz" class="fn-hide ui-popup">
-					<li><a href="javascript:;">我的电信业务</a></li>
-					<li><a href="javascript:;">你的电信业务</a></li>
-					<li><a href="javascript:;">他的电信业务</a></li>
-					<li><a href="javascript:;">她的电信业务</a></li>
-				</ul>
-				 -->
 				<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupSetting" class="fn-hide ui-popup">
@@ -239,10 +220,10 @@
 					        <li class="ui-switchable-trigger">●</li>
 					    </ul> -->
 
-					    <p class="move">
-					        <a id="prev" href="#">‹</a>
-					        <a id="next" href="#">›</a>
-					    </p>
+					    <div class="move">
+					        <div id="prev">‹</div>
+					        <div id="next">›</div>
+					    </div>
 
 					</div>
 					
@@ -862,18 +843,7 @@
 		    new Popup({
 		        trigger: '#smartPoint',
 		        element: '#popupPoint'
-		    });
-            
-		    // new Popup({
-		    //     trigger: '#telBiz',
-		    //     element: '#popupTelBiz'
-		    // });
-		
-			// new Popup({
-		    //     trigger: '#cities',
-		    //     element: '#popupCities'
-		    // });
-
+		    });   
 		    new Popup({
 		        trigger: '#mail189',
 		        element: '#popupMail'
@@ -962,16 +932,7 @@
 
 				});
 			}
-
-
-
-
 		});
-
-
-
-
-
 	</script>
 
 
