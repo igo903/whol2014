@@ -9,6 +9,7 @@
     margin: 0 auto;
 }
 .mt12{margin-top: 12px;}
+.mt10{margin-top: 10px;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -693,5 +694,118 @@
     text-decoration: none;
 }
 
-
-
+/*List page*/
+.mainBody{
+    width: 640px;
+    float: left;
+    padding-left: 30px;
+}
+.nrC{
+   overflow: hidden;
+    zoom: 1;
+    clear: both;
+    border-bottom: 1px dotted #d9dee4;
+    padding: 18px 0 10px; 
+}
+.nrC .nrPic {
+    float: left;
+    clear: left;
+    display: inline;
+    margin-right: 15px;
+    width: 110px;
+    height: 85px;
+}
+.nrC h3 {
+    font: 18px/1.2 "微软雅黑","黑体";
+    height: 30px;
+}
+.nrC .newsInfo {
+    height: 30px;
+}
+.nrC .nrP {
+    zoom: 1;
+    clear: right;
+    color: #666666;
+    line-height: 22px;
+    font-size: 12px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.nrC .nrP a {
+    color: #004274;
+    font-size: 12px;
+}
+.nrC .newsInfo .date {
+    padding-left: 20px;
+    color: #666666;
+}
+.sidebar {
+    width: 299px;
+    padding-top: 5px;
+    background: #f7f8fc;
+    float: right;
+    border-left: 1px #dfe8f1 solid;
+}
+.box{
+    width: 280px;
+    margin-left: 11px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.box .hd {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+    overflow: hidden;
+    background: url(../i/c_img1.png) left top no-repeat;
+}
+.box .bd {
+    padding-top: 21px;
+    clear: both;
+}
+.twC2, .twC3 {
+    overflow: hidden;
+    zoom: 1;
+}
+.twC2 .pic {
+    margin-right: 10px;
+    _margin-right: 7px;
+    width: 110px;
+    height: 85px;
+    overflow: hidden;
+    display: block;
+}
+.twC2 .text {
+    overflow: hidden;
+    zoom: 1;
+}
+.twC2 .text-tp {
+    margin: -89px 0px 0px 120px;
+    height: 90px;
+}
+.twC2 .text {
+    overflow: hidden;
+    zoom: 1;
+}
+.twC2 .text h4 {
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.twC2 .text h4 a {
+    color: #004276;
+}
+.twC2 .text .info {
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+.twC2 .text .info a {
+    color: #004276;
+}
+.box .hd h2 {
+    float: left;
+    font: 14px/32px "微软雅黑","黑体";
+    color: #000;
+}
