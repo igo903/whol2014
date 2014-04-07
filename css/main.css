@@ -166,11 +166,15 @@
     height: 30px;
 }
 .nav .navInner {
-    width: 987px;
-    height: 30px;
-    margin: 0px 0px 0px 5px;
+    width: 967px;
+    height: 75px;
+    margin: 0px 0px 0px 25px;
     padding: 0;
     overflow: hidden;
+}
+.shortnav .navInner{
+    height: 30px;
+    margin: 0 0 0 5px;
 }
 .nav div {
     float: left;
