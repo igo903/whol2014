@@ -375,10 +375,20 @@
     font-weight: bold;
     text-indent: 14px;
 }
-#announce .contents, #service .contents{
+#announce .contents{
     padding: 10px 10px 10px 12px;
     height: 150px;
     font-size: 14px;
+}
+#service .contents{
+    padding: 10px 10px 10px 12px;
+    height: 150px;
+    font-size: 14px;
+}
+#service .contents a{
+    margin-right: 7px;
+    height: 25px;
+    line-height: 25px;
 }
 #video .contents{
     padding: 10px 30px 10px 30px;
@@ -390,19 +400,21 @@
     height: 235px;
     font-size: 14px; 
 }
-#service .contents a{
-    margin-right: 7px;
-    height: 25px;
-    line-height: 25px;
-}
 #mediafocus .contents{
     padding: 10px 10px 5px 12px;
-    height: 130px;
 }
 #inforank .contents{
-    padding: 10px 10px 10px 12px;
-    height: 300px;
+    padding: 10px 10px 5px 12px;
     font-size:14;
+    background: #f7f8fc;
+}
+#adbox .contents{
+    height: 260px;
+    font-size: 14px; 
+}
+#hotimg .contents{
+    height: 260px;
+    font-size: 14px; 
 }
 .rightProduct{
     width: 288px;
@@ -785,7 +797,6 @@
 }
 .twC2 .pic {
     margin-right: 10px;
-    _margin-right: 7px;
     width: 110px;
     height: 85px;
     overflow: hidden;
