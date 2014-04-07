@@ -10,6 +10,7 @@
 }
 .mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
+.mt40{margin-top: 40px;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -113,8 +114,14 @@
     z-index: 20;
     background: #FFF;
 }
+.soso_small .searchTxt{
+    width: 200px;
+}
 .soso #searchbar{
     width: 487px;
+}
+.soso_small #searchbar{
+    width: 288px;
 }
 .soso .weather{
     padding: 5px 0;
@@ -130,6 +137,9 @@
     margin: 0;
     outline: medium none;
     padding: 4px;
+}
+.soso_small .search input{
+    width: 192px;
 }
 .soso .searchBtn button {
     background-position: -350px -110px;
@@ -764,7 +774,7 @@
 }
 .box{
     width: 280px;
-    margin-left: 11px;
+    margin-left: 20px;
     margin-right: 8px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -824,6 +834,14 @@
     float: left;
     font-size: 14px;
     color: #000;
+}
+.breadcrumb{
+    padding-left: 13px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.breadcrumb a{
+    margin: 0 4px 0 3px;
 }
 /*分页样式*/
 #pageZone{margin:30px auto 20px; padding: 10px 0px; text-align:center; background: #f5f6fb; border-bottom: 1px #dbe3ee solid;}
