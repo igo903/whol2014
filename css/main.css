@@ -231,6 +231,7 @@
     /*height: 202px;*/
     width: 320px;
     overflow: hidden;
+    clear: both;
 }
 .leftNews .hd {
     border: 0;
