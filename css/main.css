@@ -74,6 +74,7 @@
     height: 62px;
     margin: 0 auto;
     padding: 50px 0 21px;
+    position: relative;
 }
 .soso_small{
     height:50px;
@@ -116,7 +117,7 @@
 .soso_small #searchbar{
     width: 288px;
 }
-.soso .weather{
+.soso .weather span{
     padding: 5px 0;
 }
 .soso .search input {
@@ -125,7 +126,7 @@
     background: #FFF;
     color: #333;
     font: 14px/22px '宋体',verdana,tahoma,arial,'SimSun',sans-serif;
-    width: 221px;
+    width: 380px;
     height: 22px;
     margin: 0;
     outline: medium none;
