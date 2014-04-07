@@ -8,7 +8,7 @@
     width: 1000px;
     margin: 0 auto;
 }
-.mt12{margin-top: 12px;}
+.mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
 .ui-popup{
     border: 1px solid #EBEBEB;
@@ -37,7 +37,6 @@
     z-index: 999;
     top: 0;
     left: 0;
-    /*background-image: url(../i/bg_1.6.1.png);*/
 }
 
 .mininavInner {
@@ -82,6 +81,10 @@
     margin: 0 auto;
     padding: 50px 0 21px;
 }
+.soso_small{
+    height:50px;
+    padding: 0;
+}
 .soso .logo {
     float: left;
     display: inline;
@@ -91,6 +94,13 @@
     width: 410px;
     height: 68px;
     background-image: url(../i/logo.png);
+    background-repeat: no-repeat;
+}
+.soso_small .logo .whlogo{
+    display: block;
+    width: 99px;
+    height: 40px;
+    background-image: url(../i/logo_small.png);
     background-repeat: no-repeat;
 }
 .soso .searchTxt {
@@ -141,12 +151,14 @@
     margin: 0 auto;
     background: #328cc9 url(../i/navbg.jpg) repeat-x;
     position: relative;
-
+}
+.shortnav{
+    height: 30px;
 }
 .nav .navInner {
     width: 987px;
-    height: 75px;
-    margin: 0px 0px 0px 20px;
+    height: 30px;
+    margin: 0px 0px 0px 5px;
     padding: 0;
     overflow: hidden;
 }
@@ -156,6 +168,11 @@
     width: 210px;
     text-align: left;
     margin: 0px 10px;
+}
+.shortnav div{
+    padding: 0;
+    margin: 0;
+    width: auto;
 }
 .nav a {
     color: #FFF;
@@ -696,9 +713,8 @@
 
 /*List page*/
 .mainBody{
-    width: 640px;
+    width: 660px;
     float: left;
-    padding-left: 30px;
 }
 .nrC{
    overflow: hidden;
@@ -716,7 +732,7 @@
     height: 85px;
 }
 .nrC h3 {
-    font: 18px/1.2 "微软雅黑","黑体";
+    font-size: 18px;
     height: 30px;
 }
 .nrC .newsInfo {
@@ -740,7 +756,7 @@
     color: #666666;
 }
 .sidebar {
-    width: 299px;
+    width: 319px;
     padding-top: 5px;
     background: #f7f8fc;
     float: right;
@@ -806,7 +822,7 @@
 }
 .box .hd h2 {
     float: left;
-    font: 14px/32px "微软雅黑","黑体";
+    font-size: 14px;
     color: #000;
 }
 /*分页样式*/
