@@ -16,6 +16,7 @@
 .mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
 .mt40{margin-top: 40px;}
+.hidden{display: none;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -963,29 +964,81 @@
     font-weight: bold;
 }
 #textAd {
-overflow: hidden;
-position: relative;
-z-index: 6;
+    overflow: hidden;
+    position: relative;
+    z-index: 6;
 }
 #textAd .Q-tList {
-line-height: 40px;
-margin: 0;
-padding-bottom: 12px;
+    line-height: 40px;
+    margin: 0;
+    /*padding-bottom: 12px;*/
 }
 #textAd .Q-tList ul {
-margin-left: -11px;
+    margin-left: -11px;
 }
 #textAd .Q-tList li {
-float: left;
+    float: left;
 }
 #textAd .Q-tList a {
     padding: 0 10px;
     border-left: 1px solid #bfbfbf;
 }
 #news .hd {
-height: 36px;
-font-size: 14px;
-text-align: center;
-position: relative;
-z-index: 999;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+
+
+
+
+
+#newsTypeTab {
+    
+    position: relative;
+    width: 660px;
+    padding-top: 29px;
+}
+
+#newsTypeTab .ui-switchable-nav {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    list-style: none;
+    border-left: 1px solid #dfdfdf;
+    font: 14px/1.5 'Xin Gothic', 'PT Sans', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#newsTypeTab .ui-switchable-nav li {
+    float: left;
+    width: 81px;
+    border-right: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 2px solid #666;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    /*background: url(../i/tabs-sprite.gif) no-repeat 0 6px;*/
+    /*margin-right: 3px;*/
+    cursor: pointer;
+    list-style: none;
+}
+
+#newsTypeTab .ui-switchable-nav .ui-switchable-active {
+    /*background-position: 0 -40px;*/
+    border-bottom: 2px solid #328cc9;
+    font-weight: bold;
+    cursor: default;
+}
+
+#newsTypeTab .ui-switchable-content {
+    position: relative;
+    padding: 12px 0 0 0;
+    /*border: 1px solid #AEC7E5;*/
 }
