@@ -949,8 +949,11 @@
     margin-right: 19px;
     display: inline-block;
     background: url(../i/icons.png) no-repeat 4px -607px;
+    line-height: 26px;
+    height: 26px;
 }
 .hdNews h2 {
     font-size: 22px;
     padding-bottom: 2px;
+    font-weight: bold;
 }
