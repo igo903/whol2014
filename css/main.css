@@ -1,4 +1,9 @@
 /*develop by Alain*/
+.layout:after, .hd:after, .bd:after, .ft:after, .cf:after, .Q-tList:after, .Q-tList ul:after, .Q-tList ol:after, .Q-pList:after, .Q-pList ul:after, .Q-tpList:after, .Q-tpList ul:after, .Q-tpWrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd{
     background-image: url(../i/bg_1.6.1.png);
@@ -956,4 +961,31 @@
     font-size: 22px;
     padding-bottom: 2px;
     font-weight: bold;
+}
+#textAd {
+overflow: hidden;
+position: relative;
+z-index: 6;
+}
+#textAd .Q-tList {
+line-height: 40px;
+margin: 0;
+padding-bottom: 12px;
+}
+#textAd .Q-tList ul {
+margin-left: -11px;
+}
+#textAd .Q-tList li {
+float: left;
+}
+#textAd .Q-tList a {
+    padding: 0 10px;
+    border-left: 1px solid #bfbfbf;
+}
+#news .hd {
+height: 36px;
+font-size: 14px;
+text-align: center;
+position: relative;
+z-index: 999;
 }
