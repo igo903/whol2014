@@ -281,7 +281,33 @@
 			<!-- 热图 -->
 
 			<div class="rightArea fn-clear mt12 rightNews" id="hotimg">
+				<div id="slidePicNews" class="sideslide fn-clear">
+					<ul class="ui-switchable-content" data-switchable-role="content">
+						<li class="ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news1.png"/>
+							</a>
+							<p>习近平会见荷兰国王威廉-亚历山大</p>
+						</li>
+						<li class="hidden ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news2.png"/>
+							</a>
+							<p>新加坡Singapore</p>
+						</li>
+						<li class="hidden ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news3.png"/>
+							</a>
+							<p>明星高调生二胎</p>
+						</li>
+					</ul>
 
+					<div class="move">
+						<div id="prev">‹</div>
+						<div id="next">›</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- 生活万象 -->
@@ -414,6 +440,30 @@
 				element: '#popupApp'
 			});
 		});
+
+		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
+			var slide = new Slide({
+				element: '#slidePicNews',
+				effect: 'scrollx',
+				hasTriggers: false
+				//activeIndex: 1,
+				//interval:2600
+			}).render();
+
+			// 自定义 prev/next
+			$("#slidePicNews #prev").click(function(e) {
+				e.preventDefault();
+				slide.prev();
+			});
+
+			$("#slidePicNews #next").click(function(e) {
+				e.preventDefault();
+				slide.next();
+			});
+		});
+
+
+
 
 		seajs.use(['$'],function($){
 			

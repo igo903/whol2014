@@ -192,20 +192,7 @@
 			</div>
 
 			<div id="news">						
-				<!-- <div id="mainCon">
-					<ul id="card">
-						<li class=""><a target="_blank" href="javascript:;">要闻</a></li>
-						<li class=""><a target="_blank" href="javascript:;">财经</a></li>
-						<li class=""><a target="_blank" href="javascript:;">体育</a></li>
-						<li class=""><a target="_blank" href="javascript:;">娱乐</a></li>
-						<li class=""><a target="_blank" href="javascript:;">房产</a></li>
-						<li class=""><a target="_blank" href="javascript:;">科技</a></li>
-						<li class=""><a target="_blank" href="javascript:;">汽车</a></li>
-						<li class=""><a target="_blank" href="javascript:;">汽车</a></li>
-					</ul>
-			    </div> -->
-
-			    <div id="newsTypeTab" class="tab-demo">
+				<div id="newsTypeTab" class="tab-demo">
 			        <ul class="ui-switchable-nav">
 			            <li><a target="_blank" href="javascript:;">要闻</a></li>
 			            <li><a target="_blank" href="javascript:;">财经</a></li>
@@ -379,31 +366,7 @@
 			            </div>
 			        </div>
 			    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
 			</div><!--//#news-->
-
-
-
-			
-
-			
-
-	
-
 		</div>
 
 		<!-- 右侧容器 -->
@@ -465,7 +428,33 @@
 			<!-- 热图 -->
 
 			<div class="rightArea fn-clear mt12 rightNews" id="hotimg">
+				<div id="slidePicNews" class="sideslide fn-clear">
+					<ul class="ui-switchable-content" data-switchable-role="content">
+						<li class="ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news1.png"/>
+							</a>
+							<p>习近平会见荷兰国王威廉-亚历山大</p>
+						</li>
+						<li class="hidden ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news2.png"/>
+							</a>
+							<p>新加坡Singapore</p>
+						</li>
+						<li class="hidden ui-switchable-panel">
+							<a href="#">
+								<img src="./i/news3.png"/>
+							</a>
+							<p>明星高调生二胎</p>
+						</li>
+					</ul>
 
+					<div class="move">
+						<div id="prev">‹</div>
+						<div id="next">›</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- 生活万象 -->
@@ -601,13 +590,35 @@
 	            element: '#newsTypeTab',
 	            triggers: '#newsTypeTab .ui-switchable-nav li',
 	            panels: '#newsTypeTab .ui-switchable-content div',
-	            activeIndex: 2
+	            activeIndex: 0
 	        });
 
 	        setTimeout(function() {
 	            tabs.set("activeIndex", 0);
 	        }, 3000);
 	    });
+
+
+	    seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
+			var slide = new Slide({
+				element: '#slidePicNews',
+				effect: 'scrollx',
+				hasTriggers: false
+				//activeIndex: 1,
+				//interval:2600
+			}).render();
+
+			// 自定义 prev/next
+			$("#slidePicNews #prev").click(function(e) {
+				e.preventDefault();
+				slide.prev();
+			});
+
+			$("#slidePicNews #next").click(function(e) {
+				e.preventDefault();
+				slide.next();
+			});
+		});
 
 
 

@@ -635,7 +635,10 @@
 .footer .copyrights{
 	width: 900px;
 }
-
+#slidePicNews.sideslide{
+    width: 318px;
+    margin-top: 0;
+}
 #slidePicNews {
     position: relative;
     width: 320px;
@@ -971,7 +974,7 @@
 #textAd .Q-tList {
     line-height: 40px;
     margin: 0;
-    /*padding-bottom: 12px;*/
+    padding-bottom: 8px;
 }
 #textAd .Q-tList ul {
     margin-left: -11px;
@@ -997,7 +1000,6 @@
 
 
 #newsTypeTab {
-    
     position: relative;
     width: 660px;
     padding-top: 29px;
@@ -1024,14 +1026,11 @@
     height: 27px;
     line-height: 27px;
     text-align: center;
-    /*background: url(../i/tabs-sprite.gif) no-repeat 0 6px;*/
-    /*margin-right: 3px;*/
     cursor: pointer;
     list-style: none;
 }
 
 #newsTypeTab .ui-switchable-nav .ui-switchable-active {
-    /*background-position: 0 -40px;*/
     border-bottom: 2px solid #328cc9;
     font-weight: bold;
     cursor: default;
@@ -1040,5 +1039,4 @@
 #newsTypeTab .ui-switchable-content {
     position: relative;
     padding: 12px 0 0 0;
-    /*border: 1px solid #AEC7E5;*/
 }
