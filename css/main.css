@@ -856,3 +856,99 @@
 #pageZone span.Disabled{background:#f8f8f8; color:#9a9a9a;}
 #pageZone a{color:#555;}
 #pageZone .number{font-size:16px;}
+
+
+
+#headingNews {
+    border-top: 1px solid #dfdfdf;
+}
+.hdNews {
+    position: relative;
+    border-bottom: 1px dotted #dcdcdc;
+    padding: 8px 0 20px;
+    background: url(about:blank);
+    z-index: 0;
+}
+#theOne {
+    padding: 10px 0 20px;
+}
+#theOne h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+#theOne h2.icon_zt a {
+    padding-right: 40px;
+    background: url(../i/icons.png) no-repeat right -472px;
+    _background: url(../i/icons.png) no-repeat right -476px;
+}
+.hdNews .pic img, #news .pic img {
+    width: 120px;
+    height: 88px;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+.commonArea {
+    padding: 10px 20px 0 0;
+}
+.commonArea .pic {
+    width: 240px;
+    height: 130px;
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.commonArea .pic img {
+    width: 240px;
+    height: 130px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.commonArea div ul {
+    position: relative;
+    margin-top: -1px;
+}
+.commonArea li a {
+    padding-left: 14px;
+    background: url(../i/icons.png) no-repeat 4px -608px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+}
+.hasPic {
+    height: 101px;
+    padding: 8px 0 0;
+}
+.hasPic .pic {
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin-top: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.hasPic h2 {
+    margin-left: 139px;
+    padding: 5px 0 0;
+    font-size: 22px;
+    line-height: 30px;
+}
+.hasPic p a {
+    margin-left: 15px;
+}
+.hdNews p a {
+    padding-left: 14px;
+    margin-right: 19px;
+    display: inline-block;
+    background: url(../i/icons.png) no-repeat 4px -607px;
+}
+.hdNews h2 {
+    font-size: 22px;
+    padding-bottom: 2px;
+}
