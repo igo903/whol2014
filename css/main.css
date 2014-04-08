@@ -839,9 +839,11 @@
     padding-left: 13px;
     font-size: 12px;
     line-height: 22px;
+    color:#458FCE;
 }
 .breadcrumb a{
     margin: 0 4px 0 3px;
+    color:#458FCE;
 }
 
 /*分页样式*/
