@@ -387,11 +387,12 @@
 			});
 		});
 
-
-
-
 		seajs.use(['$'],function($){
-			
+			$('#slidePicNews').hover(function(){
+				$('#slidePicNews .move').show();
+			},function(){
+				$('#slidePicNews .move').hide();
+			});
 		});
 	</script>
 

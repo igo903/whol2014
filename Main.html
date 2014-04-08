@@ -950,6 +950,12 @@
 				//$(this).data('toggleState', !state);
 			});
 
+			$('#slidePicNews').hover(function(){
+				$('#slidePicNews .move').show();
+			},function(){
+				$('#slidePicNews .move').hide();
+			});
+
 			function backto(el){
 				var extendDiv = el.prev();
 				el.attr('class','productFloatBtn');

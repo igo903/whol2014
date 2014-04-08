@@ -700,7 +700,7 @@
     filter: alpha(opacity=100);
 }
 #slidePicNews .move{
-    
+    display: none;
 }
 #slidePicNews .move #prev,#slidePicNews .move #next{
     font-size: 40px;
@@ -1055,6 +1055,7 @@
     font-size: 14px;
     line-height: 28px;
     margin-bottom: 29px;
+    width: 605px;
 }
 .newsArticle p{
     margin-bottom: 29px;
