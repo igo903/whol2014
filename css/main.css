@@ -17,6 +17,7 @@
 .mt10{margin-top: 10px;}
 .mt40{margin-top: 40px;}
 .hidden{display: none;}
+.txtcenter{text-align: center;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -1039,4 +1040,28 @@
 #newsTypeTab .ui-switchable-content {
     position: relative;
     padding: 12px 0 0 0;
+}
+
+
+
+.newsArticle h1{
+    font-size: 26px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.newsArticle .titdd-Article{
+    background: #f3f3f3;
+    padding: 12px 18px 10px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 29px;
+}
+.newsArticle p{
+    margin-bottom: 29px;
+    font-size: 16px;
+    line-height: 28px;
+    width: 640px;
+}
+.newsArticle p.para-content{
+    text-indent: 2em;
 }
