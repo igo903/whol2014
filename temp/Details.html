@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>武汉热线2014</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="sea-modules/alice/base/1.0.2/base-debug.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/css/main.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/sea-modules/alice/base/1.0.2/base-debug.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/css/font-awesome.min.css">
+	<script type="text/javascript" src="{IMG_URL}templates/{TEMPLATE}/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 				<i class="fa fa-mobile fa-lg app"></i>
 				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
 				<div id="popupApp" class="fn-hide ui-popup">
-					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
+					<div class="fn-left"><img src="{IMG_URL}images/2014/qrcode.jpg" alt=""></div>
 					<div class="fn-left context">
 						<i class="fa fa-android fa-lg"></i>
 						<span><a href="javascript:;">APP下载</a></span>
@@ -62,7 +62,7 @@
 
 	<div class="layout mt40 fn-clear">
 		<div class="">
-			<a href="javascript:;"><img src="i/ad_7.jpg" alt=""></a>
+			<a href="javascript:;"><img src="{IMG_URL}images/2014/ad_7.jpg" alt=""></a>
 		</div>
 	</div>
 
@@ -127,8 +127,16 @@
 		<!-- 左侧容器 -->
 
 		<div class="mainBody jrtjMod bd">
-
-
+			<div class="newsArticle mt12">
+				<h1>{$title}</h1>
+				<!--{if $description}-->
+				<p class="titdd-Article">
+					[<strong>摘要</strong>]
+					{$description}
+				</p>
+				<!--{/if}-->
+				{$content}
+			</div>
 		</div>
 
 		<!-- 右侧容器 -->
@@ -140,7 +148,7 @@
 			<!-- if Ad Image -->
 
 			<div class="weibos fn-clear">
-				<a href="javascript:;" class="fn-left"><img src="i/ad_8.jpg" alt=""></a>
+				<a href="javascript:;" class="fn-left"><img src="{IMG_URL}images/2014/ad_8.jpg" alt=""></a>
 			</div>
 
 			<!-- if Ad Coder>
@@ -158,7 +166,7 @@
 				<div class="hd"><h2>资讯排行</h2></div>
 				<div class="contents">
 					<div class="twC2"> 
-						<a class="pic" target="_blank" href="javascript:;"><img width="110" height="85" src="i/101404014_small.jpg" alt="智慧城市概念迎机遇"></a>
+						<a class="pic" target="_blank" href="javascript:;"><img width="110" height="85" src="{IMG_URL}images/2014/101404014_small.jpg" alt="智慧城市概念迎机遇"></a>
 						<div class="text text-tp">
 							<h4><a target="_blank" href="javascript:;">智慧城市概念迎机遇</a></h4>
 							<p class="info">据悉，智慧城市产业联盟正在筹建联盟基金，<a target="_blank" href="javascript:;">[详细]</a></p>
@@ -194,19 +202,19 @@
 					<ul class="ui-switchable-content" data-switchable-role="content">
 						<li class="ui-switchable-panel">
 							<a href="#">
-								<img src="./i/news1.png"/>
+								<img src="{IMG_URL}images/2014/news1.png"/>
 							</a>
 							<p>习近平会见荷兰国王威廉-亚历山大</p>
 						</li>
 						<li class="hidden ui-switchable-panel">
 							<a href="#">
-								<img src="./i/news2.png"/>
+								<img src="{IMG_URL}images/2014/news2.png"/>
 							</a>
 							<p>新加坡Singapore</p>
 						</li>
 						<li class="hidden ui-switchable-panel">
 							<a href="#">
-								<img src="./i/news3.png"/>
+								<img src="{IMG_URL}images/2014/news3.png"/>
 							</a>
 							<p>明星高调生二胎</p>
 						</li>
@@ -371,11 +379,12 @@
 			});
 		});
 
-
-
-
 		seajs.use(['$'],function($){
-			
+			$('#slidePicNews').hover(function(){
+				$('#slidePicNews .move').show();
+			},function(){
+				$('#slidePicNews .move').hide();
+			});
 		});
 	</script>
 
