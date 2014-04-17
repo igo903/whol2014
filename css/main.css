@@ -735,6 +735,7 @@
 .mainBody{
     width: 660px;
     float: left;
+    border: 1px solid #dfdfdf;
 }
 .nrC{
    overflow: hidden;
@@ -1062,6 +1063,7 @@
     font-size: 16px;
     line-height: 28px;
     width: 640px;
+    padding-left: 10px;
 }
 .newsArticle p.para-content{
     text-indent: 2em;
