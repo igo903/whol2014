@@ -1045,10 +1045,13 @@
 }
 
 
-
+.newsArticle{
+    position: relative;
+}
 .newsArticle h1{
     font-size: 26px;
     padding-bottom: 16px;
+    padding-top: 35px;
     text-align: center;
 }
 .newsArticle h2{
@@ -1062,13 +1065,24 @@
 a.cate{
     color: #458FCE;
 }
+.newsArticle .fontsize{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-align: right;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    width: 110px;
+    background: #dfdfdf;
+}
 .newsArticle .titdd-Article{
     background: #f3f3f3;
-    padding: 12px 18px 10px;
     font-size: 14px;
     line-height: 28px;
-    margin-bottom: 29px;
-    width: 624px;
+    margin: 0 10px 29px 10px;
+    width: 620px;
+    padding: 10px;
 }
 .newsArticle p{
     margin-bottom: 29px;
