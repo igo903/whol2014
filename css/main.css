@@ -848,6 +848,7 @@
 }
 .breadcrumb{
     padding-left: 13px;
+    margin:0 0 12px 0;
     font-size: 12px;
     line-height: 22px;
     color:#458FCE;
@@ -1050,13 +1051,24 @@
     padding-bottom: 16px;
     text-align: center;
 }
+.newsArticle h2{
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.newsArticle h2 span{
+    margin-right: 5px;
+}
+a.cate{
+    color: #458FCE;
+}
 .newsArticle .titdd-Article{
     background: #f3f3f3;
     padding: 12px 18px 10px;
     font-size: 14px;
     line-height: 28px;
     margin-bottom: 29px;
-    width: 605px;
+    width: 624px;
 }
 .newsArticle p{
     margin-bottom: 29px;
@@ -1064,6 +1076,7 @@
     line-height: 28px;
     width: 640px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .newsArticle p.para-content{
     text-indent: 2em;
