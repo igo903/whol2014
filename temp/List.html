@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>武汉热线2014</title>
-	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/css/main.css">
-	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/sea-modules/alice/base/1.0.2/base-debug.css">
-	<link rel="stylesheet" href="{IMG_URL}templates/{TEMPLATE}/2014/css/font-awesome.min.css">
-	<script type="text/javascript" src="{IMG_URL}templates/{TEMPLATE}/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+	<link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/css/main.css">
+	<link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css">
+	<link rel="stylesheet" href="http://img.wuhan.net.cn/templates/wuhan/2014/css/font-awesome.min.css">
+	<script type="text/javascript" src="http://img.wuhan.net.cn/templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 				<i class="fa fa-mobile fa-lg app"></i>
 				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
 				<div id="popupApp" class="fn-hide ui-popup">
-					<div class="fn-left"><img src="{IMG_URL}images/2014/qrcode.jpg" alt=""></div>
+					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
 					<div class="fn-left context">
 						<i class="fa fa-android fa-lg"></i>
 						<span><a href="javascript:;">APP下载</a></span>
@@ -60,11 +60,7 @@
 
 	<!-- 通栏广告 -->
 
-	<div class="layout mt40 fn-clear">
-		<div class="">
-			<a href="javascript:;"><img src="{IMG_URL}images/2014/ad_7.jpg" alt=""></a>
-		</div>
-	</div>
+	<!--#include virtual="/section/241.html"--><!--# Info2014 顶部通栏广告 #-->
 
 	<!-- LOGO和搜索 -->
 
@@ -89,30 +85,7 @@
 
 	<!-- 小导航 -->
 
-	<div class="nav shortnav" id="mainnav">
-		<div class="navInner">
-			<div>
-				<a href="javascript:;">资讯</a>
-				<a href="javascript:;">房产</a>
-				<a href="javascript:;">家居</a>
-			</div>
-			<div>
-				<a href="javascript:;">生活</a>
-				<a href="javascript:;">娱乐</a>
-				<a href="javascript:;">旅游</a>
-			</div>
-			<div>
-				<a href="javascript:;">交通</a>
-				<a href="javascript:;">亲子</a>
-				<a href="javascript:;">婚嫁</a>
-			</div>
-			<div>
-				<a href="javascript:;">智慧城市</a>
-				<a href="javascript:;">视频专区</a>
-				<a href="javascript:;">电信专区</a>
-			</div>	
-		</div>
-	</div>
+	<!--#include virtual="/section/237.html"--><!--# Info2014 导航 #-->
 
 	<!-- 主容器 -->
 
@@ -131,61 +104,46 @@
 		<!-- 左侧容器 -->
 
 		<div class="mainBody jrtjMod bd">
-			<div class="newsArticle mt12 ">
-				<div class="fontsize">字号调节：<a href="#">加大</a> | <a href="#">减小</a></div>
-				<h1 class="">{$title}</h1>
-				<h2 class="fn-clear">
-					<div class="fn-left ">
-						<span>来源：{$source_name}</span> | 
-						<span>发布时间：{date('Y-m-d H:i', $published)}</span>
-					</div>
-				</h2>
-				<!--{if $description}-->
-				<p class="titdd-Article">
-					[<strong>摘要</strong>]
-					{$description}
-				</p>
-				<!--{/if}-->
-				<div class="mt12">
-					{$content}
-				</div>
-				<h2 class="fn-clear">
-					<div class="fn-left ">
-						<span>责任编辑：{$editor}</span> | 
-					</div>
-					<div class="bdsharebuttonbox fn-right">
-						<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-						<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-						<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-						<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-						<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-					</div>
 
-					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-				</h2>
+			<!-- 列表主体 -->
+
+			<div id="listZone">
+			<ul>
+			<!--{content catid="$catid" orderby="published desc" size="$pagesize" page="$page"}-->
+			<li>
+				<div class="nrC">
+					<a target="_blank" class="nrPic" href="javascript:;"><img style="width:110px; height:auto;" src="i/101.jpg" alt=" "></a>
+					<h3 class="fn-left"><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
+					<p class="fn-right newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
+					<p class="nrP">简要<a target="_blank" class="detail" href="{$r[url]}">[全文]</a></p>
+				</div>
+<!--{/content}-->
 			</div>
+
+			<!-- 分页 -->
+
+			<div id="pageZone">
+				<span style="display: none;" class="count">当前第1/9页</span>
+				<span style="display: none;" class="Disabled" onclick="timer()">第一页</span>
+				<span class="Disabled" onclick="timer()">&lt;&lt;上一页</span>
+				<span title="您正在浏本页" class="isNow number">1</span>
+				<span title="第2页" class="number"><a href="javascript:getString.Output(2);" onclick="timer()">2</a></span>
+				<span title="第3页" class="number"><a href="javascript:getString.Output(3);" onclick="timer()">3</a></span>
+				<span>...</span>
+				<span class="number" title="Page 9"><a href="javascript:getString.Output(9);" onclick="timer()">9</a></span>
+				<span title="转到下一页"><a href="javascript:getString.Output(2);" onclick="timer()">下一页&gt;&gt;</a></span>
+				<span style="display: none;" title="转到最后一页"><a href="javascript:getString.Output(9);" onclick="timer()">最末页</a></span>
+			</div>
+
 		</div>
 
 		<!-- 右侧容器 -->
 
 		<div class="layoutRight">
 
-		<!-- ADBox -->
+			<!-- ADBox -->
 
-			<!-- if Ad Image -->
-
-			<div class="weibos fn-clear">
-				<a href="javascript:;" class="fn-left"><img src="{IMG_URL}images/2014/ad_8.jpg" alt=""></a>
-			</div>
-
-			<!-- if Ad Coder>
-
-			<div class="rightArea fn-right rightNews" id="adbox">
-				<div class="contents">
-				</div>
-			</div>
-
- 			-->
+			<!--#include virtual="/section/245.html"--><!--# Info2014 右侧方块广告 #-->
 
 			<!-- 资讯排行 -->
 
@@ -193,7 +151,7 @@
 				<div class="hd"><h2>资讯排行</h2></div>
 				<div class="contents">
 					<div class="twC2"> 
-						<a class="pic" target="_blank" href="javascript:;"><img width="110" height="85" src="{IMG_URL}images/2014/101404014_small.jpg" alt="智慧城市概念迎机遇"></a>
+						<a class="pic" target="_blank" href="javascript:;"><img width="110" height="85" src="i/101404014_small.jpg" alt="智慧城市概念迎机遇"></a>
 						<div class="text text-tp">
 							<h4><a target="_blank" href="javascript:;">智慧城市概念迎机遇</a></h4>
 							<p class="info">据悉，智慧城市产业联盟正在筹建联盟基金，<a target="_blank" href="javascript:;">[详细]</a></p>
@@ -229,19 +187,19 @@
 					<ul class="ui-switchable-content" data-switchable-role="content">
 						<li class="ui-switchable-panel">
 							<a href="#">
-								<img src="{IMG_URL}images/2014/news1.png"/>
+								<img src="./i/news1.png"/>
 							</a>
 							<p>习近平会见荷兰国王威廉-亚历山大</p>
 						</li>
 						<li class="hidden ui-switchable-panel">
 							<a href="#">
-								<img src="{IMG_URL}images/2014/news2.png"/>
+								<img src="./i/news2.png"/>
 							</a>
 							<p>新加坡Singapore</p>
 						</li>
 						<li class="hidden ui-switchable-panel">
 							<a href="#">
-								<img src="{IMG_URL}images/2014/news3.png"/>
+								<img src="./i/news3.png"/>
 							</a>
 							<p>明星高调生二胎</p>
 						</li>
@@ -405,6 +363,7 @@
 				slide.next();
 			});
 		});
+
 
 		seajs.use(['$'],function($){
 			$('#slidePicNews').hover(function(){
