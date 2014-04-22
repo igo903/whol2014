@@ -17,6 +17,7 @@
 .mt10{margin-top: 10px;}
 .mt40{margin-top: 40px;}
 .hidden{display: none;}
+.desc {cursor: pointer;}
 .txtcenter{text-align: center;}
 .ui-popup{
     border: 1px solid #EBEBEB;
@@ -735,7 +736,9 @@
 .mainBody{
     width: 660px;
     float: left;
-    border: 1px solid #dfdfdf;
+}
+.mainBody#newsContent{
+    border:1px solid #dfdfdf;
 }
 .nrC{
    overflow: hidden;
@@ -1044,6 +1047,55 @@
     padding: 12px 0 0 0;
 }
 
+/*video sort tab*/
+#videoSortTab {
+    position: relative;
+    width: 530px;
+}
+
+#videoSortTab .ui-switchable-nav {
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    list-style: none;
+    font-size: 22px;
+    width: 520px;
+    margin-left: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#videoSortTab .ui-switchable-nav li {
+    float: left;
+    width: 81px;
+    
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+}
+#videoSortTab .ui-switchable-nav li a:hover{
+    text-decoration: none;
+}
+
+#videoSortTab .ui-switchable-nav .ui-switchable-active {
+    border-bottom: 2px solid #328cc9;
+    font-weight: bold;
+    cursor: default;
+}
+
+#videoSortTab .ui-switchable-content {
+    position: relative;
+    margin: 0px 0 0 0;
+    padding: 0 0 0 10px;
+    border-left: 1px solid #dfdfdf;
+
+}
+
+
+
+
 
 .newsArticle{
     position: relative;
@@ -1094,4 +1146,135 @@ a.cate{
 }
 .newsArticle p.para-content{
     text-indent: 2em;
+}
+
+
+
+/*Video page*/
+.video-content{
+    width: 460px;
+    
+}
+.video-content h1{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.video-list{
+    width: 530px;
+}
+.video-list .news-video{
+    border-bottom: 1px solid #dfdfdf;
+    padding: 15px 0 20px;
+}
+.news-item-img {
+    float: left;
+    display: inline;
+    width: 160px;
+    margin-left: 5px;
+}
+.news-item-txt {
+    float: right;
+    width: 340px;
+    display: inline;
+}
+.news-item-txt h2 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 5px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.news-item-img a {
+    position: relative;
+}
+.news-item-txt p {
+    color: #666;
+    margin-top: 15px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.news-item-info {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+.news-item-time, .news-item-count {
+    display: inline;
+    float: left;
+}
+.news-item-count {
+    margin-left: 10px;
+}
+.news-item-img span {
+    line-height: 24px;
+    display: none;
+    width: 70px;
+    text-align: center;
+    color: #feffff;
+    font-size: 12px;
+    background-color: #0078db;
+}
+.news-item-img img {
+    display: block;
+    width: 160px;
+    height: 120px;
+}
+.news-item-img i{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background: url(../i/smallPlayIconNormal.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+
+
+.shareto{
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dfdfdf;
+    border-top: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.shareto > div{
+    margin-right: 10px;
+}
+
+.hot-video {
+    margin-top: 20px;
+    background-color: #fff;
+}
+.hot-video h3 {
+font-size: 18px;
+font-weight: normal;
+}
+.hot-video ul {
+margin-top: 10px;
+}
+.ul02 {
+font-size: 16px;
+line-height: 30px;
+}
+.ul02 li {
+height: 30px;
+overflow: hidden;
+display:list-item;
+}
+.ul02 a {
+display: block;
+padding-left: 10px;
+background: url(../i/0113_lqf_video_icons_1.png) no-repeat 0px -109px;
+}
+.ul02 span {
+float: right;
+font-size: 12px;
+color: #666;
+margin-right: 5px;
 }
