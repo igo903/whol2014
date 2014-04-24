@@ -15,17 +15,18 @@
 	<div id="topnav" class="mininav">
 		<div class="mininavInner">
 			<div class="fn-left">
-				<i class="fa fa-mobile fa-lg app"></i>
-				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
-				<div id="popupApp" class="fn-hide ui-popup">
-					<div class="fn-left"><img src="{IMG_URL}images/2014/qrcode.jpg" alt=""></div>
-					<div class="fn-left context">
-						<i class="fa fa-android fa-lg"></i>
-						<span><a href="javascript:;">APP下载</a></span>
-						<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
-					</div>
-				</div>
-				<a href="http://m.wuhan.net.cn">WAP版</a>
+				<a href="javascript:;">首页</a>
+				<a href="javascript:;">资讯</a>
+				<a href="javascript:;">房产</a>
+				<a href="javascript:;">家居</a>
+				<a href="javascript:;">娱乐</a>
+				<a href="javascript:;">婚嫁</a>
+				<a href="javascript:;">亲子</a>
+				<a href="javascript:;">生活</a>
+				<a href="javascript:;">旅游</a>
+				<a href="javascript:;">交通</a>
+				<a href="javascript:;">视频</a>
+				<a href="javascript:;">智慧城市</a>
 			</div>
 			
 			<div class="fn-right">
@@ -105,37 +106,46 @@
 
 		<div class="mainBody jrtjMod bd" id="newsContent">
 			<div class="newsArticle mt12">
-				<div class="fontsize">字号调节：<a href="#">加大</a> | <a href="#">减小</a></div>
+
 				<h1 class="">{$title}</h1>
 				<h2 class="fn-clear">
 					<div class="fn-left ">
 						<span>来源：{$source_name}</span> | 
 						<span>发布时间：{date('Y-m-d H:i', $published)}</span>
 					</div>
+
+					<div class="bdsharebuttonbox fn-right">分享：<a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+
+					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 				</h2>
+
 				<!--{if $description}-->
 				<p class="titdd-Article">
 					[<strong>内容摘要:</strong>]
 					{$description}
 				</p>
 				<!--{/if}-->
+
 				<div class="mt12">
 					{$content}
 				</div>
+
 				<h2 class="fn-clear">
 					<div class="fn-left ">
 						<span>责任编辑：{$editor}</span>
 					</div>
-					<div class="bdsharebuttonbox fn-right">
-						<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-						<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-						<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-						<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-						<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-					</div>
-
-					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 				</h2>
+
+				<div class="city fn-clear">
+					<div class="fn-left adtxt">
+						<h1>4G城市门户 掌上市民之家</h1>
+						<p>汇热点新闻，知市政动态，用免费WiFi，查实时交通，游周边美景，买社区鲜菜，揽校园信息，聚便民应用，<a href="">点击下载</a>android/iPhone客户端体验；天翼手机用户发送city到10008获取下载地址。<p>智慧大武汉，精彩小世界，期待您的光临！</p></p>	
+					</div>
+					<div class="fn-right qrcode">
+						<a href=""><img src="i/qrcode.jpg" alt=""></a>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 
@@ -227,6 +237,71 @@
 						<li><a href="javascript:;">新京城四美PK老版四美</a><a href="javascript:;">男疑妻出轨跳河嫌冷上岸</a></li>
 						<li><a href="javascript:;">反骨配饰叫醒你的春困季节</a><a href="javascript:;">喝水减肥时间表</a></li>
 					</ul>
+				</div>
+			</div>
+
+			<!--sideNewsTab-->
+
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTab">
+				<ul class="ui-switchable-nav">
+					<h2>热点关注</h2>
+					<li>活动</li>
+					<li>房产</li>
+					<li>家居</li>
+					<li>资讯</li>
+					</ul>
+				<div class="ui-switchable-content">
+					<div class="hidden col">
+						<a href="#"><img src="./i/news1.png"/></a><p>习近平会见荷兰国王威廉-亚历山大</p>
+					</div>
+					<div class="hidden col">
+						<a href="#"><img src="./i/news2.png"/></a><p>新加坡Singapore</p>
+					</div>
+					<div class="hidden col">
+						<a href="#"><img src="./i/news3.png"/></a><p>明星高调生二胎</p>
+					</div>
+					<div class="hidden col">
+						<a href="#"><img src="./i/news2.png"/></a><p>明星高调生八胎</p>
+					</div>
+				</div>
+			</div>
+
+			<!--sideNewsListTab-->
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsListTab">
+				<ul class="ui-switchable-nav">
+					<h2>资讯排行</h2>
+					<li>日</li>
+					<li>周</li>
+					<li>月</li>
+				</ul>
+				<div class="ui-switchable-content">
+					<div class="hidden col">
+						<ul>
+						<li><a href="">刘云山在辽宁调研时强调把群众路线教育实践</a></li>
+						<li><a href="">女模撞脸林志玲相似度90% 泳装照疑曝光</a></li>
+						<li><a href="">国家信访局：信访应在60日办结 越级不予受</a></li>
+						<li><a href="">的哥自称富二代怕去堵点拒载乘客 称不在乎</a></li>
+						<li><a href="">内地幼童香港当街小便调查:父母曾用尿不湿</a></li>
+						</ul>
+					</div>
+					<div class="hidden col">
+						<ul>
+						<li><a href="">武汉“抱火哥”决定继续做消防员 不满被称</a></li>
+						<li><a href="">谢霆锋妹妹当街怒骂男友 子夜咧嘴表情很狰</a></li>
+						<li><a href="">百位情侣参与“晒幸福” 温馨预热婚嫁主题</a></li>
+						<li><a href="">武汉一高中女生从家中跳下身亡 事故原因还</a></li>
+						<li><a href="">武汉女警用256条短信“劝”回失主万余元失</a></li>
+						</ul>
+					</div>
+					<div class="hidden col">
+						<ul>
+						<li><a href="">3月全国房价上涨城市减少至56个 武汉楼价基</a></li>
+						<li><a href="">“赵家班”继续南下《男人四十要出嫁》获</a></li>
+						<li><a href="">武汉“抱火哥”决定继续做消防员 不满被称</a></li>
+						<li><a href="">的哥自称富二代怕去堵点拒载乘客 称不在乎</a></li>
+						<li><a href="">内地幼童香港当街小便调查:父母曾用尿不湿</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 
@@ -339,10 +414,6 @@
 				trigger: '#personalSetting',
 				element: '#popupSetting'
 			});
-			new Popup({
-				trigger: '#wholApp',
-				element: '#popupApp'
-			});
 		});
 
 		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
@@ -373,6 +444,28 @@
 				$('#slidePicNews .move').hide();
 			});
 		});
+
+		//sideNewsTab function
+		seajs.use(['arale/switchable/1.0.2/tabs'], function(Tabs) {
+	        tabs = new Tabs({
+	            element: '#sideNewsTab',
+	            triggers: '#sideNewsTab .ui-switchable-nav li',
+	            panels: '#sideNewsTab .ui-switchable-content .col',
+	            activeIndex: 0
+	        });
+
+	        tabs = new Tabs({
+	            element: '#sideNewsListTab',
+	            triggers: '#sideNewsListTab .ui-switchable-nav li',
+	            panels: '#sideNewsListTab .ui-switchable-content .col',
+	            activeIndex: 0
+	        });
+
+	        setTimeout(function() {
+	            tabs.set("activeIndex", 0);
+	        }, 3000);
+	    });
+
 	</script>
 
 </body>
