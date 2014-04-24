@@ -1145,6 +1145,7 @@ a.cate{
     width: 640px;
     padding-left: 10px;
     padding-right: 10px;
+    text-indent: 2em;
 }
 .newsArticle p.para-content{
     text-indent: 2em;
