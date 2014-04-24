@@ -21,7 +21,14 @@ clear: both;
 }
 .layout {
     width: 1000px;
-    margin: 0 auto;
+    margin: 
+    0 auto;
+}
+.figure {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-weight: 500;
 }
 .mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
@@ -1219,6 +1226,9 @@ a.cate{
 .newsArticle p.para-content{
     text-indent: 2em;
 }
+.newsArticle .bdsharebuttonbox{
+    width: 160px;
+}
 
 
 
@@ -1362,6 +1372,9 @@ margin-top: 10px;
     margin: 0 10px 12px 10px;
     padding: 10px 0;
     background: #F7F8FC;
+    font-weight: bold;
+    color: #004276;
+    line-height: 22px;
 
 }
 .city .qrcode{
@@ -1426,22 +1439,75 @@ _overflow: hidden;
     line-height: 20px;
 }
 .mod_title .title_sub .divide {
-vertical-align: top;
-font-size: 12px;
+    vertical-align: top;
+    font-size: 12px;
 }
 .mod_title .title_sub a {
-display: inline-block;
-zoom: 1;
-height: 16px;
-line-height: 14px;
-line-height: 16px\9;
-_line-height: 18px;
-padding: 0 5px;
-margin: 0 5px;
-font-size: 14px;
-_vertical-align: top;
-overflow: hidden;
+    display: inline-block;
+    zoom: 1;
+    height: 16px;
+    line-height: 14px;
+    line-height: 16px\9;
+    _line-height: 18px;
+    padding: 0 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    _vertical-align: top;
+    overflow: hidden;
 }
+
+
+
+.figures_list{
+    width: 660px;
+}
+.figure img {
+    width: 197px;
+    height: 100px;
+}
+.figure_title {
+    height: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.figure_mask, .figure_title, .figure_desc {
+    display: block;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.figure_desc {
+    _width: 90%;
+    color: #999;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.figures_list .list_item {
+    width: 197px;
+    height: 150px;
+}
+.figures_list .list_item {
+
+}
+.list_item {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    font-size: 12px;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+li.list_item:hover{background:#f0f0f0;}
+
 
 
 
