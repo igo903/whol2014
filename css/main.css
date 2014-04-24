@@ -20,6 +20,7 @@
 .hidden{display: none;}
 .desc {cursor: pointer;}
 .txtcenter{text-align: center;}
+.divide {font-style: normal;color: #CCC;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -1386,27 +1387,34 @@ margin-top: 10px;
     cursor: pointer;
     vertical-align: bottom;
 }
+
 .text_sprite {
     display: inline-block;
     zoom: 1;
     width: 64px;
     height: 32px;
-    line-height: 999;/*
-    background-image: url(images/common/sprite_text.png?=1216);
-    background-repeat: no-repeat;*/
     overflow: hidden;
     vertical-align: bottom;
 }
-.text_sprite {
-    display: inline-block;
-    zoom: 1;
-    width: 64px;
-    height: 32px;
-    line-height: 999;
-    background-image: url(images/common/sprite_text.png?=1216);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    vertical-align: bottom;
+.videoCategory .mod_title .title_sub a {
+    line-height: 20px;
+}
+.mod_title .title_sub .divide {
+vertical-align: top;
+font-size: 12px;
+}
+.mod_title .title_sub a {
+display: inline-block;
+zoom: 1;
+height: 16px;
+line-height: 14px;
+line-height: 16px\9;
+_line-height: 18px;
+padding: 0 5px;
+margin: 0 5px;
+font-size: 14px;
+_vertical-align: top;
+overflow: hidden;
 }
 
 
