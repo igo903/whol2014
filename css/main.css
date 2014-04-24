@@ -1110,6 +1110,8 @@
     padding: 0 10px;
     height: 30px;
     line-height: 30px;
+    border-bottom: 1px dotted #dfdfdf;
+    margin:0 10px 12px 10px;
 }
 .newsArticle h2 span{
     margin-right: 5px;
@@ -1252,29 +1254,47 @@ a.cate{
     background-color: #fff;
 }
 .hot-video h3 {
-font-size: 18px;
-font-weight: normal;
+    font-size: 18px;
+    font-weight: normal;
 }
 .hot-video ul {
 margin-top: 10px;
 }
 .ul02 {
-font-size: 16px;
-line-height: 30px;
+    font-size: 16px;
+    line-height: 30px;
 }
 .ul02 li {
-height: 30px;
-overflow: hidden;
-display:list-item;
+    height: 30px;
+    overflow: hidden;
+    display:list-item;
 }
 .ul02 a {
-display: block;
-padding-left: 10px;
-background: url(../i/0113_lqf_video_icons_1.png) no-repeat 0px -109px;
+    display: block;
+    padding-left: 10px;
+    background: url(../i/0113_lqf_video_icons_1.png) no-repeat 0px -109px;
 }
 .ul02 span {
-float: right;
-font-size: 12px;
-color: #666;
-margin-right: 5px;
+    float: right;
+    font-size: 12px;
+    color: #666;
+    margin-right: 5px;
+}
+.city .adtxt{
+    width: 340px;
+    margin-left: 50px;
+}
+.city .adtxt a{
+    color: red;
+}
+.city{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.city .qrcode{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.city h1{
+    color: red;
 }

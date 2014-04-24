@@ -15,17 +15,18 @@
 	<div id="topnav" class="mininav">
 		<div class="mininavInner">
 			<div class="fn-left">
-				<i class="fa fa-mobile fa-lg app"></i>
-				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
-				<div id="popupApp" class="fn-hide ui-popup">
-					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
-					<div class="fn-left context">
-						<i class="fa fa-android fa-lg"></i>
-						<span><a href="javascript:;">APP下载</a></span>
-						<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
-					</div>
-				</div>
-				<a href="http://m.wuhan.net.cn">WAP版</a>
+				<a href="javascript:;">首页</a>
+				<a href="javascript:;">资讯</a>
+				<a href="javascript:;">房产</a>
+				<a href="javascript:;">家居</a>
+				<a href="javascript:;">娱乐</a>
+				<a href="javascript:;">婚嫁</a>
+				<a href="javascript:;">亲子</a>
+				<a href="javascript:;">生活</a>
+				<a href="javascript:;">旅游</a>
+				<a href="javascript:;">交通</a>
+				<a href="javascript:;">视频</a>
+				<a href="javascript:;">智慧城市</a>
 			</div>
 			
 			<div class="fn-right">
@@ -126,9 +127,9 @@
 
 		<!-- 左侧容器 -->
 
-		<div class="mainBody jrtjMod bd">
+		<div class="mainBody jrtjMod bd" id="newsContent">
 			<div class="newsArticle mt12 ">
-				<div class="fontsize">字号调节:<a href="#">加大</a>|<a href="#">减小</a></div>
+				<!-- <div class="fontsize">字号调节:<a href="#">加大</a>|<a href="#">减小</a></div> -->
 				<h1 class="">Windows XP今起“退役” 自动取款机或受影响</h1>
 				<h2 class="fn-clear">
 					<div class="fn-left "><a href="javascript:;" class="cate">思想报道</a> | <span>热线文化</span><span>2014-04-17 09:23</span><span>|</span> </div>
@@ -148,6 +149,22 @@
 				<p class="para-content">今天，13岁的微软Windows XP系统宣布正式“退役”，“蓝天、白云还有绿色的小山坡”，这个经典桌面，也将成为美好的回忆。据悉，微软将在4月8日停止Windows XP以及OFFICE2003等技术支持，并向用户推送全新的微软Windows 8.1系统。根据微软发布的安全公告预告，北京时间4月9日凌晨将最后一次提供XP安全补丁更新。这意味着虽然XP系统可以继续用，但已缺乏安全性以及不能进行更新。对此，大批网友表达不舍之情。</p>
 				<p class="para-content">今天，13岁的微软Windows XP系统宣布正式“退役”，“蓝天、白云还有绿色的小山坡”，这个经典桌面，也将成为美好的回忆。据悉，微软将在4月8日停止Windows XP以及OFFICE2003等技术支持，并向用户推送全新的微软Windows 8.1系统。根据微软发布的安全公告预告，北京时间4月9日凌晨将最后一次提供XP安全补丁更新。这意味着虽然XP系统可以继续用，但已缺乏安全性以及不能进行更新。对此，大批网友表达不舍之情。</p>
 			</div>
+
+			<div class="city fn-clear">
+				<div class="fn-left adtxt">
+					<h1>4G城市门户 掌上市民之家</h1>
+					<p>汇热点新闻，知市政动态，用免费WiFi，查实时交通，游周边美景，买社区鲜菜，揽校园信息，聚便民应用，<a href="">点击下载</a>android/iPhone客户端体验；天翼手机用户发送city到10008获取下载地址。<p>智慧大武汉，精彩小世界，期待您的光临！</p></p>	
+				</div>
+
+				<div class="fn-right qrcode">
+					<a href=""><img src="i/qrcode.jpg" alt=""></a>
+				</div>
+				
+
+			</div>
+
+
+
 		</div>
 
 		<!-- 右侧容器 -->
@@ -362,10 +379,6 @@
 			new Popup({
 				trigger: '#personalSetting',
 				element: '#popupSetting'
-			});
-			new Popup({
-				trigger: '#wholApp',
-				element: '#popupApp'
 			});
 		});
 
