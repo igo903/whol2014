@@ -1141,8 +1141,7 @@
 
 #sideNewsTab .ui-switchable-content,#sideNewsListTab .ui-switchable-content {
     position: relative;
-    margin: 10px;
-    padding: 0 0 0 0px;
+    padding: 10px;
     overflow: hidden;
 }
 #sideNewsListTab .ui-switchable-content{background: #F7F8FC;}
