@@ -4,6 +4,15 @@
     display: table;
     clear: both;
 }
+.mod_hd:before, .mod_hd:after, .mod_bd:before, .mod_bd:after {
+display: table;
+content: '';
+height: 0;
+}
+.mod_hd:after, .mod_bd:after {
+clear: both;
+}
+
 
 .soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd,
 #sideNewsTab .ui-switchable-nav, #sideNewsListTab .ui-switchable-nav{
@@ -1380,12 +1389,29 @@ margin-top: 10px;
     font-weight: 500;
     color: #2A2A2A;
     vertical-align: bottom;
+    font-size: 30px;
+    line-height: 30px;
+
 }
 .mod_title .title a {
     display: inline-block;
     zoom: 1;
     cursor: pointer;
     vertical-align: bottom;
+}
+.mod_title .title_sub {
+display: inline-block;
+zoom: 1;
+width: 80%;
+height: 16px;
+line-height: 16px;
+padding-left: 5px;
+margin-left: -10px;
+vertical-align: bottom;
+white-space: normal;
+font-size: 0;
+_padding-top: 10px;
+_overflow: hidden;
 }
 
 .text_sprite {
@@ -1416,5 +1442,6 @@ font-size: 14px;
 _vertical-align: top;
 overflow: hidden;
 }
+
 
 
