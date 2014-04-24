@@ -5,7 +5,8 @@
     clear: both;
 }
 
-.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd{
+.soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd,
+#sideNewsTab .ui-switchable-nav, #sideNewsListTab .ui-switchable-nav{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
@@ -376,7 +377,7 @@
     border-bottom: 0 !important;
     background-position: left -210px;
 }
-.rightNews .hd h2{
+.rightNews h2{
     color: #458FCE;
     font-size: 14px;
     padding-top: 6px;
@@ -1092,6 +1093,63 @@
     border-left: 1px solid #dfdfdf;
 
 }
+
+
+/*sideNewsTab, sideNewsListTab*/
+#sideNewsTab, #sideNewsListTab {
+    position: relative;
+    width: 318px;
+    font-size: 14px;
+}
+
+#sideNewsTab .ui-switchable-nav, #sideNewsListTab .ui-switchable-nav {
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    list-style: none;
+    border-bottom: 1px solid #dfdfdf;
+    background-position: left -210px;
+}
+
+#sideNewsTab .ui-switchable-nav li,#sideNewsListTab .ui-switchable-nav li {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    width: 40px;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+}
+#sideNewsTab .ui-switchable-nav h2,#sideNewsListTab .ui-switchable-nav h2 {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding:0;
+}
+#sideNewsTab .ui-switchable-nav li a:hover,#sideNewsListTab .ui-switchable-nav li a:hover{
+    text-decoration: none;
+}
+
+#sideNewsTab .ui-switchable-nav .ui-switchable-active,#sideNewsListTab .ui-switchable-nav .ui-switchable-active {
+    border-bottom: 2px solid #328cc9;
+    font-weight: bold;
+    cursor: default;
+}
+
+#sideNewsTab .ui-switchable-content,#sideNewsListTab .ui-switchable-content {
+    position: relative;
+    margin: 10px;
+    padding: 0 0 0 0px;
+    overflow: hidden;
+}
+#sideNewsListTab .ui-switchable-content ul li{
+    height: 26px;
+    line-height: 26px;
+}
+
+
 
 
 
