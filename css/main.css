@@ -33,7 +33,7 @@
 .mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
 .mt40{margin-top: 40px;}
-.mt100{margin-top: 100px;}
+.mt100{margin-top: 100px !important;}
 .hidden{display: none;}
 .desc {cursor: pointer;}
 .txtcenter{text-align: center;}
