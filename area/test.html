@@ -1,0 +1,28 @@
+<?php $index=1;?>
+{loop $data $i $r}
+	<div class="mode-imgtxt tabpage" id="rdgzImgBtm<?=$index;?>" <?php if($index>1){?> 
+
+style="display:none;"<?php }?>>
+		<div class="cont"><a href="{$r[url]}" target="_blank"><img src="{thumb($r[thumb],360,212,1,null,1)}" alt="{$r[title]}" width="290" height="180" /></a>
+			<div class="line-h26"><a href="{$r[url]}" target="_blank">{$r[title]}</a></div>
+		</div>
+	</div>
+<?php $index++;?>
+{/loop}
+
+<ul>
+<!--{loop $data $k $r}-->
+  <li><!--{loop $r $i $c}-->
+    <div class="hidden col">
+		<a href="{$c[url]}"><img src="{IMG_URL}images/2014/news1.png"/></a><p>{$c[title]}</p>
+	</div>
+    <!--{/loop}-->
+  </li>
+<!--{/loop}-->
+</ul>
+
+
+
+<div class="hidden col">
+	<a href="#"><img src="{IMG_URL}images/2014/news1.png"/></a><p>习近平会见荷兰国王威廉-亚历山大</p>
+</div>
