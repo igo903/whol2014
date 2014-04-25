@@ -882,12 +882,12 @@ clear: both;
 
 /*分页样式*/
 
-#pageZone{margin:30px auto 20px; padding: 10px 0px; text-align:center; background: #f5f6fb; border-bottom: 1px #dbe3ee solid;}
-#pageZone span, #pageZone li{margin-right:5px;padding:0 8px;display:inline-block; height:20px; line-height:20px; text-alien:center; color:#0b3b8d; border:1px solid #ccdbe4;}
-#pageZone a{color:#0b3b8d;}
+.mar-l-8,#pageZone{margin:30px auto 20px; padding: 10px 0px; text-align:center; background: #f5f6fb; border-bottom: 1px #dbe3ee solid;}
+#pageZone span, .mar-l-8 li{margin-right:5px;padding:0 8px;display:inline-block; height:20px; line-height:20px; text-alien:center; color:#0b3b8d; border:1px solid #ccdbe4;}
+#pageZone a, .mar-l-8 li a{color:#0b3b8d;}
 #pageZone span.isNow{border:none; color:#000; font-weight:bold;}
 #pageZone span.Disabled{color:#dbe1e6;}
-#pageZone span{height:34px; line-height:34px; background:#fff; padding:0 13px; font-size:14px; border:1px solid #d8dadf;}
+#pageZone span, .mar-l-8 li{height:34px; line-height:34px; background:#fff; padding:0 13px; font-size:14px; border:1px solid #d8dadf;}
 #pageZone span.isNow{border:1px solid #d8dadf; background:#899fbf; color:#fff;}
 #pageZone span.Disabled{background:#f8f8f8; color:#9a9a9a;}
 #pageZone a{color:#555;}
@@ -1343,7 +1343,7 @@ a.cate{
     font-weight: normal;
 }
 .hot-video ul {
-margin-top: 10px;
+    margin-top: 10px;
 }
 .ul02 {
     font-size: 16px;
@@ -1418,18 +1418,18 @@ margin-top: 10px;
     vertical-align: bottom;
 }
 .mod_title .title_sub {
-display: inline-block;
-zoom: 1;
-width: 80%;
-height: 16px;
-line-height: 16px;
-padding-left: 5px;
-margin-left: -10px;
-vertical-align: bottom;
-white-space: normal;
-font-size: 0;
-_padding-top: 10px;
-_overflow: hidden;
+    display: inline-block;
+    zoom: 1;
+    width: 80%;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 5px;
+    margin-left: -10px;
+    vertical-align: bottom;
+    white-space: normal;
+    font-size: 0;
+    _padding-top: 10px;
+    _overflow: hidden;
 }
 
 .text_sprite {
