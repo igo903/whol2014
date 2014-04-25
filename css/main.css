@@ -1171,7 +1171,9 @@ clear: both;
     height: 26px;
     line-height: 26px;
 }
-
+#sideNewsTab .ui-switchable-content .col{
+    overflow: hidden;
+}
 
 
 
