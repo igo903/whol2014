@@ -5,12 +5,12 @@
     clear: both;
 }
 .mod_hd:before, .mod_hd:after, .mod_bd:before, .mod_bd:after {
-display: table;
-content: '';
-height: 0;
-}
+    display: table;
+    content: '';
+    height: 0;
+    }
 .mod_hd:after, .mod_bd:after {
-clear: both;
+    clear: both;
 }
 
 
@@ -33,6 +33,7 @@ clear: both;
 .mt12{margin-top: 12px !important;}
 .mt10{margin-top: 10px;}
 .mt40{margin-top: 40px;}
+.mt100{margin-top: 100px;}
 .hidden{display: none;}
 .desc {cursor: pointer;}
 .txtcenter{text-align: center;}
