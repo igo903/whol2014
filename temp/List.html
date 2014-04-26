@@ -47,38 +47,23 @@
 			<!-- 列表主体 -->
 
 			<div id="listZone">
-			<ul>
-			<!--{content catid="$catid" orderby="published desc" size="$pagesize" page="$page"}-->
-			<li>
+				<!--{content catid="$catid" orderby="published desc" size="$pagesize" page="$page"}-->
 				<div class="nrC">
-				<!--{if $r[thumb]}-->
+					<!--{if $r[thumb]}-->
 					<a target="_blank" class="nrPic" href="{$r[url]}"><img style="width:110px; height:85px;" src="{UPLOAD_URL}{$r[thumb]}" alt=" "></a>
 					<!--{/if}-->
 					<h3 class="fn-left"><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
 					<p class="fn-right newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
-					<p class="nrP">{$description}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文124]</a></p>
+					<p class="nrP">{$description}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
 				</div>
-<!--{/content}-->
+				<!--{/content}-->
 			</div>
 
 			<!-- 分页 -->
 
-			<!-- <div id="pageZone">
-				<span style="display: none;" class="count">当前第1/9页</span>
-				<span style="display: none;" class="Disabled" onclick="timer()">第一页</span>
-				<span class="Disabled" onclick="timer()">&lt;&lt;上一页</span>
-				<span title="您正在浏本页" class="isNow number">1</span>
-				<span title="第2页" class="number"><a href="javascript:getString.Output(2);" onclick="timer()">2</a></span>
-				<span title="第3页" class="number"><a href="javascript:getString.Output(3);" onclick="timer()">3</a></span>
-				<span>...</span>
-				<span class="number" title="Page 9"><a href="javascript:getString.Output(9);" onclick="timer()">9</a></span>
-				<span title="转到下一页"><a href="javascript:getString.Output(2);" onclick="timer()">下一页&gt;&gt;</a></span>
-				<span style="display: none;" title="转到最后一页"><a href="javascript:getString.Output(9);" onclick="timer()">最末页</a></span>
-			</div> -->
-
 			<div class="page mar-l-8">
 				<ul class="inline">
-  				  <!--{pages($total, $page, $pagesize, 2, $urlrule)}--> 
+					<!--{pages($total, $page, $pagesize, 2, $urlrule)}--> 
 				</ul>
 			</div>
 
@@ -88,75 +73,41 @@
 
 		<div class="layoutRight">
 
-			<!-- ADBox -->
-
-			<!--#include virtual="/section/245.html"--><!--# Info2014 右侧方块广告 #-->
-
+			<!-- ADBox --><!--#include virtual="/section/245.html"-->
+			
 			<!-- 资讯排行 -->
 
-	 		<div class="rightArea rightNews mt12" id="inforank">
-				<div class="hd"><h2>资讯排行</h2></div>
-				<div class="contents">
-					<div class="twC2"> 
-						<a class="pic" target="_blank" href="javascript:;"><img width="110" height="85" src="i/101404014_small.jpg" alt="智慧城市概念迎机遇"></a>
-						<div class="text text-tp">
-							<h4><a target="_blank" href="javascript:;">智慧城市概念迎机遇</a></h4>
-							<p class="info">据悉，智慧城市产业联盟正在筹建联盟基金，<a target="_blank" href="javascript:;">[详细]</a></p>
-						</div>
-						<div class="text mt10">
-							<h4>
-							<a target="_blank" href="javascript:;">国家电网拟建27条特高压线 关注相关股</a></h4>
-							<p class="info">国家电网相关负责人披露了“五纵五横”27条特高压线路的最新规划进展。<a target="_blank" href="javascript:;">[详细]</a></p>
-						</div>
-						<div class="text mt10">
-							<h4>
-							<a target="_blank" href="javascript:;">上海提前实施国五标准 3股有望受益</a></h4>
-							<p class="info">上海市决定从30日起实施第五阶段国家机动车大气污染物排放标准。<a target="_blank" href="javascript:;">[详细]</a></p>
-						</div>
-						<div class="text mt10">
-							<h4>
-							<a target="_blank" href="javascript:;">上海提前实施国五标准 3股有望受益</a></h4>
-							<p class="info">上海市决定从30日起实施第五阶段国家机动车大气污染物排放标准。<a target="_blank" href="javascript:;">[详细]</a></p>
-						</div>
-						<div class="text mt10">
-							<h4>
-							<a target="_blank" href="javascript:;">上海提前实施国五标准 3股有望受益</a></h4>
-							<p class="info">上海市决定从30日起实施第五阶段国家机动车大气污染物排放标准。<a target="_blank" href="javascript:;">[详细]</a></p>
-						</div>
-				    </div>
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTextTabs">
+				<ul class="ui-switchable-nav">
+					<h2>资讯排行</h2>
+					<li>月</li>
+					<li>周</li>
+					<li>日</li>
+				</ul>
+				<div class="ui-switchable-content">
+					<div class="hidden col">
+						<!--#include virtual="/section/271.html"-->
+					</div>
+					<div class="hidden col">
+						<!--#include virtual="/section/269.html"-->
+					</div>
+					<div class="hidden col">
+						<!--#include virtual="/section/267.html"-->
+					</div>
 				</div>
 			</div>
 
-			<!-- 热图 -->
+			<!-- 热点关注 -->
 
-			<div class="rightArea fn-clear mt12 rightNews" id="hotimg">
-				<div id="slidePicNews" class="sideslide fn-clear">
-					<ul class="ui-switchable-content" data-switchable-role="content">
-						<li class="ui-switchable-panel">
-							<a href="#">
-								<img src="./i/news1.png"/>
-							</a>
-							<p>习近平会见荷兰国王威廉-亚历山大</p>
-						</li>
-						<li class="hidden ui-switchable-panel">
-							<a href="#">
-								<img src="./i/news2.png"/>
-							</a>
-							<p>新加坡Singapore</p>
-						</li>
-						<li class="hidden ui-switchable-panel">
-							<a href="#">
-								<img src="./i/news3.png"/>
-							</a>
-							<p>明星高调生二胎</p>
-						</li>
-					</ul>
-
-					<div class="move">
-						<div id="prev">‹</div>
-						<div id="next">›</div>
-					</div>
-				</div>
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsImgTabs">
+				<ul class="ui-switchable-nav">
+					<h2>热点关注</h2>
+					<li>活动</li>
+					<li>房产</li>
+					<li>家居</li>
+					<li>资讯</li>
+				</ul>
+				<!--#include virtual="/section/265.html"-->   
 			</div>
 
 			<!-- 生活万象 -->
@@ -164,35 +115,21 @@
 			<div class="rightArea fn-clear mt12 rightNews" id="mediafocus">
 				<div class="hd"><h2>生活万象</h2></div>
 				<div class="contents">
-					<ul class="ft">
-						<li><a href="javascript:;">黄石成为共有产权住房试点</a><a href="javascript:;">南都官网疑遭攻击</a></li>
-						<li><a href="javascript:;">公积金以民为本加速改革</a><a href="javascript:;">黄石成为共有产权试</a></li>
-						<li><a href="javascript:;">东西湖20楼盘新添利好</a><a href="javascript:;">阮玲玉受辱服药之迷</a></li>
-						<li><a href="javascript:;">教你搞定杂乱物品小技巧</a><a href="javascript:;">林心如马伊琍不同命</a></li>
-						<li><a href="javascript:;">新京城四美PK老版四美</a><a href="javascript:;">男疑妻出轨跳河嫌冷上岸</a></li>
-						<li><a href="javascript:;">反骨配饰叫醒你的春困季节</a><a href="javascript:;">喝水减肥时间表</a></li>
-					</ul>
+					<!--#include virtual="/section/273.html"-->
 				</div>
 			</div>
 
 		</div>
 	</div>
 
-	<!-- 友情链接 -->
+	<!-- 友情链接 --><!--#include virtual="/section/261.html"-->
 
-	<!--#include virtual="/section/261.html"-->
-
-	<!-- 版权信息 -->
-
-	<!--#include virtual="/section/263.html"-->
-
-	<!-- JavaScript -->
-
-	<!-- SEAJS -->
+	<!-- 版权信息 --><!--#include virtual="/section/263.html"-->
 
 	<script>
+	
+		// base:"./sea-modules",
 		seajs.config({
-			// base:"./sea-modules",
 			alias:{
 				"$":"jquery/jquery/1.10.1/jquery.js",
 				"jquery-easing":"jquery/easing/1.3.0/easing.js"
@@ -200,7 +137,6 @@
 		});
 
 		// seajs.use("./js/main");
-
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
 		    new Popup({
 				trigger: '#smartPoint',
@@ -214,41 +150,31 @@
 				trigger: '#personalSetting',
 				element: '#popupSetting'
 			});
-			new Popup({
-				trigger: '#wholApp',
-				element: '#popupApp'
-			});
 		});
 
-		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
-			var slide = new Slide({
-				element: '#slidePicNews',
-				effect: 'scrollx',
-				hasTriggers: false
-				//activeIndex: 1,
-				//interval:2600
-			}).render();
+		// Tabs
+		seajs.use(['arale/switchable/1.0.2/tabs'], function(Tabs) {
 
-			// 自定义 prev/next
-			$("#slidePicNews #prev").click(function(e) {
-				e.preventDefault();
-				slide.prev();
+			sideNewsImgTabs = new Tabs({
+				element: '#sideNewsImgTabs',
+				triggers: '#sideNewsImgTabs .ui-switchable-nav li',
+				panels: '#sideNewsImgTabs .ui-switchable-content .col',
+				activeIndex: 0
 			});
 
-			$("#slidePicNews #next").click(function(e) {
-				e.preventDefault();
-				slide.next();
+			sideNewsTextTabs = new Tabs({
+				element: '#sideNewsTextTabs',
+				triggers: '#sideNewsTextTabs .ui-switchable-nav li',
+				panels: '#sideNewsTextTabs .ui-switchable-content .col',
+				activeIndex: 0
 			});
+
+			setTimeout(function() {
+				sideNewsImgTabs.set("activeIndex", 3);
+				sideNewsTextTabs.set("activeIndex", 2);
+			}, 3000);
 		});
 
-
-		seajs.use(['$'],function($){
-			$('#slidePicNews').hover(function(){
-				$('#slidePicNews .move').show();
-			},function(){
-				$('#slidePicNews .move').hide();
-			});
-		});
 	</script>
 
 </body>

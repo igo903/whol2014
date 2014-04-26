@@ -13,9 +13,8 @@
     clear: both;
 }
 
-
 .soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd,
-#sideNewsTab .ui-switchable-nav, #sideNewsListTab .ui-switchable-nav{
+#indexNewsTypeTabs .ui-switchable-nav, #sideNewsImgTabs .ui-switchable-nav, #sideNewsTextTabs .ui-switchable-nav{
     background-image: url(../i/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
@@ -1030,13 +1029,13 @@
 
 
 
-#newsTypeTab {
+#indexNewsTypeTabs {
     position: relative;
     width: 660px;
     padding-top: 29px;
 }
 
-#newsTypeTab .ui-switchable-nav {
+#indexNewsTypeTabs .ui-switchable-nav {
     position: absolute;
     top: 0;
     left: 0px;
@@ -1048,7 +1047,7 @@
     font: 14px/1.5 'Xin Gothic', 'PT Sans', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#newsTypeTab .ui-switchable-nav li {
+#indexNewsTypeTabs .ui-switchable-nav li {
     float: left;
     width: 81px;
     border-right: 1px solid #dfdfdf;
@@ -1061,13 +1060,13 @@
     list-style: none;
 }
 
-#newsTypeTab .ui-switchable-nav .ui-switchable-active {
+#indexNewsTypeTabs .ui-switchable-nav .ui-switchable-active {
     border-bottom: 2px solid #328cc9;
     font-weight: bold;
     cursor: default;
 }
 
-#newsTypeTab .ui-switchable-content {
+#indexNewsTypeTabs .ui-switchable-content {
     position: relative;
     padding: 12px 0 0 0;
 }
@@ -1119,14 +1118,14 @@
 }
 
 
-/*sideNewsTab, sideNewsListTab*/
-#sideNewsTab, #sideNewsListTab {
+/*newsTypeTab, sideNewsImgTabs, sideNewsTextTabs*/
+#sideNewsImgTabs, #sideNewsTextTabs {
     position: relative;
     width: 318px;
     font-size: 14px;
 }
 
-#sideNewsTab .ui-switchable-nav, #sideNewsListTab .ui-switchable-nav {
+#sideNewsImgTabs .ui-switchable-nav, #sideNewsTextTabs .ui-switchable-nav {
     height: 32px;
     margin: 0;
     padding: 0;
@@ -1136,7 +1135,7 @@
     background-position: left -210px;
 }
 
-#sideNewsTab .ui-switchable-nav li,#sideNewsListTab .ui-switchable-nav li {
+#sideNewsImgTabs .ui-switchable-nav li,#sideNewsTextTabs .ui-switchable-nav li {
     float: right;
     height: 30px;
     line-height: 30px;
@@ -1146,51 +1145,51 @@
     cursor: pointer;
     list-style: none;
 }
-#sideNewsTab .ui-switchable-nav h2,#sideNewsListTab .ui-switchable-nav h2 {
+#sideNewsImgTabs .ui-switchable-nav h2,#sideNewsTextTabs .ui-switchable-nav h2 {
     float: left;
     height: 30px;
     line-height: 30px;
     padding:0;
 }
-#sideNewsTab .ui-switchable-nav li a:hover,#sideNewsListTab .ui-switchable-nav li a:hover{
+#sideNewsImgTabs .ui-switchable-nav li a:hover,#sideNewsTextTabs .ui-switchable-nav li a:hover{
     text-decoration: none;
 }
 
-#sideNewsTab .ui-switchable-nav .ui-switchable-active,#sideNewsListTab .ui-switchable-nav .ui-switchable-active {
+#sideNewsImgTabs .ui-switchable-nav .ui-switchable-active,#sideNewsTextTabs .ui-switchable-nav .ui-switchable-active {
     border-bottom: 2px solid #328cc9;
     font-weight: bold;
     cursor: default;
 }
 
-#sideNewsTab .ui-switchable-content,#sideNewsListTab .ui-switchable-content {
+#sideNewsImgTabs .ui-switchable-content,#sideNewsTextTabs .ui-switchable-content {
     position: relative;
     padding: 10px;
     overflow: hidden;
 }
-#sideNewsListTab .ui-switchable-content{background: #F7F8FC;}
-#sideNewsListTab .ui-switchable-content ul li{
+#sideNewsTextTabs .ui-switchable-content{background: #F7F8FC;}
+#sideNewsTextTabs .ui-switchable-content ul li{
     height: 26px;
     line-height: 26px;
 }
-#sideNewsTab .ui-switchable-content .col{
+#sideNewsImgTabs .ui-switchable-content .col{
     overflow: hidden;
 }
-#sideNewsTab .ui-switchable-content .col img{
+#sideNewsImgTabs .ui-switchable-content .col img{
     width: 300px;
     height: 225px;
 }
-#sideNewsListTab .ui-switchable-content ul li em.front {
+#sideNewsTextTabs .ui-switchable-content ul li em.front {
     background-position: -138px -58px;
     color: #fff;
 }
-#sideNewsListTab .ui-switchable-content ul li em {
+#sideNewsTextTabs .ui-switchable-content ul li em {
     float: left;
     margin-right: 8px;
     width: 16px;
     height: 20px;
     text-align: center;
     background-position: -139px -98px;
-    background-image: url(../i/cmstop-big.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/cmstop-big.png);
 }
 
 
