@@ -1179,6 +1179,20 @@
     width: 300px;
     height: 225px;
 }
+#sideNewsListTab .ui-switchable-content ul li em.front {
+    background-position: -138px -58px;
+    color: #fff;
+}
+#sideNewsListTab .ui-switchable-content ul li em {
+    float: left;
+    margin-right: 8px;
+    width: 16px;
+    height: 20px;
+    text-align: center;
+    background-position: -139px -98px;
+    background-image: url(../i/cmstop-big.png);
+}
+
 
 
 
@@ -1519,7 +1533,6 @@ a.cate{
     transition: all .3s ease-in-out;
 }
 li.list_item:hover{background:#f0f0f0;}
-
 
 
 
