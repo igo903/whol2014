@@ -1175,6 +1175,10 @@
 #sideNewsTab .ui-switchable-content .col{
     overflow: hidden;
 }
+#sideNewsTab .ui-switchable-content .col img{
+    width: 320px;
+    height: 225px;
+}
 
 
 
