@@ -221,7 +221,7 @@
 				activeIndex: 0
 			});
 
-			tabs = new Tabs({
+			sideNewsListTab = new Tabs({
 				element: '#sideNewsListTab',
 				triggers: '#sideNewsListTab .ui-switchable-nav li',
 				panels: '#sideNewsListTab .ui-switchable-content .col',
@@ -230,6 +230,7 @@
 
 			setTimeout(function() {
 				tabs.set("activeIndex", 0);
+				sideNewsListTab.set("activeIndex", 2);
 			}, 3000);
 		});
 
