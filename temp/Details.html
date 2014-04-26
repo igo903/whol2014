@@ -90,9 +90,7 @@
 
 		<div class="layoutRight">
 
-			<!-- ADBox -->
-
-			<!--#include virtual="/section/245.html"--><!--# Info2014 右侧方块广告 #-->
+			<!-- ADBox --><!--#include virtual="/section/245.html"-->
 			
 			<!-- 资讯排行 -->
 
@@ -133,36 +131,22 @@
 						</ul>
 					</div>
 					<div class="hidden col">
-						<ul>
-						<li><a href="">3月全国房价上涨城市减少至56个 武汉楼价基</a></li>
-						<li><a href="">“赵家班”继续南下《男人四十要出嫁》获</a></li>
-						<li><a href="">武汉“抱火哥”决定继续做消防员 不满被称</a></li>
-						<li><a href="">的哥自称富二代怕去堵点拒载乘客 称不在乎</a></li>
-						<li><a href="">内地幼童香港当街小便调查:父母曾用尿不湿</a></li>
-						<li><a href="">刘云山在辽宁调研时强调把群众路线教育实践</a></li>
-						<li><a href="">女模撞脸林志玲相似度90% 泳装照疑曝光</a></li>
-						<li><a href="">国家信访局：信访应在60日办结 越级不予受</a></li>
-						<li><a href="">的哥自称富二代怕去堵点拒载乘客 称不在乎</a></li>
-						<li><a href="">内地幼童香港当街小便调查:父母曾用尿不湿</a></li>
-						</ul>
+						<!--#include virtual="/section/267.html"--><!--# Info2014 资讯排行-日 #-->
 					</div>
 				</div>
 			</div>
-
 
 			<!-- 热点关注 -->
 
 			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTab">
 				<ul class="ui-switchable-nav">
 					<h2>热点关注</h2>
-		            <li>活动</li>
-		            <li>房产</li>
-		            <li>家居</li>
-		            <li>资讯</li>
-		        </ul>
-		        
-		        	<!--#include virtual="/section/265.html"-->
-		       
+					<li>活动</li>
+					<li>房产</li>
+					<li>家居</li>
+					<li>资讯</li>
+				</ul>
+				<!--#include virtual="/section/265.html"-->   
 			</div>
 
 			<!-- 生活万象 -->
@@ -184,23 +168,9 @@
 		</div>
 	</div>
 
+	<!-- 友情链接 --><!--#include virtual="/section/261.html"-->
 
-
-
-
-
-
-	<!-- 友情链接 -->
-
-	<!--#include virtual="/section/261.html"-->
-
-	<!-- 版权信息 -->
-
-	<!--#include virtual="/section/263.html"-->
-
-	<!-- JavaScript -->
-
-	<!-- SEAJS -->
+	<!-- 版权信息 --><!--#include virtual="/section/263.html"-->
 
 	<script>
 		seajs.config({
@@ -246,7 +216,7 @@
 			});
 
 			setTimeout(function() {
-				tabs.set("activeIndex", 0);
+				tabs.set("activeIndex", 3);
 				sideNewsListTab.set("activeIndex", 2);
 			}, 3000);
 		});
