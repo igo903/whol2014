@@ -31,5 +31,35 @@
 <!--{/loop}-->
 </ul>
 
-293 A区头条
+<!-- 293 A区头条 299 B区头条-->
 
+<ul>
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a class="linkto" href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
+<!-- 295 A区图片 301 B区图片-->
+
+<ul>
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a class="pic" href="{$c[url]}" target="_blank"><img class="picto" src=" {thumb($c[thumb],120,88,1,null,0)}" /></a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
+<!-- 297 A区列表 303 B区列表-->
+
+<ul>
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>

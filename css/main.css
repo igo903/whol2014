@@ -15,7 +15,7 @@
 
 .soso .searchBtn button, .layoutLeft, .leftView .hd, .leftNews .hd,.rightNews .hd, .leftZhuanti .hd, .leftApp .hd,
 #indexNewsTypeTabs .ui-switchable-nav, #sideNewsImgTabs .ui-switchable-nav, #sideNewsTextTabs .ui-switchable-nav{
-    background-image: url(../i/bg_1.6.1.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/bg_1.6.1.png);
     background-repeat: no-repeat;
 }
 .layout {
@@ -114,14 +114,14 @@
     display: block;
     width: 410px;
     height: 68px;
-    background-image: url(../i/logo.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo.png);
     background-repeat: no-repeat;
 }
 .soso_small .logo .whlogo{
     display: block;
     width: 100px;
     height: 40px;
-    background-image: url(../i/logo_small.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo_small.png);
     background-repeat: no-repeat;
 }
 .soso .searchTxt {
@@ -179,7 +179,7 @@
     line-height: 22px;
     font-size: 12px;
     margin: 0 auto;
-    background: #328cc9 url(../i/navbg.jpg) repeat-x;
+    background: #328cc9 url(http://img.wuhan.net.cn/images/2014/navbg.jpg) repeat-x;
     position: relative;
 }
 .shortnav{
@@ -447,7 +447,7 @@
     width: 288px;
     height: 180px;
     padding-right: 30px;
-    background: url(../i/navShortBg.png) no-repeat 288px top;
+    background: url(http://img.wuhan.net.cn/images/2014/navShortBg.png) no-repeat 288px top;
     float: right;
     border: 1px solid #D2E1F1;
     font-size: 14px;
@@ -506,10 +506,10 @@
     background: #F60;
     margin-right: -1px;
     cursor: pointer;
-    background: url(../i/navBg.png) no-repeat right top;
+    background: url(http://img.wuhan.net.cn/images/2014/navBg.png) no-repeat right top;
 }
 .rightProduct .productFloatLayout .productFloatBtn:hover {
-    background: url(../i/navBg.png) no-repeat -85px -40px;
+    background: url(http://img.wuhan.net.cn/images/2014/navBg.png) no-repeat -85px -40px;
 }
 .rightProduct .productFloatLayout .productFloatBtnClicked{
     position: absolute;
@@ -521,10 +521,10 @@
     background: #F60;
     margin-right: -1px;
     cursor: pointer;
-    background:url(../i/navBg.png) no-repeat right bottom;
+    background:url(http://img.wuhan.net.cn/images/2014/navBg.png) no-repeat right bottom;
 }
 .rightProduct .productFloatLayout .productFloatBtn:hover {
-    /*background: url(../i/navBg.png) no-repeat right -80px;*/
+    /*background: url(http://img.wuhan.net.cn/images/2014/navBg.png) no-repeat right -80px;*/
 }
 #productNav{
     position: relative;
@@ -630,7 +630,7 @@
 .footer .ctlogo{
 	width: 96px;
 	height: 89px;
-	background-image: url(../i/ct.png);
+	background-image: url(http://img.wuhan.net.cn/images/2014/ct.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
@@ -639,7 +639,7 @@
 .footer .icplogo{
 	width: 212px;
 	height: 96px;
-	background-image: url(../i/icp.png);
+	background-image: url(http://img.wuhan.net.cn/images/2014/icp.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
@@ -818,7 +818,7 @@
     line-height: 32px;
     padding-left: 5px;
     overflow: hidden;
-    background: url(../i/c_img1.png) left top no-repeat;
+    background: url(http://img.wuhan.net.cn/images/2014/c_img1.png) left top no-repeat;
 }
 .box .bd {
     padding-top: 21px;
@@ -921,8 +921,8 @@
 }
 #theOne h2.icon_zt a {
     padding-right: 40px;
-    background: url(../i/icons.png) no-repeat right -472px;
-    _background: url(../i/icons.png) no-repeat right -476px;
+    background: url(http://img.wuhan.net.cn/images/2014/icons.png) no-repeat right -472px;
+    _background: url(http://img.wuhan.net.cn/images/2014/icons.png) no-repeat right -476px;
 }
 .hdNews .pic img, #news .pic img {
     width: 120px;
@@ -957,7 +957,7 @@
 }
 .commonArea li a {
     padding-left: 14px;
-    background: url(../i/icons.png) no-repeat 4px -608px;
+    background: url(http://img.wuhan.net.cn/images/2014/icons.png) no-repeat 4px -608px;
     height: 26px;
     line-height: 26px;
     display: inline-block;
@@ -983,11 +983,11 @@
 .hasPic p a {
     margin-left: 15px;
 }
-.hdNews p a {
+.hdNews p a { 
     padding-left: 14px;
     margin-right: 19px;
     display: inline-block;
-    background: url(../i/icons.png) no-repeat 4px -607px;
+    background: url(http://img.wuhan.net.cn/images/2014/icons.png) no-repeat 4px -607px;
     line-height: 26px;
     height: 26px;
 }
@@ -1335,7 +1335,7 @@ a.cate{
     position: absolute;
     left: 5px;
     bottom: 5px;
-    background: url(../i/smallPlayIconNormal.png) no-repeat;
+    background: url(http://img.wuhan.net.cn/images/2014/smallPlayIconNormal.png) no-repeat;
     width: 22px;
     height: 22px;
     overflow: hidden;
@@ -1377,7 +1377,7 @@ a.cate{
 .ul02 a {
     display: block;
     padding-left: 10px;
-    background: url(../i/0113_lqf_video_icons_1.png) no-repeat 0px -109px;
+    background: url(http://img.wuhan.net.cn/images/2014/0113_lqf_video_icons_1.png) no-repeat 0px -109px;
 }
 .ul02 span {
     float: right;
