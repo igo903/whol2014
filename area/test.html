@@ -10,19 +10,23 @@ style="display:none;"<?php }?>>
 <?php $index++;?>
 {/loop}
 
+<ul >
+<!--{loop $data $k $r}-->
+	<li class="hidden col"><!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src=" {thumb($c[thumb],320,225,1,null,0)}" /></a>
+		<p><a href="{$c[url]}">{$c[title]}</a></p>
+    <!--{/loop}-->
+  </li>
+<!--{/loop}-->
+</ul>
+
 <ul>
 <!--{loop $data $k $r}-->
   <li><!--{loop $r $i $c}-->
-    <div class="hidden col">
-		<a href="{$c[url]}"><img src="{IMG_URL}images/2014/news1.png"/></a><p>{$c[title]}</p>
-	</div>
+    <a{if $c[icon]} class="icon-{$c[icon]}"{/if} href="{$c[url]}">{$c[title]}</a>
     <!--{/loop}-->
   </li>
 <!--{/loop}-->
 </ul>
 
 
-
-<div class="hidden col">
-	<a href="#"><img src="{IMG_URL}images/2014/news1.png"/></a><p>习近平会见荷兰国王威廉-亚历山大</p>
-</div>
