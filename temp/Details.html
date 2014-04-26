@@ -211,27 +211,7 @@
 			});
 		});
 
-		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
-			var slide = new Slide({
-				element: '#slidePicNews',
-				effect: 'scrollx',
-				hasTriggers: false
-				//activeIndex: 1,
-				//interval:2600
-			}).render();
-
-			// 自定义 prev/next
-			$("#slidePicNews #prev").click(function(e) {
-				e.preventDefault();
-				slide.prev();
-			});
-
-			$("#slidePicNews #next").click(function(e) {
-				e.preventDefault();
-				slide.next();
-			});
-		});
-
+		
 		seajs.use(['$'],function($){
 			$('#slidePicNews').hover(function(){
 				$('#slidePicNews .move').show();
