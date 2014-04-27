@@ -34,7 +34,7 @@
 		<!-- 日历和天气 -->
 
 		<div class="breadcrumb">
-			<i class="fa fa-clock-o"></i> 2014年4月8日 星期二 
+			<i class="fa fa-clock-o"></i> <span class="dateNow">2014年4月8日 星期二</span>
 		</div>
 
 	<!-- 左侧容器 -->
@@ -221,6 +221,15 @@
 				trigger: '#personalSetting',
 				element: '#popupSetting'
 			});
+		});
+
+		// seajs.use(['gallery/moment/2.6.0/moment'], function(Moment){
+		//    moment('2012-10-14', 'YYYY-MM-DD', 'fr', true);
+		// });
+		seajs.use(['moment','$'], function(moment,$){
+			moment.lang('zh-cn');
+			var now = moment().format('YYYY MMMM Do, h:mm:ss a');
+			$('.dateNow').text(now);
 		});
 
 		// Tabs
