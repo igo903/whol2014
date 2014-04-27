@@ -961,6 +961,7 @@
     height: 26px;
     line-height: 26px;
     display: inline-block;
+    font-size: 14px;
 }
 .hasPic {
     height: 101px;
@@ -987,6 +988,7 @@
     padding-left: 14px;
     margin-right: 19px;
     display: inline-block;
+    font-size: 14px;
     background: url(http://img.wuhan.net.cn/images/2014/icons.png) no-repeat 4px -607px;
     line-height: 26px;
     height: 26px;
