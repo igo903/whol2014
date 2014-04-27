@@ -604,8 +604,9 @@
 		// });
 
 		seajs.use(['moment','$'], function(moment,$){
-		   var now = moment();
-		   $('.dateNow').text(now);
+			moment.lang('zh-cn');
+			var now = moment().format('YYYY MMMM Do, h:mm:ss a');
+			$('.dateNow').text(now);
 		});
 
 
