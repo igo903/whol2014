@@ -21,6 +21,17 @@
 <!--{/loop}-->
 </ul>
 
+<!-- 341 新闻选项卡A -->
+
+<ul class="ft">
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a<!--{if $i=1}--> class="headline"<!--{/if}--><!--{if $i=2}--> class="sub"<!--{/if}--> href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
 
 
 
