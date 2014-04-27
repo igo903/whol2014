@@ -980,10 +980,10 @@
     font-size: 22px;
     line-height: 30px;
 }
-.hasPic p a {
+.hasPic p a, .hdNews .sub li a{
     margin-left: 15px;
 }
-.hdNews p a { 
+.hdNews p a, .hdNews .sub li a{ 
     padding-left: 14px;
     margin-right: 19px;
     display: inline-block;

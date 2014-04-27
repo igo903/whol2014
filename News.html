@@ -130,7 +130,7 @@
 			
 				<div class="hdNews fn-clear" id="theOne">
 					<h2 bosszone="focusnews1" class="icon_zt">
-						<span><a target="_blank" class="linkto" href="javascript:;">湖北行政审批事项缩减至286项 37部门晒"审批清单"</a></span>
+						<ul><li><a target="_blank" class="linkto" href="javascript:;">湖北行政审批事项缩减至286项 37部门晒"审批清单"</a></li></ul>
 					</h2>
 
 					<div class="commonArea">
@@ -153,27 +153,29 @@
 					<a class="pic" target="_blank" href="javascript:;">
 						<img class="picto" src="i/us.jpg">
 					</a>
-					<h2  class="">
-						<span><a target="_blank" class="linkto" href="javascript:;">清明“各种堵”引限牌争议 专家称武汉尚不会限购</a></span>
+					<h2 class="">
+						<ul><li><a target="_blank" class="linkto" href="javascript:;">清明“各种堵”引限牌争议 专家称武汉尚不会限购</a></li></ul>
 					</h2>
-					<p >
-						<a target="_blank" class="" href="javascript:;">73岁爹爹迷上电脑乐当宅男 女儿奇招逼其走出家门</a><br>
-						<a target="_blank" class="" href="javascript:;">外婆迷信香火灰水辟邪 逼4岁外孙喝两杯致其狂咳</a>
-					</p>
+					<ul class="sub">
+						<li><a target="_blank" class="" href="javascript:;">73岁爹爹迷上电脑乐当宅男 女儿奇招逼其走出家门</a></li>
+						<li><a target="_blank" class="" href="javascript:;">外婆迷信香火灰水辟邪 逼4岁外孙喝两杯致其狂咳</a></li>
+					</ul>
 				</div>
 
 				<div class="hdNews hasPic fn-clear" >
 					<a class="pic" target="_blank" href="javascript:;">
 						<img class="picto" src="i/us.jpg">
 					</a>
-					<h2  class="">
-						<span><a target="_blank" class="linkto" href="javascript:;">美防长成首登辽宁舰外国官员 今在国防大学演讲</a></span>
+					<h2 class="">
+						<ul><li><a target="_blank" class="linkto" href="javascript:;">清明“各种堵”引限牌争议 专家称武汉尚不会限购</a></li></ul>
 					</h2>
-					<p >
-						<a target="_blank" class="" href="javascript:;">雨中撞人后逃逸 警方排查近2万张照片找到肇事车</a><br>
-						<a target="_blank" class="" href="javascript:;">神农架警方救出九名在原始森林迷路的安徽游客</a>
-					</p>
+					<ul class="sub">
+						<li><a target="_blank" class="" href="javascript:;">73岁爹爹迷上电脑乐当宅男 女儿奇招逼其走出家门</a></li>
+						<li><a target="_blank" class="" href="javascript:;">外婆迷信香火灰水辟邪 逼4岁外孙喝两杯致其狂咳</a></li>
+					</ul>
 				</div>
+
+				
 			</div><!--//headingNews-->
 
 			<div id="textAd">
@@ -429,7 +431,7 @@
 			<!-- 热图 -->
 
 			<div class="rightArea fn-clear mt12 rightNews" id="hotimg">
-				<div id="slidePicNews" class="sideslide fn-clear">
+				<!-- <div id="slidePicNews" class="sideslide fn-clear">
 					<ul class="ui-switchable-content" data-switchable-role="content">
 						<li class="ui-switchable-panel">
 							<a href="#">
@@ -454,7 +456,7 @@
 						<div id="prev">‹</div>
 						<div id="next">›</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 			<!-- 生活万象 -->
@@ -554,19 +556,9 @@
 		</div>	
 	</div>
 
-	<script>
-		seajs.config({
-			// base:"./sea-modules",
-			alias:{
-				"$":"jquery/jquery/1.10.1/jquery.js",
-				"jquery-easing":"jquery/easing/1.3.0/easing.js"
-			}
-		});
 
-		// seajs.use("./js/main");
 
 	<script>
-	
 		// base:"./sea-modules",
 		seajs.config({
 			alias:{
@@ -601,24 +593,24 @@
 				activeIndex: 0
 			});
 
-			sideNewsImgTabs = new Tabs({
-				element: '#sideNewsImgTabs',
-				triggers: '#sideNewsImgTabs .ui-switchable-nav li',
-				panels: '#sideNewsImgTabs .ui-switchable-content .col',
-				activeIndex: 0
-			});
+			// sideNewsImgTabs = new Tabs({
+			// 	element: '#sideNewsImgTabs',
+			// 	triggers: '#sideNewsImgTabs .ui-switchable-nav li',
+			// 	panels: '#sideNewsImgTabs .ui-switchable-content .col',
+			// 	activeIndex: 0
+			// });
 
-			sideNewsTextTabs = new Tabs({
-				element: '#sideNewsTextTabs',
-				triggers: '#sideNewsTextTabs .ui-switchable-nav li',
-				panels: '#sideNewsTextTabs .ui-switchable-content .col',
-				activeIndex: 0
-			});
+			// sideNewsTextTabs = new Tabs({
+			// 	element: '#sideNewsTextTabs',
+			// 	triggers: '#sideNewsTextTabs .ui-switchable-nav li',
+			// 	panels: '#sideNewsTextTabs .ui-switchable-content .col',
+			// 	activeIndex: 0
+			// });
 
 			setTimeout(function() {
 				indexNewsTypeTabs.set("activeIndex", 0);
-				sideNewsImgTabs.set("activeIndex", 3);
-				sideNewsTextTabs.set("activeIndex", 2);
+				//sideNewsImgTabs.set("activeIndex", 3);
+				//sideNewsTextTabs.set("activeIndex", 2);
 			}, 3000);
 		});
 
