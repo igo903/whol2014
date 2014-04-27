@@ -63,3 +63,22 @@
 	</li>
 <!--{/loop}-->
 </ul>
+
+<!-- 305 C区横排文字 -->
+
+<ul>
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
+<!-- 307 武汉 -->
+
+<ul>
+<!--{content catid="1" published="1" orderby="published desc" size="10"}-->
+	<li><a href="{$r[url]}" title="{$r[title]}" target="_blank">{str_cut($r[title], 38,'')}</a></li>
+<!--{/content}-->
+</ul>

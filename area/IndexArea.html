@@ -1,0 +1,11 @@
+<!-- 335 图片新闻 -->
+
+<ul class="ui-switchable-content" data-switchable-role="content">
+<!--{loop $data $k $r}-->
+	<li class="ui-switchable-panel"><!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank"><img src=" {thumb($c[thumb],320,225,1,null,0)}" /></a>
+		<p>{$c[title]}</p>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
