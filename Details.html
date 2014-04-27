@@ -271,8 +271,8 @@
 				</div>
 			</div>
 
-			<!--sideNewsTab-->
-			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTab">
+			<!--sideNewsImgTabs-->
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsImgTabs">
 				<ul class="ui-switchable-nav">
 					<h2>热点关注</h2>
 		            <li>活动</li>
@@ -300,8 +300,8 @@
 		        </ul>
 			</div>
 
-			<!--sideNewsListTab-->
-			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsListTab">
+			<!--sideNewsTextTabs-->
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTextTabs">
 				<ul class="ui-switchable-nav">
 					<h2>资讯排行</h2>
 		            <li>日</li>
@@ -480,19 +480,19 @@
 			});
 		});
 
-		//sideNewsTab function
+		//sideNewsImgTabs function
 		seajs.use(['arale/switchable/1.0.2/tabs'], function(Tabs) {
 	        tabs = new Tabs({
-	            element: '#sideNewsTab',
-	            triggers: '#sideNewsTab .ui-switchable-nav li',
-	            panels: '#sideNewsTab .ui-switchable-content .col',
+	            element: '#sideNewsImgTabs',
+	            triggers: '#sideNewsImgTabs .ui-switchable-nav li',
+	            panels: '#sideNewsImgTabs .ui-switchable-content .col',
 	            activeIndex: 0
 	        });
 
 	        tabs = new Tabs({
-	            element: '#sideNewsListTab',
-	            triggers: '#sideNewsListTab .ui-switchable-nav li',
-	            panels: '#sideNewsListTab .ui-switchable-content .col',
+	            element: '#sideNewsTextTabs',
+	            triggers: '#sideNewsTextTabs .ui-switchable-nav li',
+	            panels: '#sideNewsTextTabs .ui-switchable-content .col',
 	            activeIndex: 0
 	        });
 
