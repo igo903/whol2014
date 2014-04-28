@@ -98,27 +98,6 @@
 
 		// seajs.use("./js/main");
 
-		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
-			var slide = new Slide({
-				element: '#slidePicNews',
-				effect: 'scrollx',
-				hasTriggers: false
-				//activeIndex: 1,
-				//interval:2600
-			}).render();
-
-			// 自定义 prev/next
-			$("#slidePicNews #prev").click(function(e) {
-				e.preventDefault();
-				slide.prev();
-			});
-
-			$("#slidePicNews #next").click(function(e) {
-				e.preventDefault();
-				slide.next();
-			});
-		});
-
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
 			new Popup({
 				trigger: '#smartPoint',
@@ -139,86 +118,7 @@
 		    
 		});
 
-		seajs.use(['$'],function($){
-			
-			var flag = false;
-			$('.newsTab h2').hover(function(){
-				var nameId = $(this).attr('name');
-				var currentDiv = $('#'+nameId);
-
-				currentDiv.show();
-				currentDiv.siblings().hide();
-
-				if($(this).hasClass('selected')){
-				} else {
-					$(this).siblings().removeClass('selected');
-					$(this).addClass('selected');
-				}
-			});
-
-			$(".productFloatBtn").click(function(){
-				var state = $(this).data('toggleState');
-
-				if(flag == false){
-					expandto($(this));
-					flag = true;
-				} else {
-					backto($(this));
-					flag = false;
-				}
-				//$(this).data('toggleState', !state);
-			});
-
-			$('#slidePicNews').hover(function(){
-				$('#slidePicNews .move').show();
-			},function(){
-				$('#slidePicNews .move').hide();
-			});
-
-			function backto(el){
-				var extendDiv = el.prev();
-				el.attr('class','productFloatBtn');
-
-				extendDiv.animate({
-					width:0
-				},500,function(){
-					el.parent().css("right","318px");
-				});
-				extendDiv.hide();
-				el.parent().animate({
-					width:15
-				},500,function(){
-
-				});
-
-				extendDiv.show();
-			}
-
-			function expandto(el){
-				var extendDiv = el.prev();
-				el.attr('class','productFloatBtnClicked');
-				extendDiv.show();
-				el.parent().css("right","318px");
-
-				extendDiv.animate({
-					width:339
-				},500,function(){
-					$('#productNav').mouseleave(function(event) {
-						if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
-							backto($('#productFloatBtn'));
-							flag = false;
-							//$('#productFloatBtn').data('toggleState', !state);
-						}
-					});
-				});
-
-				el.parent().animate({
-					width:339 + 15
-				},500,function(){
-
-				});
-			}
-		});
+		
 	</script>
 
 </body>
