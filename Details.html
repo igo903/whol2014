@@ -134,7 +134,15 @@
 				<h2 class="fn-clear">
 					<div class="fn-left "><a href="javascript:;" class="cate">思想报道</a> | <span>热线文化</span><span>2014-04-17 09:23</span><span>|</span> </div>
 
-					<div class="bdsharebuttonbox fn-right"><span class="fn-left">分享到:</span><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+					<div class="fn-right">
+						<div class="bdsharebuttonbox fn-left">
+							<span class="fn-left">分享到:</span><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+
+						<div class="fz-adjust fn-left">字号：
+							<a href="javascript:;" class="small">小</a>
+							<a href="javascript:;" class="large">大</a>
+						</div>
+					</div>
 
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
@@ -478,6 +486,15 @@
 			},function(){
 				$('#slidePicNews .move').hide();
 			});
+
+			$('.large').click(function(){
+				$('.newsArticle p').css("font-size","16px");
+			});
+
+			$('.small').click(function(){
+				$('.newsArticle p').css("font-size","12px");
+			});
+
 		});
 
 		//sideNewsImgTabs function

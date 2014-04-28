@@ -177,7 +177,7 @@
     height: 75px;
     padding: 9px 8px 0 8px;
     line-height: 22px;
-    font-size: 12px;
+    font-size: 13px;
     margin: 0 auto;
     background: #328cc9 url(http://img.wuhan.net.cn/images/2014/navbg.jpg) repeat-x;
     position: relative;
@@ -871,7 +871,7 @@
 .breadcrumb{
     padding-left: 13px;
     margin:0 0 12px 0;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 22px;
     color:#458FCE;
 }
@@ -1211,6 +1211,7 @@
 }
 .newsArticle h2{
     padding: 0 10px;
+    font-size: 13px;
     height: 30px;
     line-height: 30px;
     border-bottom: 1px dotted #dfdfdf;
@@ -1254,7 +1255,8 @@ a.cate{
     text-indent: 2em;
 }
 .newsArticle .bdsharebuttonbox{
-    width: 160px;
+    width: 170px;
+    margin-right: 10px;
 }
 
 
