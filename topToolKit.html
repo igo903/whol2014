@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线2014</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="sea-modules/alice/base/1.0.2/base-debug.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+</head>
+<body>
+
+	<!-- 顶部工具条 -->
+	
+	<div id="topnav" class="mininav">
+		<div class="mininavInner">
+			<div class="fn-left">
+				<i class="fa fa-mobile fa-lg app"></i>
+				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
+				<div id="popupApp" class="fn-hide ui-popup">
+					<div class="fn-left"><img src="i/qrcode.jpg" alt=""></div>
+					<div class="fn-left context">
+						<i class="fa fa-android fa-lg"></i>
+						<span><a href="javascript:;">APP下载</a></span>
+						<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
+					</div>
+				</div>
+				<a href="http://m.wuhan.net.cn">WAP版</a>
+			</div>
+			
+			<div class="fn-right">
+				<span>您好，<span class="user">胡迪</span></span>
+				<a href="javascript:;" class="" id="smartPoint">积分等级</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupPoint" class="fn-hide ui-popup">
+					<li><a href="javascript:;">LV</a></li>
+					<li><a href="javascript:;">金币数</a></li>
+				</ul>
+				<a href="javascript:;" class="" id="mail189">产品中心</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupMail" class="fn-hide ui-popup">
+					<li><a href="javascript:;">189邮箱</a></li>
+					<li><a href="javascript:;">天翼视讯</a></li>
+					<li><a href="javascript:;">网上营业厅</a></li>
+					<li><a href="javascript:;">爱游戏</a></li>
+					<li><a href="javascript:;">爱音乐</a></li>
+					<li><a href="javascript:;">爱动漫</a></li>
+				</ul>
+				<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupSetting" class="fn-hide ui-popup">
+					<li><a href="javascript:;">设置昵称</a></li>
+					<li><a href="javascript:;">更改邮箱</a></li>
+					<li><a href="javascript:;">更改密码</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- LOGO和搜索 -->
+
+	<div class="soso" id="soso">
+		<div class="logo" id="whollogo">
+			<h1><a href="http://www.wuhan.net.cn" class="whlogo"><span class="fn-hide">武汉热线</span></a></h1>
+		</div>
+		<div class="weather fn-right">
+			<span class="fn-right">武汉：晴 2度~16度</span>
+			<div id="searchbar">
+			<div class="search" id="sosobar">
+				<form action="" name="soso_search_box" target="_blank">
+					<div id="searchTxt" class="searchTxt">
+						<input type="text" id="wholSearchTxt">
+					</div>
+				</form>
+			</div>
+			<div class="searchBtn">
+				<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
+				<input type="hidden" name="hidden">
+			</div>
+		</div>
+		</div>	
+	</div>
+
+
+
+	<!-- JavaScript -->
+
+	<!-- SEAJS -->
+
+	<script>
+		seajs.config({
+			// base:"./sea-modules",
+			alias:{
+				"$":"jquery/jquery/1.10.1/jquery.js",
+				"jquery-easing":"jquery/easing/1.3.0/easing.js"
+			}
+		});
+
+		// seajs.use("./js/main");
+
+		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
+			var slide = new Slide({
+				element: '#slidePicNews',
+				effect: 'scrollx',
+				hasTriggers: false
+				//activeIndex: 1,
+				//interval:2600
+			}).render();
+
+			// 自定义 prev/next
+			$("#slidePicNews #prev").click(function(e) {
+				e.preventDefault();
+				slide.prev();
+			});
+
+			$("#slidePicNews #next").click(function(e) {
+				e.preventDefault();
+				slide.next();
+			});
+		});
+
+		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
+			new Popup({
+				trigger: '#smartPoint',
+				element: '#popupPoint'
+			});
+			new Popup({
+				trigger: '#mail189',
+				element: '#popupMail'
+			});
+			new Popup({
+				trigger: '#personalSetting',
+				element: '#popupSetting'
+			});
+			new Popup({
+				trigger: '#wholApp',
+				element: '#popupApp'
+			});
+		    
+		});
+
+		seajs.use(['$'],function($){
+			
+			var flag = false;
+			$('.newsTab h2').hover(function(){
+				var nameId = $(this).attr('name');
+				var currentDiv = $('#'+nameId);
+
+				currentDiv.show();
+				currentDiv.siblings().hide();
+
+				if($(this).hasClass('selected')){
+				} else {
+					$(this).siblings().removeClass('selected');
+					$(this).addClass('selected');
+				}
+			});
+
+			$(".productFloatBtn").click(function(){
+				var state = $(this).data('toggleState');
+
+				if(flag == false){
+					expandto($(this));
+					flag = true;
+				} else {
+					backto($(this));
+					flag = false;
+				}
+				//$(this).data('toggleState', !state);
+			});
+
+			$('#slidePicNews').hover(function(){
+				$('#slidePicNews .move').show();
+			},function(){
+				$('#slidePicNews .move').hide();
+			});
+
+			function backto(el){
+				var extendDiv = el.prev();
+				el.attr('class','productFloatBtn');
+
+				extendDiv.animate({
+					width:0
+				},500,function(){
+					el.parent().css("right","318px");
+				});
+				extendDiv.hide();
+				el.parent().animate({
+					width:15
+				},500,function(){
+
+				});
+
+				extendDiv.show();
+			}
+
+			function expandto(el){
+				var extendDiv = el.prev();
+				el.attr('class','productFloatBtnClicked');
+				extendDiv.show();
+				el.parent().css("right","318px");
+
+				extendDiv.animate({
+					width:339
+				},500,function(){
+					$('#productNav').mouseleave(function(event) {
+						if($('#productFloatBtn').hasClass('productFloatBtnClicked')){
+							backto($('#productFloatBtn'));
+							flag = false;
+							//$('#productFloatBtn').data('toggleState', !state);
+						}
+					});
+				});
+
+				el.parent().animate({
+					width:339 + 15
+				},500,function(){
+
+				});
+			}
+		});
+	</script>
+
+</body>
+</html>
