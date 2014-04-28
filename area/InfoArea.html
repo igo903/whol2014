@@ -3,7 +3,7 @@
 <ul>
 <!--{loop $data $k $r}-->
 	<li><!--{loop $r $i $c}-->
-		<a class="linkto" href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<a class="linkto" href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
 		<!--{/loop}-->
 	</li>
 <!--{/loop}-->
@@ -36,7 +36,7 @@
 <ul>
 <!--{loop $data $k $r}-->
 	<li><!--{loop $r $i $c}-->
-		<a class="linkto" href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<a class="linkto" href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
 		<!--{/loop}-->
 	</li>
 <!--{/loop}-->
@@ -58,7 +58,7 @@
 <ul class="sub">
 <!--{loop $data $k $r}-->
 	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
 		<!--{/loop}-->
 	</li>
 <!--{/loop}-->
@@ -69,7 +69,7 @@
 <ul>
 <!--{loop $data $k $r}-->
 	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
 		<!--{/loop}-->
 	</li>
 <!--{/loop}-->
@@ -77,10 +77,10 @@
 
 <!-- 307 武汉 -->
 
-<!-- 1523 1525 1527 1529 1531 1535 1539 1541 -->
+<!-- 14 4 5 6 20 17 19 21 -->
 
 <ul>
-<!--{content catid="1523" orderby="published desc" size="10"}-->
+<!--{content catid="14" orderby="published desc" size="10"}-->
 	<li class="nrC">
 		<!--{if $r[thumb]}-->
 		<a target="_blank" class="nrPic" href="{$r[url]}"><img style="width:110px; height:85px;" src="{UPLOAD_URL}{$r[thumb]}" alt=" "></a>
