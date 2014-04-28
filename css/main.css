@@ -191,6 +191,7 @@
     margin: 0px 0px 0px 25px;
     padding: 0;
     overflow: hidden;
+    font-size: 12px;
 }
 .shortnav .navInner{
     height: 30px;
