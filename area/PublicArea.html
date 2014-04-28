@@ -100,19 +100,20 @@
 	</div>
 	<div class="weather fn-right">
 		<span class="fn-right">武汉：晴 2度~16度</span>
-		<div id="searchbar">
-			<div class="search" id="sosobar">
-				<form action="" name="soso_search_box" target="_blank">
-					<div id="searchTxt" class="searchTxt">
-						<input type="text" id="wholSearchTxt">
+			<form action="http://zhannei.baidu.com/cse/search" name="soso_search_box" target="_blank">
+				<div id="searchbar">
+					<div class="search" id="sosobar">
+							<div id="searchTxt" class="searchTxt">
+								<input name="s" type="hidden" value="2404017583689523899">
+								<input type="text"  name="q"  size="30" id="wholSearchTxt">
+							</div>
 					</div>
-				</form>
-			</div>
-			<div class="searchBtn">
-				<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
-				<input type="hidden" name="hidden">
-			</div>
-		</div>
+					<div class="searchBtn">
+						<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
+						<input type="hidden" name="hidden">
+					</div>
+				</div>
+			</form>
 	</div>	
 </div>
 
@@ -123,17 +124,18 @@
 		<h1><a href="http://www.wuhan.net.cn" class="whlogo" target="_blank"><span class="fn-hide">武汉热线</span></a></h1>
 	</div>
 	<div class="fn-right" id="searchbar">
-		<div class="search" id="sosobar">
-			<form action="" name="soso_search_box" target="_blank">
-				<div id="searchTxt" class="searchTxt">
-					<input type="text" id="wholSearchTxt">
-				</div>
-			</form>
-		</div>
-		<div class="searchBtn">
-			<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
-			<input type="hidden" name="hidden">
-		</div>
+		<form action="http://zhannei.baidu.com/cse/search" name="soso_search_box" target="_blank">
+			<div class="search" id="sosobar">
+					<div id="searchTxt" class="searchTxt">
+						<input name="s" type="hidden" value="2404017583689523899">
+						<input type="text"  name="q"  size="30" id="wholSearchTxt">
+					</div>
+			</div>
+			<div class="searchBtn">
+				<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
+				<input type="hidden" name="hidden">
+			</div>
+		</form>
 	</div>
 </div>
 
