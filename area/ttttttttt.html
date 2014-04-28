@@ -1,0 +1,14 @@
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1);
+?>
+
+
+{loop $_data1 $i $r}
+<h1 class="ta_center"><a class="f18 cor_yred" href="{$r[url]}">{$r[title]}</a></h1>
+{/loop}
+<div style="text-align:center">
+{loop $_data2 $i $r}
+<a class="cor_huise" href="{$r[url]}">[{$r[title]}]</a>
+{/loop}
+</div>
