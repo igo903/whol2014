@@ -1244,7 +1244,7 @@ a.cate{
 }
 .newsArticle p{
     margin-bottom: 29px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     width: 640px;
     padding-left: 10px;
@@ -1257,6 +1257,9 @@ a.cate{
 .newsArticle .bdsharebuttonbox{
     width: 170px;
     margin-right: 10px;
+}
+.newsArticle .large{
+    font-size: 16px;
 }
 
 
@@ -1396,7 +1399,7 @@ a.cate{
 .city .adtxt a{
     color: red;
 }
-.city{
+.city, .sms{
     font-size: 14px;
     margin: 0 10px 12px 10px;
     padding: 10px 0;
@@ -1404,7 +1407,16 @@ a.cate{
     font-weight: bold;
     color: #004276;
     line-height: 22px;
-
+}
+.sms{
+    padding: 10px;
+    background: #dfdfdf;
+    color: #666;
+}
+.sms .subscribe{
+    border: 0;
+    width: 50px;
+    height: 25px;
 }
 .city .qrcode{
     margin-right: 50px;
