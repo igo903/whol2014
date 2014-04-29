@@ -8,6 +8,17 @@
 
 <title>{$title} 武汉热线2014</title>
 
+<!-- CMS TOP 统计代码 -->
+
+<script type="text/javascript">
+digg.get(contentid);
+$(function(){
+	$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){
+		$('#pv').html(data.pv);
+	});
+	}
+</script>
+
 <!-- 247 首页顶部工具栏 -->
 
 <div id="topnav" class="mininav">
