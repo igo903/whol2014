@@ -1,0 +1,38 @@
+<ul>
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
+
+
+
+
+
+<div class="pic_text pb5 mb5">
+				<div class="pic">
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1,1);
+$_data3 = array_slice($data, 2);
+
+?>
+{loop $_data1 $i $r}
+					<a href="{$r[url]}"><img src="{thumb($r[thumb],110,90,1,null,1)}" width="110" height="90" alt="{$r[title]}" /></a><a href="{$r[url]}">{$r[title]}</a>
+{/loop}
+				</div>
+				<div class="text">
+{loop $_data2 $i $r}
+	<h6 class="ta_center lh24"><a class="f14" href="{$r[url]}">{$r[title]}</a></h6>
+{/loop}
+					<ul class="ul_list_lh22">
+{loop $_data3 $i $r}
+						<li><a href="{$r[url]}">{$r[title]}</a></li>
+{/loop}
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>

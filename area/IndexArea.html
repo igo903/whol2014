@@ -21,25 +21,26 @@
 <!--{/loop}-->
 </ul>
 
-<!-- 357 新闻列表A -->
+<!-- 357 资讯中心A 359 资讯中心B-->
 
 <ul>
 <!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank" <!--{if $k=1}-->class="headline"<!--{/if}--> <!--{if $k=2}-->class="headline"<!--{/if}--> <!--{if $c[color]}-->style="color:{$c[color]};"<!--{/if}-->>{$c[title]}</a>
-		<!--{/loop}-->
+	{if $k==0}
+	<li class="headline">
+	{/if}
+	{if $k==1}
+	<li class="sub">
+	{/if}
+	{if $k>=2}
+	<li>
+	{/if}
+<!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank" <!--{if $c[color]}--> style="color:{$c[color]};" <!--{/if}--> >{$c[title]}</a>
+<!--{/loop}-->
 	</li>
 <!--{/loop}-->
 </ul>
 
-<ul>
-<!--{loop $data $k $r}-->
-	<li <!--{if $i=1}-->class="headline"<!--{/if}--> <!--{if $i=2}-->class="sub"<!--{/if}-->><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank" <!--{if $c[color]}-->style="color:{$c[color]};"<!--{/if}-->>{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
 
 
 
@@ -49,11 +50,7 @@
 
 
 
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank">{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+
+
+
+
