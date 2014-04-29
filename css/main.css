@@ -619,6 +619,19 @@
 }
 .zhuanti .pic{
     padding-top: 5px;
+    position: relative;
+}
+.zhuanti .pic .title{
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    width: 140px;
+    overflow: hidden;
 }
 .appicons{
     padding: 15px 0 11px 10px;
@@ -1178,7 +1191,7 @@
 }
 
 #sideNewsImgTabs .ui-switchable-nav li,#sideNewsTextTabs .ui-switchable-nav li {
-    float: right;
+    float: left;
     height: 30px;
     line-height: 30px;
     width: 40px;
@@ -1192,6 +1205,10 @@
     height: 30px;
     line-height: 30px;
     padding:0;
+    margin-right: 64px;
+}
+#sideNewsTextTabs .ui-switchable-nav h2 {
+    margin-right: 109px;
 }
 #sideNewsImgTabs .ui-switchable-nav li a:hover,#sideNewsTextTabs .ui-switchable-nav li a:hover{
     text-decoration: none;
