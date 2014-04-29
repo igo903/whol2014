@@ -37,6 +37,7 @@
 .desc {cursor: pointer;}
 .txtcenter{text-align: center;}
 .divide {font-style: normal;color: #CCC;}
+.error{color:red;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
