@@ -1,68 +1,67 @@
-<!-- 287 头条新闻 -->
+<!-- 287 资讯主区 -->
 
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
+<div class="hdNews fn-clear" id="theOne">
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 1);
+$_data3 = array_slice($data, 2);
+?>
+
+	<h2 bosszone="focusnews1">
+		{loop $_data2 $k $r}
+		{loop $r $i $c}
 		<a class="linkto" href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+		{/loop}
+		{/loop}
+	</h2>
 
-<!-- 289 头条图片 -->
-
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
+	<div class="commonArea">
+		{loop $_data1 $k $r}
+		{loop $r $i $c}
 		<a class="pic" bosszone="focusnews" href="{$c[url]}" target="_blank"><img class="picto" src=" {thumb($c[thumb],240,130,1,null,0)}" /></a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+		{/loop}
+		{/loop}
+		<ul class="fn-left">
+			{loop $_data3 $k $r}
+			<li>{loop $r $i $c}<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>{/loop}</li>
+			{/loop}
+		</ul>
+			
+	</div>
+</div>
 
-<!-- 291 头条列表 -->
+<!-- 293 资讯A区 299 资讯B区-->
 
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+<div class="hdNews hasPic fn-clear" >
 
-<!-- 293 A区头条 299 B区头条-->
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 1);
+$_data3 = array_slice($data, 2);
+?>
 
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
+	{loop $_data1 $k $r}
+	{loop $r $i $c}
+	<a class="pic" href="{$c[url]}" target="_blank"><img class="picto" src=" {thumb($c[thumb],120,88,1,null,0)}" /></a>
+	{/loop}
+	{/loop}
+					
+	<h2 class="">
+		{loop $_data2 $k $r}
+		{loop $r $i $c}
 		<a class="linkto" href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+		{/loop}
+		{/loop}
+	</h2>
 
-<!-- 295 A区图片 301 B区图片-->
-
-<ul>
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
-		<a class="pic" href="{$c[url]}" target="_blank"><img class="picto" src=" {thumb($c[thumb],120,88,1,null,0)}" /></a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
-
-<!-- 297 A区列表 303 B区列表-->
-
-<ul class="sub">
-<!--{loop $data $k $r}-->
-	<li><!--{loop $r $i $c}-->
-		<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
-		<!--{/loop}-->
-	</li>
-<!--{/loop}-->
-</ul>
+	<ul class="sub">
+		{loop $_data3 $k $r}
+		<li>{loop $r $i $c}<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>{/loop}</li>
+		{/loop}
+	</ul>
+					
+</div>
 
 <!-- 305 C区横排文字 -->
 
@@ -91,32 +90,3 @@
 	</li>
 <!--{/content}-->
 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

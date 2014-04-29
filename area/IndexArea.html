@@ -41,6 +41,109 @@
 <!--{/loop}-->
 </ul>
 
+<!-- 363 媒体聚焦 -->
+
+<div class="zhuanti fn-clear">
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 4);
+$_data3 = array_slice($data, 5, 6);
+?>
+
+	<div class="pic fn-left">
+		{loop $_data1 $k $r}
+		{loop $r $i $c}
+		<a class="pic" href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],150,95,1,null,0)}" /></a>
+		<a href="{$c[url]}" class="title" target="_blank">{$c[title]}</a>
+		{/loop}
+		{/loop}
+	</div>
+
+	<ul class="ft fn-right">
+	{loop $_data2 $k $r}	
+		<li>{loop $r $i $c}<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>{/loop}</li>
+	{/loop}	
+	</ul>
+
+</div>
+
+<div class="zhuantiSub fn-clear">
+
+	<ul class="ft">
+	{loop $_data3 $k $r}	
+		<li>{loop $r $i $c}<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>{/loop}</li>
+	{/loop}
+	</ul>
+
+</div>
+
+<!-- 365 智慧城市 -->
+
+<?php
+$_data1 = array_slice($data, 0, 3);
+$_data2 = array_slice($data, 3, 1);
+$_data3 = array_slice($data, 4, 4);
+?>
+
+<p class="headline">
+	{loop $_data2 $k $r}
+	{loop $r $i $c}
+	<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+	{/loop}
+	{/loop}
+</p>
+
+<div class="appicons fn-clear">
+	{loop $_data1 $k $r}
+	{loop $r $i $c}
+	<a href="{$c[url]}"><img src="{thumb($c[thumb],80,80,1,null,0)}" alt="{$c[title]}"><p>{$c[title]}</p></a>
+	{/loop}
+	{/loop}
+</div>
+
+<ul class="ft">
+	{loop $_data3 $k $r}
+	<li>{loop $r $i $c}<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>{/loop}</li>
+	{/loop}
+</ul>
+
+<!-- 369 房产 371 家居 373 交通 379 生活 381 娱乐 383 婚嫁 385 亲子 -->
+
+<div class="zhuanti fn-clear">
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 4);
+$_data3 = array_slice($data, 5, 6);
+?>
+
+	<div class="pic fn-left">
+		{loop $_data1 $k $r}
+		{loop $r $i $c}
+		<a class="pic" href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],150,95,1,null,0)}" /></a>
+		<a href="{$c[url]}" class="title" target="_blank">{$c[title]}</a>
+		{/loop}
+		{/loop}
+	</div>
+
+	<ul class="ft fn-right">
+	{loop $_data2 $k $r}	
+		<li>{loop $r $i $c}<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>{/loop}</li>
+	{/loop}	
+	</ul>
+
+
+	<ul class="ft sub">
+	{loop $_data3 $k $r}	
+		<li>{loop $r $i $c}<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>{/loop}</li>
+	{/loop}
+	</ul>
+
+</div>
+
+
+
 
 
 

@@ -1,0 +1,109 @@
+<!-- 387 热线智选 -->
+
+<ul class="ft">
+<!--{loop $data $k $r}-->
+	<li><!--{loop $r $i $c}-->
+		<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		<!--{/loop}-->
+	</li>
+<!--{/loop}-->
+</ul>
+
+<!-- 389 电信业务 -->
+
+<div class="rightProduct mt12" id="productNav">
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 1);
+$_data3 = array_slice($data, 2, 1);
+$_data4 = array_slice($data, 3, 1);
+$_data5 = array_slice($data, 4, 1);
+$_data6 = array_slice($data, 5, 1);
+$_data7 = array_slice($data, 6, 1);
+$_data8 = array_slice($data, 7, 1);
+$_data9 = array_slice($data, 8, 1);
+$_data10 = array_slice($data, 9, 1);
+?>
+
+	<!-- 显示区域 -->
+
+	<div class="productLine01">
+		{loop $_data1 $k $r}{loop $r $i $c}
+		<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}{/loop}
+	</div>
+	<div class="productLine02">
+		{loop $_data3 $k $r}{loop $r $i $c}
+		<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}{/loop}
+	</div>
+	<div class="productLine03">
+		{loop $_data5 $k $r}{loop $r $i $c}
+		<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}{/loop}
+	</div>
+	<div class="productLine04">
+		{loop $_data7 $k $r}{loop $r $i $c}
+		<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}{/loop}
+	</div>
+	<div class="productLine05">
+		{loop $_data9 $k $r}{loop $r $i $c}
+		<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}{/loop}
+	</div>
+
+	<!-- 隐藏区域 -->
+
+	<div class="productFloatLayout" id="productFloatLayout">
+		<div class="productFloat" id="productFloat">
+
+			<div class="productLine01">
+				{loop $_data2 $k $r}{loop $r $i $c}
+				<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+				{/loop}{/loop}
+			</div>
+			<div class="productLine02">
+				{loop $_data4 $k $r}{loop $r $i $c}
+				<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+				{/loop}{/loop}
+			</div>
+			<div class="productLine03">
+				{loop $_data6 $k $r}{loop $r $i $c}
+				<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+				{/loop}{/loop}
+			</div>
+			<div class="productLine04">
+				{loop $_data8 $k $r}{loop $r $i $c}
+				<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+				{/loop}{/loop}
+			</div>
+			<div class="productLine05">
+				{loop $_data10 $k $r}{loop $r $i $c}
+				<a href="{$c[url]}" class="qq" id="qqProduct" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+				{/loop}{/loop}
+			</div>
+
+		</div>
+		<div class="productFloatBtn" id="productFloatBtn"></div>
+	</div>
+</div>
+
+<!-- 391 微博按钮 -->
+
+<div class="weibos mt12 fn-clear">
+	<a href="javascript:;" class="fn-left"><img src="http://img.wuhan.net.cn/images/2014/wb_sc.jpg" alt=""></a>
+	<a href="javascript:;" class="fn-right"><img src="http://img.wuhan.net.cn/images/2014/wb_ol.jpg" alt=""></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
