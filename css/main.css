@@ -66,6 +66,44 @@
     margin: 0 auto;
     line-height: 28px;
     color: #666;
+    position:relative;
+}
+.mininavInner .dropdowns{
+    position:relative;
+}
+.mininavInner .loginform{
+    position:absolute;
+}
+.mininavInner #popupLogin{
+    width:160px;
+    padding:10px 10px 0 10px;
+}
+.mininavInner #popupLogin .form{
+    border: 1px solid #D3D3D3;
+    width: 100px;
+    padding:0 5px;
+    float: right;
+}
+.mininavInner #popupLogin .btn{
+    width: 112px;
+    height:25px;
+    margin-left: 15px;
+    text-align: center;
+    background-color:#328CC9;
+    color: #fff;
+    border:none;
+    margin-bottom: 10px;
+}
+.mininavInner #popupLogin li{
+    margin-bottom: 5px;
+    clear:both;
+}
+.mininavInner .form{
+    width: 110px;
+    height: 20px;
+    line-height: 20px;
+    display:inline-block;
+    
 }
 .mininavInner a{
     margin-left: 15px;

@@ -28,8 +28,26 @@
 				<a href="http://m.wuhan.net.cn">WAP版</a>
 			</div>
 			
-			<div class="fn-right">
-				<span>您好，<span class="user">胡迪</span></span>
+			<div class="fn-right dropdowns">
+				<!-- <span>您好，<span class="user">胡迪</span></span> -->
+				
+					<a href="javascript:;" id="loginWhol">登录热线</a>
+					<i class="fa fa-angle-down" id="rm"></i>
+				
+				<form method="post" action="signin.php" class="loginform">
+					
+						<ul id="popupLogin" class=" ui-popup fn-clear">
+
+							<li ><label class="fn-left">用户名</label><input type="text" name="username" id="login" class="form"></li>
+							<li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form"></li>
+							<li><input type="submit" value="登录" class="btn fn-right"></li>
+						</ul>
+
+				</form>
+
+
+
+
 				<a href="javascript:;" class="" id="smartPoint">积分等级</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupPoint" class="fn-hide ui-popup">
@@ -929,6 +947,10 @@
 			new Popup({
 				trigger: '#wholApp',
 				element: '#popupApp'
+			});
+			new Popup({
+				trigger: '#loginWhol',
+				element: '#popupLogin'
 			});
 		    
 		});
