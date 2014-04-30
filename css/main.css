@@ -1451,8 +1451,8 @@ a.cate{
     margin-right: 5px;
 }
 .city .adtxt{
-    width: 340px;
-    margin-left: 50px;
+    width: 360px;
+    margin-left: 30px;
 }
 .city .adtxt a{
     color: red;
@@ -1462,7 +1462,7 @@ a.cate{
     margin: 0 10px 12px 10px;
     padding: 10px 0;
     background: #F7F8FC;
-    font-weight: bold;
+
     color: #004276;
     line-height: 22px;
 }
@@ -1481,6 +1481,7 @@ a.cate{
     margin-top: 15px;
 }
 .city h1{
+    font-weight: bold;
     color: red;
 }
 
