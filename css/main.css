@@ -465,7 +465,8 @@
 #wholweibo .contents{
     padding: 10px 10px 10px 12px;
     height: 235px;
-    font-size: 14px; 
+    font-size: 14px;
+    overflow: hidden; 
 }
 #mediafocus .contents{
     padding: 10px 10px 5px 12px;
