@@ -932,7 +932,6 @@
 		});
 
 		// seajs.use("./js/main");
-
 		seajs.use(['arale/switchable/1.0.2/slide', '$'], function(Slide, $) {
 			var slide = new Slide({
 				element: '#slidePicNews',
@@ -942,7 +941,7 @@
 				//interval:2600
 			}).render();
 
-			// 自定义 prev/next
+			// prev/next
 			$("#slidePicNews #prev").click(function(e) {
 				e.preventDefault();
 				slide.prev();
@@ -954,6 +953,7 @@
 			});
 		});
 
+		// Popup
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
 			new Popup({
 				trigger: '#smartPoint',
@@ -975,11 +975,10 @@
 				trigger: '#loginWhol',
 				element: '#popupLogin'
 			});
-		    
 		});
 
+		// LoginWHOL
 		seajs.use(['$'],function($){
-			
 			var flag = false;
 			$('.newsTab h2').hover(function(){
 				var nameId = $(this).attr('name');
@@ -1048,11 +1047,6 @@
 				}); 
 			}
 
-
-			//<span class="user">胡迪</span>
-
-
-
 			function backto(el){
 				var extendDiv = el.prev();
 				el.attr('class','productFloatBtn');
@@ -1097,6 +1091,10 @@
 				});
 			}
 		});
+
+			// stat
+			$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});
+
 	</script>
 
 </body>

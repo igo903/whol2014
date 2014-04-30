@@ -10,14 +10,8 @@
 
 <!-- CMS TOP 统计代码 -->
 
-<script type="text/javascript">
-digg.get(contentid);
-$(function(){
-	$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){
-		$('#pv').html(data.pv);
-	});
-	}
-</script>
+<head><script type="text/javascript">var contentid = {$contentid};</script><head>
+<script>$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});</script>
 
 <!-- 247 首页顶部工具栏 -->
 
@@ -36,8 +30,20 @@ $(function(){
 			</div><a href="http://m.wuhan.net.cn">WAP版</a>
 		</div>
 			
-		<div class="fn-right">
-			<span>您好，<span class="user">胡迪</span></span>
+		<div class="fn-right dropdowns">
+			<span class="user fn-hide">用户</span>
+			<a href="javascript:;" id="loginWhol">登录智慧城市</a>
+			<i class="fa fa-angle-down" id="rm"></i>
+
+			<form method="post" action="" class="loginform">
+				<ul id="popupLogin" class="fn-hide ui-popup fn-clear">
+					<li ><label class="fn-left">用户名</label><input type="text" name="username" id="username" class="form"></li>
+					<li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form"></li>
+					<li><input type="button" value="登录" class="btn fn-right"></li>
+					<li class="error fn-hide">* 用户名或密码错误</li>
+				</ul>
+			</form>
+
 			<a href="javascript:;" class="" id="smartPoint">积分等级</a>
 			<i class="fa fa-angle-down"></i>
 			<ul id="popupPoint" class="fn-hide ui-popup">
