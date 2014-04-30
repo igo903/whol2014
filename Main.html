@@ -34,12 +34,12 @@
 					<a href="javascript:;" id="loginWhol">登录热线</a>
 					<i class="fa fa-angle-down" id="rm"></i>
 
-					<form method="post" action="signin.php" class="loginform">
+					<form method="post" action="" class="loginform">
 						<ul id="popupLogin" class="fn-hide ui-popup fn-clear">
 							<li ><label class="fn-left">用户名</label><input type="text" name="username" id="username" class="form"></li>
 							<li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form"></li>
-							<li><input type="submit" value="登录" class="btn fn-right"></li>
-							<li class="error fn-hide">* 用户名密码错误</li>
+							<li><input type="button" value="登录" class="btn fn-right"></li>
+							<li class="error fn-hide">* 用户名或密码错误</li>
 						</ul>
 					</form>
 
@@ -49,8 +49,8 @@
 				<a href="javascript:;" class="" id="smartPoint">积分等级</a>
 				<i class="fa fa-angle-down"></i>
 				<ul id="popupPoint" class="fn-hide ui-popup">
-					<li><a href="javascript:;">LV</a></li>
-					<li><a href="javascript:;">金币数</a></li>
+					<li><a href="javascript:;" id="level">LV</a></li>
+					<li><a href="javascript:;" id="currency">智慧币</a></li>
 				</ul>
 				<a href="javascript:;" class="" id="mail189">产品中心</a>
 				<i class="fa fa-angle-down"></i>
@@ -1013,15 +1013,24 @@
 
 				$.ajax({  
 					type: "post",  
-					url : "login.php",  
+					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
 					dataType:'json',
 					data: 'username='+username+'&password='+password, 
 					success: function(json){
-						if(json == 'true'){
-							$('.user').removeClass('fn-hide');
-							$('#loginWhol').hide();
-							$('.user').html("您好，" + json.username); 
-						} else {
+						if(json.returnCode==1){
+							
+								$('.user').removeClass('fn-hide');
+								$('#loginWhol').hide();
+								if (json.returnData.nick !='') {
+									$('.user').html("您好，" + json.returnData.nick); 
+								}else{
+									$('.user').html("您好，" + json.returnData.username); 
+								}
+								
+								$('#level').html("等级："+json.returnData.achievement.level_info.level);
+								$('#currency').html("智慧币：" + json.returnData.achievement.currency);
+							
+						}else {
 							$('.error').removeClass('fn-hide');
 						}
 					}
