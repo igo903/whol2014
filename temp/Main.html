@@ -328,7 +328,7 @@
 		});
 
 		// Popup
-		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
+		seajs.use(['arale/popup/1.1.6/popup','$'], function(Popup){
 			new Popup({
 				trigger: '#smartPoint',
 				element: '#popupPoint'
@@ -349,6 +349,10 @@
 				trigger: '#loginWhol',
 				element: '#popupLogin'
 			});
+
+			// stat
+			$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});
+			
 		});
 
 		// LoginWHOL
@@ -465,9 +469,8 @@
 				});
 			}
 
-			// stat
-			$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});
 			
+
 		});
 
 			
