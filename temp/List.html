@@ -129,7 +129,7 @@
 		});
 
 		// seajs.use("./js/main");
-		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
+		seajs.use(['arale/popup/1.1.6/popup','$'], function(Popup, $){
 		    new Popup({
 				trigger: '#smartPoint',
 				element: '#popupPoint'
@@ -142,6 +142,10 @@
 				trigger: '#personalSetting',
 				element: '#popupSetting'
 			});
+
+			// stat
+			$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});
+
 		});
 
 		// Tabs
@@ -167,8 +171,6 @@
 			}, 3000);
 		});
 
-		// stat
-		$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){});
 
 	</script>
 
