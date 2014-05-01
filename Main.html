@@ -1023,8 +1023,9 @@
 
 				$.ajax({  
 					type: "post",  
-					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
-					dataType:'json',
+					url : "http://127.0.0.1/video/index.php/User/Index/login",
+					dataType:'jsonp',
+					jsonp:'callback',
 					data: 'username='+username+'&password='+password, 
 					success: function(json){
 						if(json.returnCode==1){
