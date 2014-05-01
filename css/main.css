@@ -1263,10 +1263,14 @@
     position: relative;
 }
 .newsArticle h1{
-    font-size: 26px;
+    font-size: 24px;
     padding-bottom: 16px;
-    padding-top: 35px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight: bold;
     text-align: center;
+
 }
 .newsArticle h2{
     padding: 0 10px;
