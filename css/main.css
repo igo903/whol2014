@@ -135,7 +135,9 @@
 #popupApp .context{
     width: 150px;
 }
-#popupMail{width: 60px;}
+#popupMail{width: 60px; top: 28px !important;}
+#popupLogin{top: 0px !important;}
+#popupsignOut, #popupPoint, #popupSetting{top: 28px !important;}
 .soso {
     width: 1000px;
     height: 62px;
