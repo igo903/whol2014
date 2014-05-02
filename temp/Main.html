@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Access-Control-Allow-Origin" content="http://115.29.207.162/">
 	<title>武汉热线</title>
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/main.css">
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css">
@@ -401,7 +400,8 @@
 				$.ajax({  
 					type: "post",  
 					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
-					dataType:'json',
+					dataType:'jsonp',
+					jsonp:'callback',
 					data: 'username='+username+'&password='+password, 
 					success: function(json){
 						if(json.returnCode==1){
