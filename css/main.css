@@ -34,7 +34,7 @@
 .mt40{margin-top: 40px;}
 .mt100{margin-top: 100px !important;}
 .mt200{margin-top: 200px !important;}
-.hidden{display: none !important;}
+.hidden{display: none;}
 .desc {cursor: pointer;}
 .txtcenter{text-align: center;}
 .divide {font-style: normal;color: #CCC;}
