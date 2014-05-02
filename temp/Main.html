@@ -351,6 +351,11 @@
 				trigger: '#loginWhol',
 				element: '#popupLogin'
 			});
+			new Popup({
+				trigger: '#signOut',
+				element: '#popupsignOut'
+			});
+
 		});
 
 		// LoginWHOL
@@ -407,6 +412,7 @@
 						if(json.returnCode==1){
 							
 								$('.user').removeClass('fn-hide');
+								$('.topfunc').removeClass('hidden');
 								$('#loginWhol').hide();
 								if (json.returnData.nick !='') {
 									$('.user').html("您好，" + json.returnData.nick); 
