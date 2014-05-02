@@ -35,7 +35,10 @@
 			<div class="fn-right dropdowns">
 					
 				<div class="fn-left">
-					<span class="user fn-hide">胡迪</span>
+					<span class="user fn-hide" id="signOut">胡迪</span>
+					<ul id="popupsignOut" class="fn-hide ui-popup">
+						<li><a href="javascript:;">退出</a></li>
+					</ul>
 				
 					<a href="javascript:;" id="loginWhol">登录热线</a>
 					<i class="fa fa-angle-down" id="rm"></i>
@@ -48,6 +51,18 @@
 							<li class="error fn-hide">* 用户名或密码错误</li>
 						</ul>
 					</form>
+
+					<a href="javascript:;" class="" id="mail189">产品中心</a>
+					<i class="fa fa-angle-down"></i>
+					<ul id="popupMail" class="fn-hide ui-popup">
+						<li><a href="javascript:;">189邮箱</a></li>
+						<li><a href="javascript:;">天翼视讯</a></li>
+						<li><a href="javascript:;">网上营业厅</a></li>
+						<li><a href="javascript:;">爱游戏</a></li>
+						<li><a href="javascript:;">爱音乐</a></li>
+						<li><a href="javascript:;">爱动漫</a></li>
+					</ul>
+
 				</div>
 
 
@@ -60,16 +75,7 @@
 						<li><a href="javascript:;" id="level">LV</a></li>
 						<li><a href="javascript:;" id="currency">智慧币</a></li>
 					</ul>
-					<a href="javascript:;" class="" id="mail189">产品中心</a>
-					<i class="fa fa-angle-down"></i>
-					<ul id="popupMail" class="fn-hide ui-popup">
-						<li><a href="javascript:;">189邮箱</a></li>
-						<li><a href="javascript:;">天翼视讯</a></li>
-						<li><a href="javascript:;">网上营业厅</a></li>
-						<li><a href="javascript:;">爱游戏</a></li>
-						<li><a href="javascript:;">爱音乐</a></li>
-						<li><a href="javascript:;">爱动漫</a></li>
-					</ul>
+
 					<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
 					<i class="fa fa-angle-down"></i>
 					<ul id="popupSetting" class="fn-hide ui-popup">
@@ -985,6 +991,12 @@
 				trigger: '#loginWhol',
 				element: '#popupLogin'
 			});
+			new Popup({
+				trigger: '#signOut',
+				element: '#popupsignOut'
+			});
+
+
 		});
 
 		// LoginWHOL
