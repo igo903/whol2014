@@ -28,7 +28,7 @@
 					<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
 				</div>
 			</div>
-			<a href="http://m.wuhan.net.cn">WAP版</a>
+			<a href="http://115.29.207.162/whol2014/MoMain.html">WAP版</a>
 		</div>
 		
 		<div class="fn-right dropdowns">		
@@ -96,31 +96,48 @@
 			<a href="http://www.wuhan.net.cn/2014/dx/0421/" target="_blank">智慧城市</a>
 		</div>
 
-		<div class="fn-right">
-			<span>您好，<span class="user">游客</span></span>
-			<a href="javascript:;" class="" id="smartPoint">积分等级</a>
-			<i class="fa fa-angle-down"></i>
-			<ul id="popupPoint" class="fn-hide ui-popup">
-				<li><a href="javascript:;">LV</a></li>
-				<li><a href="javascript:;">金币数</a></li>
-			</ul>
-			<a href="javascript:;" class="" id="mail189">产品中心</a>
-			<i class="fa fa-angle-down"></i>
-			<ul id="popupMail" class="fn-hide ui-popup">
-				<li><a href="http://mail.189.cn/" target="_blank">189邮箱</a></li>
-				<li><a href="http://www.tv189.com/" target="_blank">天翼视讯</a></li>
-				<li><a href="http://hb.189.cn/" target="_blank">网上营业厅</a></li>
-				<li><a href="http://game.189.cn/" target="_blank">爱游戏</a></li>
-				<li><a href="http://www.118100.cn/" target="_blank">爱音乐</a></li>
-				<li><a href="http://dm.189.cn/" target="_blank">爱动漫</a></li>
-			</ul>
-			<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
-			<i class="fa fa-angle-down"></i>
-			<ul id="popupSetting" class="fn-hide ui-popup">
-				<li><a href="javascript:;">设置昵称</a></li>
-				<li><a href="javascript:;">更改邮箱</a></li>
-				<li><a href="javascript:;">更改密码</a></li>
-			</ul>
+		<div class="fn-right dropdowns">		
+			<div class="fn-left">
+				<span class="user fn-hide" id="signOut">你好，用户名</span>
+				<ul id="popupsignOut" class="fn-hide ui-popup">
+					<li><a href="javascript:;" id="signOutBtn">退出登录</a></li>
+				</ul>
+			
+				<a href="javascript:;" id="loginWhol">登录智慧城市</a>
+				<i class="fa fa-angle-down" id="rm"></i>
+				<form method="post" action="" class="loginform">
+					<ul id="popupLogin" class="fn-hide ui-popup fn-clear">
+						<li ><label class="fn-left">用户名</label><input type="text" name="username" id="username" class="form"></li>
+						<li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form"></li>
+						<li><input type="button" value="登录" class="btn fn-right"></li>
+						<li class="error fn-hide">* 用户名或密码错误</li>
+					</ul>
+				</form>
+				<a href="javascript:;" class="" id="mail189">产品中心</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupMail" class="fn-hide ui-popup">
+					<li><a href="javascript:;">189邮箱</a></li>
+					<li><a href="javascript:;">天翼视讯</a></li>
+					<li><a href="javascript:;">网上营业厅</a></li>
+					<li><a href="javascript:;">爱游戏</a></li>
+					<li><a href="javascript:;">爱音乐</a></li>
+					<li><a href="javascript:;">爱动漫</a></li>
+				</ul>
+			</div>
+			<div class="topfunc fn-right hidden">
+				<a href="javascript:;" class="" id="smartPoint">积分等级</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupPoint" class="fn-hide ui-popup">
+					<li><a href="javascript:;" id="level">等级</a></li>
+					<li><a href="javascript:;" id="currency">智慧币</a></li>
+				</ul>
+				<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置</a>
+				<i class="fa fa-angle-down"></i>
+				<ul id="popupSetting" class="fn-hide ui-popup">
+					<li><a href="javascript:;">设置昵称</a></li>
+					<li><a href="javascript:;">更改密码</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
