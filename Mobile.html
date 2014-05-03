@@ -4,19 +4,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="sea-modules/gallery/bootstrap/3.0.0/bootstrap-debug.css">
+	<link rel="stylesheet" href="css/wholmobile.css">
 	<title>WHOL2014 Mobile</title>
 	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+	<script type="text/javascript" src="js/wholmobile.js"></script>
 </head>
 <body>
 	
-	<div>
+	<!-- <div>
       <label>Name:</label>
       <input type="text" ng-model="yourName" placeholder="Enter a name here">
       <hr>
       <h1>Hello {{yourName}}!</h1>
+    </div> -->
+
+    <div class="container">
+    	<div class="header">
+			<h1 class="logo"></h1>
+    	</div>
     </div>
 
-
+	
 
 
 
@@ -35,8 +43,6 @@
 		seajs.use(['$','angular'],function($,angular){
 
 		});
-
-
 	</script>
 
 
