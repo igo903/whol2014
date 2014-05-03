@@ -1191,8 +1191,8 @@
 			}
 			
 			function signOut() {
-				$.removeCookie('username');
-				$.removeCookie('password');
+				$.removeCookie('username', { path: '/' });
+				$.removeCookie('password', { path: '/' });
 				
 				$('#level').html("等级");
 				$('#currency').html("智慧币");
