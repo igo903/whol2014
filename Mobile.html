@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="sea-modules/gallery/bootstrap/3.0.0/bootstrap-debug.css">
+	<title>WHOL2014 Mobile</title>
+	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+</head>
+<body>
+	
+	<div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		seajs.config({
+			// base:"./sea-modules",
+			alias:{
+				"$":"jquery/jquery/1.10.1/jquery.js",
+				"angular":"angular/angularjs/1.2.3/angular-debug.js",
+				"jquery-easing":"jquery/easing/1.3.0/easing.js"
+			}
+		});
+
+		seajs.use(['$','angular'],function($,angular){
+
+		});
+
+
+	</script>
+
+
+</body>
+</html>
