@@ -482,12 +482,12 @@ img {
 .more1.sub-nav {
 	display: -webkit-box
 }
-.module-t .more1 a {
+.module-t .more1 p {
 	display: inline-block;
 	margin-right: 15px;
 	font-size: 18px
 }
-.module-t .more1 a: last-child {
+.module-t .more1 p: last-child {
 	margin-right: 12px
 }
 .more2 {
@@ -497,12 +497,12 @@ img {
 .more2.sub-nav {
 	display: -webkit-box
 }
-.module-t .more2 a {
+.module-t .more2 p {
 	display: inline-block;
 	margin-right: 15px;
 	font-size: 18px
 }
-.module-t .more2 a: last-child {
+.module-t .more2 p: last-child {
 	margin-right: 12px
 }
 .module-c {
@@ -975,11 +975,11 @@ img {
 .hotlink .marquee-cont {
 	white-space: nowrap
 }
-nav.more1 a {
+nav.more1 p {
 	height: 41px;
 	position: relative
 }
-nav.more1 a::after {
+nav.more1 p::after {
 	content: "";
 	background-color: #d8d8d8;
 	display: inline-block;
@@ -989,14 +989,14 @@ nav.more1 a::after {
 	position: relative;
 	right: -8px
 }
-nav.more1 a: last-child::after {
+nav.more1 p: last-child::after {
 	display: none
 }
-nav.more2 a {
+nav.more2 p {
 	height: 41px;
 	position: relative
 }
-nav.more2 a::after {
+nav.more2 p::after {
 	content: "";
 	background-color: #d8d8d8;
 	display: inline-block;
@@ -1006,7 +1006,7 @@ nav.more2 a::after {
 	position: relative;
 	right: -8px
 }
-nav.more2 a: last-child::after {
+nav.more2 p: last-child::after {
 	display: none
 }
 .top-txt-link {
