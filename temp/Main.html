@@ -353,8 +353,9 @@
 
 		});
 
-		// LoginWHOL
 		seajs.use(['$'],function($){
+
+			//huaond
 			var flag = false;
 			$('.newsTab h2').hover(function(){
 				var nameId = $(this).attr('name');
@@ -388,42 +389,6 @@
 			},function(){
 				$('#slidePicNews .move').hide();
 			});
-
-			$('.btn').click(function(){
-				login();
-			});
-
-			function login(){
-				var username = $('#username').val();
-				var password = $('#password').val();
-
-				$.ajax({  
-					type: "post",  
-					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
-					dataType:'jsonp',
-					jsonp:'callback',
-					data: 'username='+username+'&password='+password, 
-					success: function(json){
-						if(json.returnCode==1){
-							
-								$('.user').removeClass('fn-hide');
-								$('.topfunc').removeClass('hidden');
-								$('#loginWhol').hide();
-								if (json.returnData.nick !='') {
-									$('.user').html("您好，" + json.returnData.nick); 
-								}else{
-									$('.user').html("您好，" + json.returnData.username); 
-								}
-								
-								$('#level').html("等级："+json.returnData.achievement.level_info.level);
-								$('#currency').html("智慧币：" + json.returnData.achievement.currency);
-							
-						}else {
-							$('.error').removeClass('fn-hide');
-						}
-					}
-				}); 
-			}
 
 			function backto(el){
 				var extendDiv = el.prev();
@@ -468,6 +433,44 @@
 
 				});
 			}
+
+			//loginWhol
+			$('.btn').click(function(){
+				login();
+			});
+
+			function login(){
+				var username = $('#username').val();
+				var password = $('#password').val();
+
+				$.ajax({  
+					type: "post",  
+					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
+					dataType:'jsonp',
+					jsonp:'callback',
+					data: 'username='+username+'&password='+password, 
+					success: function(json){
+						if(json.returnCode==1){
+							
+								$('.user').removeClass('fn-hide');
+								$('.topfunc').removeClass('hidden');
+								$('#loginWhol').hide();
+								if (json.returnData.nick !='') {
+									$('.user').html("您好，" + json.returnData.nick); 
+								}else{
+									$('.user').html("您好，" + json.returnData.username); 
+								}
+								
+								$('#level').html("等级："+json.returnData.achievement.level_info.level);
+								$('#currency').html("智慧币：" + json.returnData.achievement.currency);
+							
+						}else {
+							$('.error').removeClass('fn-hide');
+						}
+					}
+				}); 
+			}
+
 		});
 
 	</script>
