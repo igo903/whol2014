@@ -1,0 +1,594 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="author" content="johnye">
+<meta name="copyright" content="Copyright (c) 1998-2013 Wuhan Online.">
+<meta name="description" content=""/>
+<meta name="format-detection" content="telephone=no">
+<meta name="baidu-site-verification" content="hVzApyU2bmxWWwz5" />
+<link rel="apple-touch-icon-precomposed" href="img/logo_icon.png">
+<title>手机武汉热线</title>
+
+
+
+<script type="text/javascript">
+var asyncCall = function() {
+    var a = {},
+    b = {},
+    c = Array.prototype.slice,
+    d = function(c, d) {
+        var e, g = b[c] || [];
+        for (a[c] = d; e = g.shift();) f(c, e)
+    },
+    e = function(c) {
+        delete a[c],
+        b[c] = []
+    },
+    f = function(c, d) {
+        var f = a[c],
+        g = b[c] = b[c] || [];
+        f ? (f.apply(null, d), e(c)) : g.push(d)
+    },
+    g = function() {
+        var a = arguments,
+        b = a[0],
+        d = c.call(a, 1);
+        b && f(b, d)
+    };
+    return {
+        reg: d,
+        unreg: e,
+        call: g
+    }
+} ();
+var loadScript = function(a, b, c) {
+    var d;
+    d = document.createElement("script"),
+    d.onload = b,
+    d.src = a,
+    d.id = c,
+    d.binded = !0,
+    setTimeout(function() {
+        document.head.appendChild(d)
+    },
+    10)
+};
+Page = {
+    conf: {
+        current: 'full',
+        main: [{
+            id: 'js-main',
+            url: 'js/main-min.js'
+        }],
+        full: [{
+            id: 'js-full',
+            url: 'js/index-min.js'
+        }],
+        login: {
+            js: 'http://3gimg.qq.com/wap30/js/ptlogin/login_proxy_adapter.js'
+        }
+    }
+}; (function() {
+    var arr = [].concat(Page.conf.main),
+    i,
+    n,
+    item;
+    Page.conf.current == 'full' && (arr = arr.concat(Page.conf.full));
+    for (i = 0, n = arr.length; i < n; i++) {
+        item = arr[i];
+        loadScript(item.url,
+        function() {
+            this.state = 1
+        },
+        item.id);
+    }
+})();
+
+</script>
+
+
+
+<!--<script src="js/main-min.js" id="js-main"></script>
+<script src="js/index-min.js" id="js-full"></script>-->
+<link id="css-full" onload="this.state=1" href="css/main.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+
+<body id="main">
+    <div class="wrapper" style="width:320px;margin:0 auto;">
+        <header id="header">
+            <div class="header ">
+                <div class="logowrapper">
+                    <div class="logo">
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li>
+                            <a href="#">
+                                资讯
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                房产
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                家居
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                娱乐
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                旅游
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                亲子
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="main-nav-list">
+                        <li>
+                            <a href="#">
+                                购物
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="cqlink">
+                                婚嫁
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                美食
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                汽车
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                健康
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="padding-right:0px;">
+                                电信
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="headline" class="topic">
+            <div class="top">
+                <h2><a href="#">地沟油加工食用油最高判死刑</a></h2>
+                <p>
+                    <a href="#">
+                        [明星代言问题食品不担责]
+                    </a>
+                    <a href="#">
+                        [3年判决2088人]
+                    </a>
+                </p>
+            </div>
+            <div class="topic-info">
+                <ul>
+                    <li class="topic-item">
+                        <div id="slideImage">
+                            <div>
+                                <a href="#">
+                                    <img src="img/136762647491635723.jpg" alt="男子北京街头砍死2人警方处置" width="320"
+                                    height="144" border="0" class="topic_img" pl='1'>
+                                </a>
+                                <a href="#">
+                                    <img src="img/136756441595145058.jpg" alt="大片:切尔诺贝利事故27周年祭" width="320"
+                                    height="144" border="0" class="topic_img">
+                                </a>
+                            </div>
+                            <div id="slideImageTitile" class="topic-title">
+                                <a>
+                                    男子北京街头砍死2人警方处置
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div id="slideDots" class="dot-slider">
+                    <span class="dot current">
+                    </span>
+                    <span class="dot ">
+                    </span>
+                </div>
+            </div>
+            <ul id="toplist" class="cont-list cont-list-t">
+                <li>
+                    <span class="channel">
+                        NBA
+                    </span>
+                    <a href="#">
+                        季后赛-雷霆尼克斯步行者晋级
+                    </a>
+                </li>
+                <li>
+                    <span class="channel">
+                        娱乐
+                    </span>
+                    <a href="#">
+                        俞灏明秀跳水:请把我当正常人
+                    </a>
+                </li>
+                <li>
+                    <span class="channel">
+                        股票
+                    </span>
+                    <a href="#">
+                        前瞻:巴菲特二季度投资方向
+                    </a>
+                </li>
+                <li class="photo_commend">
+                    <span class="channel">
+                        悦图
+                    </span>
+                    <a href="#">
+                        大片:切尔诺贝利事故27周年祭
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!--新闻模块-->
+        <div id="mod-news" class="module active">
+            <div class="module-t">
+                <h3>
+                    <a href="#">
+                        新闻
+                    </a>
+                    <span class="dot-slider enable">
+                        <span class="dot current">
+                        </span>
+                        <span class="dot">
+                        </span>
+                        <span class="dot">
+                        </span>
+                    </span>
+                </h3>
+                <nav class="more">
+                    <a href="#" class="active">
+                        新闻
+                    </a>
+                    <a href="#">
+                        军事
+                    </a>
+                    <a href="#">
+                        社会
+                    </a>
+                </nav>
+            </div>
+            <div class="hd-tips" id="hd-tips">
+                划动查看更多
+            </div>
+            <div class="module-c" style="width: 960px;">
+                <div class="panel current" style="width: 320px;">
+                    <div class="top top-temp">
+                        <h2>
+                            <a href="#">
+                                日本钓鱼岛作战指挥官被撞死
+                            </a>
+                        </h2>
+                    </div>
+                    <ul class="cont-list cont-list-c">
+                        <li>
+                            <a href="#">
+                                中国渔船在菲律宾搁浅被罚款
+                                <span class="cmt-num">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                中国旅游团在罗马遭劫匪抢劫
+                                <span class="cmt-num">
+                                    218
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                逾六成偷运奶粉水客系香港人
+                                <span class="cmt-num">
+                                    78
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                男子蒙冤自杀:造假警察被双开
+                                <span class="cmt-num">
+                                    56
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                广西柳州人大副主任乘车坠崖
+                                <span class="cmt-num">
+                                    17
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                芦山县纪委:男童掉厕所身亡
+                                <span class="cmt-num">
+                                    418
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                H7N9重症患者康复被房东逼迁
+                                <span class="cmt-num">
+                                    465
+                                </span>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                云南普洱大树倒塌学生1死28伤
+                                <span class="cmt-num">
+                                    205
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel fullver" style="width: 320px;">
+                    <ul class="cont-list">
+                        <li>
+                            <a class="" href="#">
+                                台唯一女少将丈夫在大陆经商
+                                <span class="cmt-num">
+                                    6
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                台战机训练火箭弹误炸芒果园
+                                <span class="cmt-num">
+                                    10
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                中国航母女兵全副武装站岗
+                                <span class="cmt-num">
+                                    22
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                美媒:中国核航母是尼米兹改版
+                                <span class="cmt-num">
+                                    139
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                美媒:印向中印边境增2伞兵营
+                                <span class="cmt-num">
+                                    58
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                美特种兵单兵携原子破坏武器
+                                <span class="cmt-num">
+                                    87
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                中国最高级别的军事院校top20
+                                <span class="cmt-num">
+                                    44
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                印将领建议断中国帐篷补给线
+                                <span class="cmt-num">
+                                    592
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                美军女教官与学员发生性关系
+                                <span class="cmt-num">
+                                    465
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel fullver" style="width: 320px;">
+                    <ul class="cont-list">
+                        <li>
+                            <a class="" href="#">
+                                台湾男子不忍女友挨饿偷面包
+                                <span class="cmt-num">
+                                    197
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                男子杀前妻及其男友后自杀
+                                <span class="cmt-num">
+                                    119
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                女子刀尖下谈人生劝退色狼
+                                <span class="cmt-num">
+                                    675
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                2岁女童被姨父从七楼抛下(图)
+                                <span class="cmt-num">
+                                    286
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                男子400次报警称"我想你"被拘
+                                <span class="cmt-num">
+                                    119
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                公交司机晕倒乘客开公交送医
+                                <span class="cmt-num">
+                                    106
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                广东一村治保主任被村民砍死
+                                <span class="cmt-num">
+                                    50
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                13岁女孩系惯偷混进婚宴偷3万
+                                <span class="cmt-num">
+                                    155
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                老人瞒老伴每天凌晨出门行骗
+                                <span class="cmt-num">
+                                    26
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--//module-c-->
+        </div>
+        <!--//mod-news-->
+        <div id="ads" class="ad">
+            <a href="http://ti.3g.qq.com/g/s?aid=template&amp;g_ut=2&amp;istest=0&amp;tid=chupin_shenbian&amp;g_f=190217&amp;sid=AYe5sGAL_Yxs54O-TeS-e75x"
+            target="_blank" style="position: absolute; opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out; width: 100%; z-index: 0;">
+                众里寻你千百度,缘来你在身边
+            </a>
+            <a href="http://mdc.html5.qq.com/mh?page=x5&amp;channel_id=10094&amp;sid=AYe5sGAL_Yxs54O-TeS-e75x"
+            target="_blank" style="position: absolute; opacity: 1; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out; width: 100%; z-index: 1;">
+                只需一步，让手机提速47%
+            </a>
+        </div>
+        <!--页脚-->
+        <!--腾讯出品-->
+        <div id="qq-product" class="qq-product">
+            <p>
+                <a href="#" class="cqLink">
+                    资讯
+                </a>
+                <a href="#">
+                    房产
+                </a>
+                <a href="#">
+                    二手
+                </a>
+                <a href="#" class="gameLink">
+                    婚嫁
+                </a>
+                <a href="#">
+                    购物
+                </a>
+            </p>
+            <p>
+                <a href="#" class="cqLink">
+                    美食
+                </a>
+                <a href="#">
+                    亲子
+                </a>
+                <a href="#">
+                    旅游
+                </a>
+                <a href="#">
+                    天翼
+                </a>
+                <a href="#">
+                    电信
+                </a>
+            </p>
+        </div>
+        <!--页脚-->
+        <footer id="footer">
+            <nav>
+                <a href="#">
+                    导航
+                </a>
+                <a href="#">
+                    留言
+                </a>
+                <a id="login">
+                    登录
+                </a>
+                <a id="gotop" href="javascript:void(0);" onclick="scrollTo(0,0)" class="to-index">
+                    回顶部
+                </a>
+            </nav>
+            <div class="copyright">
+                &copy;2013 武汉热线 中国电信
+            </div>
+            <div class="about">
+                <span>
+                    http://3g.wuhan.net.cn
+                </span>
+                <span class="qqtouch">
+                    武汉热线移动版
+                </span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
