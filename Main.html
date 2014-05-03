@@ -933,8 +933,17 @@
 			// base:"./sea-modules",
 			alias:{
 				"$":"jquery/jquery/1.10.1/jquery.js",
+				"detector":"arale/detector/1.4.0/detector.js",
 				"jquery-easing":"jquery/easing/1.3.0/easing.js"
 			}
+		});
+
+		seajs.use(['detector'],function(detector){
+			var deviceName = detector.browser.name;
+			if(deviceName == "iphone" || deviceName == "ipad" || deviceName == "android" ) {
+				window.location.href = 'http://www.google.com';	
+			}
+
 		});
 
 		// seajs.use("./js/main");
