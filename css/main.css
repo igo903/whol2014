@@ -39,6 +39,7 @@
 .txtcenter{text-align: center;}
 .divide {font-style: normal;color: #CCC;}
 .error{color:red;}
+iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
@@ -58,7 +59,7 @@
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #458FCE;
     position: fixed;
-    z-index: 999;
+    z-index: 98;
     top: 0;
     left: 0;
 }
@@ -1662,6 +1663,16 @@ a.cate{
     transition: all .3s ease-in-out;
 }
 li.list_item:hover{background:#f0f0f0;}
+
+#videopops{
+    width: 500px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    z-index: 100;
+    left: 100;
+    top: 100;
+}
 
 
 
