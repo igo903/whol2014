@@ -11,7 +11,7 @@
 		// detector
 		seajs.use(['detector'],function(detector){
 			var deviceName = detector.os.name;
-			alert(deviceName);
+			console.log(deviceName);
 			if(deviceName == "ios" || deviceName == "android" ) {
 				//window.location.href = 'http://www.baidu.com';
 				window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
