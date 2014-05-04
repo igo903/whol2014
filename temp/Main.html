@@ -307,8 +307,8 @@
 
 		// detector
 		seajs.use(['detector'],function(detector){
-			var deviceName = detector.engine.name;
-			if(deviceName == "webkit" ) {
+			var deviceName = detector.os.name;
+			if(deviceName == "ios" || deviceName == "android" ) {
 				window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
 			}
 		});
