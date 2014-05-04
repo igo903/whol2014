@@ -1381,7 +1381,9 @@ a.cate{
 /*Video page*/
 .video-content{
     width: 460px;
-    
+}
+.video-content.pops{
+    margin-left: 20px;
 }
 .video-content h1{
     font-size: 24px;
@@ -1470,6 +1472,21 @@ a.cate{
     border-top: 0px;
     padding-left: 10px;
     padding-top: 5px;
+    background: #fff;
+}
+.shareto.pops{
+    border: 0;
+    background-color: #f3f3f3;
+    height: 130px;
+    line-height: 22px;
+    padding: 20px 20px;
+    font-size: 13px;
+}
+.shareto.pops p{
+    color:#999;
+}
+.shareto.pops p span{
+    color: #000;
 }
 .shareto > div{
     margin-right: 10px;
@@ -1664,14 +1681,18 @@ a.cate{
 }
 li.list_item:hover{background:#f0f0f0;}
 
-#videopops{
+.videopops{
     width: 500px;
-    height: 500px;
-    background: red;
+    height: 490px;
+    background: #fff;
     position: absolute;
     z-index: 100;
     left: 100;
     top: 100;
+    padding: 20px;
+    -moz-box-shadow:5px 5px 5px rgba(51, 51, 51,.5);
+    -webkit-box-shadow:2px 5px 5px rgba(51, 51, 51,.5);
+    box-shadow:5px 5px 5px rgba(51, 51, 51,.5);
 }
 
 
