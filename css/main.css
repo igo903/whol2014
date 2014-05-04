@@ -1340,6 +1340,40 @@ a.cate{
 .newsArticle .large{
     font-size: 16px;
 }
+.recommendNews{
+    border: 1px solid #dfdfdf;
+    margin: 0 10px 12px 10px;
+    padding: 0px;
+    font-size: 13px;
+
+}
+.recommendNews ul{
+    float: left;
+    width: 603px;
+    padding-top: 12px;
+}
+.recommendNews .title{
+    float: left;
+    width: 19px;
+    padding: 10px 8px;
+    height: 90px;
+    background-color: #458FCE;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    line-height: 22px;
+}
+.recommendNews ul li{
+    float: left;
+    overflow: hidden;
+    width: 280px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 15px;
+    background: url(http://219.140.78.21/img/templates/rexian/images/rexian/icon_text.jpg) no-repeat 7px center;
+
+}
 
 
 
