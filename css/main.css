@@ -123,6 +123,7 @@
 }
 .mininavInner i{
     color: #328CC9;
+    margin-left: 3px;
 }
 #popupApp a{
     margin: 0;
@@ -137,6 +138,7 @@
 }
 #popupMail{width: 60px; top: 28px !important;}
 #popupLogin{top: 0px !important;}
+#popupSetting{width: 50px;}
 #popupsignOut, #popupPoint, #popupSetting{top: 28px !important;}
 .soso {
     width: 1000px;
@@ -703,13 +705,24 @@
 	top: 0;
 	right: 0;
 }
+.footer .cert-logos{
+    width: 560px;
+    margin-left: 190px;
+}
+.footer .cert-logos a{
+    display: block;
+    float: left;
+    width: 118px;
+    height: 48px;
+    margin-right: 15px;
+}
 .footer p{
 	text-align: center;
 	margin-bottom: 5px;
+    color: #999;
 }
 .footer p.license{
-	color: red;
-	font-weight: bold;
+	color: #000;
 }
 .footer .copyrights{
 	width: 900px;
