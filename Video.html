@@ -464,7 +464,7 @@
 		<div class="fn-left video-content pops">
 			<h1><a href="javascript:;" title="朴槿惠：岁月号船长所为无异于杀人" target="_blank">朴槿惠：岁月号船长所为无异于杀人</a></h1>
 			<div class="player">
-				<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
+				<video id="whol-video" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
 				      poster="http://video-js.zencoder.com/oceans-clip.png"
 				      data-setup="{}">
 				    <source src="videos/movie.mp4" type='video/mp4' />
@@ -529,15 +529,22 @@
 	    
 
 		seajs.use(['$','arale/overlay/1.1.4/mask','arale/position/1.0.1/position'],function($, mask,Position){
-			$('.news-video').click(function(){
+			$('.list_item').click(function(){
 				mask.set('opacity','0.7').show();
 				$('.videojumpOut').show();
 				Position.center('.videojumpOut');
 			});
+			$('.close-btn').click(function(){
+				mask.hide();
+				$('.videojumpOut').hide();
+				$('#wholVideo').pause();
+			});
+
 			$(document).keyup(function(e){
 				if(e.keyCode === 27){
 					mask.hide();
 					$('.videojumpOut').hide();
+					$('#wholVideo').pause();
 				}
 			});
 		});

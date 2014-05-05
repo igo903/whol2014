@@ -480,7 +480,7 @@
 		<div class="fn-left video-content pops">
 			<h1><a href="javascript:;" title="朴槿惠：岁月号船长所为无异于杀人" target="_blank">朴槿惠：岁月号船长所为无异于杀人</a></h1>
 			<div class="player">
-				<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
+				<video id="wholVideo" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
 				      poster="http://video-js.zencoder.com/oceans-clip.png"
 				      data-setup="{}">
 				    <source src="videos/movie.mp4" type='video/mp4' />
@@ -490,9 +490,9 @@
 				<p>视频名称：<span>朴槿惠：岁月号船长所为无异于杀人</span></p>
 				<p>上映时间：<span>2014年5月4日</span></p>
 				<p>视频简介：<span>1993年的夏天，文静秀气的转校生周小栀（周冬雨饰），第一次见到了自己的同桌——坐在最后一排的捣蛋男生林一（林更新饰），他们一起经历了初中、高中和大学的青葱岁月。林一对周小栀说：“总有一天，我会带你去一个只有我们俩的地方。</span></p>
-
 			</div><!--//shareto-->
 		</div>
+		<div class="close-btn fa fa-times-circle fa-3x"></div>
 	</div>
 
 
@@ -532,10 +532,17 @@
 				$('.videojumpOut').show();
 				Position.center('.videojumpOut');
 			});
+			$('.close-btn').click(function(){
+				mask.hide();
+				$('.videojumpOut').hide();
+				$('#wholVideo').pause();
+			});
+
 			$(document).keyup(function(e){
 				if(e.keyCode === 27){
 					mask.hide();
 					$('.videojumpOut').hide();
+					$('#wholVideo').pause();
 				}
 			});
 		});
