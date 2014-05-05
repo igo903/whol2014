@@ -8,11 +8,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="css/video-js.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
-	<script type="text/javascript" src="js/video.js"></script>
 	<!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
-	<script>
-	    videojs.options.flash.swf = "video-js.swf";
-	</script>
+
 </head>
 <body>
 
@@ -464,7 +461,7 @@
 		<div class="fn-left video-content pops">
 			<h1><a href="javascript:;" title="朴槿惠：岁月号船长所为无异于杀人" target="_blank">朴槿惠：岁月号船长所为无异于杀人</a></h1>
 			<div class="player">
-				<video id="whol-video" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
+				<video id="wholVideo" class="video-js vjs-default-skin " controls preload="none" width="460" height="264"
 				      poster="http://video-js.zencoder.com/oceans-clip.png"
 				      data-setup="{}">
 				    <source src="videos/movie.mp4" type='video/mp4' />
@@ -474,9 +471,9 @@
 				<p>视频名称：<span>朴槿惠：岁月号船长所为无异于杀人</span></p>
 				<p>上映时间：<span>2014年5月4日</span></p>
 				<p>视频简介：<span>1993年的夏天，文静秀气的转校生周小栀（周冬雨饰），第一次见到了自己的同桌——坐在最后一排的捣蛋男生林一（林更新饰），他们一起经历了初中、高中和大学的青葱岁月。林一对周小栀说：“总有一天，我会带你去一个只有我们俩的地方。</span></p>
-
 			</div><!--//shareto-->
 		</div>
+		<div class="close-btn fa fa-times-circle fa-3x"></div>
 	</div>
 
 	<!-- JavaScript -->
@@ -528,8 +525,13 @@
 	    });
 	    
 
-		seajs.use(['$','arale/overlay/1.1.4/mask','arale/position/1.0.1/position'],function($, mask,Position){
-			$('.list_item').click(function(){
+		seajs.use(['$','arale/overlay/1.1.4/mask','arale/position/1.0.1/position','gallery/videojs/video'],function($, mask,Position, videojs){
+
+			var myPlayer = videojs('wholVideo');
+			var whereYouAt = myPlayer.currentTime();
+			videojs.options.flash.swf = "video-js.swf";
+
+			$('.news-video').click(function(){
 				mask.set('opacity','0.7').show();
 				$('.videojumpOut').show();
 				Position.center('.videojumpOut');
@@ -537,14 +539,16 @@
 			$('.close-btn').click(function(){
 				mask.hide();
 				$('.videojumpOut').hide();
-				$('#wholVideo').pause();
+				myPlayer.currentTime(0);
+				myPlayer.pause();
 			});
-
+			
 			$(document).keyup(function(e){
 				if(e.keyCode === 27){
 					mask.hide();
 					$('.videojumpOut').hide();
-					$('#wholVideo').pause();
+					myPlayer.currentTime(0);
+					myPlayer.pause();
 				}
 			});
 		});

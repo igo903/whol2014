@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="css/video-js.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
-	<script type="text/javascript" src="js/video.js"></script>
+	<!--<script type="text/javascript" src="js/video.js"></script>-->
 	<!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
 	<script>
-	    videojs.options.flash.swf = "video-js.swf";
+	    //videojs.options.flash.swf = "video-js.swf";
 	</script>
 </head>
 <body>
@@ -480,7 +480,7 @@
 		<div class="fn-left video-content pops">
 			<h1><a href="javascript:;" title="朴槿惠：岁月号船长所为无异于杀人" target="_blank">朴槿惠：岁月号船长所为无异于杀人</a></h1>
 			<div class="player">
-				<video id="wholVideo" class="video-js vjs-default-skin" controls preload="none" width="460" height="264"
+				<video id="wholVideo" class="video-js vjs-default-skin " controls preload="none" width="460" height="264"
 				      poster="http://video-js.zencoder.com/oceans-clip.png"
 				      data-setup="{}">
 				    <source src="videos/movie.mp4" type='video/mp4' />
@@ -526,7 +526,12 @@
 			});
 		});
 
-		seajs.use(['$','arale/overlay/1.1.4/mask','arale/position/1.0.1/position'],function($, mask,Position){
+		seajs.use(['$','arale/overlay/1.1.4/mask','arale/position/1.0.1/position','gallery/videojs/video'],function($, mask,Position, videojs){
+
+			var myPlayer = videojs('wholVideo');
+			var whereYouAt = myPlayer.currentTime();
+			videojs.options.flash.swf = "video-js.swf";
+
 			$('.list_item').click(function(){
 				mask.set('opacity','0.7').show();
 				$('.videojumpOut').show();
@@ -535,14 +540,16 @@
 			$('.close-btn').click(function(){
 				mask.hide();
 				$('.videojumpOut').hide();
-				$('#wholVideo').pause();
+				myPlayer.currentTime(0);
+				myPlayer.pause();
 			});
-
+			
 			$(document).keyup(function(e){
 				if(e.keyCode === 27){
 					mask.hide();
 					$('.videojumpOut').hide();
-					$('#wholVideo').pause();
+					myPlayer.currentTime(0);
+					myPlayer.pause();
 				}
 			});
 		});
