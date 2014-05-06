@@ -1703,6 +1703,65 @@ li.list_item:hover{background:#f0f0f0;}
     color: #458FCE;
     cursor:pointer;
 }
-
-
-
+.cont-mood {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    overflow: hidden;
+    zoom: 1;
+    color: #666;
+    padding: 8px;
+    margin: 0 10px 12px 10px;
+}
+.cont-mood .mood-head {
+    margin-bottom: 10px;
+}
+.cont-mood li {
+    float: left;
+    margin-bottom: 12px;
+    width: 16%;
+    text-align: center;
+}
+.cont-mood li input {
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+.digg-share{
+    margin: 20px 10px;
+    height: 40px;
+}
+.digg a {
+    float: left;
+    margin-right: 6px;
+    width: 100px;
+    line-height: 37px;
+    padding-left: 38px;
+    background-position: -5px -952px;
+    background-image: url(http://img.wuhan.net.cn/images/2014/cmstop-big.png);
+    color: #F30;
+    font-family: Arial;
+    font-size: 10px;
+}
+.digg a span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.digg a.againsts {
+    background-position: -154px -952px;
+    background-image: url(http://img.wuhan.net.cn/images/2014/cmstop-big.png);
+    color: #00F;
+}
+.mood_bar {
+    position: relative;
+    width: 24px;
+    height: 100px;
+    background: #EEF7F7;
+    margin: 0 auto;
+}
+.mood_bar_in {
+    background: url(http://img.wuhan.net.cn/apps/mood/images/moodrank.gif) repeat-y -2px 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 24px;
+}
