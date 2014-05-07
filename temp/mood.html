@@ -1,5 +1,5 @@
 <div id="mood" class="cont-mood padd-8">
-	<p class="mood-head">3您看到此篇文章的感受是：</p>
+	<p class="mood-head">4您看到此篇文章的感受是：</p>
 	<ul>
 		<!--{db sql="select * from #table_mood where 1"}-->
 		<li><a href="javascript:vote({$r[moodid]});return false;"><img src="{IMG_URL}apps/mood/{$r[image]}" title="{$r[name]}"></a><br>{$r[name]}<br><input onclick="javascript:vote({$r[moodid]});return false;" type="radio" name="moodradio" value="1"></li>
