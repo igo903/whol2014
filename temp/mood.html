@@ -1,14 +1,6 @@
-<div id="mood" class="cont-mood padd-8">
-<p class="mood-head">你看到此篇文章的感受是：</p>
-<ul>
-<!--{db sql="select * from #table_mood where 1"}-->
-<li><a href="javascript:vote({$r[moodid]});return false;"><img src="{IMG_URL}apps/mood/{$r[image]}" title="{$r[name]}" /></a><br />{$r[name]}<br /><input onclick="javascript:vote({$r[moodid]});return false;" type="radio" name="moodradio" value="1" /></li>
-<!--{/db}-->
-</ul>
-</div>
 
 <div id="mood" class="cont-mood padd-8">
-	<p class="mood-head">您看到此篇文章的感受是：</p>
+	<p class="mood-head">1您看到此篇文章的感受是：</p>
 	<ul>
 		<!--{db sql="select * from #table_mood where 1"}-->
 		<li><a href="javascript:vote({$r[moodid]});return false;"><img src="{IMG_URL}apps/mood/{$r[image]}" title="{$r[name]}"></a><br>{$r[name]}<br><input onclick="javascript:vote({$r[moodid]});return false;" type="radio" name="moodradio" value="1"></li>
@@ -16,16 +8,16 @@
 	</ul>
 </div>
 
-<!-- <div class="digg-share">
+<div class="digg-share">
 	<div class="digg fn-left">
 		<a id="supports" href="javascript:digg.set(677373,1)"><span>0</span><span>0%</span></a>
 		<a id="againsts" href="javascript:digg.set(677373,0)" class="againsts"><span>0</span><span>0%</span></a>
 	</div>
-	<div class="share-tool f-r">
+<!-- 	<div class="share-tool f-r">
 		<a href="javascript:;" onclick="copyToClipboard(window.location.href);return false">【复制网址】</a>
 		<a href="http://info.wuhan.net.cn/print.php?contentid=677373">【打印】</a>
-	</div>
-</div> -->
+	</div> -->
+</div>
 
 <script type="text/javascript">
 var mood_img_url = IMG_URL+'apps/mood/';
