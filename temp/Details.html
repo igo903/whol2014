@@ -380,8 +380,10 @@
 			var votehtml= $('#mood').html();
 			//digg.get(contentid);
 
-			$().click(function(){
-				
+			$('#mood li a', '$mood li input').click(function(){
+				var moodsid = $(this).attr('moodsid');
+				console.log(moodsid);
+				vote(moodsid);
 			});
 
 
