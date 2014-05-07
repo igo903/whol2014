@@ -396,7 +396,7 @@
 			}
 
 			function vote(vote_id) {
-				if ( ( new Date().getTime() - $.cookie('mood_time'+contentid) ) > 1000*{setting('mood','votetime')} ) {
+				if ( !$.cookie("mood_time"+contentid) || (( new Date().getTime() - $.cookie('mood_time'+contentid) ) > 1000*{setting('mood','votetime')}) ) {
 					$.getJSON(APP_URL+"?app=mood&controller=index&action=vote&contentid="+contentid+"&voteid="+vote_id+"&jsoncallback=?", function(json){
 						voteShow(json);
 					});
