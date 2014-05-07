@@ -2,7 +2,7 @@
 	<p class="mood-head">6您看到此篇文章的感受是：</p>
 	<ul>
 		<!--{db sql="select * from #table_mood where 1"}-->
-		<li><a href="" moodsid="{$r[moodid]}"><img src="{IMG_URL}apps/mood/{$r[image]}" title="{$r[name]}"></a><br>{$r[name]}<br><input onclick="" moodsid="{$r[moodid]}"  type="radio" name="moodradio" value="1"></li>
+		<li><a moodsid="{$r[moodid]}"><img src="{IMG_URL}apps/mood/{$r[image]}" title="{$r[name]}"></a><br>{$r[name]}<br><input moodsid="{$r[moodid]}"  type="radio" name="moodradio" value="1"></li>
 		<!--{/db}-->
 	</ul>
 </div>
