@@ -9,7 +9,6 @@
 	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
 	<script src="{IMG_URL}templates/wuhan/2014/sea-modules/jquery/jquery/1.10.1/jquery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="{IMG_URL}js/config.js"></script>
-	<script type="text/javascript" src="{IMG_URL}js/digg.js"></script>
 
 </head>
 <body>
@@ -386,7 +385,7 @@
 			//test for page voting.
 			var mood_img_url = IMG_URL+'apps/mood/';
 			var votehtml= $('#mood').html();
-			digg.get(contentid);
+			//digg.get(contentid);
 
 			function vote(vote_id) {
 				if ( ( new Date().getTime() - $.cookie('mood_time'+contentid) ) > 1000*{setting('mood','votetime')} ) {
