@@ -829,7 +829,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     float: left;
 }
 .mainBody#newsContent{
-    border: 1px solid #dfdfdf;
+    border: 1px solid #999;
 }
 .nrC{
    overflow: hidden;
@@ -1287,6 +1287,17 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     padding-left: 40px;
     font-weight: bold;
     text-align: center;
+
+}
+.newsArticle h3{
+    font-size: 18px;
+    padding-bottom: 16px;
+    padding-top: -16px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #666;
 
 }
 .newsArticle h2{

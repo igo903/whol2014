@@ -42,9 +42,12 @@
 			<div class="newsArticle mt12">
 
 				<h1 class="">{$title}</h1>
+				<!--{if $subtitle}-->
+				<h3 class="">{$subtitle}</h1>
+				<!--{/if}-->
 				<h2 class="fn-clear">
 					<div class="fn-left ">
-						<span>来源：{$source_name}</span> | 
+						<span>来源：<a href="{$source_url}" target="_blank">{$source_name}</a></span> | 
 						<span>发布时间：{date('Y-m-d H:i', $published)}</span>
 					</div>
 
@@ -316,7 +319,7 @@
 					return !$.cookie(key);
 				};
 			}));
-			
+
 			// ajax
 			if($.cookie('username')&&$.cookie('password')){
 				login();
