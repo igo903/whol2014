@@ -829,7 +829,8 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     float: left;
 }
 .mainBody#newsContent{
-    border: 1px solid #999;
+    border: 1px solid #cECED0;
+    border-top:2px solid #015bb4;
 }
 .nrC{
    overflow: hidden;
@@ -957,13 +958,14 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 .mar-l-8,#pageZone{margin:30px auto 20px; padding: 10px 0px; text-align:center; background: #f5f6fb; border-bottom: 1px #dbe3ee solid;}
 #pageZone span, .mar-l-8 li{margin-right:5px;padding:0 8px;display:inline-block; height:20px; line-height:20px; text-alien:center; color:#0b3b8d; border:1px solid #ccdbe4;}
 #pageZone a, .mar-l-8 li a{color:#0b3b8d;}
-#pageZone span.isNow{border:none; color:#000; font-weight:bold;}
+#pageZone span.isNow, .page .inline li a.now{border:none; color:#000; font-weight:bold;}
 #pageZone span.Disabled{color:#dbe1e6;}
 #pageZone span, .mar-l-8 li{height:34px; line-height:34px; background:#fff; padding:0 13px; font-size:14px; border:1px solid #d8dadf;}
 #pageZone span.isNow{border:1px solid #d8dadf; background:#899fbf; color:#fff;}
 #pageZone span.Disabled{background:#f8f8f8; color:#9a9a9a;}
 #pageZone a{color:#555;}
 #pageZone .number{font-size:16px;}
+
 
 
 
@@ -1305,7 +1307,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     font-size: 13px;
     height: 30px;
     line-height: 30px;
-    border-bottom: 1px dotted #dfdfdf;
+    border-bottom: 1px dotted #CECED0;
     margin:0 10px 12px 10px;
 }
 .newsArticle h2 span{
@@ -1353,7 +1355,7 @@ a.cate{
     font-size: 16px;
 }
 .recommendNews{
-    border: 1px solid #dfdfdf;
+    border: 1px solid #CECED0;
     margin: 0 10px 12px 10px;
     padding: 0px;
     font-size: 12px !important;
@@ -1714,7 +1716,7 @@ li.list_item:hover{background:#f0f0f0;}
     cursor:pointer;
 }
 .cont-mood {
-    border: 1px dotted #dfdfdf;
+    border: 1px dotted #CECED0;
     background-color: #FFF;
     overflow: hidden;
     zoom: 1;
@@ -1777,4 +1779,9 @@ li.list_item:hover{background:#f0f0f0;}
     left: 0;
     position: absolute;
     width: 24px;
+}
+.fz-adjust .current{
+    cursor:text;
+    text-decoration: none;
+    color: #ccc;
 }
