@@ -1149,7 +1149,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 /*video sort tab*/
 #videoSortTab {
     position: relative;
-    width: 530px;
+    /*width: 530px;*/
 }
 
 #videoSortTab .ui-switchable-nav {
@@ -1159,8 +1159,8 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     z-index: 99;
     list-style: none;
     font-size: 22px;
-    width: 520px;
-    margin-left: 10px;
+    /*width: 520px;
+    margin-left: 10px;*/
     border-bottom: 1px solid #dfdfdf;
 }
 
@@ -1188,7 +1188,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     position: relative;
     margin: 0px 0 0 0;
     padding: 0 0 0 10px;
-    border-left: 1px solid #dfdfdf;
+    /*border-left: 1px solid #dfdfdf;*/
 
 }
 
@@ -1392,6 +1392,10 @@ a.cate{
 
 /*Video page*/
 .video-content{
+    /*width: 460px;*/
+}
+.video-content .player{
+    margin: 0px auto;
     width: 460px;
 }
 .video-content.pops{
@@ -1403,7 +1407,8 @@ a.cate{
     margin-bottom: 15px;
 }
 .video-list{
-    width: 530px;
+    /*width: 530px;*/
+    margin-top: 25px;
 }
 .video-list .news-video{
     border-bottom: 1px solid #dfdfdf;
@@ -1414,9 +1419,10 @@ a.cate{
     display: inline;
     width: 160px;
     margin-left: 5px;
+    margin-right: 10px;
 }
 .news-item-txt {
-    float: right;
+    /*float: right;*/
     width: 340px;
     display: inline;
 }
@@ -1485,6 +1491,8 @@ a.cate{
     padding-left: 10px;
     padding-top: 5px;
     background: #fff;
+    width: 448px;
+    margin: 0px auto;
 }
 .shareto.pops{
     border: 0;
