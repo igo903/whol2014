@@ -830,13 +830,12 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .mainBody#newsContent{
     border: 1px solid #cECED0;
-    border-top:2px solid #015bb4;
 }
 .nrC{
    overflow: hidden;
     zoom: 1;
     clear: both;
-    border-bottom: 1px dotted #d9dee4;
+    border-bottom: 1px dotted #cECED0;
     padding: 18px 0 10px; 
 }
 .nrC .nrPic {
@@ -975,11 +974,11 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 
 
 #headingNews {
-    border-top: 1px solid #dfdfdf;
+    border-top: 1px solid #CECED0;
 }
 .hdNews {
     position: relative;
-    border-bottom: 1px dotted #dcdcdc;
+    border-bottom: 1px dotted #CECED0;
     padding: 8px 0 20px;
     background: url(about:blank);
     z-index: 0;
@@ -1119,15 +1118,15 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     padding: 0;
     z-index: 99;
     list-style: none;
-    border-left: 1px solid #dfdfdf;
+    border-left: 1px solid #CECED0;
     font: 14px/1.5 'Xin Gothic', 'PT Sans', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #indexNewsTypeTabs .ui-switchable-nav li {
     float: left;
     width: 81px;
-    border-right: 1px solid #dfdfdf;
-    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #CECED0;
+    border-top: 1px solid #CECED0;
     border-bottom: 2px solid #666;
     height: 27px;
     line-height: 27px;
