@@ -1623,7 +1623,6 @@ a.cate{
 .text_sprite {
     display: inline-block;
     zoom: 1;
-    width: 64px;
     height: 32px;
     overflow: hidden;
     vertical-align: bottom;
@@ -1656,7 +1655,7 @@ a.cate{
 }
 .figure img {
     width: 197px;
-    height: 100px;
+    height: 115px;
 }
 .figure_title {
     height: 20px;
@@ -1682,7 +1681,7 @@ a.cate{
 }
 .figures_list .list_item {
     width: 197px;
-    height: 150px;
+    height: 165px;
     float: left;
 }
 .figures_list .list_item {
