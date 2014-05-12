@@ -67,6 +67,12 @@
 				trigger: '#signOut',
 				element: '#popupsignOut'
 			});
+
+
+			//smartjs
+			
+
+
 		});
 
 		// jQuery

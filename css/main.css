@@ -970,7 +970,43 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 #pageZone div span.current{font-weight: bold;color: #000;}
 
 
+.smartjs.navi {
+    width: 1000px;
+    margin: 0px auto 12px auto;
+    position: relative;
+    height: 45px;
+    z-index: 2;
 
+}
+.smartjs.navi #nav li {
+    width: 109px;
+    height: 45px;
+    float: left;
+    display: inline-block;
+    margin-right: 33px;
+    cursor: pointer;
+}
+.smartjs.navi #nav li span {
+    width: 109px;
+    height: 45px;
+    display: block;
+    cursor: pointer;
+}
+.smartjs.navi #nav li.one{background: url(../i/nav/01.png) no-repeat;}
+.smartjs.navi #nav li.two{background: url(../i/nav/11.png) no-repeat;}
+.smartjs.navi #nav li.three{background: url(../i/nav/21.png) no-repeat;}
+.smartjs.navi #nav li.four{background: url(../i/nav/31.png) no-repeat;}
+.smartjs.navi #nav li.five{background: url(../i/nav/41.png) no-repeat;}
+.smartjs.navi #nav li.six{background: url(../i/nav/51.png) no-repeat;}
+.smartjs.navi #nav li.seven{background: url(../i/nav/61.png) no-repeat;}
+
+.smartjs.navi #nav li.one:hover{background: url(../i/nav/00.png) no-repeat;}
+.smartjs.navi #nav li.two:hover{background: url(../i/nav/10.png) no-repeat;}
+.smartjs.navi #nav li.three:hover{background: url(../i/nav/20.png) no-repeat;}
+.smartjs.navi #nav li.four:hover{background: url(../i/nav/30.png) no-repeat;}
+.smartjs.navi #nav li.five:hover{background: url(../i/nav/40.png) no-repeat;}
+.smartjs.navi #nav li.six:hover{background: url(../i/nav/50.png) no-repeat;}
+.smartjs.navi #nav li.seven:hover{background: url(../i/nav/60.png) no-repeat;}
 
 
 
