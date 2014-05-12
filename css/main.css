@@ -972,7 +972,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 
 .smartjs.navi {
     width: 1000px;
-    margin: 0px auto 12px auto;
+    margin: 0px auto 0px auto;
     position: relative;
     height: 45px;
     z-index: 2;
@@ -992,6 +992,8 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     display: block;
     cursor: pointer;
 }
+.smartjs.navi #nav li ul a{line-height: 26px;height: 26px;}
+
 .smartjs.navi #nav li.one{background: url(../i/nav/01.png) no-repeat;}
 .smartjs.navi #nav li.two{background: url(../i/nav/11.png) no-repeat;}
 .smartjs.navi #nav li.three{background: url(../i/nav/21.png) no-repeat;}
@@ -1008,7 +1010,18 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 .smartjs.navi #nav li.six:hover{background: url(../i/nav/50.png) no-repeat;}
 .smartjs.navi #nav li.seven:hover{background: url(../i/nav/60.png) no-repeat;}
 
-
+.ui-popup.smartnav{
+    background: #fff;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.90;
+    width: 200px;
+    font-size: 14px;
+    padding: 10px;
+}
+#popupOne{
+    left: 12px !important;
+}
 
 
 

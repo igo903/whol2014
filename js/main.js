@@ -70,7 +70,38 @@
 
 
 			//smartjs
-			
+			new Popup({
+				trigger: '#nav .one span',
+				element: '#popupOne'
+			});
+			new Popup({
+				trigger: '#nav .two span',
+				element: '#popupTwo'
+			});
+			new Popup({
+				trigger: '#nav .three span',
+				element: '#popupThree'
+			});
+			new Popup({
+				trigger: '#nav .four span',
+				element: '#popupFour'
+			});
+			new Popup({
+				trigger: '#nav .five span',
+				element: '#popupFive'
+			});
+			new Popup({
+				trigger: '#nav .six span',
+				element: '#popupSix'
+			});
+			new Popup({
+				trigger: '#nav .seven span',
+				element: '#popupSeven'
+			});
+
+
+
+
 
 
 		});
