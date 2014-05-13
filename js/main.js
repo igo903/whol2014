@@ -99,6 +99,11 @@
 				element: '#popupSeven'
 			});
 
+			new Popup({
+				trigger: '#nav .eight span',
+				element: '#popupEight'
+			});
+
 
 
 
