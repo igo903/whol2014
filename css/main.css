@@ -994,21 +994,21 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .smartjs.navi #nav li ul a{line-height: 26px;height: 26px;}
 
-.smartjs.navi #nav li.one{background: url(../i/nav/01.png) no-repeat;}
-.smartjs.navi #nav li.two{background: url(../i/nav/11.png) no-repeat;}
-.smartjs.navi #nav li.three{background: url(../i/nav/21.png) no-repeat;}
-.smartjs.navi #nav li.four{background: url(../i/nav/31.png) no-repeat;}
-.smartjs.navi #nav li.five{background: url(../i/nav/41.png) no-repeat;}
-.smartjs.navi #nav li.six{background: url(../i/nav/51.png) no-repeat;}
-.smartjs.navi #nav li.seven{background: url(../i/nav/61.png) no-repeat;}
+.smartjs.navi #nav li.one{background: url(http://img.wuhan.net.cn/images/2014/nav/01.png) no-repeat;}
+.smartjs.navi #nav li.two{background: url(http://img.wuhan.net.cn/images/2014/nav/11.png) no-repeat;}
+.smartjs.navi #nav li.three{background: url(http://img.wuhan.net.cn/images/2014/nav/21.png) no-repeat;}
+.smartjs.navi #nav li.four{background: url(http://img.wuhan.net.cn/images/2014/nav/31.png) no-repeat;}
+.smartjs.navi #nav li.five{background: url(http://img.wuhan.net.cn/images/2014/nav/41.png) no-repeat;}
+.smartjs.navi #nav li.six{background: url(http://img.wuhan.net.cn/images/2014/nav/51.png) no-repeat;}
+.smartjs.navi #nav li.seven{background: url(http://img.wuhan.net.cn/images/2014/nav/61.png) no-repeat;}
 
-.smartjs.navi #nav li.one:hover{background: url(../i/nav/00.png) no-repeat;}
-.smartjs.navi #nav li.two:hover{background: url(../i/nav/10.png) no-repeat;}
-.smartjs.navi #nav li.three:hover{background: url(../i/nav/20.png) no-repeat;}
-.smartjs.navi #nav li.four:hover{background: url(../i/nav/30.png) no-repeat;}
-.smartjs.navi #nav li.five:hover{background: url(../i/nav/40.png) no-repeat;}
-.smartjs.navi #nav li.six:hover{background: url(../i/nav/50.png) no-repeat;}
-.smartjs.navi #nav li.seven:hover{background: url(../i/nav/60.png) no-repeat;}
+.smartjs.navi #nav li.one:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/00.png) no-repeat;}
+.smartjs.navi #nav li.two:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/10.png) no-repeat;}
+.smartjs.navi #nav li.three:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/20.png) no-repeat;}
+.smartjs.navi #nav li.four:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/30.png) no-repeat;}
+.smartjs.navi #nav li.five:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/40.png) no-repeat;}
+.smartjs.navi #nav li.six:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/50.png) no-repeat;}
+.smartjs.navi #nav li.seven:hover{background: url(http://img.wuhan.net.cn/images/2014/nav/60.png) no-repeat;}
 
 .ui-popup.smartnav{
     background: #fff;
