@@ -312,6 +312,7 @@ img {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	margin-bottom: 12px;
 }
 .topic-swipe {
 	height: 158px;
@@ -353,7 +354,7 @@ img {
 	width: 100%
 }
 .topic_img {
-	height: 152px;
+	height: auto;
 	margin: auto;
 	background: url(http: //3glogo.gtimg.com/wap30/info/info/img/space.png) no-repeat center center;
 	-webkit-background-size: 46px 47px;
@@ -449,7 +450,11 @@ img {
 	background: -webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#e1e3e4));
 	border-bottom: 2px solid #3d80ce;
 	border-top: 1px solid #c5c7cb;
-	display: -webkit-box
+	display: -webkit-box;
+}
+.module-t span{
+	display: block;
+	padding: 0 10px;
 }
 .module-t h3 {
 	background: #f9f8f8;
@@ -801,7 +806,7 @@ img {
 	width: 134px
 }
 .cont-list {
-	margin: 0 12px;
+	/*margin: 0 12px;*/
 	padding: 11px 0 15px
 }
 .expand-mod {
@@ -867,13 +872,28 @@ img {
 }
 .cont-list li {
 	border-bottom: 1px solid #eee;
-	height: 33px;
-	line-height: 33px;
+	height: 100px;
+	position: relative;
+	font-size: 14px;
 	display: -webkit-box
 }
 .cont-list li: last-child {
 	border-bottom: 0 none
 }
+.cont-list li a.thumb-img{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.cont-list li .title{
+	font-weight: bold;
+	display: block;
+}
+.cont-list li a.thumb-img img{
+	width: 120px;
+	height: 80px;
+}
+
 .cont-list>li a {
 	display: block;
 	-webkit-box-flex: 1
