@@ -41,6 +41,19 @@
 					</ul>
 				</a>
 			</li>
+
+			<li class="eight">
+				<a href="gov.smartjs.cn">
+					<span></span>
+					<ul id="popupEight" class="fn-hide ui-popup smartnav">
+							<a href="javascript:;">政务动态xx</a> |
+							<a href="javascript:;">政务导航xx</a> |
+							<a href="javascript:;">微博广场xx</a> |
+							<a href="javascript:;">蒲公英行动xx</a>
+					</ul>
+				</a>
+			</li>
+
 			<li class="three">
 				<a href="traf.smartjs.cn">
 					<span></span>
@@ -96,14 +109,14 @@
 						<a href="javascript:;">线路推荐</a> |
 						<a href="javascript:;">旅游图库</a> |
 						<a href="javascript:;">景区列表</a>
-				</ul>
+					</ul>
 				</a>
 			</li>
 		</ul>
 	</div>
 
 	<!-- 导航 -->
-	<!--#include virtual="/section/255.html"-->
+	<!-- #include virtual="/section/255.html" -->
 
 	<!-- Screen-1 AD -->
 	<div class="layout mt12 fn-clear">
@@ -392,12 +405,12 @@
 		});
 
 		// detector
-		seajs.use(['detector'],function(detector){
-			var deviceName = detector.os.name;
-			if(deviceName == "ios" || deviceName == "android" ) {
-				window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
-			}
-		});
+		// seajs.use(['detector'],function(detector){
+		// 	var deviceName = detector.os.name;
+		// 	if(deviceName == "ios" || deviceName == "android" ) {
+		// 		window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
+		// 	}
+		// });
 
 		// switchable
 		// seajs.use("./js/main");
@@ -477,6 +490,10 @@
 			new Popup({
 				trigger: '#nav .seven span',
 				element: '#popupSeven'
+			});
+			new Popup({
+				trigger: '#nav .eight span',
+				element: '#popupEight'
 			});
 			
 		});
