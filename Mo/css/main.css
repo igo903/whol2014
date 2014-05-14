@@ -311,7 +311,7 @@ img {
 	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
-	width: 320px
+	width: 100%;
 }
 .topic-swipe {
 	height: 158px;
@@ -334,7 +334,7 @@ img {
 	display: inline-block;
 	float: left;
 	position: relative;
-	width: 320px
+	width: 100%
 }
 .topic-item::before {
 	content: "";
@@ -350,13 +350,14 @@ img {
 .topic-item div {
 	display: table-cell;
 	vertical-align: middle;
-	width: 320px
+	width: 100%
 }
 .topic_img {
 	height: 152px;
 	margin: auto;
 	background: url(http: //3glogo.gtimg.com/wap30/info/info/img/space.png) no-repeat center center;
-	-webkit-background-size: 46px 47px
+	-webkit-background-size: 46px 47px;
+	width: 100%;
 }
 .topic-item .topic-title {
 	background-color: rgba(0,0,0,0.4);
@@ -369,7 +370,8 @@ img {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 308px
+	width: 100%;
+
 }
 .topic-item .topic-title::before {
 	content: "";
@@ -432,7 +434,7 @@ img {
 	background-color: #fff;
 	margin: 0 auto;
 	text-align: center;
-	width: 320px
+	width: 100%
 }
 .ad img {
 	border: -1 none
@@ -529,7 +531,7 @@ img {
 	display: none
 }
 .top {
-	text-align: center
+	padding: 10px;
 }
 .toppic {
 	padding-top: 0
@@ -543,7 +545,7 @@ img {
 	color: #910000
 }
 .top p {
-	margin-bottom: 8px
+	/*margin-bottom: 8px*/
 }
 .top p: last-child {
 	margin-bottom: 15px
@@ -1248,7 +1250,7 @@ footer nav a {
 	display: block
 }
 #slideImage {
-	width: 320px;
+	width: 100%;
 	height: 152px;
 	overflow: hidden;
 	position: relative;
