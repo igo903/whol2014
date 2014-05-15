@@ -26,7 +26,9 @@ img {
 .wrapper {
 	background-color: #f9f8f8;
 	overflow: hidden;
-	margin: 0 auto
+	margin: 0 auto;
+	padding-bottom: 50px;
+
 }
 .switch-link, .hd-tips, .boutique::after, .search-form::after, .dot-slider .dot, .stock-up::after, .stock-down::after, .wb-mod::after, .book-mod::after, .v-link::before, .wb-link::before, .cmt-num::after, .zt-icon, .to-index::after {
 	background: url(http://3glogo.gtimg.com/wap30/info/info/img/sprites-20130221.png) no-repeat;
@@ -801,11 +803,41 @@ img {
 	padding: 0 5px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 134px
+	width: 134px;
 }
 .cont-list {
-	/*margin: 0 12px;*/
-	padding: 11px 0 15px
+	/*margin: 0 12px;
+	padding: 11px 0 15px*/
+}
+.panel.video{
+	margin-bottom: 12px;
+}
+.video-home{
+	height: 100%;
+	/*padding: 0 10px;*/
+	/*width: 100%;*/
+}
+.video-home img{
+	width:100%;
+	height:auto;
+}
+.video-home li{
+	width: 30%;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin: 0px 2.5%;
+}
+.video-home li.middle{
+	margin: 0;
+}
+.video-home li a span{
+	font-size: 14px;
+	padding: 5px 0 5px 0;
+	display: block;
+}
+.video-home li:last-child{
+	/*margin-right: 0;*/
 }
 .expand-mod {
 	background-color: white;
@@ -870,7 +902,7 @@ img {
 }
 .cont-list li {
 	border-bottom: 1px solid #eee;
-	height: 100px;
+	height: 80px;
 	position: relative;
 	font-size: 14px;
 	/*display: -webkit-box;*/
@@ -883,7 +915,7 @@ img {
 .cont-list li .thumb-img{
 	position: absolute;
 	left: 10px;
-	top: 20px;
+	top: 10px;
 }
 .cont-list li .news-info, .cont-list li .news-time{
 	color: #666;
@@ -893,13 +925,12 @@ img {
 .cont-list li .news-info{
 	height: 40px;
 	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
 	font-size: 14px;
+	line-height: 22px;
 }
 .cont-list li .news-time{
 	position: absolute;
-	bottom: 10px;
+	bottom: 5px;
 	right: 10px;
 }
 
@@ -907,6 +938,11 @@ img {
 	font-weight: bold;
 	display: block;
 	padding: 0 0 5px 0;
+	font-size: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
 }
 .cont-list li .thumb-img img{
 	width: 120px;
@@ -1603,7 +1639,7 @@ a.blue-link {
 
 #footer-dock{
 	height: 48px;
-	background: -webkit-gradient(linear,0 0, 0 100% , from(#212628),to(#222628));
+	background: -webkit-gradient(linear,0 0, 0 100% , from(#F0F0F0),to(#f0f0f0));
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -1611,7 +1647,8 @@ a.blue-link {
 	z-index: 1000;
 	padding: 0px;
 	width: 100%; margin:0px auto;
-	font-size: 16px;color: #fff;
+	font-size: 16px;color: #3072C2;
+	border-top: 1px solid #666;
 }
 .footer_tab{overflow: hidden;}
 
