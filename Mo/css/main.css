@@ -312,7 +312,6 @@ img {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	margin-bottom: 12px;
 }
 .topic-swipe {
 	height: 158px;
@@ -328,8 +327,7 @@ img {
 .topic .cont-list {
 	background: 0;
 	border-top: 0 none;
-	padding-bottom: 12px;
-	padding-top: 7px
+	padding: 0;
 }
 .topic .cont-list::before .topic-item {
 	display: inline-block;
@@ -875,21 +873,42 @@ img {
 	height: 100px;
 	position: relative;
 	font-size: 14px;
-	display: -webkit-box
+	/*display: -webkit-box;*/
+	padding:10px 10px 10px 140px;
+	overflow: hidden;
 }
 .cont-list li: last-child {
 	border-bottom: 0 none
 }
-.cont-list li a.thumb-img{
+.cont-list li .thumb-img{
 	position: absolute;
 	left: 10px;
-	top: 10px;
+	top: 20px;
 }
+.cont-list li .news-info, .cont-list li .news-time{
+	color: #666;
+	font-size: 12px;
+	
+}
+.cont-list li .news-info{
+	height: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 14px;
+}
+.cont-list li .news-time{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
 .cont-list li .title{
 	font-weight: bold;
 	display: block;
+	padding: 0 0 5px 0;
 }
-.cont-list li a.thumb-img img{
+.cont-list li .thumb-img img{
 	width: 120px;
 	height: 80px;
 }
