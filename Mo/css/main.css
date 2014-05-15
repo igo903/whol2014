@@ -1635,7 +1635,29 @@ a.blue-link {
 .toList a{width: 32px;height: 28px;font-size: 25px;color:#4488d3;}
 .toList a:active{color: #000;}
 
+.arrow-down{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #f00;
+	position: absolute;
+	right: -20px;
+	top: -5px;
+	z-index: 20;
+	-webkit-transform: rotate(-134deg);
 
+}
+.arrow-down::after{
+	content: "标签";
+	position: absolute;
+	top: -29px;
+	left: -18px;
+	font-size: 9px;
+	width: 30px;
+	color: #fff;
+	-webkit-transform: rotate(-178deg);
+}
 
 #footer-dock{
 	height: 48px;
@@ -1654,7 +1676,7 @@ a.blue-link {
 
 /*FOOTER*/
 	#footer-dock li{padding: 10px 0;float: left;width: 20%; line-height: 26px;box-sizing:border-box;text-align: center;}
-	#footer-dock li:active{background-color: #000;}
+	#footer-dock li:active{background-color: #dfdfdf;}
 	#footer-dock li div{border-right: 1px solid white;}
 	#footer-dock li:last-child div{border: none;}
 	#footer-dock li span{position: relative; /*margin-left: 21px;*/}
