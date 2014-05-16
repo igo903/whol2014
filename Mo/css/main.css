@@ -914,6 +914,7 @@ img {
 }
 .panel.video{
 	margin-bottom: 12px;
+	margin-top: 12px;
 }
 .video-home{
 	height: 100%;
@@ -930,6 +931,19 @@ img {
 	float: left;
 	text-align: center;
 	margin: 0px 2.5%;
+	position: relative;
+}
+.video-home li span{
+	display: block;
+	background: rgba(0,0,0,.5);
+	text-indent:10px;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	font-size: 14px;
 }
 .video-home li.middle{
 	margin: 0;
