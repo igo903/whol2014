@@ -13,7 +13,8 @@
 <body id="main">
 	<div class="wrapper">
 		
-		<div class="login-panel animated ">
+		<div class="login-panel">
+			
 		</div>
 
 		<header id="header" class="header">
@@ -23,7 +24,7 @@
 			<div class="logowrapper">
 				<div class="logo "></div>
 				<!-- <a class="login-btn">登录</a> -->
-				<a href="" class="btn fa fa-chevron-down fa-lg"></a>
+				<a href="javascript:;" class="btn fa fa-angle-down fa-lg"></a>
 			</div>
 			
 
@@ -219,11 +220,8 @@
 	</div>
 
 <script>
-
+	var flag = true;
 	var bullets = document.getElementById('slideDots').getElementsByTagName('span');
-	//var pdot1 = document.getElementById('dotnews1').getElementsByTagName('span');
-	//var pdot2 = document.getElementById('dotnews2').getElementsByTagName('span');
-
 	var slider = Swipe(document.getElementById('slideImage'), {
 		startSlide:0,
 		auto: 3000,
@@ -240,48 +238,24 @@
 		    }
 		});
 
-	$('.btn').click(function(){
+	
+	$('.logowrapper .btn').on('click', function(e){
 		
-		//$('.login-panel').addClass('shake');
-		$('.login-panel').css("height","150px");
+		if(flag == true){
+			$('.login-panel').css("height","150px");
+			$(this).removeClass('fa-angle-down');
+			$(this).addClass('fa-angle-up');
+			flag = false;
+		} else {
+			$('.login-panel').css("height","0px");
+			$(this).removeClass('fa-angle-up');
+			$(this).addClass('fa-angle-down');
+			flag = true;
+		}
 
 	});
 		
-	// var sliderNews = Swipe(document.getElementById('news_slide_1'), {
-	// 	startSlide:0,
-	// 	auto: 0,
-	// 	continuous: true,	
 
-	// 	callback: function(pos) {
-	// 		var dotName_title = $('#mod-news1 .more1 p');
-	// 		var i = pdot1.length;
-	// 			while (i--) {
-	// 				pdot1[i].className = 'dot 1';
-	// 			}
-	// 			pdot1[pos].className = 'dot current 1';
-	// 			$('#mod-news1 h3 a').html($(dotName_title[pos]).html());
-	// 		}
-	// 	});	
-
-	// var sliderNews = Swipe(document.getElementById('news_slide_2'), {
-	// 	startSlide:0,
-	// 	auto: 0,
-	// 	continuous: true,	
-
-	// 	callback: function(pos) {
-	// 		var dotName_title = $('#mod-news2 .more2 p');
-	// 		var i = pdot2.length;
-	// 			while (i--) {
-	// 				pdot2[i].className = 'dot 2';
-	// 			}
-	// 			pdot2[pos].className = 'dot current 2';
-	// 			$('#mod-news2 h3 a').html($(dotName_title[pos]).html());
-	// 		}
-	// 	});	
-
-	// var mySidr = function(){
-	// 	$('#simple-menu').sidr();
-	// }();
 
 </script>
 
