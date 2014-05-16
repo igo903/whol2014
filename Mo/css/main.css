@@ -93,7 +93,7 @@ img {
 
 
 .logo {
-	background: url(../img/logo.jpg) no-repeat -22px top;
+	background: url(http://img.wuhan.net.cn/images/2014MO/logo.jpg) no-repeat -22px top;
 	-webkit-background-size: 138px 28px;
 	/*display: inline-block;*/
 	height: 28px;
@@ -156,7 +156,7 @@ img {
 }
 .main-nav {
 	background-color: #4488d3;
-	background: url(../img/main_nav_bg.jpg) no-repeat center 0,url(../img/main_nav_bg2.jpg) repeat-x;
+	background: url(http://img.wuhan.net.cn/images/2014MO/main_nav_bg.jpg) no-repeat center 0,url(http://img.wuhan.net.cn/images/2014MO/main_nav_bg2.jpg) repeat-x;
 	-webkit-background-size: auto 75px;
 	text-align: center;
 	height: 65px;
@@ -228,7 +228,7 @@ img {
 }
 .soso-txt {
 	font-size: 18px;
-	background: url(../img/soso_logo-2013040201.png) no-repeat;
+	background: url(http://img.wuhan.net.cn/images/2014MO/soso_logo-2013040201.png) no-repeat;
 	-webkit-background-size: 41px 13px;
 	text-indent: -99em;
 	display: inline-block;
@@ -1636,11 +1636,11 @@ a.blue-link {
 	text-align: center
 }
 .mayday-header {
-	background: url(../img/mayday_header_bg.jpg) no-repeat center 0,url(../img/mayday_header_bg2.jpg) repeat-x;
+	background: url(http://img.wuhan.net.cn/images/2014MO/mayday_header_bg.jpg) no-repeat center 0,url(http://img.wuhan.net.cn/images/2014MO/mayday_header_bg2.jpg) repeat-x;
 	-webkit-background-size: auto 119px
 }
 .mayday-header .logo,.mayday-header .switch-link,.mayday-header .boutique::after {
-	background: url(../img/mayday_sprites.png) no-repeat;
+	background: url(http://img.wuhan.net.cn/images/2014MO/mayday_sprites.png) no-repeat;
 	-webkit-background-size: 138px 62px
 }
 .mayday-header .logowrapper {
