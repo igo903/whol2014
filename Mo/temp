@@ -1,0 +1,14 @@
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线移动版</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="apple-touch-icon-precomposed" href="">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/mo/css/main.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/mo/css/font-awesome.css">
+	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/mo/js/swipe.js"></script>
+	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/mo/js/zepto.min.js"></script>
+</head>
+
+
+<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136762647491635723.jpg" alt="男子北京街头砍死2人警方处置" width="320" height="144" border="0" class="topic_img" pl='1'></a>
