@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>武汉热线移动版</title>
-	<meta name="viewport" content="width=device-width"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
 	<link rel="apple-touch-icon-precomposed" href="">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
@@ -14,12 +15,19 @@
 	<div class="wrapper">
 		
 		<div class="login-panel">
-			
+			<form method="post" action="" class="loginform">
+				<ul id="popupLogin" class="ui-popup fn-clear">
+					<h1>欢迎登录到智慧城市</h1>
+					<h2>请输入您的智慧城市用户名及密码</h2>
+					<li ><input type="text" name="username" id="username" class="form" value="请输入用户名"></li>
+					<li><input type="password" name="password" id="password" class="form" value="请输入密码"></li>
+					<li><input type="button" value="登 录" class="btn-form"></li>
+					<li class="error fn-hide">* 用户名或密码错误</li>
+				</ul>
+			</form>
 		</div>
 
 		<header id="header" class="header">
-			
-			
 
 			<div class="logowrapper">
 				<div class="logo "></div>
@@ -27,21 +35,6 @@
 				<a href="javascript:;" class="btn fa fa-angle-down fa-lg"></a>
 			</div>
 			
-
-			<!-- <nav class="main-nav">
-				<ul class="main-nav-list">
-					<li><a href="#">首页</a></li>
-					<li><a href="#">资讯</a></li>
-					<li><a href="#">房产</a></li>
-					<li><a href="#">家居</a></li>
-				</ul>
-				<ul class="main-nav-list">
-					<li><a href="#">婚嫁</a></li>
-					<li><a href="#">亲子</a></li>
-					<li><a href="#">生活</a></li>
-					<li><a href="#">旅游</a></li>
-				</ul>
-			</nav> -->
 		</header>
 
 		<section id="headline" class="topic">
@@ -185,25 +178,6 @@
 			</div>
 		</div>
 
-
-
-        <!--页脚-->
-		<!--<footer id="footer">
-			 <nav>
-				<a href="#">下载智慧城市客户端</a>
-				<a id="gotop" href="javascript:void(0);" onclick="scrollTo(0,0)" class="to-index">回顶部</a>
-            </nav>
-            <div class="copyright">&copy;2014 武汉热线 中国电信</div>
-            <div class="about">
-                <span>
-                    http://www.wuhan.net.cn
-                </span>
-                <span class="qqtouch">
-                    武汉热线移动版
-                </span>
-            </div> 
-        </footer>-->
-
 		<footer id="footer-dock">
 	        <ul class="footer_tab">
 	            <li class="" id="index"><div><span>首页</span></div></li>
@@ -213,9 +187,6 @@
 	            <li class="" id="apps"><div><span>应用</span></div></li>
 	        </ul> 
 	    </footer>
-
-
-
 
 	</div>
 
@@ -242,7 +213,7 @@
 	$('.logowrapper .btn').on('click', function(e){
 		
 		if(flag == true){
-			$('.login-panel').css("height","150px");
+			$('.login-panel').css("height","240px");
 			$(this).removeClass('fa-angle-down');
 			$(this).addClass('fa-angle-up');
 			flag = false;

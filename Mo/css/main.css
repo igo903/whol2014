@@ -32,6 +32,12 @@ img {
     clear:both;
     height:0;
 }
+/* 单行文字溢出时出现省略号，需设定宽度 */ 
+.fn-text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .fn-clear {
     zoom:1; /* for IE6 IE7 */
 }
@@ -40,13 +46,61 @@ img {
 .fn-hide {
     display:none;
 }
+.fn-left,
+.fn-right {
+    display:inline;
+}
+.fn-left {
+    float:left;
+}
+.fn-right {
+    float:right;
+}
 .wrapper {
 	background-color: #f9f8f8;
 	overflow: hidden;
 	margin: 0 auto;
 	padding-bottom: 50px;
-
 }
+.ui-popup h1{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 12px;
+}
+.ui-popup h2{
+	font-size: 14px;
+	color:#fff;
+	margin-bottom: 10px;
+}
+.ui-popup{
+	padding: 20px;
+}
+.loginform .form{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	border:1px solid #fff;
+	font-size: 14px;
+	text-indent: 10px;
+	margin-bottom: 10px;
+}
+.loginform .btn-form{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0px auto;
+	border: none;
+	font-size: 15px;
+	color: #fff;
+	background: #81a5d5;
+	border: 1px solid #dfdfdf;
+} 
+.loginform .btn-form:active{
+	background: #3b6cb4;
+}
+
 .switch-link, .hd-tips, .boutique::after, .search-form::after, .dot-slider .dot, .stock-up::after, .stock-down::after, .wb-mod::after, .book-mod::after, .v-link::before, .wb-link::before, .cmt-num::after, .zt-icon, .to-index::after {
 	background: url(http://3glogo.gtimg.com/wap30/info/info/img/sprites-20130221.png) no-repeat;
 	-webkit-background-size: 105px 240px;
@@ -58,8 +112,9 @@ img {
 .login-panel{
 	width: 100%;
 	height: 0px;
-	background: url(../img/main_nav_bg2.jpg) repeat-x;
-	-webkit-transition: height .5s ease-in-out 0s;
+	background:#3d80ce url(../img/main_nav_bg2.jpg) repeat-x;
+	-webkit-transition: height .4s ease-in-out 0s;
+	overflow: hidden;
 }
 .logowrapper {
 	overflow: hidden;
