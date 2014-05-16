@@ -23,6 +23,23 @@ img {
 .float-right {
 	float: right
 }
+/* 清理浮动 */
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.fn-clear {
+    zoom:1; /* for IE6 IE7 */
+}
+
+/* 隐藏, 通常用来与 JS 配合 */
+.fn-hide {
+    display:none;
+}
 .wrapper {
 	background-color: #f9f8f8;
 	overflow: hidden;
@@ -35,7 +52,14 @@ img {
 	-webkit-background-size: 105px 240px;
 }
 .header {
-	background-color: #4488d3
+	background-color: #4488d3;
+	position: relative;
+}
+.login-panel{
+	width: 100%;
+	height: 0px;
+	background: url(../img/main_nav_bg2.jpg) repeat-x;
+	-webkit-transition: all .2s ease-in-out 0s;
 }
 .logowrapper {
 	overflow: hidden;
@@ -43,8 +67,31 @@ img {
 	background-color:#fff;
 	/*background-image: -webkit-gradient(linear,left top,left bottom,from(#5eacea),to(#3d7fcc));*/
 	height: 43px;
-	border-bottom: 1px solid #3072c2
+	border-bottom: 1px solid #3072c2;
 }
+.logowrapper .login-btn{
+	position: absolute;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #3072C2;
+	top: 7px;
+	right: 10px;
+	font-size: 13px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+}
+.logowrapper .btn{
+	position: absolute;
+	top: 10px;
+	color: #3072C2;
+	right: 10px;
+}
+
+
 .logo {
 	background: url(../img/logo.jpg) no-repeat -22px top;
 	-webkit-background-size: 138px 28px;
@@ -87,7 +134,7 @@ img {
 	position: absolute;
 	right: 0;
 	top: 0;
-	z-index: 22
+	z-index: 22;
 }
 .boutique {
 	color: white;
@@ -1653,7 +1700,7 @@ a.blue-link {
 	position: absolute;
 	top: -29px;
 	left: -18px;
-	font-size: 9px;
+	font-size: 12px;
 	width: 30px;
 	color: #fff;
 	-webkit-transform: rotate(-178deg);
