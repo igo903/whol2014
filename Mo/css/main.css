@@ -923,7 +923,6 @@ img {
 .video-home li span{
 	display: block;
 	background: rgba(0,0,0,.5);
-	text-indent:10px;
 	height: 30px;
 	line-height: 30px;
 	width: 100%;
