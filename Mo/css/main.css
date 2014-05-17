@@ -1005,11 +1005,11 @@ img {
 }
 .cont-list li {
 	border-bottom: 1px solid #eee;
-	height: 80px;
+	height: 90px;
 	position: relative;
 	font-size: 14px;
 	/*display: -webkit-box;*/
-	padding:10px 10px 10px 140px;
+	padding:10px 10px 10px 120px;
 	overflow: hidden;
 }
 .cont-list li: last-child {
@@ -1018,7 +1018,7 @@ img {
 .cont-list li .thumb-img{
 	position: absolute;
 	left: 10px;
-	top: 10px;
+	top: 15px;
 }
 .cont-list li .news-info, .cont-list li .news-time{
 	color: #666;
@@ -1026,7 +1026,7 @@ img {
 	
 }
 .cont-list li .news-info{
-	height: 40px;
+	height: 65px;
 	overflow: hidden;
 	font-size: 14px;
 	line-height: 22px;
@@ -1048,7 +1048,7 @@ img {
 
 }
 .cont-list li .thumb-img img{
-	width: 120px;
+	width: 100px;
 	height: 80px;
 }
 
