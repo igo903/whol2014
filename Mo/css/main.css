@@ -1751,6 +1751,25 @@ a.blue-link {
 }
 
 
+.life-tiles ul{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.life-tiles ul li{
+	float: left;
+	width: 29%;
+	height: auto;
+	text-align: center;
+	margin: 0px 2.0%;
+}
+
+.life-tiles ul li img{
+	width: 100%;
+	height: auto;
+}
+
+
 
 
 .toList{position: absolute;left: 15px;top:10px;}
