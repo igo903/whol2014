@@ -40,6 +40,30 @@
 		<!-- 天气 -->
 		<div class="top"><p>武汉市25℃~16℃ 阴</p></div>
 
+		<div class="life-tiles">
+			<div class="row">
+				<ul>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+					<li><a href="javascript:;"></a></li>
+				</ul>
+			</div>
+		</div>
+
 
 
 		<!-- 底部导航 -->
@@ -54,6 +78,26 @@
 		</footer>
 
 	</div>
+
+
+
+	<script>
+		var flag = true;
+
+		$('.logowrapper .btn').on('click', function(e){
+			if(flag == true){
+				$('.login-panel').css("height","240px");
+				$(this).removeClass('fa-angle-down');
+				$(this).addClass('fa-angle-up');
+				flag = false;
+			} else {
+				$('.login-panel').css("height","0px");
+				$(this).removeClass('fa-angle-up');
+				$(this).addClass('fa-angle-down');
+				flag = true;
+			}
+		});
+	</script>
 
 
 </body>
