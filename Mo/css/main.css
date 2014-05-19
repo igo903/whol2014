@@ -645,6 +645,7 @@ body{background: #f9f8f8;}
 }
 .top {
 	padding: 10px;
+	background: #efefef;
 }
 .toppic {
 	padding-top: 0
@@ -1761,12 +1762,39 @@ a.blue-link {
 	width: 29%;
 	height: auto;
 	text-align: center;
-	margin: 0px 2.0%;
+	margin: 10px 2.0% 20px 2.0%;
+	font-size: 12px;
+}
+.life-tiles ul li span{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+    display: inline-block;
 }
 
 .life-tiles ul li img{
 	width: 100%;
 	height: auto;
+}
+
+.life-tiles .inner-container ul li{
+	float: left;
+	width: 29%;
+	height: auto;
+	padding-bottom: 30px;
+	text-align: center;
+	margin: 10px 2.0% 20px 2.0%;
+	font-size: 12px;
+}
+
+
+
+.inner-container{
+	background: #000;
+	-webkit-transition: height 300ms ease-in-out;
+	/*height: 0;*/
+
 }
 
 
