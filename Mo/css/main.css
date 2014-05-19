@@ -1777,24 +1777,47 @@ a.blue-link {
 	width: 100%;
 	height: auto;
 }
+.life-tiles .row{
+	width: 100%;
+	height: 100%;
+}
 
 .life-tiles .inner-container ul li{
 	float: left;
 	width: 29%;
 	height: auto;
-	padding-bottom: 30px;
 	text-align: center;
 	margin: 10px 2.0% 20px 2.0%;
 	font-size: 12px;
+}
+.life-tiles .inner-container div{
+	width: 100%;
+	display: inline-block;
 }
 
 
 
 .inner-container{
-	background: #000;
+	background: #fff;
+	display: inline-block;
+	width: 100%;
+	position: relative;
 	-webkit-transition: height 300ms ease-in-out;
-	/*height: 0;*/
+	height: 0;
+}
 
+.inner-container .arrow-up{
+	color: #fff;
+	position: absolute;
+	top: -40px;
+	z-index: 20;
+	display: block;
+}
+.inner-container .arrow-up#service-arrow{
+	right: 15%;
+}
+.inner-container .arrow-up#telNums-arrow{
+	right: 47%;
 }
 
 

@@ -47,39 +47,53 @@
 						<a href="javascript:;"><img src="img/lottery.png" alt=""></a>
 						<span>买彩票</span>
 					</li>
-					<li>
+					<li class="frequent">
 						<a href="javascript:;"><img src="img/phone.png" alt=""></a>
 						<span>常用电话</span>
 					</li>
-					<li>
+					<li class="convience">
 						<a href="javascript:;"><img src="img/cash.png" alt=""></a>
 						<span>便民服务</span>
 					</li>
 				</ul>
 			</div>
 
-			<div class="telNums inner-container fn-hide">
-						<div>
-							<ul>
-								<li><a href="javascript:;"><img src="img/keyboard.png" alt=""></a><span>特种服务</span></li>
-								<li><a href="javascript:;"><img src="img/jubao.png" alt=""></a><span>国家机构监督、投诉举报电话</span></li>
-								<li><a href="javascript:;"><img src="img/visa.png" alt=""></a><span>银行服务</span></li>
-							</ul>
-						</div>
-						<div>
-							<ul>
-								<li><a href="javascript:;"><img src="img/insurance.png" alt=""></a><span>保险</span></li>
-								<li><a href="javascript:;"><img src="img/setting.png" alt=""></a><span>售后服务</span></li>
-								<li><a href="javascript:;"><img src="img/folder.png" alt=""></a><span>中央政府部门公众服务电话、公益团体服务电话</span></li>
-							</ul>
-						</div>
-						<div>
-							<ul>
-								<li><a href="javascript:;"><img src="img/car.png" alt=""></a><span>常用汽车公司800/400电话号码</span></li>
-								<li><a href="javascript:;"><img src="img/insurance.png" alt=""></a><span>全国保险公司服务电话号码</span></li>
-								<li><a href="javascript:;"><img src="img/music.png" alt=""></a><span>社区黄页</span></li>
-							</ul>
-						</div>
+			<div class="inner-container none" id="telNums">
+				<div>
+					<ul>
+						<li><a href="javascript:;"><img src="img/keyboard.png" alt=""></a><span>特种服务</span></li>
+						<li><a href="javascript:;"><img src="img/jubao.png" alt=""></a><span>国家机构监督、投诉举报电话</span></li>
+						<li><a href="javascript:;"><img src="img/visa.png" alt=""></a><span>银行服务</span></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="javascript:;"><img src="img/insurance.png" alt=""></a><span>保险</span></li>
+						<li><a href="javascript:;"><img src="img/setting.png" alt=""></a><span>售后服务</span></li>
+						<li><a href="javascript:;"><img src="img/folder.png" alt=""></a><span>中央政府部门公众服务电话、公益团体服务电话</span></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="javascript:;"><img src="img/car.png" alt=""></a><span>常用汽车公司800/400电话号码</span></li>
+						<li><a href="javascript:;"><img src="img/insurance.png" alt=""></a><span>全国保险公司服务电话号码</span></li>
+						<li><a href="javascript:;"><img src="img/music.png" alt=""></a><span>社区黄页</span></li>
+					</ul>
+				</div>
+
+				<i class="arrow-up fa fa-caret-up fa-5x none" id="telNums-arrow"></i>
+			</div>
+
+			<div class="inner-container none" id="service">
+				<div>
+					<ul>
+						<li><a href="javascript:;"><img src="img/water.png" alt=""></a><span>水费查询</span></li>
+						<li><a href="javascript:;"><img src="img/flash.png" alt=""></a><span>电费查缴</span></li>
+						<li><a href="javascript:;"><img src="img/tax.png" alt=""></a><span>地税查询</span></li>
+					</ul>
+				</div>
+				
+				<i class="arrow-up fa fa-caret-up fa-5x none" id="service-arrow"></i>
 			</div>
 
 			<div class="row">
@@ -135,9 +149,12 @@
 
 
 	<script>
+		
 		var flag = true;
-
+		var ribbon = true;
+		var tagMe = true;
 		$('.logowrapper .btn').on('click', function(e){
+			
 			if(flag == true){
 				$('.login-panel').css("height","240px");
 				$(this).removeClass('fa-angle-down');
@@ -150,6 +167,54 @@
 				flag = true;
 			}
 		});
+
+		$('.frequent').on('click', function(e){
+			if(ribbon == true){
+				$('#telNums').css("height","100%");
+				$('#telNums').removeClass('none');
+				$('#telNums-arrow').removeClass('none');
+				ribbon = false;
+
+
+				$('#service').css("height","0");
+				$('#service-arrow').addClass('none');
+				$('#service').addClass('none');
+				tagMe = true;
+
+
+			} else if(ribbon == false){
+				$('#telNums').css("height","0");
+				$('#telNums-arrow').addClass('none');
+				$('#telNums').addClass('none');
+				ribbon = true;
+
+
+
+			}
+		});
+
+		$('.convience').on('click', function(e){
+			if(tagMe == true){
+				$('#service').css("height","100%");
+				$('#service').removeClass('none');
+				$('#service-arrow').removeClass('none');
+				tagMe = false;
+
+				$('#telNums').css("height","0");
+				$('#telNums-arrow').addClass('none');
+				$('#telNums').addClass('none');
+				ribbon = true;
+
+			} else if(tagMe == false){
+				$('#service').css("height","0");
+				$('#service-arrow').addClass('none');
+				$('#service').addClass('none');
+				tagMe = true;
+			}
+		});
+
+
+
 	</script>
 
 
