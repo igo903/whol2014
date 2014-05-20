@@ -19,14 +19,31 @@
 	<!--//smartjs-->
 	<div class="smartjs navi">
 		<ul id="nav">
+			<li class="zero">
+				<a href="http://info.wuhan.net.cn/pub/news/" target="_blank">
+					<span></span>
+					<ul id="popupZero" class="fn-hide ui-popup smartnav">
+						<a href="http://info.wuhan.net.cn/pub/news/wuhan/" target="_blank">武汉</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/guonei/" target="_blank">国内</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/guoji/" target="_blank">国际</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/shehui/" target="_blank">社会</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/tech/" target="_blank">科技</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/ent/" target="_blank">娱乐</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/caijing/" target="_blank">财经</a> |
+						<a href="http://info.wuhan.net.cn/pub/news/shenghuo/" target="_blank">生活</a>
+					</ul>
+				</a>
+			</li>
 			<li class="one">
-				<a href="news.smartjs.cn">
+				<a href="gov.smartjs.cn">
 					<span></span>
 					<ul id="popupOne" class="fn-hide ui-popup smartnav">
-						<a href="javascript:;">社会聚焦</a> |
-						<a href="javascript:;">青奥快讯</a> |
-						<a href="javascript:;">中国武汉网</a> |
-						<a href="javascript:;">信息田园</a>
+						<a href="http://info.wuhan.net.cn/zhengwu/xingxigongkai/" target="_blank">信息公开</a> |
+						<a href="http://info.wuhan.net.cn/zhengwu/zhengwugonggao/" target="_blank">政务公告</a> |
+						<a href="http://info.wuhan.net.cn/zhengwu/zhengwudongtai/" target="_blank">政务动态</a> |
+						<a href="http://info.wuhan.net.cn/zhengwu/zhaotoubiao/" target="_blank">招投信息</a> |
+						<a href="http://info.wuhan.net.cn/zhengwu/zhengfuwenjian/" target="_blank">政府文件</a> |
+						<a href="http://info.wuhan.net.cn/zhengwu/jianbao/" target="_blank">每日剪报</a>
 					</ul>
 				</a>
 			</li>
@@ -34,26 +51,13 @@
 				<a href="gov.smartjs.cn">
 					<span></span>
 					<ul id="popupTwo" class="fn-hide ui-popup smartnav">
-							<a href="javascript:;">政务动态</a> |
-							<a href="javascript:;">政务导航</a> |
-							<a href="javascript:;">微博广场</a> |
-							<a href="javascript:;">蒲公英行动</a>
+						<a href="javascript:;">政务动态xx</a> |
+						<a href="javascript:;">政务导航xx</a> |
+						<a href="javascript:;">微博广场xx</a> |
+						<a href="javascript:;">蒲公英行动xx</a>
 					</ul>
 				</a>
 			</li>
-
-			<li class="eight">
-				<a href="gov.smartjs.cn">
-					<span></span>
-					<ul id="popupEight" class="fn-hide ui-popup smartnav">
-							<a href="javascript:;">政务动态xx</a> |
-							<a href="javascript:;">政务导航xx</a> |
-							<a href="javascript:;">微博广场xx</a> |
-							<a href="javascript:;">蒲公英行动xx</a>
-					</ul>
-				</a>
-			</li>
-
 			<li class="three">
 				<a href="traf.smartjs.cn">
 					<span></span>
@@ -116,7 +120,7 @@
 	</div>
 
 	<!-- 导航 -->
-	<!--#include virtual="/section/255.html"-->
+	<!-- #include virtual="/section/255.html" -->
 
 	<!-- Screen-1 AD -->
 	<div class="layout mt12 fn-clear">
@@ -193,15 +197,15 @@
 				<!-- 媒体聚焦 -->
 				<div class="leftAreaContent leftZhuanti fn-left mt12">
 					<div class="hd"><h2><a href="javascript:;">媒体聚焦</a></h2></div>
-					<!--#include virtual="/section/363.html"--><!--# 2014首页 媒体聚焦 #-->
+					<!--#include virtual="/section/363.html"-->
 				</div>
 
 				<!-- Screen-1,Area-4 -->
 
 				<!-- 智慧城市 -->
 				<div class="leftAreaContent leftApp fn-right mt12">					
-					<div class="hd"><h2><a href="javascript:;">智慧城市</a></h2></div>
-					<!--#include virtual="/section/365.html"--><!--# 2014首页 智慧城市 #-->
+					<div class="hd"><h2><a href="javascript:;">智慧交通</a></h2></div>
+					<!--#include virtual="/section/365.html"-->
 				</div>
 
 			</div>
@@ -210,9 +214,9 @@
 		<!-- Screen-1,Area-R -->
 		<div class="layoutRight">
 
-			<!-- 热线智选 -->
+			<!-- 智慧城市 -->
 			<div class="rightArea fn-clear rightNews" id="announce">
-				<div class="hd"><h2>热线智选</h2></div>
+				<div class="hd"><h2>智慧城市</h2></div>
 				<div class="contents">
 					<!--#include virtual="/section/387.html"-->
 				</div>
@@ -464,6 +468,10 @@
 
 			//smartjs
 			new Popup({
+				trigger: '#nav .zero',
+				element: '#popupZero'
+			});
+			new Popup({
 				trigger: '#nav .one span',
 				element: '#popupOne'
 			});
@@ -490,10 +498,6 @@
 			new Popup({
 				trigger: '#nav .seven span',
 				element: '#popupSeven'
-			});
-			new Popup({
-				trigger: '#nav .eight span',
-				element: '#popupEight'
 			});
 			
 		});
