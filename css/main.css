@@ -642,7 +642,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     overflow: hidden;
 }
 .appicons{
-    padding: 15px 0 11px 10px;
+    padding: 10px 0 10px 0px;
     text-align: center;
     height: 100px;
 }
