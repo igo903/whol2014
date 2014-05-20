@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线2014</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="sea-modules/alice/base/1.0.2/base-debug.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script type="text/javascript" src="sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+</head>
+<body>
+
+	<!-- 顶部工具条 -->
+	
+	<div id="topnav" class="mininav">
+		<div class="mininavInner">
+
+			<div class="fn-left">
+				<i class="fa fa-mobile fa-lg app"></i>
+				<a href="javascript:;" class="app" id="wholApp">智慧城市无线门户</a>
+				<div id="popupApp" class="fn-hide ui-popup">
+					<div class="fn-left"><img src="http://img.wuhan.net.cn/images/2014/qrcode.jpg" alt=""></div>
+					<div class="fn-left context">
+						<i class="fa fa-android fa-lg"></i>
+						<span><a href="javascript:;">APP下载</a></span>
+						<p>扫描二维码下载智慧城市无线门户客户端,或登录应用商店搜索"智慧城市"</p>
+					</div>
+				</div>
+				<a href="http://m.wuhan.net.cn">WAP版</a>
+			</div>
+			
+			<div class="fn-right dropdowns">		
+				<div class="fn-left">
+
+					<span class="user fn-hide" id="signOut">你好，用户名</span>
+					<ul id="popupsignOut" class="fn-hide ui-popup">
+						<li><a href="javascript:;" id="signOutBtn">退出登录</a></li>
+					</ul>
+				
+					<a href="javascript:;" id="loginWhol">登录智慧城市<i class="fa fa-angle-down" id="rm"></i></a>
+					
+
+					<form method="post" action="" class="loginform">
+						<ul id="popupLogin" class="fn-hide ui-popup fn-clear">
+							<li ><label class="fn-left">用户名</label><input type="text" name="username" id="username" class="form"></li>
+							<li><label class="fn-left">密码</label><input type="password" name="password" id="password" class="form"></li>
+							<li><input type="button" value="登录" class="btn fn-right"></li>
+							<li class="error fn-hide">* 用户名或密码错误</li>
+						</ul>
+					</form>
+
+					<a href="javascript:;" class="" id="mail189">产品中心<i class="fa fa-angle-down"></i></a>
+					
+					<ul id="popupMail" class="fn-hide ui-popup">
+						<li><a href="javascript:;">189邮箱</a></li>
+						<li><a href="javascript:;">天翼视讯</a></li>
+						<li><a href="javascript:;">网上营业厅</a></li>
+						<li><a href="javascript:;">爱游戏</a></li>
+						<li><a href="javascript:;">爱音乐</a></li>
+						<li><a href="javascript:;">爱动漫</a></li>
+					</ul>
+
+				</div>
+
+				<div class="topfunc fn-right hidden">
+
+					<a href="javascript:;" class="" id="smartPoint">积分等级<i class="fa fa-angle-down"></i></a>
+					
+					<ul id="popupPoint" class="fn-hide ui-popup">
+						<li><a href="javascript:;" id="level">等级</a></li>
+						<li><a href="javascript:;" id="currency">智慧币</a></li>
+					</ul>
+
+					<a href="javascript:;" class="arrow-down" id="personalSetting">个人设置<i class="fa fa-angle-down"></i></a>
+					
+					<ul id="popupSetting" class="fn-hide ui-popup">
+						<li><a href="javascript:;">设置昵称</a></li>
+						<li><a href="javascript:;">更改密码</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- LOGO和搜索 -->
+
+	<div class="soso" id="soso">
+		<div class="logo" id="whollogo">
+			<h1><a href="http://www.wuhan.net.cn" class="whlogo"><span class="fn-hide">武汉热线</span></a></h1>
+		</div>
+		<div class="weather fn-right">
+			<span class="fn-right">武汉：晴 2度~16度</span>
+			<form action="http://zhannei.baidu.com/cse/search" name="soso_search_box" target="_blank">
+				<div id="searchbar">
+					<div class="search" id="sosobar">
+							<div id="searchTxt" class="searchTxt">
+								<input name="s" type="hidden" value="2404017583689523899">
+								<input type="text"  name="q"  size="30" id="wholSearchTxt">
+							</div>
+					</div>
+					<div class="searchBtn">
+						<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
+						<input type="hidden" name="hidden">
+					</div>
+				</div>
+			</form>
+
+
+		</div>	
+	</div>
+
+	<!--//smartjs-->
+	<div class="smartjs navi">
+		<ul id="nav">
+			<li class="one">
+				<a href="news.smartjs.cn">
+					<span></span>
+					<ul id="popupOne" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">社会聚焦</a> |
+						<a href="javascript:;">青奥快讯</a> |
+						<a href="javascript:;">中国武汉网</a> |
+						<a href="javascript:;">信息田园</a>
+					</ul>
+				</a>
+			</li>
+			<li class="two">
+				<a href="gov.smartjs.cn">
+					<span></span>
+					<ul id="popupTwo" class="fn-hide ui-popup smartnav">
+							<a href="javascript:;">政务动态</a> |
+							<a href="javascript:;">政务导航</a> |
+							<a href="javascript:;">微博广场</a> |
+							<a href="javascript:;">蒲公英行动</a>
+					</ul>
+				</a>
+			</li>
+
+			<li class="eight">
+				<a href="gov.smartjs.cn">
+					<span></span>
+					<ul id="popupEight" class="fn-hide ui-popup smartnav">
+							<a href="javascript:;">政务动态xx</a> |
+							<a href="javascript:;">政务导航xx</a> |
+							<a href="javascript:;">微博广场xx</a> |
+							<a href="javascript:;">蒲公英行动xx</a>
+					</ul>
+				</a>
+			</li>
+
+			<li class="three">
+				<a href="traf.smartjs.cn">
+					<span></span>
+					<ul id="popupThree" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">公交线路查询</a> |
+						<a href="javascript:;">违章查询</a> |
+						<a href="javascript:;">实时路况</a> |
+						<a href="javascript:;">列车查询</a>
+					</ul>
+				</a>
+			</li>
+			<li class="four">
+				<a href="conv.smartjs.cn">
+					<span></span>
+					<ul id="popupFour" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">预约挂号</a> |
+						<a href="javascript:;">网信</a> |
+						<a href="javascript:;">云分享</a> |
+						<a href="javascript:;">天翼领航</a> |
+						<a href="javascript:;">绿色上网</a>
+					</ul>
+				</a>
+				</li>
+			<li class="five">
+				<a href="life.smartjs.cn">
+					<span></span>
+					<ul id="popupFive" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">水电气查询</a> |
+						<a href="javascript:;">社保查询</a> |
+						<a href="javascript:;">食品溯源</a> |
+						<a href="javascript:;">学历查询</a> |
+						<a href="javascript:;">健康顾问</a>
+					</ul>
+				</a>
+			</li>
+			<li class="six">
+				<a href="amu.smartjs.cn">
+					<span></span>
+					<ul id="popupSix" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">影院资讯</a> |
+						<a href="javascript:;">网上冲印</a> |
+						<a href="javascript:;">电子商城</a> |
+						<a href="javascript:;">音乐</a> |
+						<a href="javascript:;">阅读</a>
+					</ul>
+				</a>
+			</li>
+			<li class="seven">
+				<a href="tour.smartjs.cn">
+					<span></span>
+					<ul id="popupSeven" class="fn-hide ui-popup smartnav">
+						<a href="javascript:;">旅游资讯</a> |
+						<a href="javascript:;">线路推荐</a> |
+						<a href="javascript:;">旅游图库</a> |
+						<a href="javascript:;">景区列表</a>
+					</ul>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+	<!-- 导航 -->
+
+<div class="nav" id="mainnav">
+	<div class="navInner">
+		<div>
+			<strong><a href="http://info.wuhan.net.cn/pub/news/" target="_blank">资讯</a></strong>
+			<a href="http://info.wuhan.net.cn/pub/news/wuhan/" target="_blank">武汉</a>
+			<a href="http://info.wuhan.net.cn/pub/news/guoji/" target="_blank">国际</a>
+			<a href="http://info.wuhan.net.cn/pub/news/guonei/" target="_blank">国内</a>
+			<a href="http://info.wuhan.net.cn/pub/news/shehui/" target="_blank">社会</a>
+		</div>
+		<div>
+			<strong><a href="OOOO"  target="_blank">生活</a></strong>
+			<a href="OOOO"  target="_blank">电影</a>
+			<a href="OOOO"  target="_blank">购物</a>
+			<a href="OOOO"  target="_blank">美食</a>
+			<a href="OOOO"  target="_blank">推荐</a>
+		</div>
+		<div>
+			<strong><a href="http://jt.wuhan.net.cn" target="_blank">交通</a></strong>
+			<a href="http://jt.wuhan.net.cn/lukuang.jsp" target="_blank">路况</a>
+			<a href="http://info.wuhan.net.cn/pub/jiaotongpingdao/jiaotong/jiaoguan/" target="_blank">交管</a>
+			<a href="http://jt.wuhan.net.cn/jtcx.jsp" target="_blank">查询</a>
+			<a href="http://info.wuhan.net.cn/pub/jiaotongpingdao/qiche/xingchebaodian/" target="_blank">宝典</a>
+		</div>
+		<div>
+			<strong><a href="http://www.wuhan.net.cn/2014/dx/0421/" target="_blank">智慧城市</a></strong>
+			<a href="http://www.wuhan.net.cn/2014/dx/0421/" target="_blank">应用</a>
+			<a href="http://www.wuhan.net.cn/2014/dx/0421/" target="_blank">活动</a>
+			<a href="http://www.wuhan.net.cn/2014/dx/0421/" target="_blank">商城</a>
+			</div>
+		<div>
+			<strong><a href="http://fdc.wuhan.net.cn" target="_blank">房产</a></strong>
+			<a href="http://house.rexian.net.cn/" target="_blank">新盘</a>
+			<a href="http://www.rexian.net.cn/ershou/" target="_blank">二手</a>
+			<a href="http://house.rexian.net.cn/dgzn/" target="_blank">导购</a>
+			<a href="http://cre.rexian.net.cn/" target="_blank">商铺</a>
+		</div>
+		<div>
+			<strong><a href="http://ent.rexian.net.cn" target="_blank">娱乐</a></strong>
+			<a href="http://ent.rexian.net.cn/yljd/" target="_blank">焦点</a>
+			<a href="http://ent.rexian.net.cn/ylzx/whyq/" target="_blank">娱情</a>
+			<a href="http://ent.rexian.net.cn/ylzx/wldd/" target="_blank">玩乐</a>
+			<a href="http://ent.rexian.net.cn/yllt/" target="_blank">辣图</a>
+		</div>
+		<div>
+			<strong><a href="http://baby.rexian.net.cn" target="_blank">亲子</a></strong>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1358-type-26-type-25.html#tabA" target="_blank">辣妈</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1358-type-25-type-24.html#tabA" target="_blank">乐宝</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1358-type-22-type-23.html#tabA" target="_blank">育儿</a>
+			<a href="http://bbs.rexian.net.cn/group.php?q=create" target="_blank">圈子</a>
+		</div>
+		<div>
+			<strong><a href="OOOO"  target="_blank">视频专区</a></strong>
+			<a href="OOOO" target="_blank">视讯</a>
+			<a href="OOOO" target="_blank">直播</a>
+			<a href="OOOO" target="_blank">经视</a>
+		</div>
+		<div>
+			<strong><a href="http://dec.rexian.net.cn"  target="_blank">家居</a></strong>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1925-search-all.html#tabA" target="_blank">装修</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1925-type-86-type-83.html#tabA" target="_blank">秀家</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1925-type-173-type-85.html#tabA" target="_blank">帮办</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1925-type-85-type-89.html#tabA" target="_blank">商城</a>
+		</div>
+		<div>
+			<strong><a href="http://go.wuhan.net.cn" target="_blank">旅游</a></strong>	            
+			<a href="http://dp.gotowuhan.com.cn/SceneList.aspx" target="_blank">景点</a>
+			<a href="http://dp.gotowuhan.com.cn/RouteList.aspx" target="_blank">线路</a>
+			<a href="http://dp.gotowuhan.com.cn/NoteList.aspx" target="_blank">驴友</a>
+			<a href="http://www.gotowuhan.com.cn/travel_lxs.aspx" target="_blank">团购</a>
+		</div>  
+		<div>
+			<strong><a href="http://marry.rexian.net.cn" target="_blank">婚嫁</a></strong>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1875-type-16-type-14.html#tabA" target="_blank">新娘</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1875.html" target="_blank">婚纱</a>
+			<a href="http://bbs.rexian.net.cn/thread-htm-fid-1982.html" target="_blank">喜铺</a>
+			<a href="http://marry.rexian.net.cn/marry/" target="_blank">情感</a>
+		</div>
+		<div>
+			<strong><a href="http://hb.189.cn" target="_blank">电信专区</a></strong>
+			<a href="http://hb.189.cn/pages/support/zfzq/tariffzone_new.jsp" target="_blank">资费</a>
+			<a href="http://www.wuhan.net.cn/kdservice/index.html" target="_blank">测速</a>
+			<a href="http://www.189.cn/4g/" target="_blank">4G</a>
+		</div>
+	</div>
+</div>
+
+	<!-- Screen-1 AD -->
+
+	<div class="layout mt12 fn-clear">
+		<div class="adLeft">
+			<a href="javascript:;"><img src="i/ad_1.jpg" alt=""></a>
+		</div>
+		<div class="adRight">
+			<a href="http://www.wuhan.net.cn/2014/dx/0421/"><img src="i/sc.gif" alt=""></a>
+		</div>
+	</div>
+
+	<!-- Screen-1 -->
+
+	<div class="layout mt12 fn-clear">
+
+		<!-- Screen-1,Area-L -->
+
+		<div class="layoutLeft fn-clear">
+			<div class="leftArea fn-clear">
+
+				<!-- Screen-1,Area-1 -->
+
+				<!-- 新闻滚动图片 -->
+
+				<div class="leftAreaContent leftView fn-left">
+					<div class="hd">
+						<h2><a href="javascript:;">图片新闻</a></h2>
+					</div>
+					<div id="slidePicNews" class="slide-demo fn-clear">
+						<ul class="ui-switchable-content" data-switchable-role="content">
+							<li class="ui-switchable-panel">
+								<a href="#">
+									<img src="./i/news1.png"/>
+								</a>
+								<p>习近平会见荷兰国王威廉-亚历山大</p>
+							</li>
+							<li class="hidden ui-switchable-panel">
+								<a href="#">
+									<img src="./i/news2.png"/>
+								</a>
+								<p>新加坡Singapore</p>
+							</li>
+							<li class="hidden ui-switchable-panel">
+								<a href="#">
+									<img src="./i/news3.png"/>
+								</a>
+								<p>明星高调生二胎</p>
+							</li>
+						</ul>
+
+						<div class="move">
+							<div id="prev">‹</div>
+							<div id="next">›</div>
+						</div>
+
+					</div>
+
+					<!-- 滚动图片下方新闻 -->
+					
+					<div id="picNews">
+						<ul class="ft">
+							<li><a href="javascript:;">一桥飞架中欧--记习近平主席欧洲之行</a></li>
+							<li><a href="javascript:;">人民日报:严防日本右翼冲撞底线的狂躁</a></li>
+							<li><a href="javascript:;">李克强同澳总理通电话:搜寻不松懈不放弃</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Screen-1,Area-2 -->
+
+				<!-- 新闻选项卡 -->
+
+				<div class="leftAreaContent leftNews fn-right">					
+					<div class="hd">
+						<div class="newsTab" id="whol-news-tab">
+							<h2  class="selected" name="newsPolitic">
+								<a href="javascript:;" target="_blank">时政新闻</a>
+							</h2>
+							<h2  class="" name="newsLife">
+								<a href="javascript:;" target="_blank">生活新闻</a>
+							</h2>
+						</div>
+					</div>
+
+					<!-- 新闻列表容器 -->
+
+					<div id="whol-contents2">
+
+						<!-- 时政新闻列表 -->
+
+						<div id="newsPolitic">
+							<div class="ft">
+								<ul>
+									<li class="headline"><a href="javascript:;">国内最大碳交易市场光谷开市 首日成交1071万</a></li>
+									<li class="sub">
+										<a href="javascript:;">[武汉基础养老金调至144元]</a>
+										<a href="javascript:;">[公租房有望可租可买]</a>
+									</li>
+									<li><a href="javascript:;">武汉市副市长痛批部门创卫不作为 暗访无一处达标字</a></li>
+									<li><a href="javascript:;">武汉周边东南西北向均有亮点 清明自驾游线路推荐</a></li>
+									<li><a href="javascript:;">武汉驾照高额考虑费疑系价格联盟 特价部门将调查</a></li>
+									<li><a href="javascript:;">武汉电子一条街大变脸 成为全国第三条民间金融街</a></li>
+									<li><a href="javascript:;">我国最长的湖底隧道 - 东湖通道全线施工即将展开</a></li>
+									<li><a href="javascript:;">江城国辆购置税7月起同城通办4S店提供一条龙服务</a></li>
+									<li><a href="javascript:;">中国女游客在马来西亚沙巴 遭疑似菲律宾叛军掳走</a></li>
+									<li><a href="javascript:;">王国生到武昌区调研 要求打造现代化国际化新武昌</a></li>
+									<li><a href="javascript:;">湖北新增5名"千人计划"创业人才 全部来自光谷</a></li>
+									<li><a href="javascript:;">武汉自闭症儿童超4000人 每人每年将获近2万补助</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- 生活新闻列表 -->
+
+						<div class="fn-hide" id="newsLife">
+							<div class="ft">
+								<ul>
+									<li class="headline"><a href="javascript:;">湖北新生儿男女比例5:4成失调"重灾区"</a></li>
+								
+								
+									<li class="sub">
+									<a href="javascript:;">[武汉未来三天有点燥]</a>
+									<a href="javascript:;">[湖北首部渔业发展纲领出台]</a></li>
+								
+								
+									<li><a href="javascript:;">英国大学选课呈现多样化 开设哈利波特魔法教程</a></li>
+									<li><a href="javascript:;">虎泉街重划300个汽车位 违停"转正"已经开妈收费</a></li>
+									<li><a href="javascript:;">富康"追吻"800万劳斯莱斯 轻微剐蹭也要花上万元</a></li>
+									<li><a href="javascript:;">南京长江大桥伸缩缝能塞进拳头 卖家称之正常(图)</a></li>
+									<li><a href="javascript:;">清华女硕士患抑郁症跳楼 父亲状告女婿索赔69万</a></li>
+									<li><a href="javascript:;">父代儿相亲要求女方家底500万 网友:这是找银行</a></li>
+									<li><a href="javascript:;">武汉大学师生两篇论文捧回三个国际奖项</a></li>
+									<li><a href="javascript:;">湖北公布67所本科高校专业目录 未公布不得招生</a></li>
+									<li><a href="javascript:;">大学英语课堂讨论"文章出轨"学生直呼"很奇"</a></li>
+									<li><a href="javascript:;">古刹灵隐寺成立中国寺院首支反恐防护组共45人参</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>	
+				</div>
+
+				<!-- Screen-1,Area-3 -->
+
+				<!-- 媒体聚焦 -->
+
+				<div class="leftAreaContent leftZhuanti fn-left mt12">
+					<div class="hd"><h2><a href="javascript:;">媒体聚焦</a></h2></div>
+<div class="zhuanti fn-clear">
+
+	<div class="pic fn-left">
+		<a href="javascript:;"><img src="i/t_5.jpg" alt=""/></a>
+		<a href="javascript:;" class="title">福星惠誉东湖城开盘价9600元每平米</a>
+	</div>
+
+	<ul class="ft fn-right">
+		<li><a href="javascript:;">武汉交通旅游图大学生版</a></li>
+		<li><a href="javascript:;">家庭智慧网管专家退市</a></li>
+		<li><a href="javascript:;">打车软件步入后补贴时代</a></li>
+		<li><a href="javascript:;">旅游私人定制当地人业务</a></li>
+	</ul>
+
+</div>
+
+<div class="zhuantiSub fn-clear">
+
+	<ul class="ft">
+		<li><a href="javascript:;">联投金色港湾上门接你看房</a><a href="javascript:;">实探经开生态宜居学苑大盘</a></li>
+		<li><a href="javascript:;">近两月武汉涨跌楼盘大揭秘</a><a href="javascript:;">选择户型必须考虑哪些因素</a></li>
+		<li><a href="javascript:;">梅艳芳遗留豪宅管理费千万</a><a href="javascript:;">实探:江夏地铁盘清江泓景</a></li>
+		<li><a href="javascript:;">选择户型必要考虑哪些因素</a><a href="javascript:;">仅129万元/套起轻松住别墅</a></li>
+		<li><a href="javascript:;">黄石成为共有产权住房试点</a><a href="javascript:;">公积金以民为本加速改革</a></li>
+		<li><a href="javascript:;">七彩春色把彩虹画上脸庞</a><a href="javascript:;">全天候喝水的减肥时间表</a></li>
+	</ul>
+	
+</div>
+				</div>
+
+				<!-- Screen-1,Area-4 -->
+
+				<!-- 智慧城市 -->
+
+				<div class="leftAreaContent leftApp fn-right mt12">					
+					<div class="hd">
+						<h2><a href="javascript:;">智慧城市</a></h2>
+					</div>
+					<p class="headline"><a href="javascript:;">智慧城市推荐APP三月下载排行</a></p>
+					<div class="appicons fn-clear">
+						<a href="javascript:;"><img src="i/app1.jpg" alt="微信"><p>易信</p></a>
+						<a href="javascript:;"><img src="i/app2.jpg" alt="微博"><p>网上营业厅</p></a>
+						<a href="javascript:;"><img src="i/app3.jpg" alt="来往"><p>翼周边</p></a>
+					</div>
+					<ul class="ft">
+						<li><a href="javascript:;">武汉"智慧城市"手机端荣获中国信息化应用成果金奖</a></li>
+						<li><a href="javascript:;">"智慧城市" 移动互联城市门户 民生应用杰出典范</a></li>
+						<li><a href="javascript:;">智慧湖北全新升级,超能力来袭!智慧币直接兑换话费</a></li>
+						<li><a href="javascript:;">拨打886-10000 一个电话,宽带到家.智慧生活首选</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Screen-1,Area-R -->
+
+		<div class="layoutRight">
+
+			<!-- 热点推荐 -->
+
+			<div class="rightArea fn-clear rightNews" id="announce">
+				<div class="hd"><h2>热点推荐</h2></div>
+				<div class="contents">
+					<ul class="ft">
+						<li><a href="http://www.wuhan.net.cn/2014/hsy/">带妈妈一起去听中国好声音武汉站演唱会</a></li>
+						<li><a href="http://info.wuhan.net.cn/pub/2014/0422/658381.shtml">2014中国好声音武汉站门票火爆开抢</a></li>
+						<li><a href="http://m.wuhan.net.cn/install/index1.html">智慧武汉全新升级 来自星星的超能力来袭</a></li>
+						<li><a href="http://info.wuhan.net.cn/pub/2014/0410/639763.shtml"></a>四月乡村游 教你6招玩转湖北</li>
+						<li><a href="http://info.wuhan.net.cn/pub/2014/0423/659169.shtml"></a>沌口长江大桥9月开建 宽46米</li>
+						<li><a href="http://info.wuhan.net.cn/pub/2014/0423/659691.shtml"></a>韩媒反思：“服从长辈”文化加重沉船悲剧</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 电信业务 -->
+
+			<div class="rightProduct mt12" id="productNav">
+
+				<!-- 显示区域 -->
+
+				<div class="productLine01">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">充值缴费</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">话费查询</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">宽带续费</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">上网流量</a>
+				</div>
+				<div class="productLine02">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">WiFi热点</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">套餐资费</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">增值业务</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">189邮箱</a>
+				</div>
+				<div class="productLine03">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼视讯</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼翼聊</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼空间</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼阅读</a>
+				</div>
+				<div class="productLine04">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">互联星空</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">互动电视</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">协同办公</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">手机商城</a>
+				</div>
+				<div class="productLine05">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">无线宽带</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">光速宽带</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">号码百事通</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">翼支付</a>
+				</div>
+
+				<!-- 隐藏区域 -->
+
+				<div class="productFloatLayout" id="productFloatLayout">
+					<div class="productFloat" id="productFloat">
+						<div class="productLine01">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">淘宝旗舰店</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">积分俱乐部</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">优惠活动</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼卖场</a>
+					</div>
+					<div class="productLine02">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼VIP俱乐部</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼云</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">号簿助手</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">宽带测速</a>
+					</div>
+					<div class="productLine03">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">云办公</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">爱游戏</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">爱动漫</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">爱音乐</a>
+					</div>
+					<div class="productLine04">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">无线城市</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">天翼看交通</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">上网遥控器</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">iTV</a>
+					</div>
+					<div class="productLine05">
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">201自助服务</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">ADSL维护手册</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">装维服务</a>
+						<a href="javascript:;" class="qq" target="_blank" id="qqProduct">宽带服务查询</a>
+					</div>
+					</div>
+					<div class="productFloatBtn" id="productFloatBtn"></div>
+				</div>
+
+			</div>
+
+			<!-- 微博按钮 -->
+
+			<div class="weibos mt12 fn-clear">
+				<a href="javascript:;" class="fn-left"><img src="i/wb_sc.jpg" alt=""></a>
+				<a href="javascript:;" class="fn-right"><img src="i/wb_ol.jpg" alt=""></a>
+			</div>
+
+			<!-- 生活万象 -->
+
+			<div class="rightArea fn-clear mt12 rightNews" id="mediafocus">
+				<div class="hd"><h2>生活万象</h2></div>
+				<div class="contents">
+					<ul class="ft">
+						<li><a href="javascript:;">黄石成为共有产权住房试点</a><a href="javascript:;">南都官网疑遭攻击</a></li>
+						<li><a href="javascript:;">公积金以民为本加速改革</a><a href="javascript:;">黄石成为共有产权试</a></li>
+						<li><a href="javascript:;">东西湖20楼盘新添利好</a><a href="javascript:;">阮玲玉受辱服药之迷</a></li>
+						<li><a href="javascript:;">教你搞定杂乱物品小技巧</a><a href="javascript:;">林心如马伊琍不同命</a></li>
+						<li><a href="javascript:;">新京城四美PK老版四美</a><a href="javascript:;">男疑妻出轨跳河嫌冷上岸</a></li>
+						<li><a href="javascript:;">反骨配饰叫醒你的春困季节</a><a href="javascript:;">喝水减肥时间表</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Screen-2 AD -->
+
+	<div class="layout mt12 fn-clear">
+		<div class="adLeft">
+			<a href="javascript:;"><img src="i/ad_2.jpg" alt=""></a>
+		</div>
+		<div class="adRight">
+			<a href="javascript:;"><img src="i/ad_5.jpg" alt=""></a>
+		</div>
+	</div>
+
+	<!-- Screen-2 -->
+
+	<div class="layout mt12 fn-clear">
+
+		<!-- Screen-2,Area-L -->
+
+		<div class="leftArea category">
+
+			<!-- Scrren-2,Area-1 -->
+
+			<!-- 房产 -->
+
+			<div class="leftAreaContent fn-left leftRealEstate">
+				<div class="hd"><h2><a href="javascript:;">房产</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_1.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">北京房价下降趋势逐渐显现</a></li>
+						<li><a href="javascript:;">汉阳区燕归园小区垃圾围城</a></li>
+						<li><a href="javascript:;">京郊楼市暗藏四大泡沫风险</a></li>
+						<li><a href="javascript:;">李纸路改造推迟至年内完工</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">试考一台车一小时收五百元</a><a href="javascript:;">青王路频"搓"伤公交车</a></li>
+						<li><a href="javascript:;">亚洲最高公寓每平米跌两万</a><a href="javascript:;">公租房或推行可买可租</a></li>
+						<li><a href="javascript:;">非港居民在港买楼成本高</a><a href="javascript:;">售楼小姐爆买房杀价攻略</a></li>
+						<li><a href="javascript:;">青山地铁地盘添文化氛围</a><a href="javascript:;">细数机场沿线投资性别墅</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Scrren-2,Area-2 -->
+
+			<!-- 家居 -->
+
+			<div class="leftAreaContent fn-right leftFurnish">
+				<div class="hd"><h2><a href="javascript:;">家居</a></h2></div>
+				
+<div class="zhuanti fn-clear">
+
+	<div class="pic fn-left">
+		<a href="javascript:;"><img src="i/t_5.jpg" alt=""/></a><a href="javascript:;" class="title">福星惠誉东湖城开盘价9600元每平米</a>
+	</div>
+					
+	<ul class="ft fn-right">
+		<li><a href="javascript:;">打造精简的爱情公寓</a></li>
+		<li><a href="javascript:;">13万装141平简约3居室</a></li>
+		<li><a href="javascript:;">打败小三的风水秘笈</a></li>
+		<li><a href="javascript:;">宅女们最爱的卧室搭配</a></li>
+	</ul>
+
+	<ul class="ft sub">
+		<li><a href="javascript:;">教你正确选购布艺沙发</a><a href="javascript:;">降燥保湿墙面挂漆处理</a></li>
+		<li><a href="javascript:;">三菱电机5款空调4款存缺陷</a><a href="javascript:;">38平米小清新提升格调</a></li>
+		<li><a href="javascript:;">露台变书房的设计案例</a><a href="javascript:;">注意书房装修风水宜忌</a></li>
+		<li><a href="javascript:;">75平新古典精致小户型</a><a href="javascript:;">奢华完美婚房案例</a></li>
+	</ul>
+	
+</div>
+
+			</div>
+
+			<!-- Scrren-2,Area-3 -->
+
+			<!-- 交通 -->
+
+			<div class="leftAreaContent fn-left leftTraffic">
+				<div class="hd"><h2><a href="javascript:;">交通</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_3.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">清明高速公路免过路费</a></li>
+						<li><a href="javascript:;">清明武铁将开33列临客</a></li>
+						<li><a href="javascript:;">车主养车小划痕大麻烦</a></li>
+						<li><a href="javascript:;">女人开车坏习惯致命</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">武汉一车路口等红绿灯 一越野车撞翻护栏骑到头上</a></li>
+						<li><a href="javascript:;">假期首日预计发送55万人</a><a href="javascript:;">清明武铁将开33列临客</a></li>
+						<li><a href="javascript:;">武汉鹦鹉洲长江大桥变身红桥 横跨江面成亮丽风景</a></li>
+						<li><a href="javascript:;">武汉周边东南西北向均有亮点 清明自驾游推荐</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Scrren-2,Area-4 -->
+
+			<!-- 旅游 -->
+
+			<div class="leftAreaContent fn-right leftTour">
+				<div class="hd"><h2><a href="javascript:;">旅游</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_4.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">坪坝营原生态休闲旅游区</a></li>
+						<li><a href="javascript:;">武汉市民出境游宝典</a></li>
+						<li><a href="javascript:;">武汉市民出国游宝典</a></li>
+						<li><a href="javascript:;">武汉市旅游咨询中心</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">暑期欧洲游进入旺季 中国游客海外酒店频频遭窃</a></li>
+						<li><a href="javascript:;">新《旅游法》将实施 旅游潜规则需下猛药</a></li>
+						<li><a href="javascript:;">节后淡季出境游 文艺青年的温暖三八节</a></li>
+						<li><a href="javascript:;">中国成世界第一大出境旅游市场</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Scrren-2,R -->
+
+		<!-- 便民服务 -->
+
+		<div class="rightArea fn-right rightNews" id="service">
+			<div class="hd"><h2>便民服务</h2></div>
+			<div class="contents">
+				<ul class="ft">
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 违章查询</a>
+					<a href="javascript:;"><i class="fa fa-stethoscope"></i> 114挂号</a>
+					<a href="javascript:;"><i class="fa fa-video-camera"></i> 天翼看交通</a>
+					<a href="javascript:;"><i class="fa fa-phone-square"></i> 常用号码</a>
+
+					<a href="javascript:;"><i class="fa fa-map-marker"></i> 商圈地图</a>
+					<a href="javascript:;"><i class="fa fa-compass"></i> 地铁</a>
+					<a href="javascript:;"><i class="fa fa-cloud"></i> 天气</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 114挂号</a>
+
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 水电查询</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 常用号码</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 商圈地图</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 办事指南</a>
+
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 违章查询</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 114挂号</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 水电查询</a>
+					<a href="javascript:;"><i class="fa fa-camera-retro"></i> 常用号码</a>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 微博TimeLine -->
+
+		<div class="rightArea fn-right rightNews mt12" id="wholweibo">
+			<div class="hd"><h2><a href="javascript:;">热线微博</a></h2></div>
+			<div class="contents">
+				<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=3516102942&verifier=c77ee03c&dpc=1"></iframe>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Screen-3 AD -->
+
+	<div class="layout fn-clear">
+		<div class="adLeft">
+			<a href="javascript:;"><img src="i/ad_3.jpg" alt=""></a>
+		</div>
+		<div class="adRight">
+			<a href="javascript:;"><img src="i/ad_6.jpg" alt=""></a>
+		</div>
+	</div>
+
+	<!-- Screen-3 -->
+	
+	<div class="layout mt12 fn-clear">
+
+		<!-- Screen-3,Area-L -->
+
+		<div class="leftArea category">
+
+			<!-- Screen-3,Area-1 -->
+
+			<!-- 生活 -->
+
+			<div class="leftAreaContent fn-left leftLife">
+				<div class="hd"><h2><a href="javascript:;">生活</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_5.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">欧美街头 教你如何最抢眼</a></li>
+						<li><a href="javascript:;">全网点赞 成年"赫敏"街拍</a></li>
+						<li><a href="javascript:;">特色 辣椒外婆蛋美味做法</a></li>
+						<li><a href="javascript:;">主厨 推荐几款春季败火粥</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">36种顶级抗衰老食物  多吃9种果蔬轻松补足钙质</a></li>
+						<li><a href="javascript:;">明星太太 双优女人即当的好太太又当的好明星</a></li>
+						<li><a href="javascript:;">撞色!多彩视觉让赘肉隐形  伦敦升起中国星</a></li>
+						<li><a href="javascript:;">2014秋冬中国国际时装周街拍 精心精致秀场外</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Screen-3,Area-2 -->
+
+			<!-- 娱乐 -->
+
+			<div class="leftAreaContent fn-right leftEntertain">
+				<div class="hd"><h2><a href="javascript:;">娱乐</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_6.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">38岁萧淑慎戒毒后高调复出</a></li>
+						<li><a href="javascript:;">樱花萝莉汉服萌照走红(图)</a></li>
+						<li><a href="javascript:;">蔡明豪车曝光化浓妆遭搭讪</a></li>
+						<li><a href="javascript:;">《宫3》袁姗姗分饰9角(图)</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">港演唱会之父张耀荣18日出殡 四大天王或扶灵</a></li>
+						<li><a href="javascript:;">马云谈文章称每个人都会犯错 望大家懂得宽容</a></li>
+						<li><a href="javascript:;">李湘王岳伦自拍被赞夫妻相  曝周星驰身价超13亿</a></li>
+						<li><a href="javascript:;">金像奖特刊揭幕 章子怡华美无暇似"东方芭比"</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Screen-3,Area-3 -->
+
+			<!-- 婚嫁 -->
+
+			<div class="leftAreaContent fn-left leftMarriage">	
+				<div class="hd"><h2><a href="javascript:;">婚嫁</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_7.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">男星出轨曝光爱狡辩</a></li>
+						<li><a href="javascript:;">结婚有利于心脏健康</a></li>
+						<li><a href="javascript:;">第一印象:爱只需6秒</a></li>
+						<li><a href="javascript:;">孕期防火防盗防小三</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">武汉伢爱情笔记获追捧 18年恋情成正果</a></li>
+						<li><a href="javascript:;">男收暧昧信息 未婚妻吃醋高速夺方向盘</a></li>
+						<li><a href="javascript:;">已婚女将出轨所生孩子送人 花15万讨回</a></li>
+						<li><a href="javascript:;">男生路上写道歉信引围观</a><a href="javascript:;">男强奸情人视频威胁</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<!-- Screen-3,Area-4 -->
+
+			<!-- 亲子 -->
+
+			<div class="leftAreaContent fn-right leftChild">
+				<div class="hd"><h2><a href="javascript:;">亲子</a></h2></div>
+				<div class="zhuanti fn-clear">
+					<a href="" class="pic fn-left"><img src="i/t_8.jpg" alt=""></a>
+					<ul class="ft fn-right">
+						<li><a href="javascript:;">SEN kids儿童摄影</a></li>
+						<li><a href="javascript:;">抢楼赢亲子电影票</a></li>
+						<li><a href="javascript:;">新生儿部分心脏裸露</a></li>
+						<li><a href="javascript:;">育儿用提问代替回答</a></li>
+					</ul>
+					<ul class="ft sub">
+						<li><a href="javascript:;">27岁男子成世界上最年轻祖父 14岁时有女儿</a></li>
+						<li><a href="javascript:;">患癌女子为生女儿放弃治疗 圆母亲梦后离世</a></li>
+						<li><a href="javascript:;">郭涛给石头放春假 父子出游心情好</a></li>
+						<li><a href="javascript:;">如何训练宝宝爬行的方法和技巧</a></li>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Screen-3,R -->
+
+		<!-- 视频列表 -->
+
+		<div class="rightArea fn-right rightNews" id="video">
+			<div class="hd">
+				<h2><a href="javascript:;">视频</a></h2>
+			</div>
+			<div class="contents">
+				<div class="vsector fn-left">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-right">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-left">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-right">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-left">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-right">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>				<div class="vsector fn-left">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+				<div class="vsector fn-right">
+					<a href="javascript:;"><img src="i/video_img.png"></a>
+					<a href="javascript:;" class="txt">黄圣依惊人家世首曝光</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- 友情链接 -->
+
+	<div class="layout footlinks mt12">
+		<ul class="">
+			<li>
+				<strong>友情链接：</strong>
+				<a href="javascript:;">荆楚网</a>
+				<a href="javascript:;">长江网</a>
+				<a href="javascript:;">汉网</a>
+				<a href="javascript:;">新浪湖北</a>
+				<a href="javascript:;">凯风湖北</a>
+				<a href="javascript:;">现在网</a>
+				<a href="javascript:;">热线房产网</a>
+				<a href="javascript:;">武汉圈</a>
+				<a href="javascript:;">得意生活</a>
+				<a href="javascript:;">武汉网络电视</a>
+				<a href="javascript:;">湖北网台</a>
+				<a href="javascript:;">纪委监察部</a>
+				<a href="javascript:;">湖北道路交通安全网</a>
+				<a href="javascript:;">新华湖北</a>
+				<a href="javascript:;">武汉宽带网</a>
+			</li>
+			<li>
+				<strong>精彩网址：</strong>
+				<a href="javascript:;">未来网</a>
+				<a href="javascript:;">米派网</a>
+				<a href="javascript:;">电脑沙龙</a>
+				<a href="javascript:;">车友</a>
+				<a href="javascript:;">知音</a>
+				<a href="javascript:;">新蛋网</a>
+				<a href="javascript:;">武汉电影</a>
+				<a href="javascript:;">湖北电影</a>
+				<a href="javascript:;">中律网</a>
+				<a href="javascript:;">公交站点</a>
+				<a href="javascript:;">公路客运</a>
+				<a href="javascript:;">公积金</a>
+				<a href="javascript:;">证件下载</a>
+				<a href="javascript:;">航班</a>
+				<a href="javascript:;">天气预报</a>
+				<a href="javascript:;">邮编</a>
+				<a href="javascript:;">快递之家</a>
+				<a href="javascript:;">农业网</a>
+			</li>
+			<li>
+				<strong>金融信息：</strong>
+				<a href="javascript:;">人民银行</a>
+				<a href="javascript:;">工商银行</a>
+				<a href="javascript:;">农业银行</a>
+				<a href="javascript:;">中国银行</a>
+				<a href="javascript:;">建设银行</a>
+				<a href="javascript:;">交通银行</a>
+				<a href="javascript:;">招商银行</a>
+				<a href="javascript:;">民生银行</a>
+				<a href="javascript:;">华夏银行</a>
+				<a href="javascript:;">中信金融</a>
+				<a href="javascript:;">光大银行</a>
+				<a href="javascript:;">浦发银行</a>
+				<a href="javascript:;">广发银行</a>
+				<a href="javascript:;">汉口银行</a>
+				<a href="javascript:;">广发证券</a>
+				<a href="javascript:;">银商湖北</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- 版权信息 -->
+
+	<div class="layout mt12 footer">
+		<div class="copyrights">
+			<p class="license">版权所有：中国电信股份有限公司武汉分公司　地址：中国　武汉　武昌珞喻路724号　邮编：430074</p>
+			<p>[增值电信业务经营许可A2.B1.B2-20090001] [文网文［2008］053号］[鄂ICP备05001812号] 本(栏目/频道等)内容由SP提供 欢迎监督举报</p>
+
+			<div class="cert-logos">
+				<a href="javascript:;"><img src="i/ct-logo.jpg" alt=""></a>
+				<a href="javascript:;"><img src="i/aq-logo.jpg" alt=""></a>
+				<a href="javascript:;"><img src="i/110-logo.jpg" alt=""></a>
+				<a href="javascript:;"><img src="i/jb-logo.jpg" alt=""></a>
+			</div>
+		</div>
+		
+	</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

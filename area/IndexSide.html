@@ -97,7 +97,74 @@ $_data10 = array_slice($data, 9, 1);
 	<a href="javascript:;" class="fn-right"><img src="http://img.wuhan.net.cn/images/2014/wb_ol.jpg" alt=""></a>
 </div>
 
+<!-- 401 视频 -->
 
+<div class="contents">
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 1);
+$_data3 = array_slice($data, 2, 1);
+$_data4 = array_slice($data, 3, 1);
+$_data5 = array_slice($data, 4, 1);
+$_data6 = array_slice($data, 5, 1);
+?>
+
+{loop $_data1 $k $r}
+	<div class="vsector fn-left">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+{loop $_data2 $k $r}
+	<div class="vsector fn-right">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+{loop $_data3 $k $r}
+	<div class="vsector fn-left">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+{loop $_data4 $k $r}
+	<div class="vsector fn-right">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+{loop $_data5 $k $r}
+	<div class="vsector fn-left">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+{loop $_data6 $k $r}
+	<div class="vsector fn-right">
+		<!--{loop $r $i $c}-->
+		<a href="{$c[url]}"><img src="{thumb($c[thumb],130,95,1,null,0)}" alt="{$c[title]}" target="_blank"></a>
+		<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};" {/if} target="_blank">{$c[title]}</a>
+		<!--{/loop}-->
+	</div>
+{/loop}
+
+</div>
 
 
 
