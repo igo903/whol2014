@@ -161,7 +161,12 @@ body{background: #f9f8f8;}
 	top: 13px;
 	color: #3072C2;
 	right: 20px;
-
+}
+.logowrapper .direction{
+	position: absolute;
+	top: 13px;
+	color: #3072C2;
+	left: 20px;
 }
 
 
@@ -1819,6 +1824,74 @@ a.blue-link {
 .inner-container .arrow-up#telNums-arrow{
 	right: 47%;
 }
+
+.news-content{
+	padding: 15px 32px;
+}
+.news-content h1{
+	font-size: 20px;
+	margin: 18px 0;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+.news-content blockquote{
+	color: #404040;
+	padding: 12px;
+	border: 1px solid #d8d8d8;
+	font-size: 15px;
+	margin: 13px 0 18px;
+}
+blockquote ~ article {
+	margin-top: 18px;
+}
+.art-img {
+	text-align: center;
+	margin-bottom: 14px;
+}
+.art-pic {
+width: 152px;
+max-height: 300px;
+display: block;
+margin: 0 auto 10px;
+overflow: hidden;
+position: relative;
+}
+.art-img-wifi .art-pic {
+	width: 100%;
+	max-height: 600px;
+}
+article p {
+	color: #1d1d1d;
+	text-indent: 2em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	position: relative;
+	word-break: break-all;
+}
+.news-content article p{
+	font-size: 15px;
+}
+
+
+
+
+.news-content .from{
+	text-align: center;
+}
+.zy-icon {
+	background-color: #4b6ca1;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	width: 30px;
+	vertical-align: 1px;
+	margin-right: 5px;
+}
+
 
 
 

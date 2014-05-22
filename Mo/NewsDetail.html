@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线移动版</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="apple-touch-icon-precomposed" href="">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+<body id="main">
+	<div class="wrapper">
+
+		<!-- 登录 -->
+		<div class="login-panel">
+			<form method="post" action="" class="loginform">
+				<ul id="popupLogin" class="ui-popup fn-clear">
+					<h1>欢迎登录到智慧城市</h1>
+					<h2>请输入您的智慧城市用户名及密码</h2>
+					<li ><input type="text" name="username" id="username" class="form" value="请输入用户名"></li>
+					<li><input type="password" name="password" id="password" class="form" value="请输入密码"></li>
+					<li><input type="button" value="登 录" class="btn-form"></li>
+					<li class="error fn-hide">* 用户名或密码错误</li>
+				</ul>
+			</form>
+		</div>
+
+		<!-- LOGO -->
+		<header id="header" class="header">
+			<div class="logowrapper">
+				<div class="logo "></div>
+				<!-- <a class="login-btn">登录</a> -->
+				<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>
+				<a href="javascript:;" class="direction fa fa-angle-left fa-2x"></a>
+			</div>	
+		</header>
+
+		<div class="news-content">
+			<h1 id="news-title">京东敲响开市钟  自营品牌份额达46.5%</h1>
+			<div class="from">
+				<time id="news-time">2014-05-22 21:59</time>
+				<span class="author" id="source">
+					荆楚网
+				</span>
+			</div>
+
+			<blockquote id="summary" style="display: block;">
+				<span class="zy-icon">摘要</span>京东集团正式赴美国纳斯达克上市，发行价19美元。
+			</blockquote>
+
+			<article id="news-article" style="">
+				<div class="art-img art-img-wifi">
+					<a class="art-pic" href="javascript:;">
+						<img style="" src="img/104286304_320_480.jpg" alt="">
+					</a>
+					<p class="art-pic-des"></p>
+				</div>
+
+				<p>今晚，国内B2C电商京东集团正式赴美国纳斯达克上市，发行价19美元，融资17.8亿美元。眼下，京东已经在纳斯达克敲响了开市钟。</p>
+				<p>纳斯达克主席表示：“京东是中国最大的自营电商，去年其在中国的市场份额已经达到46.5%。”</p>
+				<p>在纳斯达克现场，京东送给纳斯达克交易所一只专属的标志狗，纳斯达克交易所则送给京东一个水晶杯。</p>
+				<p>京东（纳斯达克股票代码：JD）今天宣布其首次公开发行的93,685,620股美国存托股票（“ADS”），美银美林和瑞士银行担任本次发行的联席全球协调人和联席牵头账簿管理人。Allen &amp; Company LLC、巴克莱银行、华兴资本和Jefferies担任联席账簿管理人。</p>
+				<p>Oppenheimer &amp; Co, Piper Jaffray，SunTrust Robinson Humphrey与Cowen and Company担任副承销商。</p><p>目前，京东下设京东商城集团、京东金融集团、拍拍网、海外事业部，而这四部分业务架构都将在今晚随京东赴美上市。</p>
+				<p>根据最新招股书显示，刘强东旗下Max Smart Limited持股为18.8%，成为第一大股东，这部分股票拥有67.6%的投票权，刘强东个人全部投票权则达到了83.7%。</p>
+			</article>
+
+
+		</div>		
+		
+
+		<!-- 底部导航 -->
+		<footer id="footer-dock">
+			<ul class="footer_tab">
+				<li class="" id="index"><div><span>首页</span></div></li>
+				<li class="" id="video"><div><span>视频</span></div></li>
+				<li class="" id="activity"><div><span>活动</span></div></li>
+				<li class="" id="tianyi"><div><span>天翼</span></div></li>
+				<li class="" id="apps"><div><span>应用</span></div></li>
+			</ul> 
+		</footer>
+
+	</div>
+
+	<script>
+		var flag = true;
+
+		$('.logowrapper .btn').on('click', function(e){
+			if(flag == true){
+				$('.login-panel').css("height","240px");
+				$(this).removeClass('fa-angle-down');
+				$(this).addClass('fa-angle-up');
+				flag = false;
+			} else {
+				$('.login-panel').css("height","0px");
+				$(this).removeClass('fa-angle-up');
+				$(this).addClass('fa-angle-down');
+				flag = true;
+			}
+		});
+		
+	</script>
+</body>
+</html>

@@ -2,19 +2,19 @@ var app = angular.module("wholApp", ['ngRoute','ngAnimate','ngTouch']);
 
 //url mapping
 app.config(function($routeProvider) {
-    // $routeProvider
-    //     .when('/Dashboard/Default',
-    //         {
-    //             controller: 'homelistController',
-    //             templateUrl: 'partials/homelist.html',
-    //             title: 'logo'
-    //         })
-    //     .otherwise(
-    //     	{   controller: 'homelistController',
-    //             templateUrl: 'partials/homelist.html',
-    //     		redirectTo: '/Dashboard/Default'
-    //     	}
-    //     )
+    $routeProvider
+        .when('/Dashboard/PopupLogin',
+            {
+                controller: 'homelistController',
+                templateUrl: 'partials/loginpopup.html',
+                title: 'logo'
+            })
+        .otherwise(
+        	{   controller: 'homelistController',
+                templateUrl: 'partials/homelist.html',
+        		redirectTo: '/Dashboard/Default'
+        	}
+        )
 });
 
 
