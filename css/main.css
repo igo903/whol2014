@@ -160,14 +160,14 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     display: block;
     width: 285px;
     height: 68px;
-    background-image: url(../i/logo-1.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-1.png);
     background-repeat: no-repeat;
 }
 .soso .smartlogo h1 a{
     display: block;
     width: 66px;
     height: 68px;
-    background-image: url(../i/logo-2.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-2.png);
     background-repeat: no-repeat;
 }
 
