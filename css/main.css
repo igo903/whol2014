@@ -472,7 +472,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     line-height: 25px;
 }
 #video .contents{
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
     height: 380px;
     font-size: 14px; 
 }
@@ -669,8 +669,9 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     width: 155px;
 }
 .vsector{
-	width: 120px;
-	height: 130px;
+	width: 130px;
+	height: 139px;
+    overflow: hidden;
 
 }
 .vsector a{
