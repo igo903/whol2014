@@ -450,7 +450,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 #announce .contents{
     padding: 10px 10px 10px 12px;
-    height: 150px;
+    height: 120px;
     font-size: 14px;
 }
 #service .contents{
