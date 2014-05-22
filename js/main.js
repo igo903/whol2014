@@ -331,5 +331,18 @@
 				$('#username').val('');
 				$('#password').val('');	
 			}
+			
+			
+			//weather
+			$.get(encodeURI('http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&day=0&city=武汉&dfc=1&charset=utf-8'),function(data){
+				eval(data);
+				var weather = window.SWther.w['武汉'][0];
+				if (weather.s1 == weather.s2) {
+					$('#weather').html("武汉："+weather.s1+" "+weather.t2+"度~"+weather.t1+"度");
+				}else{
+					$('#weather').html("武汉："+weather.s1+"转"+weather.s2+" "+weather.t2+"度~"+weather.t1+"度");
+				}
+			});
 
+			
 		});
