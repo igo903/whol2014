@@ -158,11 +158,19 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .soso .logo .whlogo {
     display: block;
-    width: 410px;
+    width: 285px;
     height: 68px;
-    background-image: url(http://img.wuhan.net.cn/images/2014/logo.png);
+    background-image: url(../i/logo-1.png);
     background-repeat: no-repeat;
 }
+.soso .smartlogo h1 a{
+    display: block;
+    width: 66px;
+    height: 68px;
+    background-image: url(../i/logo-2.png);
+    background-repeat: no-repeat;
+}
+
 .soso_small .logo .whlogo{
     display: block;
     width: 100px;
