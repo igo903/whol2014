@@ -52,9 +52,9 @@
 			<div class="topic-info">
 				<div class="topic-item" id="slideImage">
 					<div class="swipe-wrap">
-						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136762647491635723.jpg" alt="男子北京街头砍死2人警方处置" width="320" height="144" border="0" class="topic_img" pl='1'></a>
-						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136756441595145058.jpg" alt="大片:切尔诺贝利事故27周年祭" width="320" height="144" border="0" class="topic_img" pl='1'></a>
-						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136755292265922787.jpg" alt="西班牙国王杯西班牙国王杯王杯" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+						<a href="#"><img src="img/136762647491635723.jpg" alt="男子北京街头砍死2人警方处置" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+						<a href="#"><img src="img/136756441595145058.jpg" alt="大片:切尔诺贝利事故27周年祭" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+						<a href="#"><img src="img/136755292265922787.jpg" alt="西班牙国王杯西班牙国王杯王杯" width="320" height="144" border="0" class="topic_img" pl='1'></a>
 					</div>
 					<div id="slideImageTitile" class="topic-title"><a>第一个</a></div>
 				</div>
@@ -69,9 +69,9 @@
 		<!-- 活动 -->
 		<div class="module-t"><span class="title">活动</span></div>
 
-		<!-- <ul id="toplist" class="cont-list cont-list-t">
-			<li>
-				<div class="thumb-img"><a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></a></div>
+		 <ul id="toplist" class="cont-list cont-list-t" ng-controller="homelistController">
+			<!--<li>
+				<div class="thumb-img"><a href="#"><img src="img/C1.jpg" alt=""></a></div>
 				<a href="#" class="title">5.19中国旅游日 半价游武汉欢乐谷</a>
 				<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 			</li>
@@ -81,10 +81,17 @@
 		      <input type="text" ng-model="yourName" placeholder="Enter a name here">
 		      <hr>
 		      <h1>Hello {{yourName}}!</h1>
-		    </li>
-		</ul> -->
+		    </li> -->
 
-		<!-- 新闻 -->
+			<li ng-repeat="toread in toreads">
+				<div class="thumb-img"><img ng-src="{{toread.src}}"></div>
+				<a href="#" class="title">{{toread.title}}</a>
+				<p class="news-info">{{toread.content}}</p>
+			</li>
+
+
+		</ul>
+
 		<div id="news" class="mod-news module">
 			<div class="module-t">
 				<h3>
@@ -109,67 +116,32 @@
 					<div class="panel current" sytele="">
 						<ul class="cont-list cont-list-c">
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-						</ul>
-					</div>
-
-					<div class="panel fullver" style="">
-						<ul class="cont-list">
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
-								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
-								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-							</li>
-							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
@@ -179,32 +151,32 @@
 					<div class="panel fullver" style="">
 						<ul class="cont-list">
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
@@ -214,32 +186,67 @@
 					<div class="panel fullver" style="">
 						<ul class="cont-list">
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
 							<li>
-								<div class="thumb-img"><img src="http://img.wuhan.net.cn/images/2014MO/C1.jpg" alt=""></div>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="panel fullver" style="">
+						<ul class="cont-list">
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
+								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
+								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
+							</li>
+							<li>
+								<div class="thumb-img"><img src="img/C1.jpg" alt=""></div>
 								<a href="#" class="title">598989中国旅游日 半价游武汉欢乐谷</a>
 								<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
 							</li>
@@ -257,9 +264,9 @@
 				<div class="swipe-wrap">
 					<div class="panel current video">
 						<ul class="video-home">
-							<li><a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014MO/news1.png" alt=""></a><span>武汉热线视频</span></li>
-							<li class="middle"><a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014MO/news2.png" alt=""></a><span>武汉电信视频</span></li>
-							<li><a href="javascript:;"><img src="http://img.wuhan.net.cn/images/2014MO/news3.png" alt=""></a><span>智慧城市视频</span></li>
+							<li><a href="javascript:;"><img src="img/news1.png" alt=""></a><span>武汉热线视频</span></li>
+							<li class="middle"><a href="javascript:;"><img src="img/news2.png" alt=""></a><span>武汉电信视频</span></li>
+							<li><a href="javascript:;"><img src="img/news3.png" alt=""></a><span>智慧城市视频</span></li>
  						</ul>
 					</div>
 				</div>
