@@ -11,7 +11,6 @@ app.config(function($routeProvider) {
             })
         .otherwise(
         	{   controller: 'homelistController',
-                templateUrl: 'partials/homelist.html',
         		redirectTo: '/Dashboard/Default'
         	}
         )
@@ -19,13 +18,15 @@ app.config(function($routeProvider) {
 
 
 app.service('dataService', function($http, $route) {
-
     this.getToRead = function() {
                 return $http.get('data/homelist.json', {
                         'cache': true
                 });
         };
+});
 
+app.controller('bodyController',function(){
+    
 });
 
 

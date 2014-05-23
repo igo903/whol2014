@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="js/swipe.js"></script>
 	<script type="text/javascript" src="js/zepto.min.js"></script>
 </head>
-<body id="main" ng-app="wholApp">
+<body id="main" ng-app="wholApp" ng-controller="bodyController">
 	<div class="wrapper">
 
 		<div class="login-panel">
@@ -67,28 +67,16 @@
 		<!-- 活动 -->
 		<div class="module-t"><span class="title">活动</span></div>
 
-		 <ul id="toplist" class="cont-list cont-list-t" ng-controller="homelistController">
-			<!--<li>
-				<div class="thumb-img"><a href="#"><img src="img/C1.jpg" alt=""></a></div>
-				<a href="#" class="title">5.19中国旅游日 半价游武汉欢乐谷</a>
-				<p class="news-info">除了优惠之外，武汉欢乐谷园内打造的全民变装狂欢、首届cosplay嘉年华丰富的主题活动将精彩呈现。大黄蜂、小黄人、加勒比海盗等影视人物与游客零距离互动、由经典动漫人物组成的巡游方阵、以及动感十足的时尚嘉年华主题晚会将给游客呈现一场时尚、动感的文化盛宴.</p>
-			</li>
-			
-			<li>
-		      <label>Name:</label>
-		      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-		      <hr>
-		      <h1>Hello {{yourName}}!</h1>
-		    </li> -->
 
-			<li ng-repeat="toread in toreads">
-				<div class="thumb-img"><img ng-src="{{toread.src}}"></div>
-				<a href="#" class="title">{{toread.title}}</a>
-				<p class="news-info">{{toread.content}}</p>
-			</li>
+			<ul id="toplist" class="cont-list cont-list-t" ng-controller="homelistController">
+				<li ng-repeat="toread in toreads" ng-animate=" 'animate' ">
+					<div class="thumb-img"><img ng-src="{{toread.src}}"></div>
+					<a href="#" class="title">{{toread.title}}</a>
+					<p class="news-info">{{toread.content}}</p>
+				</li>
+			</ul>
 
 
-		</ul>
 
 		<div id="news" class="mod-news module">
 			<div class="module-t">
