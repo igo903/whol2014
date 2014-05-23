@@ -25,8 +25,17 @@ app.service('dataService', function($http, $route) {
         };
 });
 
-app.controller('bodyController',function(){
-    
+app.controller('bodyController',function($scope,$route, $location,$rootScope ,$timeout){
+        $scope.slideDirection = null;
+        $scope.navon = false;
+        $rootScope.hideafterload = false;
+
+        $timeout(function(){
+                  $rootScope.hideafterload = true;  //delay 100ms seconds show splash
+        },400);
+
+
+        
 });
 
 

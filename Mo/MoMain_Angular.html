@@ -69,7 +69,7 @@
 
 
 			<ul id="toplist" class="cont-list cont-list-t" ng-controller="homelistController">
-				<li ng-repeat="toread in toreads" ng-animate=" 'animate' ">
+				<li ng-repeat="toread in toreads" class="repeat-item">
 					<div class="thumb-img"><img ng-src="{{toread.src}}"></div>
 					<a href="#" class="title">{{toread.title}}</a>
 					<p class="news-info">{{toread.content}}</p>
