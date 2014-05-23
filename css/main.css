@@ -670,7 +670,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .vsector{
 	width: 130px;
-	height: 139px;
+	height: 150px;
     overflow: hidden;
 
 }
@@ -681,7 +681,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .vsector img{
 	width: 130px;
-	height: 95px;
+	height: 105px;
 }
 .footlinks{
 	border: 1px solid #dddddd;
