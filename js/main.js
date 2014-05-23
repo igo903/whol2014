@@ -334,18 +334,20 @@
 			
 			
 			//weather
+			
 			if($('#weather')){
-				$.get(encodeURI('http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&day=0&city=武汉&dfc=1&charset=utf-8'),function(data){
-					if (data){
-						eval(data);
-						var weather = window.SWther.w['武汉'][0];
-						if (weather.s1 == weather.s2) {
-							$('#weather').html("武汉："+weather.s1+" "+weather.t2+"度~"+weather.t1+"度");
-						}else{
-							$('#weather').html("武汉："+weather.s1+"转"+weather.s2+" "+weather.t2+"度~"+weather.t1+"度");
+					$.getJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q=wuhan&lang=zh_cn&units=metric&cnt=1&callback=?",function(data){
+						
+						if (data && data.list[0].temp.min && data.list[0].weather[0].description){
+							var w_min = Math.round(data.list[0].temp.min);
+							var w_max = Math.round(data.list[0].temp.max);
+							var w_desc = data.list[0].weather[0].description ;							
+								
+							$('#weather').html("武汉："+w_desc+"  "+w_min+"度~"+w_max+"度");
+
 						}
-					}
-				});				
+					});				
+				             
 			}
 
 
