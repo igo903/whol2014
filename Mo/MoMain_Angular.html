@@ -21,7 +21,7 @@
 <body id="main" ng-app="wholApp" ng-controller="bodyController">
 	<div class="wrapper">
 
-		<div class="login-panel">
+		<div class="login-panel my-special-animation" ng-if="on">
 			<form method="post" action="" class="loginform">
 				<ul id="popupLogin" class="ui-popup fn-clear">
 					<h1>欢迎登录到智慧城市</h1>
@@ -36,9 +36,9 @@
 
 		<!-- LOGO -->
 		<header id="header" class="header">
-			<div class="logowrapper">
+			<div class="logowrapper" ng-init="on=true">
 				<div class="logo "></div>
-				<a href="#/Dashboard/PopupLogin" class="btn fa fa-angle-down fa-2x"></a>
+				<a href="#/Dashboard/PopupLogin" class="btn fa fa-angle-down fa-2x" ng-click="on=!on"></a>
 			</div>	
 		</header>
 
