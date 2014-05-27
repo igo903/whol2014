@@ -1932,9 +1932,9 @@ article p {
 .app .info .web{
 	top: 40px;
 }
-.app .snapshot{
-	margin: 0px auto;
-	width: 320px;
+.app .snapshot img{
+	width: 100%;
+	height: auto;
 }
 
 
