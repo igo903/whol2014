@@ -867,6 +867,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 .nrC .newsInfo {
     height: 30px;
+    margin-right: 10px;
 }
 .nrC .nrP {
     zoom: 1;

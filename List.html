@@ -207,20 +207,9 @@
 
 			<!-- 分页 -->
 
-			<!-- <div id="pageZone">
-				<span style="display: none;" class="count">当前第1/9页</span>
-				<span style="display: none;" class="Disabled" onclick="timer()">第一页</span>
-				<span class="Disabled" onclick="timer()">&lt;&lt;上一页</span>
-				<span title="您正在浏本页" class="isNow number">1</span>
-				<span title="第2页" class="number"><a href="javascript:getString.Output(2);" onclick="timer()">2</a></span>
-				<span title="第3页" class="number"><a href="javascript:getString.Output(3);" onclick="timer()">3</a></span>
-				<span>...</span>
-				<span class="number" title="Page 9"><a href="javascript:getString.Output(9);" onclick="timer()">9</a></span>
-				<span title="转到下一页"><a href="javascript:getString.Output(2);" onclick="timer()">下一页&gt;&gt;</a></span>
-				<span style="display: none;" title="转到最后一页"><a href="javascript:getString.Output(9);" onclick="timer()">最末页</a></span>
-			</div> -->
+			
 
-			<div id="pageZone">			 
+			<!-- <div id="pageZone">			 
 				<div class="fn-clear">
 					<a class="prev" href="/video/index.php/Home/Index/more/category/1/p/2.html">上一页</a>
 					<span class="current">1</span>
@@ -230,6 +219,12 @@
 					<a class="num" href="/video/index.php/Home/Index/more/category/1/p/5.html">5</a>
 					<a class="next" href="/video/index.php/Home/Index/more/category/1/p/2.html">下一页</a>
 				</div>
+			</div> -->
+
+			<div class="page mar-l-8">
+				<ul class="inline">
+					<li><a href="javascript:void(0);" class="prev disable">上一页</a></li><li><a href="javascript:void(0);" class="now">1</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/2.shtml">2</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/3.shtml">3</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/4.shtml">4</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/5.shtml">5</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/6.shtml">6</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/2250.shtml">... 2250</a></li><li><a href="http://info.wuhan.net.cn/pub/news/wuhan/2.shtml" class="next">下一页</a></li> 
+				</ul>
 			</div>
 
 
@@ -484,6 +479,58 @@
 				$('#slidePicNews .move').hide();
 			});
 		});
+
+
+		seajs.use(['$'],function($){
+
+			if($(window).width()<=640){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('#pageZone').addClass('fn-hide');
+
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+			}
+
+			$(window).resize(function() {
+				if($(window).width()<=640){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('#pageZone').addClass('fn-hide');
+					
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+				} else if($(window).width()>640){
+					$('#topnav').removeClass('fn-hide');
+					$('.footer').removeClass('fn-hide');
+					$('.footlinks').removeClass('fn-hide');
+					$('.layoutRight').removeClass('fn-hide');
+					$('.shortnav').removeClass('fn-hide');
+					$('.layout.mt40').removeClass('fn-hide');
+					$('#soso').removeClass('fn-hide');
+					
+					$('.mainBody').css('width','660px');
+					$('.layout').css('width','1000px');
+					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
+				}
+				console.log($(window).width());
+			  
+			});
+		});
+
 	</script>
 
 </body>
