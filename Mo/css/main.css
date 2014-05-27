@@ -1891,7 +1891,51 @@ article p {
 	vertical-align: 1px;
 	margin-right: 5px;
 }
+.app-container .app{
+	width: 80%;
+	height: 80%;
+	background: #fff;
+	border-radius: 5px;
+	margin: 20px auto 20px auto;
+	padding: 20px;
+}
+.app .info img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+.app .info .name{width: 100%;}
+.app .info .name p{margin-bottom: 5px;}
+.app .info .name p:first-child{color: #3072C2;font-size: 14px;}
+.app .info .name p.ver{color: #ccc;}
 
+.app .info{
+	position: relative;
+	margin-bottom: 20px;
+}
+.app .info .short{
+	margin-top: 10px;
+}
+.app .info .install, .app .info .web{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background: #3072C2;
+	color: #fff;
+}
+.app .info .web{
+	top: 40px;
+}
+.app .snapshot{
+	margin: 0px auto;
+	width: 320px;
+}
 
 
 
