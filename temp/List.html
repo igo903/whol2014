@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{$name}新闻 武汉热线</title>
+
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/main.css">
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css">
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/font-awesome.min.css">
@@ -133,6 +137,61 @@
 		// 		window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
 		// 	}
 		// });
+
+		//Responsive
+		seajs.use(['detector','$'],function(detector,$){
+			var deviceName = detector.os.name;
+
+			if($(window).width()<=640 || deviceName == "ios" || deviceName == "android"){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('.nrC .nrPic').addClass('none');
+
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+			}
+
+			$(window).resize(function() {
+				if($(window).width()<=640){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('.nrC .nrPic').addClass('none');
+					
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+				} else if($(window).width()>640){
+					$('#topnav').removeClass('fn-hide');
+					$('.footer').removeClass('fn-hide');
+					$('.footlinks').removeClass('fn-hide');
+					$('.layoutRight').removeClass('fn-hide');
+					$('.shortnav').removeClass('fn-hide');
+					$('.layout.mt40').removeClass('fn-hide');
+					$('#soso').removeClass('fn-hide');
+					$('.nrC .nrPic').removeClass('none');
+					
+					$('.mainBody').css('width','660px');
+					$('.layout').css('width','1000px');
+					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
+				}
+				console.log($(window).width());
+			  
+			});
+		});
+
 
 		// popup
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
@@ -328,50 +387,8 @@
 
 		});
 
-		//Responsive
-		seajs.use(['$'],function($){
-			if($(window).width()<=640){
-					$('#topnav').addClass('fn-hide');
-					$('.footer').addClass('fn-hide');
-					$('.footlinks').addClass('fn-hide');
-					$('.layoutRight').addClass('fn-hide');
-					$('.shortnav').addClass('fn-hide');
-					$('.layout.mt40').addClass('fn-hide');
-					$('#soso').addClass('fn-hide');
-					$('#pageZone').addClass('fn-hide');
+		
 
-					$('.layout').css('width','100%');
-					$('.mainBody').css('width','100%');
-					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
-			}
-			$(window).resize(function() {
-				if($(window).width()<=640){
-					$('#topnav').addClass('fn-hide');
-					$('.footer').addClass('fn-hide');
-					$('.footlinks').addClass('fn-hide');
-					$('.layoutRight').addClass('fn-hide');
-					$('.shortnav').addClass('fn-hide');
-					$('.layout.mt40').addClass('fn-hide');
-					$('#soso').addClass('fn-hide');
-					$('#pageZone').addClass('fn-hide');
-					$('.layout').css('width','100%');
-					$('.mainBody').css('width','100%');
-					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
-				} else if($(window).width()>640){
-					$('#topnav').removeClass('fn-hide');
-					$('.footer').removeClass('fn-hide');
-					$('.footlinks').removeClass('fn-hide');
-					$('.layoutRight').removeClass('fn-hide');
-					$('.shortnav').removeClass('fn-hide');
-					$('.layout.mt40').removeClass('fn-hide');
-					$('#soso').removeClass('fn-hide');
-					$('.mainBody').css('width','660px');
-					$('.layout').css('width','1000px');
-					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
-				}
-				console.log($(window).width());  
-			});
-		});
 
 	</script>
 
