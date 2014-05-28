@@ -433,6 +433,7 @@
 			// base:"./sea-modules",
 			alias:{
 				"$":"jquery/jquery/1.10.1/jquery.js",
+				"detector":"arale/detector/1.4.0/detector.js",
 				"jquery-easing":"jquery/easing/1.3.0/easing.js"
 			}
 		});
@@ -489,9 +490,10 @@
 		});
 
 
-		seajs.use(['$'],function($){
+		seajs.use(['detector','$'],function(detector,$){
+			var deviceName = detector.os.name;
 
-			if($(window).width()<=640){
+			if($(window).width()<=640 || deviceName == "ios" || deviceName == "android"){
 					$('#topnav').addClass('fn-hide');
 					$('.footer').addClass('fn-hide');
 					$('.footlinks').addClass('fn-hide');
