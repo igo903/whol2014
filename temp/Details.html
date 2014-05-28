@@ -441,8 +441,9 @@
 		});
 
 		//Responsive
-		seajs.use(['$'],function($){
-			if($(window).width()<=640){
+		seajs.use(['detector','$'],function(detector, $){
+			var deviceName = detector.os.name;
+			if($(window).width()<=640 || deviceName == "ios" || deviceName == "android"){
 					$('#topnav').addClass('fn-hide');
 					$('.footer').addClass('fn-hide');
 					$('.footlinks').addClass('fn-hide');
@@ -450,7 +451,7 @@
 					$('.shortnav').addClass('fn-hide');
 					$('.layout.mt40').addClass('fn-hide');
 					$('#soso').addClass('fn-hide');
-					$('#wholsns').addClass('hidden');
+					$('#wholsns').addClass('none');
 					$('.recommendNews').addClass('fn-hide');
 					$('.sms').addClass('fn-hide');
 					$('.city').addClass('fn-hide');
@@ -459,7 +460,7 @@
 					$('.newsArticle .titdd-Article').addClass('fn-hide');
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','95%');
-					$('.mainBody').css('border','hidden');
+					$('.mainBody').css('border','none');
 					$('.newsArticle p').css('width','100%');
 					$('.mt12 p img').css('width','290px');
 					$('.mt12 p img').css('height','auto');
@@ -473,7 +474,7 @@
 					$('.shortnav').addClass('fn-hide');
 					$('.layout.mt40').addClass('fn-hide');
 					$('#soso').addClass('fn-hide');
-					$('#wholsns').addClass('hidden');
+					$('#wholsns').addClass('none');
 					$('.recommendNews').addClass('fn-hide');
 					$('.sms').addClass('fn-hide');
 					$('.city').addClass('fn-hide');
