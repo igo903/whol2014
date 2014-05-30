@@ -79,7 +79,7 @@
 		<div id="news" class="mod-news module">
 			<div class="module-t">
 				<h3>
-					<a href="#">新闻</a>
+					<a href="#">资讯</a>
 					<span class="dot-slider enable" id="dotnews">
 						<span class="dot current"></span>
 						<span class="dot"></span>
@@ -88,10 +88,10 @@
 					</span>
 				</h3>
 				<nav class="more">
-					<a href="#" class="active">新闻</a>
-					<a href="#">军事</a>
+					<a href="#" class="active">武汉</a>
+					<a href="#">国内</a>
 					<a href="#">社会</a>
-					<a href="#">武汉</a>
+					<a href="#">娱乐</a>
 				</nav>
 			</div>
 			<div class="module-c" style="" id="news_slide">
@@ -267,14 +267,13 @@
 				<li class="" id="apps"><div><span>应用</span></div></li>
 			</ul> 
 		</footer>
-
 	</div>
 
 	<script>
+
 		var flag = true;
 		var bullets = document.getElementById('slideDots').getElementsByTagName('span');
 		var pdot = document.getElementById('dotnews').getElementsByTagName('span');
-
 		var slider = Swipe(document.getElementById('slideImage'), {
 			startSlide:0,
 			auto: 3000,
@@ -289,7 +288,6 @@
 				$('#slideImageTitile a').html($(img_title[pos]).attr("alt"));
 			}
 		});
-
 		var sliderNews = Swipe(document.getElementById('news_slide'), {
 			startSlide:0,
 			auto: 0,
@@ -305,7 +303,6 @@
 				$('#news h3 a').html($(dotName_title[pos]).html());
 			}
 		});
-
 		$('.logowrapper .btn').on('click', function(e){
 			if(flag == true){
 				$('.login-panel').css("height","240px");
@@ -319,7 +316,8 @@
 				flag = true;
 			}
 		});
-		
+
 	</script>
+
 </body>
 </html>
