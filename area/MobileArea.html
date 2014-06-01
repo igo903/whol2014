@@ -1,0 +1,70 @@
+<!-- 409 轮播图片 -->
+
+<div class="swipe-wrap">
+
+
+
+	{loop $_data $k $r}
+	{loop $r $i $c}
+	<a href="{$c[url]}"><img src="{thumb($c[thumb],320,144,1,null,0)}" alt="{$c[title]}" border="0" class="topic_img" pl='1'></a>
+	{/loop}
+	{/loop}
+
+</div>
+
+{loop $_data $k $r}
+{loop $r $i $c}
+<div id="slideImageTitile" class="topic-title"><a>{$c[title]}</a></div>
+{/loop}
+{/loop}
+
+
+------------------------------------------------------------------------------------
+
+					<div class="swipe-wrap">
+						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136762647491635723.jpg" alt="男子北京街头砍死2人警方处置" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136756441595145058.jpg" alt="大片:切尔诺贝利事故27周年祭" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136755292265922787.jpg" alt="西班牙国王杯西班牙国王杯王杯" width="320" height="144" border="0" class="topic_img" pl='1'></a>
+					</div>
+					<div id="slideImageTitile" class="topic-title"><a>第一个</a></div>
+
+------------------------------------------------------------------------------------
+
+<ul>
+<!--{loop $data $k $r}-->
+  <li><!--{loop $r $i $c}-->
+    <a{if $c[icon]} class="icon-{$c[icon]}"{/if} href="{$c[url]}">{$c[title]}</a>
+    <!--{/loop}-->
+  </li>
+<!--{/loop}-->
+</ul>
+
+------------------------------------------------------------------------------------
+
+<?php
+$_data1 = array_slice($data, 0, 1);
+$_data2 = array_slice($data, 1, 1);
+$_data3 = array_slice($data, 2);
+?>
+
+	<h2 bosszone="focusnews1">
+		{loop $_data2 $k $r}
+		{loop $r $i $c}
+		<a class="linkto" href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>
+		{/loop}
+		{/loop}
+	</h2>
+
+	<div class="commonArea">
+		{loop $_data1 $k $r}
+		{loop $r $i $c}
+		<a class="pic" bosszone="focusnews" href="{$c[url]}" target="_blank"><img class="picto" src="{thumb($c[thumb],240,130,1,null,0)}" /></a>
+		{/loop}
+		{/loop}
+		<ul class="fn-left">
+			{loop $_data3 $k $r}
+			<li>{loop $r $i $c}<a href="{$c[url]}" target="_blank" {if $c[color]} style="color:{$c[color]};" {/if}>{$c[title]}</a>{/loop}</li>
+			{/loop}
+		</ul>
+			
+	</div>
