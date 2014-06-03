@@ -3,17 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{$title} 武汉热线</title>
-
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
 	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
-
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/main.css">
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css">
 	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/font-awesome.min.css">
 	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
 	<script src="{IMG_URL}templates/wuhan/2014/sea-modules/jquery/jquery/1.10.1/jquery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="{IMG_URL}js/config.js"></script>
-
 </head>
 <body>
 
@@ -198,20 +195,17 @@
 					$('#mood').addClass('fn-hide');
 					$('.digg-share').addClass('fn-hide');
 					$('.newsArticle .titdd-Article').addClass('fn-hide');
-
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.mainBody').css('border','none');
 					$('.newsArticle p').css('width','100%');
 					$('.mt12 p img').css('width','290px');
 					$('.mt12 p img').css('height','auto');
-					;
 					$('center img').css('width','240px');
 					$('center img').css('height','auto');
 					$('body').css('padding','0px 10px');
 					$('.newsArticle p').css('padding','0px');
 			}
-
 			$(window).resize(function() {
 				if($(window).width()<=640){
 					$('#topnav').addClass('fn-hide');
@@ -228,7 +222,6 @@
 					$('#mood').addClass('fn-hide');
 					$('.digg-share').addClass('fn-hide');
 					$('.newsArticle .titdd-Article').addClass('fn-hide');
-					
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.mainBody').css('border','none');
@@ -239,7 +232,6 @@
 					$('.mt12 p img').css('height','auto');
 					$('body').css('padding','0px 10px');
 					$('.newsArticle p').css('padding','0px');
-
 				} else if($(window).width()>640){
 					$('#topnav').removeClass('fn-hide');
 					$('.footer').removeClass('fn-hide');
@@ -255,7 +247,6 @@
 					$('#mood').removeClass('fn-hide');
 					$('.digg-share').removeClass('fn-hide');
 					$('.newsArticle .titdd-Article').removeClass('fn-hide');
-					
 					$('.layout').css('width','1000px');
 					$('.mainBody').css('width','660px');
 					$('.mainBody').css('border','1px solid #cECED0');
@@ -266,18 +257,10 @@
 					$('.mt12 p img').css('height','auto');
 					$('.newsArticle p').css('padding','0px 10px');
 					$('body').css('padding','0px 0px');
-
 				}
 				console.log($(window).width());
-			  
 			});
 		});
-
-
-
-
-
-
 
 		// popup
 		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
@@ -428,7 +411,7 @@
 					return !$.cookie(key);
 				};
 			}));
-
+			
 			// ajax
 			if($.cookie('username')&&$.cookie('password')){
 				login();
@@ -443,7 +426,7 @@
 				}				
 				$.ajax({  
 					type: "post",  
-					url : "http://115.29.207.162/video/index.php?m=User&c=Index&a=login",
+					url : "http://116.211.116.184/video/index.php?m=User&c=Index&a=login",
 					dataType:'jsonp',
 					jsonp:'callback',
 					data: 'username='+username+'&password='+password, 
@@ -487,26 +470,19 @@
 				$('#password').val('');	
 			}
 
-			//test for page voting.
+			//　digg
 			var mood_img_url = IMG_URL+'apps/mood/';
 			var votehtml= $('#mood').html();
-			//digg.get(contentid);
-
 			$('#mood li a, #mood li input').click(function(){
 				var moodsid = $(this).attr('moodsid');
 				console.log(moodsid);
 				vote(moodsid);
 			});
-
-
-			function setting(app,option){		
-
+			function setting(app,option){
 				if (app=="mood" && option == "votetime") {
 					return 24*60*60;
 				}
-
 			}
-
 			function vote(vote_id) {
 				if ( !$.cookie("mood_time"+contentid) || (( new Date().getTime() - $.cookie('mood_time'+contentid) ) > 1000*{setting('mood','votetime')}) ) {
 					$.getJSON(APP_URL+"?app=mood&controller=index&action=vote&contentid="+contentid+"&voteid="+vote_id+"&jsoncallback=?", function(json){
@@ -542,10 +518,8 @@
 				</li>\
 				<!--{/db}-->
 			</ul></div>';
-			
+
 		});
-
-
 
 	</script>
 

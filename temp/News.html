@@ -27,7 +27,7 @@
 
 		<!-- 日历和天气 -->
 		<div class="breadcrumb">
-			<i class="fa fa-clock-o"></i> <span class="dateNow">2014年4月8日 星期二</span>
+			<i class="fa fa-clock-o"></i> <span class="dateNow">2014年4月8日 星期二</span>　<span id="weather">武汉：晴 度~ 度</span>
 		</div>
 
 		<!-- 左侧容器 -->
@@ -365,6 +365,18 @@
 				
 				$('#username').val('');
 				$('#password').val('');	
+			}
+
+			//weather
+			if($('#weather')){
+				$.getJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q=wuhan&lang=zh_cn&units=metric&cnt=1&callback=?",function(data){
+					if (data && data.list[0].temp.min && data.list[0].weather[0].description){
+						var w_min = Math.round(data.list[0].temp.min);
+						var w_max = Math.round(data.list[0].temp.max);
+						var w_desc = data.list[0].weather[0].description ;								
+						$('#weather').html("武汉："+w_desc+"  "+w_min+"度~"+w_max+"度");
+					}
+				});				
 			}
 
 		});
