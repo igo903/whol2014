@@ -11,6 +11,14 @@
 	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
 <body>
 
+	<header id="header" class="header none">
+		<div class="logowrapper">
+			<div class="logo "></div>
+			<!-- <a class="login-btn">登录</a> 
+			<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>-->
+		</div>	
+	</header>
+
 	<!-- 项部工具条 -->
 	<!--#include virtual="/section/249.html"-->
 
@@ -117,6 +125,16 @@
 	<!-- 版权信息 -->
 	<!--#include virtual="/section/263.html"-->
 
+	<footer id="footer-dock">
+		<ul class="footer_tab">
+			<li class="" id="index"><div><span><a href="javascript:;">首页</a></span></div></li>
+			<li class="" id="video"><div><span><a href="javascript:;">视频</a></span></div></li>
+			<li class="" id="activity"><div><span><a href="javascript:;">活动</a></span></div></li>
+			<li class="" id="tianyi"><div><span><a href="javascript:;">天翼</a></span></div></li>
+			<li class="" id="apps"><div><span><a href="javascript:;">应用</a></span></div></li>
+		</ul> 
+	</footer>
+
 	<script>
 	
 		// base:"./sea-modules",
@@ -151,6 +169,11 @@
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
+					$('.breadcrumb').addClass('none');
+
 			}
 			$(window).resize(function() {
 				if($(window).width()<=640){
@@ -165,6 +188,11 @@
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
+					$('.breadcrumb').addClass('none');
+
 				} else if($(window).width()>640){
 					$('#topnav').removeClass('fn-hide');
 					$('.footer').removeClass('fn-hide');
@@ -177,6 +205,11 @@
 					$('.mainBody').css('width','660px');
 					$('.layout').css('width','1000px');
 					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
+
+					$('.header').addClass('none');
+					$('#footer-dock').addClass('none');
+					$('.breadcrumb').removeClass('none');
+					
 				}
 				console.log($(window).width());
 			});

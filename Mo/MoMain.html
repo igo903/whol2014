@@ -49,7 +49,7 @@
 						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136756441595145058.jpg" alt="大片:切尔诺贝利事故27周年祭" width="320" height="144" border="0" class="topic_img" pl='1'></a>
 						<a href="#"><img src="http://img.wuhan.net.cn/images/2014MO/136755292265922787.jpg" alt="西班牙国王杯西班牙国王杯王杯" width="320" height="144" border="0" class="topic_img" pl='1'></a>
 					</div>
-					<div id="slideImageTitile" class="topic-title"><a>第一个</a></div>
+					<div id="slideImageTitile" class="topic-title"><a></a></div>
 				</div>
 				<div id="slideDots" class="dot-slider enable">
 					<span class="dot current"></span>
@@ -274,6 +274,8 @@
 		var flag = true;
 		var bullets = document.getElementById('slideDots').getElementsByTagName('span');
 		var pdot = document.getElementById('dotnews').getElementsByTagName('span');
+
+		$('#slideImageTitile a').html($('.swipe-wrap a:first-child img').attr("alt"));
 
 		var slider = Swipe(document.getElementById('slideImage'), {
 			startSlide:0,

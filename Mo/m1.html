@@ -269,6 +269,9 @@
 		var flag = true;
 		var bullets = document.getElementById('slideDots').getElementsByTagName('span');
 		var pdot = document.getElementById('dotnews').getElementsByTagName('span');
+
+		$('#slideImageTitile a').html($('.swipe-wrap a:first-child img').attr("alt"));
+		
 		var slider = Swipe(document.getElementById('slideImage'), {
 			startSlide:0,
 			auto: 3000,
