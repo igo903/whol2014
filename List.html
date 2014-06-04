@@ -12,7 +12,13 @@
 </head>
 <body>
 
-	<!-- 项部工具条 -->
+	<header id="header" class="header none">
+		<div class="logowrapper">
+			<div class="logo "></div>
+			<!-- <a class="login-btn">登录</a> 
+			<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>-->
+		</div>	
+	</header>
 	
 	<div id="topnav" class="mininav">
 		<div class="mininavInner">
@@ -426,7 +432,20 @@
 		</div>	
 	</div>
 
-	<!-- JavaScript -->
+
+	<footer id="footer-dock">
+		<ul class="footer_tab">
+			<li class="" id="index"><div><span>首页</span></div></li>
+			<li class="" id="video"><div><span>视频</span></div></li>
+			<li class="" id="activity"><div><span>活动</span></div></li>
+			<li class="" id="tianyi"><div><span>天翼</span></div></li>
+			<li class="" id="apps"><div><span>应用</span></div></li>
+		</ul> 
+	</footer>
+
+
+
+	
 
 	<!-- SEAJS -->
 
@@ -504,10 +523,14 @@
 					$('.layout.mt40').addClass('fn-hide');
 					$('#soso').addClass('fn-hide');
 					$('.nrC .nrPic').addClass('none');
+					$('.breadcrumb').addClass('none');
 
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
 
 			}
 
@@ -521,10 +544,14 @@
 					$('.layout.mt40').addClass('fn-hide');
 					$('#soso').addClass('fn-hide');
 					$('.nrC .nrPic').addClass('none');
+					$('.breadcrumb').addClass('none');
 					
 					$('.layout').css('width','100%');
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
 
 				} else if($(window).width()>640){
 					$('#topnav').removeClass('fn-hide');
@@ -535,10 +562,14 @@
 					$('.layout.mt40').removeClass('fn-hide');
 					$('#soso').removeClass('fn-hide');
 					$('.nrC .nrPic').removeClass('none');
+					$('.breadcrumb').removeClass('none');
 					
 					$('.mainBody').css('width','660px');
 					$('.layout').css('width','1000px');
 					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
+
+					$('.header').addClass('none');
+					$('#footer-dock').addClass('none');
 				}
 				console.log($(window).width());
 			  
