@@ -1952,9 +1952,10 @@ li.list_item:hover{background:#f0f0f0;}
     border-top: 1px solid #666;
 }
 .footer_tab{overflow: hidden;}
-
+#footer-dock a{color: #3072C2;}
+#footer-dock a:hover{text-decoration: none;}
 /*FOOTER*/
-    #footer-dock li{padding: 10px 0;float: left;width: 20%; line-height: 26px;box-sizing:border-box;text-align: center;}
+    #footer-dock li{cursor:pointer;padding: 10px 0;float: left;width: 20%; line-height: 26px;box-sizing:border-box;text-align: center;}
     #footer-dock li:active{background-color: #dfdfdf;}
     #footer-dock li div{border-right: 1px solid white;}
     #footer-dock li:last-child div{border: none;}
