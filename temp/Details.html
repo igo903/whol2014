@@ -175,7 +175,7 @@
 	</footer>
 
 	<script>
-	
+
 		// base:"./sea-modules",
 		seajs.config({
 			alias:{
@@ -192,7 +192,6 @@
 		// 		window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
 		// 	}
 		// });
-
 
 		//Responsive
 		seajs.use(['detector','$'],function(detector, $){
@@ -223,7 +222,6 @@
 					$('center img').css('height','auto');
 					$('body').css('padding','0px 10px');
 					$('.newsArticle p').css('padding','0px');
-
 					$('.header').removeClass('none');
 					$('#footer-dock').removeClass('none');
 					$('.breadcrumb').addClass('none');
@@ -254,7 +252,6 @@
 					$('.mt12 p img').css('height','auto');
 					$('body').css('padding','0px 10px');
 					$('.newsArticle p').css('padding','0px');
-
 					$('.header').removeClass('none');
 					$('#footer-dock').removeClass('none');
 					$('.breadcrumb').addClass('none');
@@ -283,7 +280,6 @@
 					$('.mt12 p img').css('height','auto');
 					$('.newsArticle p').css('padding','0px 10px');
 					$('body').css('padding','0px 0px');
-
 					$('.header').addClass('none');
 					$('#footer-dock').addClass('none');
 					$('.breadcrumb').removeClass('none');
@@ -488,14 +484,11 @@
 			function signOut() {
 				$.removeCookie('username', { path: '/' });
 				$.removeCookie('password', { path: '/' });
-				
 				$('#level').html("等级");
 				$('#currency').html("智慧币");
 				$('#loginWhol').show();
-				
 				$('.user').addClass('fn-hide');
 				$('.topfunc').addClass('hidden');
-				
 				$('#username').val('');
 				$('#password').val('');	
 			}
