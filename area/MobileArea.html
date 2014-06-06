@@ -3,7 +3,7 @@
 <div class="swipe-wrap">
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
-	<a href="{$c[url]}"><img src="{thumb($c[thumb],320,144,1,null,0)}" alt="{$c[title]}" border="0" class="topic_img" pl='1'></a>
+	<a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],320,144,1,null,0)}" alt="{$c[title]}" border="0" class="topic_img" pl='1'></a>
 	<!--{/loop}-->
 	<!--{/loop}-->
 </div>
@@ -14,8 +14,8 @@
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
 	<li>
-		<div class="thumb-img"><a href="{$c[url]}"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
-		<a href="{$c[url]}" class="title">{$c[title]}</a>
+		<div class="thumb-img"><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
+		<a href="{$c[url]}" class="title" target="_blank">{$c[title]}</a>
 		<p class="news-info">{$c[description]}</p>
 	</li>
 	<!--{/loop}-->
@@ -33,9 +33,24 @@
 			<!--{if $r[thumb]}-->
 			<div class="thumb-img"><img src="{UPLOAD_URL}{$r[thumb]}" alt=""></div>
 			<!--{/if}-->
-			<a href="{$r[url]}" class="title">{$r[title]}</a>
+			<a href="{$r[url]}" class="title" target="_blank">{$r[title]}</a>
 			<p class="news-info">{$r[description]}</p>
 		</li>
 	<!--{/content}-->
 	</ul>
 </div>
+
+<!-- 423 视频推荐 -->
+
+<div class="panel current video">
+	<ul class="video-home">
+	<!--{loop $data $k $r}-->
+	<!--{loop $r $i $c}-->
+		<li><a href="{$c[url]}"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a><span>{$c[title]}</span></l>
+	<!--{/loop}-->
+	<!--{/loop}-->
+	</ul>
+</div>
+
+
+
