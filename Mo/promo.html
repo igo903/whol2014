@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线移动版</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="apple-touch-icon-precomposed" href="">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+<body id="main">
+	<div class="wrapper">
+
+		<!-- 登录 -->
+		<div class="login-panel">
+			<form method="post" action="" class="loginform">
+				<ul id="popupLogin" class="ui-popup fn-clear">
+					<h1>欢迎登录到智慧城市</h1>
+					<h2>请输入您的智慧城市用户名及密码</h2>
+					<li ><input type="text" name="username" id="username" class="form" value="请输入用户名"></li>
+					<li><input type="password" name="password" id="password" class="form" value="请输入密码"></li>
+					<li><input type="button" value="登 录" class="btn-form"></li>
+					<li class="error fn-hide">* 用户名或密码错误</li>
+				</ul>
+			</form>
+		</div>
+
+		<!-- LOGO -->
+		<header id="header" class="header">
+			<div class="logowrapper">
+				<div class="logo "></div>
+				<!-- <a class="login-btn">登录</a> -->
+				<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>
+			</div>	
+		</header>
+
+		
+		<div class="promo-wrapper">
+			<ul>
+				<li>
+					<div class="">
+						<h1>逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送</h1>
+						<p class="time">2014-05-30 -- 2014-06-10</p>
+						<p class="lbs">湖北</p>
+						<a href="" class="ongoing">正在进行</a>
+					</div>
+					<img src="img/c1.jpg" alt="逢佳节晒民俗">
+				</li>
+				<li>
+					<div class="">
+						<h1>逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送</h1>
+						<p class="time">2014-05-30 -- 2014-06-10</p>
+						<p class="lbs">湖北</p>
+						<a href="" class="ongoing">正在进行</a>
+					</div>
+					<img src="img/c1.jpg" alt="逢佳节晒民俗">
+				</li>
+				<li>
+					<div class="">
+						<h1>逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送逢佳节晒民俗，10万豪礼相送</h1>
+						<p class="time">2014-05-30 -- 2014-06-10</p>
+						<p class="lbs">湖北</p>
+						<a href="" class="ongoing">正在进行</a>
+					</div>
+					<img src="img/c1.jpg" alt="逢佳节晒民俗">
+				</li>
+			</ul>
+		</div>
+
+
+
+		<footer id="footer-dock">
+			<ul>
+				<li class="active"><a href="http://info.wuhan.net.cn/m1.shtml">首页</a></li>
+				<li class=""><a href="http://info.wuhan.net.cn/m2.shtml">视频</a></li>
+				<li class=""><a href="http://info.wuhan.net.cn/m3.shtml">活动</a></li>
+				<li class=""><a href="http://info.wuhan.net.cn/m4.shtml">天翼</a></li>
+				<li class=""><a href="http://info.wuhan.net.cn/m5.shtml">应用</a></li>
+			</ul>		
+		</footer>
+
+
+
+
+	</div>
+
+	<script>
+		var flag = true;
+		var bullets = document.getElementById('slideDots').getElementsByTagName('span');
+		var pdot = document.getElementById('dotnews').getElementsByTagName('span');
+
+		$('#slideImageTitile a').html($('.swipe-wrap a:first-child img').attr("alt"));
+
+		var slider = Swipe(document.getElementById('slideImage'), {
+			startSlide:0,
+			auto: 3000,
+			continuous: true,
+			callback: function(pos) {
+				var img_title = $('.swipe-wrap a img');
+				var i = bullets.length;
+					while (i--) {
+						bullets[i].className = 'dot';
+					}
+				bullets[pos].className = 'dot current';
+				$('#slideImageTitile a').html($(img_title[pos]).attr("alt"));
+			}
+		});
+
+		var sliderNews = Swipe(document.getElementById('news_slide'), {
+			startSlide:0,
+			auto: 0,
+			continuous: true,
+			callback: function(pos) {
+				var dotName_title = $('#news .more a');
+				console.log(dotName_title[0]);
+					var i = pdot.length;
+					while (i--) {
+						pdot[i].className = 'dot';
+					}
+				pdot[pos].className = 'dot current';
+				$('#news h3 a').html($(dotName_title[pos]).html());
+			}
+		});
+
+		$('.logowrapper .btn').on('click', function(e){
+			if(flag == true){
+				$('.login-panel').css("height","240px");
+				$(this).removeClass('fa-angle-down');
+				$(this).addClass('fa-angle-up');
+				flag = false;
+			} else {
+				$('.login-panel').css("height","0px");
+				$(this).removeClass('fa-angle-up');
+				$(this).addClass('fa-angle-down');
+				flag = true;
+			}
+		});
+		
+	</script>
+</body>
+</html>

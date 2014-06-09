@@ -1970,6 +1970,43 @@ article p {
 	-webkit-transform: rotate(-178deg);
 }
 
+.promo-wrapper{
+	padding: 10px 10px 40px 10px;
+}
+.promo-wrapper ul li{
+	width:100%;
+	margin-bottom: 10px;
+	height: 140px;
+	border: 1px solid #dcdcdc;
+	border-radius: 8px;
+	background: #fff;
+	position: relative;
+}
+.promo-wrapper ul li div{
+	padding: 10px 140px 0 10px;
+
+	overflow: hidden;
+}
+.promo-wrapper ul li h1{
+	font-size: 16px;
+	margin-bottom: 5px;
+	height: 55px;
+}
+.promo-wrapper ul li p{
+	margin-bottom: 5px;
+}
+.promo-wrapper ul li a.ongoing{
+	color:#5EACEA;
+}
+.promo-wrapper ul li img{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 120px;
+	height: 120px;
+}
+
+
 
 footer{
   position: fixed;
