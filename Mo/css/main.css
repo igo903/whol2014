@@ -1991,6 +1991,7 @@ article p {
 	font-size: 16px;
 	margin-bottom: 5px;
 	height: 55px;
+	overflow: hidden;
 }
 .promo-wrapper ul li p{
 	margin-bottom: 5px;
