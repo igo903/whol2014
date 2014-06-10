@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{$name}新闻 武汉热线</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/main.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/sea-modules/alice/base/1.0.2/base-debug.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/css/font-awesome.min.css">
+	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+<body>
+
+	<header id="header" class="header none">
+		<div class="logowrapper">
+			<div class="logo "></div>
+			<!-- <a class="login-btn">登录</a> 
+			<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>-->
+		</div>	
+	</header>
+
+	<!-- 项部工具条 -->
+	<!--#include virtual="/section/249.html"-->
+
+	<!-- 通栏广告 -->
+	<!--#include virtual="/section/241.html"-->
+
+	<!-- LOGO和搜索 -->
+	<!--#include virtual="/section/253.html"-->
+
+	<!-- 小导航 -->
+	<!--#include virtual="/section/425.html"-->
+
+	<!-- 主容器 -->
+	<div class="layout mt12 fn-clear">
+
+		<!-- 面包屑 -->
+		<div class="breadcrumb">
+			<span><i class="fa fa-home"></i> <a href="http://www.wuhan.net.cn/">武汉热线</a>
+				<!--{loop $pos $k $cat}-->
+				 > <a href="{$cat[url]}">{$cat[name]}</a>
+				<!--{/loop}-->
+			</span>
+		</div>
+
+		<!-- 左侧容器 -->
+		<div class="mainBody jrtjMod bd">
+
+			<!-- 列表主体 -->
+			<div id="listZone">
+				<!--{content catid="$catid" orderby="published desc" size="$pagesize" page="$page"}-->
+				<div class="nrC">
+					<!--{if $r[thumb]}-->
+					<a target="_blank" class="nrPic" href="{$r[url]}"><img style="width:110px; height:85px;" src="{UPLOAD_URL}{$r[thumb]}" alt=" "></a>
+					<!--{/if}-->
+					<h3 class="fn-left"><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
+					<p class="fn-right newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
+					<p class="nrP">{$r[description]}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
+				</div>
+				<!--{/content}-->
+			</div>
+
+			<!-- 分页 -->
+			<div class="page mar-l-8">
+				<ul class="inline">
+					<!--{pages($total, $page, $pagesize, 2, $urlrule)}--> 
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- 右侧容器 -->
+		<div class="layoutRight">
+
+			<!-- ADBox -->
+			<!--#include virtual="/section/245.html"-->
+
+			<!-- 资讯排行 -->
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsTextTabs">
+				<ul class="ui-switchable-nav">
+					<h2>资讯排行</h2>
+					<li>日</li>
+					<li>周</li>
+					<li>月</li>
+				</ul>
+				<div class="ui-switchable-content">
+					<div class="hidden col">
+						<!--#include virtual="/section/267.html"-->
+					</div>
+					<div class="hidden col">
+						<!--#include virtual="/section/269.html"-->
+					</div>
+					<div class="hidden col">
+						<!--#include virtual="/section/271.html"-->
+					</div>
+				</div>
+			</div>
+
+			<!-- 热点关注 -->
+			<div class="rightArea fn-clear mt12 rightNews" id="sideNewsImgTabs">
+				<ul class="ui-switchable-nav">
+					<h2>热点关注</h2>
+					<li>活动</li>
+					<li>房产</li>
+					<li>家居</li>
+					<li>资讯</li>
+				</ul>
+				<!--#include virtual="/section/265.html"-->   
+			</div>
+
+			<!-- 生活万象 -->
+			<div class="rightArea fn-clear mt12 rightNews" id="mediafocus">
+				<div class="hd"><h2>生活万象</h2></div>
+				<div class="contents">
+					<!--#include virtual="/section/273.html"-->
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 友情链接 -->
+	<!--#include virtual="/section/261.html"-->
+
+	<!-- 版权信息 -->
+	<!--#include virtual="/section/263.html"-->
+
+	<footer id="footer-dock" class="none">
+		<ul class="footer_tab">
+			<li class="" id="index"><div><span><a href="javascript:;">首页</a></span></div></li>
+			<li class="" id="video"><div><span><a href="javascript:;">视频</a></span></div></li>
+			<li class="" id="activity"><div><span><a href="javascript:;">活动</a></span></div></li>
+			<li class="" id="tianyi"><div><span><a href="javascript:;">天翼</a></span></div></li>
+			<li class="" id="apps"><div><span><a href="javascript:;">应用</a></span></div></li>
+		</ul> 
+	</footer>
+
+	<script>
+	
+		// base:"./sea-modules",
+		seajs.config({
+			alias:{
+				"$":"jquery/jquery/1.10.1/jquery.js",
+				"detector":"arale/detector/1.4.0/detector.js",
+				"jquery-easing":"jquery/easing/1.3.0/easing.js"
+			}
+		});
+
+		// detector
+		// seajs.use(['detector'],function(detector){
+		// 	var deviceName = detector.os.name;
+		// 	if(deviceName == "ios" || deviceName == "android" ) {
+		// 		window.location.href = 'http://115.29.207.162/whol2014/MoMain.html';
+		// 	}
+		// });
+
+		//Responsive
+		seajs.use(['detector','$'],function(detector,$){
+			var deviceName = detector.os.name;
+			if($(window).width()<=640 || deviceName == "ios" || deviceName == "android"){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('.nrC .nrPic').addClass('none');
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
+					$('.breadcrumb').addClass('none');
+
+			}
+			$(window).resize(function() {
+				if($(window).width()<=640){
+					$('#topnav').addClass('fn-hide');
+					$('.footer').addClass('fn-hide');
+					$('.footlinks').addClass('fn-hide');
+					$('.layoutRight').addClass('fn-hide');
+					$('.shortnav').addClass('fn-hide');
+					$('.layout.mt40').addClass('fn-hide');
+					$('#soso').addClass('fn-hide');
+					$('.nrC .nrPic').addClass('none');
+					$('.layout').css('width','100%');
+					$('.mainBody').css('width','100%');
+					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
+					$('.header').removeClass('none');
+					$('#footer-dock').removeClass('none');
+					$('.breadcrumb').addClass('none');
+
+				} else if($(window).width()>640){
+					$('#topnav').removeClass('fn-hide');
+					$('.footer').removeClass('fn-hide');
+					$('.footlinks').removeClass('fn-hide');
+					$('.layoutRight').removeClass('fn-hide');
+					$('.shortnav').removeClass('fn-hide');
+					$('.layout.mt40').removeClass('fn-hide');
+					$('#soso').removeClass('fn-hide');
+					$('.nrC .nrPic').removeClass('none');
+					$('.mainBody').css('width','660px');
+					$('.layout').css('width','1000px');
+					$('.page.mar-l-8 ul li').css('margin-bottom','0px');
+					$('.header').addClass('none');
+					$('#footer-dock').addClass('none');
+					$('.breadcrumb').removeClass('none');
+					
+				}
+				console.log($(window).width());
+			});
+		});
+
+		// popup
+		seajs.use(['arale/popup/1.1.6/popup'], function(Popup){
+			new Popup({
+				trigger: '#smartPoint',
+				element: '#popupPoint'
+			});
+			new Popup({
+				trigger: '#mail189',
+				element: '#popupMail'
+			});
+			new Popup({
+				trigger: '#personalSetting',
+				element: '#popupSetting'
+			});
+			new Popup({
+				trigger: '#loginWhol',
+				element: '#popupLogin'
+			});
+			new Popup({
+				trigger: '#signOut',
+				element: '#popupsignOut'
+			});
+		});
+
+		// Tabs
+		seajs.use(['arale/switchable/1.0.2/tabs'], function(Tabs) {
+
+			sideNewsImgTabs = new Tabs({
+				element: '#sideNewsImgTabs',
+				triggers: '#sideNewsImgTabs .ui-switchable-nav li',
+				panels: '#sideNewsImgTabs .ui-switchable-content .col',
+				activeIndex: 0
+			});
+
+			sideNewsTextTabs = new Tabs({
+				element: '#sideNewsTextTabs',
+				triggers: '#sideNewsTextTabs .ui-switchable-nav li',
+				panels: '#sideNewsTextTabs .ui-switchable-content .col',
+				activeIndex: 0
+			});
+
+			setTimeout(function() {
+				sideNewsImgTabs.set("activeIndex", 0);
+				sideNewsTextTabs.set("activeIndex", 0);
+			}, 3000);
+		});
+
+		// jquery
+		seajs.use(['$'],function($){
+
+			// loginsmartcity
+			$('.btn').click(function(){
+				login();
+			});
+			$('#signOutBtn').click(function(){
+				signOut();
+			});
+
+			// cookie helper	
+			(function (factory) {
+				if (typeof define === 'function' && define.amd) {					
+					define(['jquery'], factory);
+				} else if (typeof exports === 'object') {					
+					factory(require('jquery'));
+				} else {					
+					factory(jQuery);
+				}
+			}(function ($) {
+				var pluses = /\+/g;
+				function encode(s) {
+					return config.raw ? s : encodeURIComponent(s);
+				}
+				function decode(s) {
+					return config.raw ? s : decodeURIComponent(s);
+				}
+				function stringifyCookieValue(value) {
+					return encode(config.json ? JSON.stringify(value) : String(value));
+				}
+				function parseCookieValue(s) {
+					if (s.indexOf('"') === 0) {						
+						s = s.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+					}
+					try {
+						s = decodeURIComponent(s.replace(pluses, ' '));
+						return config.json ? JSON.parse(s) : s;
+					} catch(e) {}
+				}
+				function read(s, converter) {
+					var value = config.raw ? s : parseCookieValue(s);
+					return $.isFunction(converter) ? converter(value) : value;
+				}
+				var config = $.cookie = function (key, value, options) {
+					// Write
+					if (value !== undefined && !$.isFunction(value)) {
+						options = $.extend({}, config.defaults, options);
+						if (typeof options.expires === 'number') {
+							var days = options.expires, t = options.expires = new Date();
+							t.setTime(+t + days * 864e+5);
+						}
+						return (document.cookie = [
+							encode(key), '=', stringifyCookieValue(value),
+							options.expires ? '; expires=' + options.expires.toUTCString() : '', 
+							options.path    ? '; path=' + options.path : '',
+							options.domain  ? '; domain=' + options.domain : '',
+							options.secure  ? '; secure' : ''
+						].join(''));
+					}
+					// Read
+					var result = key ? undefined : {};
+					var cookies = document.cookie ? document.cookie.split('; ') : [];
+					for (var i = 0, l = cookies.length; i < l; i++) {
+						var parts = cookies[i].split('=');
+						var name = decode(parts.shift());
+						var cookie = parts.join('=');
+						if (key && key === name) {	
+							result = read(cookie, value);
+							break;
+						}
+						if (!key && (cookie = read(cookie)) !== undefined) {
+							result[name] = cookie;
+						}
+					}
+					return result;
+				};
+				config.defaults = {};
+				$.removeCookie = function (key, options) {
+					if ($.cookie(key) === undefined) {
+						return false;
+					}
+					$.cookie(key, '', $.extend({}, options, { expires: -1 }));
+					return !$.cookie(key);
+				};
+			}));
+			
+			// ajax
+			if($.cookie('username')&&$.cookie('password')){
+				login();
+			}
+			function login(){
+				if($.cookie('username')&&$.cookie('password')){
+					var username = $.cookie('username');
+					var password = $.cookie('password');		
+				}else{
+					var username = $('#username').val();
+					var password = $('#password').val();	
+				}				
+				$.ajax({  
+					type: "post",  
+					url : "http://116.211.116.184/video/index.php?m=User&c=Index&a=login",
+					dataType:'jsonp',
+					jsonp:'callback',
+					data: 'username='+username+'&password='+password, 
+					success: function(json){
+						if(json.returnCode==1){	
+							$.cookie('username',username,{ expires: 30, path: '/' });
+							$.cookie('password',password,{ expires: 30, path: '/' });
+								$('.user').removeClass('fn-hide');
+								$('.topfunc').removeClass('hidden');
+								$('#loginWhol').hide();
+								if (json.returnData.nick !='') {
+									$('.user').html("您好，" + json.returnData.nick); 
+								}else{
+									$('.user').html("您好，" + json.returnData.username); 
+								}
+								$('#level').html("等级："+json.returnData.achievement.level_info.level);
+								$('#currency').html("智慧币：" + json.returnData.achievement.currency);
+								if(!$('.error').hasClass('fn-hide')){
+									$('.error').addClass('fn-hide');
+								}
+						}else {
+							$.removeCookie('username');
+							$.removeCookie('password');
+							$('.error').removeClass('fn-hide');
+						}
+					}
+				}); 
+			}
+			function signOut() {
+				$.removeCookie('username', { path: '/' });
+				$.removeCookie('password', { path: '/' });
+				$('#level').html("等级");
+				$('#currency').html("智慧币");
+				$('#loginWhol').show();
+				$('.user').addClass('fn-hide');
+				$('.topfunc').addClass('hidden');
+				$('#username').val('');
+				$('#password').val('');	
+			}
+
+		});
+
+	</script>
+
+</body>
+</html>
