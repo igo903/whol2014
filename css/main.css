@@ -863,6 +863,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     clear: both;
     border-bottom: 1px dotted #cECED0;
     padding: 18px 0 10px 10px; 
+    position: relative;
 }
 .nrC a img{
     width: 110px;
@@ -881,23 +882,30 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 .nrC h3 {
     font-size: 18px;
     height: 30px;
+    overflow: hidden;
+    width: 413px;
 }
 .nrC .newsInfo {
     height: 30px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
+    position: absolute;
+    top: 18px;
+    right: 0px;
 }
 .nrC .nrP {
     zoom: 1;
     clear: right;
     color: #666666;
-    line-height: 22px;
+    line-height: 18px;
     font-size: 12px;
     margin-bottom: 2px;
     text-align: left;
-    height: 45px;
+    height: 36px;
     text-overflow:ellipsis;
+    overflow: hidden;
 }
-.nrC .nrP a {
+.nrC a.detail {
+    float: right;
     color: #004274;
     font-size: 12px;
 }

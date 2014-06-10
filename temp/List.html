@@ -53,9 +53,9 @@
 					<!--{if $r[thumb]}-->
 					<a target="_blank" class="nrPic" href="{$r[url]}"><img style="width:110px; height:85px;" src="{UPLOAD_URL}{$r[thumb]}" alt=" "></a>
 					<!--{/if}-->
-					<h3 class="fn-left"><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
-					<p class="fn-right newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
-					<p class="nrP">{$r[description]}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
+					<h3 class=""><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
+					<p class="newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
+					<p class="nrP">{description($r[contentid])}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
 				</div>
 				<!--{/content}-->
 			</div>

@@ -955,7 +955,10 @@ body{background: #f9f8f8;}
 	color: #fff;
 	font-size: 14px;
 }
-.video-home li.middle{
+/*.video-home li.middle{
+	margin: 0;
+}*/
+.video-home li:nth-of-type(2){
 	margin: 0;
 }
 .video-home li a span{

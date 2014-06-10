@@ -14,7 +14,7 @@
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
 	<li>
-		<div class="thumb-img"><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
+		<div class="thumb-img fn-left"><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
 		<a href="{$c[url]}" class="title" target="_blank">{$c[title]}</a>
 		<p class="news-info">{$c[description]}</p>
 	</li>
@@ -31,10 +31,10 @@
 	<!--{content catid="14" orderby="published desc" size="6"}-->
 		<li>
 			<!--{if $r[thumb]}-->
-			<div class="thumb-img"><img src="{UPLOAD_URL}{$r[thumb]}" alt=""></div>
+			<div class="thumb-img fn-left"><img src="{UPLOAD_URL}{$r[thumb]}" alt=""></div>
 			<!--{/if}-->
 			<a href="{$r[url]}" class="title" target="_blank">{$r[title]}</a>
-			<p class="news-info">{$r[description]}</p>
+			<p class="news-info">{description($r[contentid])}</p>
 		</li>
 	<!--{/content}-->
 	</ul>
