@@ -55,7 +55,13 @@
 					<!--{/if}-->
 					<h3 class=""><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
 					<p class="newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
-					<p class="nrP">{description($r[contentid])}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
+					<p class="nrP">
+						<?php
+						echo mb_substr(strip_tags(table('article',$r[contentid],'content')),0,80,'utf-8');
+						echo '...';
+						?>
+					</p>
+					<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a>
 				</div>
 				<!--{/content}-->
 			</div>

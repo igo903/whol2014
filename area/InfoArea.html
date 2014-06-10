@@ -88,7 +88,8 @@ $_data3 = array_slice($data, 2);
 		<p class="newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
 		<p class="nrP">
 			<?php
-			echo mb_substr(table('article',$r[contentid],'content'),0,80,'utf-8');
+			echo mb_substr(strip_tags(table('article',$r[contentid],'content')),0,90,'utf-8');
+			echo '...';
 			?>
 		</p>
 		<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a>

@@ -1032,7 +1032,7 @@ body{background: #f9f8f8;}
 }
 .cont-list li {
 	border-bottom: 1px solid #eee;
-	height: 90px;
+	/*height: 80px;*/
 	position: relative;
 	font-size: 14px;
 	/*display: -webkit-box;*/
@@ -1054,7 +1054,7 @@ body{background: #f9f8f8;}
 	
 }
 .cont-list li .news-info{
-	height: 57px;
+	/*height: 57px;*/
 	overflow: hidden;
 	font-size: 12px;
 	line-height: 18px;
@@ -1070,7 +1070,7 @@ body{background: #f9f8f8;}
 	display: block;
 	padding: 0 0 5px 0;
 	font-size: 14px;
-	height: 30px;
+	/*height: 30px;*/
 	overflow: hidden;
 	/*white-space: nowrap;
 	text-overflow: ellipsis;*/

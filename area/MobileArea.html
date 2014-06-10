@@ -33,8 +33,13 @@
 			<!--{if $r[thumb]}-->
 			<div class="thumb-img fn-left"><img src="{UPLOAD_URL}{$r[thumb]}" alt=""></div>
 			<!--{/if}-->
-			<a href="{$r[url]}" class="title" target="_blank">{$r[title]}</a>
-			<p class="news-info">{description($r[contentid])}</p>
+			<a href="{$r[url]}" class="title" target="_blank">{str_cut($r[title],80,'')}</a>
+			<p class="news-info">
+				<?php
+				echo mb_substr(strip_tags(table('article',$r[contentid],'content')),0,60,'utf-8');
+				echo '...';
+				?>
+			</p>
 		</li>
 	<!--{/content}-->
 	</ul>

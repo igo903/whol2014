@@ -896,11 +896,11 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     zoom: 1;
     clear: right;
     color: #666666;
-    line-height: 18px;
-    font-size: 12px;
+    line-height: 20px;
+    font-size: 14px;
     margin-bottom: 2px;
     text-align: left;
-    height: 36px;
+    height: 38px;
     text-overflow:ellipsis;
     overflow: hidden;
 }
