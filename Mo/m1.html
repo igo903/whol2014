@@ -38,7 +38,7 @@
 		</header>
 
 		<!-- 天气 -->
-		<div class="top"><p>武汉市25℃~16℃ 阴</p></div>
+		<div class="top" id="weather"><p>武汉：晴 度~ 度</p></div>
 
 		<!-- 图片新闻 -->
 		<section id="headline" class="topic">
@@ -162,6 +162,18 @@
 				flag = true;
 			}
 		});
+
+		//weather
+		if($('#weather')){
+			$.getJSON("http://api.openweathermap.org/data/2.5/forecast/daily?q=wuhan&lang=zh_cn&units=metric&cnt=1&callback=?",function(data){
+				if (data && data.list[0].temp.min && data.list[0].weather[0].description){
+					var w_min = Math.round(data.list[0].temp.min);
+					var w_max = Math.round(data.list[0].temp.max);
+					var w_desc = data.list[0].weather[0].description ;								
+					$('#weather').html("武汉："+w_desc+"  "+w_min+"度~"+w_max+"度");
+				}
+			});				
+		}
 
 	</script>
 

@@ -129,7 +129,7 @@ body{background: #f9f8f8;}
 .login-panel{
 	width: 100%;
 	height: 0px;
-	background:#3d80ce url(../img/main_nav_bg2.jpg) repeat-x;
+	background:#3d80ce url(http://img.wuhan.net.cn/images/2014MO/main_nav_bg2.jpg) repeat-x;
 	-webkit-transition: height .4s ease-in-out 0s;
 	overflow: hidden;
 }
