@@ -51,10 +51,57 @@
 	<ul class="video-home">
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
-		<li><a href="{$c[url]}"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a><span>{$c[title]}</span></l>
+		<li><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a><span>{$c[title]}</span></l>
 	<!--{/loop}-->
 	<!--{/loop}-->
 	</ul>
+</div>
+
+<!-- 433 活动推荐 -->
+
+<div class="promo-wrapper">
+	<ul>
+	<!--{loop $data $k $r}-->
+	<!--{loop $r $i $c}-->
+		<li>
+			<div class="">
+				<h1>
+					<a href="{$c[url]}" {if $c[color]} style="color:{$c[color]};"{/if} target="_blank">{str_cut($c[title],66,'')}</a>
+				</h1>
+				<p class="time">{$c[date1]} -- {$c[date2]}</p>
+				<p class="lbs">{$c[hdfw]}</p>
+				<a href="" class="ongoing">{$c[hdzt]}</a>
+			</div>
+			<a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],120,120,1,null,0)}" alt=""></a>
+		</li>
+	<!--{/loop}-->
+	<!--{/loop}-->
+	</ul>
+</div>
+
+<!-- 439 应用推荐 -->
+
+<div class="app-container">
+	<!--{loop $data $k $r}-->
+	<!--{loop $r $i $c}-->
+	<div class="app">
+		<div class="info ">
+			<img src="{thumb($c[thumb],80,80,1,null,0)}" alt="">
+			<div class="name fn-clear">
+				<p class="">{$c[title]}</p>
+				<p class="ver">{$c[ver]}</p>
+			</div>
+			<p class="short">{$c[description]}</p>
+			
+			<a href="{$c[appa]}" class="install" target="_blank">免费安装</a>
+			<a href="{$c[weba]}" class="web" target="_blank">Web</a>
+		</div>
+		<div class="snapshot">
+			<img src="{$c[appimg]}" alt="">
+		</div>
+	</div>
+	<!--{/loop}-->
+	<!--{/loop}-->
 </div>
 
 

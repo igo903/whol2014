@@ -15,30 +15,10 @@
 	<div class="wrapper">
 
 		<!-- 登录 -->
-		<div class="login-panel">
-			<form method="post" action="" class="loginform">
-				<ul id="popupLogin" class="ui-popup fn-clear">
-					<h1>欢迎登录到智慧城市</h1>
-					<h2>请输入您的智慧城市用户名及密码</h2>
-					<li ><input type="text" name="username" id="username" class="form" value="请输入用户名"></li>
-					<li><input type="password" name="password" id="password" class="form" value="请输入密码"></li>
-					<li><input type="button" value="登 录" class="btn-form"></li>
-					<li class="error fn-hide">* 用户名或密码错误</li>
-				</ul>
-			</form>
-		</div>
+		<!--#include virtual="/section/429.html"-->
 
 		<!-- LOGO -->
-		<header id="header" class="header">
-			<div class="logowrapper">
-				<div class="logo "></div>
-				<!-- <a class="login-btn">登录</a> -->
-				<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>
-			</div>	
-		</header>
-
-		<!-- 天气 -->
-		<div class="top" id="weather"><p>武汉：晴 度~ 度</p></div>
+		<!--#include virtual="/section/431.html"-->
 
 		<div>请下载智慧城市客户端观看在线视频</div>
 
@@ -50,40 +30,7 @@
 	<script>
 
 		var flag = true;
-		var bullets = document.getElementById('slideDots').getElementsByTagName('span');
-		var pdot = document.getElementById('dotnews').getElementsByTagName('span');
 
-		$('#slideImageTitile a').html($('.swipe-wrap a:first-child img').attr("alt"));
-		
-		var slider = Swipe(document.getElementById('slideImage'), {
-			startSlide:0,
-			auto: 3000,
-			continuous: true,
-			callback: function(pos) {
-				var img_title = $('.swipe-wrap a img');
-				var i = bullets.length;
-					while (i--) {
-						bullets[i].className = 'dot';
-					}
-				bullets[pos].className = 'dot current';
-				$('#slideImageTitile a').html($(img_title[pos]).attr("alt"));
-			}
-		});
-		var sliderNews = Swipe(document.getElementById('news_slide'), {
-			startSlide:0,
-			auto: 0,
-			continuous: true,
-			callback: function(pos) {
-				var dotName_title = $('#news .more a');
-				console.log(dotName_title[0]);
-					var i = pdot.length;
-					while (i--) {
-						pdot[i].className = 'dot';
-					}
-				pdot[pos].className = 'dot current';
-				$('#news h3 a').html($(dotName_title[pos]).html());
-			}
-		});
 		$('.logowrapper .btn').on('click', function(e){
 			if(flag == true){
 				$('.login-panel').css("height","240px");
