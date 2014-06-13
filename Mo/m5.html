@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线移动版</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="apple-touch-icon-precomposed" href="">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/mo/css/main.css">
+	<link rel="stylesheet" href="{IMG_URL}templates/wuhan/2014/mo/css/font-awesome.css">
+	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/mo/js/swipe.js"></script>
+	<script type="text/javascript" src="{IMG_URL}templates/wuhan/2014/mo/js/zepto.min.js"></script>
+</head>
+<body id="main">
+	<div class="wrapper">
+
+		<!-- 登录 -->
+		<!--#include virtual="/section/429.html"-->
+
+		<!-- LOGO -->
+		<!--#include virtual="/section/431.html"-->
+
+		<!-- 应用推荐 -->
+		<!--#include virtual="/section/439.html"-->
+
+		<!-- 底部导航 -->
+		<!--#include virtual="/section/427.html"-->
+
+	</div>
+
+
+
+	<script>
+		
+		var flag = true;
+		$('.logowrapper .btn').on('click', function(e){
+			
+			if(flag == true){
+				$('.login-panel').css("height","240px");
+				$(this).removeClass('fa-angle-down');
+				$(this).addClass('fa-angle-up');
+				flag = false;
+			} else {
+				$('.login-panel').css("height","0px");
+				$(this).removeClass('fa-angle-up');
+				$(this).addClass('fa-angle-down');
+				flag = true;
+			}
+		});
+
+
+
+
+	</script>
+
+
+</body>
+</html>
