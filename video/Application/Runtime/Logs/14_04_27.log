@@ -1,0 +1,1282 @@
+[ 2014-04-27T14:47:05+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2014-04-27T14:47:16+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-04-27T14:47:27+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2014-04-27T14:47:31+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2014-04-27T14:50:05+08:00 ] 127.0.0.1 /video/index.php/home/Index/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-04-27T14:51:37+08:00 ] 127.0.0.1 /video/index.php/home/Index/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2014-04-27T14:51:38+08:00 ] 127.0.0.1 /video/index.php/home/Index/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-04-27T14:51:39+08:00 ] 127.0.0.1 /video/index.php/home/Index/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-04-27T15:38:23+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002872s ]
+
+[ 2014-04-27T15:38:24+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2014-04-27T15:38:25+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2014-04-27T17:18:59+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+
+[ 2014-04-27T17:19:03+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2014-04-27T17:19:39+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002962s ]
+
+[ 2014-04-27T17:19:45+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+
+[ 2014-04-27T17:19:46+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-04-27T17:19:46+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+
+[ 2014-04-27T17:19:47+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2014-04-27T17:19:47+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-04-27T17:19:47+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-04-27T17:19:47+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-04-27T17:20:22+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2014-04-27T17:27:36+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2014-04-27T17:31:15+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002789s ]
+
+[ 2014-04-27T17:45:51+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2014-04-27T17:46:08+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2014-04-27T18:51:41+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+
+[ 2014-04-27T18:51:42+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-04-27T18:51:46+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2014-04-27T20:14:17+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002019s ]
+
+[ 2014-04-27T20:17:21+08:00 ] 127.0.0.1 /video/index.php/home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2014-04-27T20:17:34+08:00 ] 127.0.0.1 /video/index.php/home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2014-04-27T20:17:46+08:00 ] 127.0.0.1 /video/index.php/home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-04-27T20:18:11+08:00 ] 127.0.0.1 /video/index.php/home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2014-04-27T20:30:57+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2014-04-27T20:37:46+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2014-04-27T20:37:47+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2014-04-27T20:40:01+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2014-04-27T20:42:50+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-04-27T20:43:02+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2014-04-27T20:51:52+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2014-04-27T20:53:31+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2014-04-27T20:54:32+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003529s ]
+
+[ 2014-04-27T20:59:35+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003306s ]
+
+[ 2014-04-27T21:19:09+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2014-04-27T21:19:10+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2014-04-27T21:19:11+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2014-04-27T21:19:12+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2014-04-27T21:19:13+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2014-04-27T21:19:13+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-04-27T21:19:14+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2014-04-27T21:19:14+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2014-04-27T21:19:14+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2014-04-27T21:19:15+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2014-04-27T21:19:15+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-04-27T21:19:17+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2014-04-27T21:19:18+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2014-04-27T21:19:28+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2014-04-27T21:19:29+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2014-04-27T21:19:29+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2014-04-27T21:19:30+08:00 ] 127.0.0.1 /video/index.php/home/Index/videoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2014-04-27T21:19:44+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2014-04-27T21:19:59+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2014-04-27T21:20:59+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003891s ]
+
+[ 2014-04-27T21:21:34+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003018s ]
+
+[ 2014-04-27T21:22:16+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2014-04-27T21:23:40+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003122s ]
+
+[ 2014-04-27T21:24:07+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/apiHandler.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2014-04-27T21:25:18+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2014-04-27T21:25:20+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2014-04-27T21:25:55+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: date /Applications/XAMPP/xamppfiles/htdocs/video/Application/Home/Controller/IndexController.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2014-04-27T21:26:07+08:00 ] 127.0.0.1 /video/index.php/home/Index/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2014-04-27T21:31:17+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2014-04-27T21:32:01+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2014-04-27T21:33:34+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2014-04-27T21:40:08+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002828s ]
+
+[ 2014-04-27T21:48:44+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004481s ]
+
+[ 2014-04-27T21:51:07+08:00 ] 127.0.0.1 /video/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+

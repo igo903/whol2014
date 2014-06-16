@@ -235,9 +235,9 @@
 
 			// cookie helper	
 			(function (factory) {
-				if (typeof define === 'function' && define.amd) {					
+				if (typeof define === 'function' && define.amd) {
 					define(['jquery'], factory);
-				} else if (typeof exports === 'object') {					
+				} else if (typeof exports === 'object') {
 					factory(require('jquery'));
 				} else {					
 					factory(jQuery);
@@ -254,7 +254,7 @@
 					return encode(config.json ? JSON.stringify(value) : String(value));
 				}
 				function parseCookieValue(s) {
-					if (s.indexOf('"') === 0) {						
+					if (s.indexOf('"') === 0) {
 						s = s.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
 					}
 					try {
@@ -316,10 +316,10 @@
 			function login(){
 				if($.cookie('username')&&$.cookie('password')){
 					var username = $.cookie('username');
-					var password = $.cookie('password');		
+					var password = $.cookie('password');
 				}else{
 					var username = $('#username').val();
-					var password = $('#password').val();	
+					var password = $('#password').val();
 				}				
 				$.ajax({  
 					type: "post",  
@@ -373,10 +373,10 @@
 					if (data && data.list[0].temp.min && data.list[0].weather[0].description){
 						var w_min = Math.round(data.list[0].temp.min);
 						var w_max = Math.round(data.list[0].temp.max);
-						var w_desc = data.list[0].weather[0].description ;								
+						var w_desc = data.list[0].weather[0].description;
 						$('#weather').html("武汉："+w_desc+"  "+w_min+"度~"+w_max+"度");
 					}
-				});				
+				});
 			}
 
 		});

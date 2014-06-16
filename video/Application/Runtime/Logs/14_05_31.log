@@ -1,0 +1,1613 @@
+[ 2014-05-31T00:50:10+08:00 ] 203.208.60.157 /video/index.php/Home/Index/more/category/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='itv导视' ) LIMIT 1   [ RunTime:0.002023s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='itv导视' ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.007723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-05-31T00:53:57+08:00 ] 203.208.60.158 /video/index.php/Home/Index/play/id/10868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001538s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10868 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000743s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-05-31T00:54:20+08:00 ] 203.208.60.160 /video/index.php/Home/Index/play/id/10870
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001553s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10870 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000719s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-05-31T00:54:45+08:00 ] 203.208.60.158 /video/index.php/Home/Index/play/id/10866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001451s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10866 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-05-31T00:55:16+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/10867
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001432s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10867 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000756s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.004123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-05-31T00:56:15+08:00 ] 203.208.60.155 /video/index.php/Home/Index/play/id/10871
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001685s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10871 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000981s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2014-05-31T00:57:17+08:00 ] 203.208.60.158 /video/index.php/Home/Index/play/id/10869
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001589s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10869 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000826s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2014-05-31T01:06:34+08:00 ] 203.208.60.156 /video/index.php/Home/Index/play/id/10456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001462s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10456 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000741s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-05-31T01:58:15+08:00 ] 123.125.71.36 /video/index.php/Home/Index/play/id/10420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001635s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10420 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000832s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-05-31T02:22:21+08:00 ] 203.208.60.156 /video/index.php/Home/Index/play/id/9473
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001488s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9473 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000757s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-05-31T03:38:08+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/10524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001434s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10524 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000765s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-05-31T04:11:35+08:00 ] 211.100.41.182 /video/index.php/Home/Index/play/id/10536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001516s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10536 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-05-31T04:53:55+08:00 ] 203.208.60.159 /video/index.php/Home/Index/play/id/8245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001365s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 8245 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000802s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-05-31T05:39:44+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001424s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10871 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10871 ) [ RunTime:0.000335s ]
+
+[ 2014-05-31T05:39:50+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001546s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10867 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10867 ) [ RunTime:0.000353s ]
+
+[ 2014-05-31T05:39:50+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001496s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10869 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10869 ) [ RunTime:0.000341s ]
+
+[ 2014-05-31T05:39:54+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001530s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10868 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10868 ) [ RunTime:0.000401s ]
+
+[ 2014-05-31T05:39:55+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001796s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10866 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10866 ) [ RunTime:0.000324s ]
+
+[ 2014-05-31T05:39:55+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001412s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10870 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10870 ) [ RunTime:0.000311s ]
+
+[ 2014-05-31T05:43:04+08:00 ] 220.181.108.157 /video/index.php/Home/Index/more/category/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='社区网络春晚' ) LIMIT 1   [ RunTime:0.002703s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='社区网络春晚' ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.015200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-05-31T05:59:43+08:00 ] 123.125.71.35 /video/index.php/Home/Index/play/id/10836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001485s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10836 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000761s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-05-31T06:09:43+08:00 ] 203.208.60.160 /video/index.php/Home/Index/play/id/10379
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.002344s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10379 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000778s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2014-05-31T06:33:03+08:00 ] 123.125.71.35 /video/index.php/Home/Index/play/id/10891
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001347s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10891 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000698s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-05-31T07:25:30+08:00 ] 203.208.60.156 /video/index.php/Home/Index/play/id/8246
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001455s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 8246 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000746s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-05-31T07:43:44+08:00 ] 203.208.60.161 /video/index.php/Home/Index/play/id/6831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001333s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 6831 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000818s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-05-31T07:44:33+08:00 ] 203.208.60.155 /video/index.php/Home/Index/play/id/6870
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001570s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 6870 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000719s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-05-31T07:45:43+08:00 ] 203.208.60.159 /video/index.php/Home/Index/play/id/10089
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001449s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10089 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000751s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-05-31T07:46:48+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/10485
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001768s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10485 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-05-31T07:48:07+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/10831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001498s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10831 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000691s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-05-31T08:27:50+08:00 ] 203.208.60.157 /video/index.php/Home/Index/more/category/9/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='天翼视讯' ) LIMIT 1   [ RunTime:0.002003s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='天翼视讯' ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.003413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-05-31T09:10:53+08:00 ] 37.58.100.151 /video/index.php/Home/Index/play/id/10199
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001334s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10199 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000735s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-05-31T09:12:54+08:00 ] 123.125.71.101 /video/index.php/Home/Index/play/id/7320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001461s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 7320 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000879s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-05-31T09:29:34+08:00 ] 220.181.108.176 /video/index.php/Home/Index/play/id/10902
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001540s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10902 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000749s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2014-05-31T09:43:37+08:00 ] 203.208.60.159 /video/index.php/Home/Index/play/id/9727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001646s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9727 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000997s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-05-31T10:55:11+08:00 ] 37.58.100.71 /video/index.php/Home/Index/more/category/4/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='原创视界' ) LIMIT 1   [ RunTime:0.002035s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='原创视界' ) ORDER BY id desc LIMIT 25,25   [ RunTime:0.019899s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2014-05-31T10:59:25+08:00 ] 203.208.60.159 /video/index.php/Home/Index/play/id/9303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001560s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9303 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000821s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-05-31T11:29:13+08:00 ] 37.58.100.228 /video/index.php/Home/Index/more/category/9/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='天翼视讯' ) LIMIT 1   [ RunTime:0.001945s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='天翼视讯' ) ORDER BY id desc LIMIT 25,25   [ RunTime:0.006230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-05-31T11:37:48+08:00 ] 37.58.100.169 /video/index.php/Home/Index/play/id/7902
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001573s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 7902 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000774s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2014-05-31T11:39:57+08:00 ] 37.58.100.71 /video/index.php/Home/Index/play/id/10276
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001427s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10276 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000787s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-05-31T11:40:20+08:00 ] 37.58.100.76 /video/index.php/Home/Index/play/id/10516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001349s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10516 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000735s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-05-31T12:15:12+08:00 ] 203.208.60.159 /video/index.php/Home/Index/more/category/11/p/js/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001511s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) LIMIT 1   [ RunTime:0.002098s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) ORDER BY id desc LIMIT -25,25   [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-25,25' at line 1
+ [ SQL语句 ] : SELECT * FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) ORDER BY id desc LIMIT -25,25  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2014-05-31T12:18:24+08:00 ] 220.181.108.76 /video/index.php/Home/Index/play/id/10887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001476s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10887 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000735s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-05-31T12:35:04+08:00 ] 220.181.108.173 /video/index.php/Home/Index/play/id/10698
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001465s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10698 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.001072s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2014-05-31T12:37:02+08:00 ] 37.58.100.73 /video/index.php/Home/Index/play/id/10547
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001597s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10547 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000889s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2014-05-31T12:51:43+08:00 ] 220.181.108.114 /video/index.php/Home/Index/play/id/10642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001881s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10642 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000782s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-05-31T13:05:10+08:00 ] 203.208.60.155 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001660s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10870 ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10870 ) [ RunTime:0.000394s ]
+
+[ 2014-05-31T13:06:04+08:00 ] 203.208.60.161 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001695s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10869 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10869 ) [ RunTime:0.000353s ]
+
+[ 2014-05-31T13:25:33+08:00 ] 123.125.71.74 /video/index.php/Home/Index/play/id/7906
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001965s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 7906 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000965s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-05-31T13:26:25+08:00 ] 37.58.100.71 /video/index.php/Home/Index/play/id/10428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10428 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000732s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-05-31T13:30:59+08:00 ] 203.208.60.155 /video/index.php/Home/Index/play/id/10315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001373s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10315 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000721s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-05-31T13:47:10+08:00 ] 203.208.60.159 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001538s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10868 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10868 ) [ RunTime:0.000356s ]
+
+[ 2014-05-31T13:50:10+08:00 ] 203.208.60.161 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001796s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10867 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10867 ) [ RunTime:0.000339s ]
+
+[ 2014-05-31T13:51:04+08:00 ] 203.208.60.156 /video/index.php/Home/Index/getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001384s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10866 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10866 ) [ RunTime:0.000317s ]
+
+[ 2014-05-31T13:55:35+08:00 ] 58.49.161.144 /video/index.php?m=User&c=Index&a=login&callback=jQuery1101011097328527830541_1401515789003&username=18907194798&password=820530zZ&_=1401515789004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2014-05-31T14:46:47+08:00 ] 203.208.60.161 /video/index.php/Home/Index/play/id/6830
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001919s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 6830 ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.001160s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2014-05-31T16:02:34+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/9423
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001517s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9423 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000760s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-05-31T16:04:36+08:00 ] 37.58.100.134 /video/index.php/Home/Index/play/id/9153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001542s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9153 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000803s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-05-31T16:41:27+08:00 ] 37.58.100.151 /video/index.php/Home/Index/more/category/10/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001952s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='itv导视' ) LIMIT 1   [ RunTime:0.002875s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='itv导视' ) ORDER BY id desc LIMIT 25,25   [ RunTime:0.012004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-05-31T16:49:59+08:00 ] 37.58.100.228 /video/index.php/Home/Index/play/id/10508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001781s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10508 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000740s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-05-31T16:55:39+08:00 ] 37.58.100.151 /video/index.php/Home/Index/more/category/11/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) LIMIT 1   [ RunTime:0.002060s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) ORDER BY id desc LIMIT 50,25   [ RunTime:0.005733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-05-31T16:59:39+08:00 ] 37.58.100.71 /video/index.php/Home/Index/play/id/7417
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001505s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 7417 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000789s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-05-31T16:59:53+08:00 ] 37.58.100.167 /video/index.php/Home/Index/play/id/10605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001935s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10605 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.001169s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-05-31T17:00:46+08:00 ] 37.58.100.132 /video/index.php/Home/Index/play/id/10594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001877s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10594 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000768s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-05-31T17:18:21+08:00 ] 203.208.60.161 /video/index.php/Home/Index/play/id/10361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001521s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10361 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000787s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-05-31T17:50:06+08:00 ] 37.58.100.71 /video/index.php/Home/Index/play/id/10646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.002333s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10646 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000773s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-05-31T18:34:08+08:00 ] 203.208.60.158 /video/index.php/Home/Index/play/id/2984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001476s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 2984 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000715s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-05-31T19:21:10+08:00 ] 37.58.100.187 /video/index.php/Home/Index/play/id/10313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.002069s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10313 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.001058s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-05-31T19:49:56+08:00 ] 203.208.60.157 /video/index.php/Home/Index/play/id/10317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001223s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10317 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000759s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-05-31T20:11:03+08:00 ] 37.58.100.71 /video/index.php/Home/Index/play/id/10546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001786s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10546 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000843s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2014-05-31T21:05:43+08:00 ] 203.208.60.158 /video/index.php/Home/Index/more/category/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` WHERE ( path='看荆楚' ) LIMIT 1   [ RunTime:0.001953s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='看荆楚' ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-05-31T22:21:30+08:00 ] 203.208.60.159 /video/index.php/Home/Index/play/id/9781
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001391s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9781 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000679s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-05-31T23:22:24+08:00 ] 37.58.100.134 /video/index.php/Home/Index/play/id/10596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001510s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10596 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-05-31T23:37:17+08:00 ] 203.208.60.155 /video/index.php/Home/Index/play/id/9999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001467s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 9999 ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.000751s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.002706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-05-31T23:44:29+08:00 ] 123.125.71.72 /video/index.php/home/index/play/id/10880
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001835s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10880 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY id desc LIMIT 30   [ RunTime:0.001055s ]
+SQL: SELECT * FROM `whol2014_videolist` ORDER BY click_count desc LIMIT 30   [ RunTime:0.003305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+

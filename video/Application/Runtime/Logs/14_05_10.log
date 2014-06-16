@@ -1,0 +1,180 @@
+[ 2014-05-10T17:14:09+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=more&category=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.003177s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY id desc LIMIT 80   [ RunTime:0.010774s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY click_count desc LIMIT 80   [ RunTime:0.004711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2014-05-10T17:14:10+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001552s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10536 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10536 ) [ RunTime:0.000454s ]
+
+[ 2014-05-10T17:14:15+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=more&category=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001469s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY id desc LIMIT 80   [ RunTime:0.009061s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY click_count desc LIMIT 80   [ RunTime:0.003482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-05-10T17:14:16+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001715s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10536 ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10536 ) [ RunTime:0.001221s ]
+
+[ 2014-05-10T17:14:16+08:00 ] 114.94.21.30 /video/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `whol2014_videolist` LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY id desc LIMIT 6   [ RunTime:0.002635s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='经视直播' ) ORDER BY id desc LIMIT 6   [ RunTime:0.000870s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='看荆楚' ) ORDER BY id desc LIMIT 6   [ RunTime:0.000338s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='原创视界' ) ORDER BY id desc LIMIT 6   [ RunTime:0.008237s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='天翼4G高清视频' ) ORDER BY id desc LIMIT 6   [ RunTime:0.008934s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='电视问政' ) ORDER BY id desc LIMIT 6   [ RunTime:0.009491s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='社区网络春晚' ) ORDER BY id desc LIMIT 6   [ RunTime:0.009095s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='10000知道' ) ORDER BY id desc LIMIT 6   [ RunTime:0.010240s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='天翼视讯' ) ORDER BY id desc LIMIT 6   [ RunTime:0.000743s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='itv导视' ) ORDER BY id desc LIMIT 6   [ RunTime:0.004224s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='优酷资讯' ) ORDER BY id desc LIMIT 6   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-05-10T17:14:17+08:00 ] 114.94.21.30 /video/index.php/Home/Index/more?category=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001649s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY id desc LIMIT 80   [ RunTime:0.009648s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY click_count desc LIMIT 80   [ RunTime:0.003345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-05-10T17:14:18+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001643s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10536 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10536 ) [ RunTime:0.000353s ]
+
+[ 2014-05-10T17:28:13+08:00 ] 114.94.21.30 /video/index.php/Home/Index/more?category=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001986s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY id desc LIMIT 80   [ RunTime:0.010426s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( path='直播大武汉' ) ORDER BY click_count desc LIMIT 80   [ RunTime:0.003179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-05-10T17:28:15+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001437s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10536 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10536 ) [ RunTime:0.000329s ]
+
+[ 2014-05-10T17:28:16+08:00 ] 114.94.21.30 /video/index.php?m=Home&c=Index&a=getVideoURL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `whol2014_videolist` [ RunTime:0.001482s ]
+SQL: SELECT * FROM `whol2014_videolist` WHERE ( `id` = 10534 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: UPDATE `whol2014_videolist` SET `click_count`=click_count+1 WHERE ( id=10534 ) [ RunTime:0.000302s ]
+
