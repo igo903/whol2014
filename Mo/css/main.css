@@ -168,6 +168,28 @@ body{background: #f9f8f8;}
 	color: #3072C2;
 	left: 20px;
 }
+.afterlogin{
+	line-height: 30px;
+	height: 30px;
+	background: #bac9e7;
+	color:#000;
+	padding-left: 10px;
+	position: relative;
+}
+.afterlogin .logout{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	background: #0066b3;
+	border-radius: 5px;
+	width: 60px;
+	color: #fff;
+
+}
+
 
 
 .logo {
@@ -2030,33 +2052,6 @@ footer{
 #footer-dock li:last-child a{border: none;}
 #footer-dock a:hover{text-decoration: none;}
 
-
-
-/*#footer-dock{
-	height: 48px;
-	background: -webkit-gradient(linear,0 0, 0 100% , from(#F0F0F0),to(#f0f0f0));
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0px;
-	z-index: 1000;
-	padding: 0px;
-	width: 100%; margin:0px auto;
-	font-size: 16px;color: #3072C2;
-	border-top: 1px solid #666;
-}
-.footer_tab{overflow: hidden;}
-
-	#footer-dock li{padding: 10px 0;float: left;width: 20%; line-height: 26px;box-sizing:border-box;text-align: center;}
-	#footer-dock li:active{background-color: #dfdfdf;}
-	#footer-dock li div{border-right: 1px solid white;}
-	#footer-dock li:last-child div{border: none;}
-	#footer-dock li span{position: relative; }
-	#footer-dock li span:before{content: '';width: 29px;height: 21px;background-repeat: no-repeat;position: absolute;}
-	#footer-dock li:first-child span:before{top: -1px;left: -33px;}
-	#footer-dock li:nth-child(2) span:before{top: 3px;left: -21px;background-position: -44px -4px;}
-	#footer-dock li:last-child span:before{top: 3px;left: -21px;background-position: -77px -4px;}
-*/
 
 
 
