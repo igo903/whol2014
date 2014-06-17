@@ -156,7 +156,7 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 }
 #popupMail{width: 60px; top: 28px !important;}
 #popupLogin{top: 0px !important;}
-#popupSetting{width: 50px;}
+#popupSetting{width: 60px;}
 #popupsignOut, #popupPoint, #popupSetting{top: 28px !important;}
 .soso {
     width: 1000px;

@@ -171,11 +171,11 @@ body{background: #f9f8f8;}
 
 
 .logo {
-	background: url(http://img.wuhan.net.cn/images/2014MO/logo.jpg) no-repeat -22px top;
-	-webkit-background-size: 138px 28px;
+	background: url(http://img.wuhan.net.cn/images/2014MO/logo.jpg) no-repeat -0px top;
+	-webkit-background-size: 230px 28px;
 	/*display: inline-block;*/
 	height: 28px;
-	width: 100px;
+	width: 330px;
 	text-indent: -99em;
 	overflow: hidden;
 	margin: 8px auto 0 auto;
