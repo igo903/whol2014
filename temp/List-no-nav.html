@@ -28,8 +28,6 @@
 	<!-- LOGO和搜索 -->
 	<!--#include virtual="/section/253.html"-->
 
-	<!-- 小导航 -->
-
 	<!-- 主容器 -->
 	<div class="layout mt12 fn-clear">
 
@@ -52,9 +50,15 @@
 					<!--{if $r[thumb]}-->
 					<a target="_blank" class="nrPic" href="{$r[url]}"><img style="width:110px; height:85px;" src="{UPLOAD_URL}{$r[thumb]}" alt=" "></a>
 					<!--{/if}-->
-					<h3 class="fn-left"><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
-					<p class="fn-right newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
-					<p class="nrP">{$r[description]}<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a></p>
+					<h3 class=""><a target="_blank" href="{$r[url]}">{$r[title]}</a></h3>
+					<p class="newsInfo"><span class="date">{date('n月j日 G:i', $r['published'])}</span></p>
+					<p class="nrP">
+						<?php
+						echo mb_substr(strip_tags(table('article',$r[contentid],'content')),0,80,'utf-8');
+						echo '...';
+						?>
+					</p>
+					<a target="_blank" class="detail" href="{$r[url]}">[阅读全文]</a>
 				</div>
 				<!--{/content}-->
 			</div>
@@ -125,7 +129,7 @@
 	<!--#include virtual="/section/263.html"-->
 
 	<!-- 底部导航 -->
-	<!--#include virtual="/section/427.html"-->
+	<!--#include virtual="/section/441.html"-->
 
 	<script>
 	
@@ -162,6 +166,8 @@
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
 					$('.header').removeClass('none');
+					$('.date').addClass('none');
+					$('.nrC a.detail').addClass('none');
 					$('#footer-dock').removeClass('none');
 					$('.breadcrumb').addClass('none');
 
@@ -180,6 +186,8 @@
 					$('.mainBody').css('width','100%');
 					$('.page.mar-l-8 ul li').css('margin-bottom','10px');
 					$('.header').removeClass('none');
+					$('.date').addClass('none');
+					$('.nrC a.detail').addClass('none');
 					$('#footer-dock').removeClass('none');
 					$('.breadcrumb').addClass('none');
 
@@ -198,6 +206,9 @@
 					$('.header').addClass('none');
 					$('#footer-dock').addClass('none');
 					$('.breadcrumb').removeClass('none');
+
+					$('.date').removeClass('none');
+					$('.nrC a.detail').removeClass('none');
 					
 				}
 				console.log($(window).width());
