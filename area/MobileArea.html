@@ -3,7 +3,7 @@
 <div class="swipe-wrap">
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
-	<a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],320,144,1,null,0)}" alt="{$c[title]}" border="0" class="topic_img" pl='1'></a>
+	<a href="{$c[url]}"><img src="{thumb($c[thumb],320,144,1,null,0)}" alt="{$c[title]}" border="0" class="topic_img" pl='1'></a>
 	<!--{/loop}-->
 	<!--{/loop}-->
 </div>
@@ -14,8 +14,8 @@
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
 	<li>
-		<div class="thumb-img fn-left"><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
-		<a href="{$c[url]}" class="title" target="_blank">{$c[title]}</a>
+		<div class="thumb-img fn-left"><a href="{$c[url]}"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a></div>
+		<a href="{$c[url]}" class="title">{$c[title]}</a>
 		<p class="news-info">{$c[description]}</p>
 	</li>
 	<!--{/loop}-->
@@ -33,7 +33,7 @@
 			<!--{if $r[thumb]}-->
 			<div class="thumb-img fn-left"><img src="{UPLOAD_URL}{$r[thumb]}" alt=""></div>
 			<!--{/if}-->
-			<a href="{$r[url]}" class="title" target="_blank">{str_cut($r[title],80,'')}</a>
+			<a href="{$r[url]}" class="title">{str_cut($r[title],80,'')}</a>
 			<p class="news-info">
 				<?php
 				echo mb_substr(strip_tags(table('article',$r[contentid],'content')),0,50,'utf-8');
@@ -51,7 +51,7 @@
 	<ul class="video-home">
 	<!--{loop $data $k $r}-->
 	<!--{loop $r $i $c}-->
-		<li><a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a><span>{$c[title]}</span></l>
+		<li><a href="{$c[url]}"><img src="{thumb($c[thumb],100,80,1,null,0)}" alt=""></a><span>{$c[title]}</span></l>
 	<!--{/loop}-->
 	<!--{/loop}-->
 	</ul>
@@ -72,7 +72,7 @@
 				<p class="lbs">{$c[hdfw]}</p>
 				<a href="" class="ongoing">{$c[hdzt]}</a>
 			</div>
-			<a href="{$c[url]}" target="_blank"><img src="{thumb($c[thumb],120,120,1,null,0)}" alt=""></a>
+			<a href="{$c[url]}"><img src="{thumb($c[thumb],120,120,1,null,0)}" alt=""></a>
 		</li>
 	<!--{/loop}-->
 	<!--{/loop}-->
