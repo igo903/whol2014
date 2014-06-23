@@ -163,6 +163,15 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     background-image: url(http://img.wuhan.net.cn/images/2014/logo.png);
     background-repeat: no-repeat;
 }
+.soso_small .logo .sclogo{
+    display: block;
+    width: 94px;
+    height: 40px;
+    margin-right: 20px;
+    background-size: 94px 40px;
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-2.png);
+    background-repeat: no-repeat;
+}
 .soso_small .logo .whlogo{
     display: block;
     width: 100px;
