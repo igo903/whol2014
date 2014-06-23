@@ -177,14 +177,14 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     display: block;
     width: 285px;
     height: 68px;
-    background-image: url(http://img.wuhan.net.cn/images/2014/logo-1.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-2.png);
     background-repeat: no-repeat;
 }
 .soso .smartlogo h1 a{
     display: block;
     width: 160px;
     height: 68px;
-    background-image: url(http://img.wuhan.net.cn/images/2014/logo-2.png);
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-1.png);
     background-repeat: no-repeat;
 }
 
@@ -193,6 +193,15 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     width: 100px;
     height: 40px;
     background-image: url(http://img.wuhan.net.cn/images/2014/logo_small.png);
+    background-repeat: no-repeat;
+}
+.soso_small .logo .sclogo{
+    display: block;
+    width: 94px;
+    height: 40px;
+    margin-right: 5px;
+    background-size: 94px 40px;
+    background-image: url(http://img.wuhan.net.cn/images/2014/logo-2.png);
     background-repeat: no-repeat;
 }
 .soso .searchTxt {
@@ -214,8 +223,14 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
 .soso_small #searchbar{
     width: 288px;
 }
+.soso .weather{
+    margin-top: 22px;
+}
 .soso .weather span{
-    padding: 5px 0;
+    /*padding: 5px 0;*/
+    position: absolute;
+    top: 50px;
+    right: 230px;
 }
 .soso .search input {
     float: left;
