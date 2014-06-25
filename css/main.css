@@ -268,6 +268,14 @@ iframe#sidebar-iframe{width: 320px;min-height:1190px;overflow: hidden;}
     background: #328cc9 url(http://img.wuhan.net.cn/images/2014/navbg.jpg) repeat-x;
     position: relative;
 }
+.navline{
+    width: 1000px;
+    height: 2px;
+    line-height: 22px;
+    font-size: 0px;
+    margin: 0 auto;
+    background: #065990;
+}
 .shortnav{
     height: 30px;
 }
