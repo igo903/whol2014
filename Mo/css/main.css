@@ -2118,3 +2118,9 @@ footer{
 .banner,.container_b{
 	display: none;
 }
+
+iframe#whjg{
+	height: 640px;
+	width: 320px;
+	overflow: hidden;
+}
