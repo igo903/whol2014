@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<script type="text/javascript" src="js/swipe.js"></script>
-	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 </head>
 <body id="main">
 	<div class="wrapper">
@@ -38,12 +38,19 @@
 			</div>	
 		</header>
 
-		<iframe id="whjg" src="http://www.whjg.gov.cn:8082/wzxxcx/query/drivePersonQuery.jsp" width="100%" height="768px" frameBorder="0" scrolling="no"></iframe>
+		<iframe id="whjg" src="http://www.whjg.gov.cn:8082/wzxxcx/query/drivePersonQuery.jsp" width="100%" height="100%" frameBorder="0" scrolling="no"></iframe>
+
+		<div id="whjg"></div>
 
 		<script type="text/javascript">
 			$(function(){
-				alert(99);
-				$('.banner').css("display","none");
+
+				$('#whjg').load('http://www.whjg.gov.cn:8082/wzxxcx/query/drivePersonQuery.jsp');
+
+				// $('iframe').load( function() {
+				//     $('iframe').contents().find("head")
+				//       .append($("<style type='text/css'>  .banner{display:none;}  </style>"));
+				// });
 			})
 			
 		</script>	

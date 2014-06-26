@@ -2124,3 +2124,6 @@ iframe#whjg{
 	width: 320px;
 	overflow: hidden;
 }
+iframe#whjg .banner{
+	display: none;
+}
