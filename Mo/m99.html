@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>武汉热线移动版</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="format-detection" content="telephone=no,address=no,email=no"/>
+	<link rel="apple-touch-icon-precomposed" href="">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+<body id="main">
+	<div class="wrapper">
+
+		<!-- 登录 -->
+		<div class="login-panel">
+			<form method="post" action="" class="loginform">
+				<ul id="popupLogin" class="ui-popup fn-clear">
+					<h1>欢迎登录到智慧城市</h1>
+					<h2>请输入您的智慧城市用户名及密码</h2>
+					<li ><input type="text" name="username" id="username" class="form" value="请输入用户名"></li>
+					<li><input type="password" name="password" id="password" class="form" value="请输入密码"></li>
+					<li><input type="button" value="登 录" class="btn-form"></li>
+					<li class="error fn-hide">* 用户名或密码错误</li>
+				</ul>
+			</form>
+		</div>
+
+		<!-- LOGO -->
+		<header id="header" class="header">
+			<div class="logowrapper">
+				<div class="logo "></div>
+				<!-- <a class="login-btn">登录</a> -->
+				<a href="javascript:;" class="btn fa fa-angle-down fa-2x"></a>
+				<a href="javascript:;" class="direction fa fa-angle-left fa-2x"></a>
+			</div>	
+		</header>
+
+		<iframe id="whjg" src="http://www.whjg.gov.cn:8082/wzxxcx/query/drivePersonQuery.jsp" width="100%" height="768px" frameBorder="0" scrolling="no"></iframe>	
+
+
+		
+
+		<!-- 底部导航 -->
+		<footer id="footer-dock">
+			<ul class="footer_tab">
+				<li class="" id="index"><div><span>首页</span></div></li>
+				<li class="" id="video"><div><span>视频</span></div></li>
+				<li class="" id="activity"><div><span>活动</span></div></li>
+				<li class="" id="tianyi"><div><span>天翼</span></div></li>
+				<li class="" id="apps"><div><span>应用</span></div></li>
+			</ul> 
+		</footer>
+
+	</div>
+
+	<script>
+		var flag = true;
+
+		$('.logowrapper .btn').on('click', function(e){
+			if(flag == true){
+				$('.login-panel').css("height","240px");
+				$(this).removeClass('fa-angle-down');
+				$(this).addClass('fa-angle-up');
+				flag = false;
+			} else {
+				$('.login-panel').css("height","0px");
+				$(this).removeClass('fa-angle-up');
+				$(this).addClass('fa-angle-down');
+				flag = true;
+			}
+		});
+		
+	</script>
+</body>
+</html>
