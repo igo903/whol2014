@@ -1,0 +1,450 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>whol</title></head><body><h1 id="_1">武汉热线网站重构技术规范</h1>
+<p>Venture Vanward 2014 Ver.2.0 Editor By Zhe Yuan</p>
+<hr />
+<h4 id="1">1. 内容结构</h4>
+<p>00.首页  <code>/index</code><br />
+01.资讯  <code>/inf</code><br />
+02.房产  <code>/est</code><br />
+03.家居  <code>/hou</code><br />
+04.交通  <code>/tra</code><br />
+05.旅游  <code>/tou</code><br />
+06.生活  <code>/lif</code><br />
+07.娱乐  <code>/ent</code><br />
+08.亲子  <code>/bab</code><br />
+09.婚嫁  <code>/mar</code><br />
+10.视频  <code>/vdo</code><br />
+11.专题  <code>/spe</code>  </p>
+<hr />
+<h4 id="2">2. 页面类型</h4>
+<p>首页  </p>
+<blockquote>
+<p>index  </p>
+</blockquote>
+<p>列表</p>
+<blockquote>
+<p>listTex  新闻列表<br />
+listVdo  视频列表<br />
+listApp  应用列表<br />
+listFun  功能列表<br />
+lsitSpe  专题列表  </p>
+</blockquote>
+<p>内容</p>
+<blockquote>
+<p>contTex  新闻内容<br />
+contVdo  视频内容<br />
+contApp  应用内容<br />
+contFun  功能<br />
+contSpe  专题页  </p>
+</blockquote>
+<p>系统</p>
+<blockquote>
+<p>sysLog  登录功能相关页面<br />
+sysUse  用户功能相关页面<br />
+sysADs  广告功能相关页面<br />
+sysSEO  SEO功能相关页面<br />
+sysSta  站内统计功能相关页面  </p>
+</blockquote>
+<p>首页发布系统</p>
+<blockquote>
+<p>pubInd  首页发布页面  </p>
+</blockquote>
+<p>外链</p>
+<blockquote>
+<p>link  </p>
+</blockquote>
+<hr />
+<h4 id="3">3. 前端重构规划</h4>
+<p>首页</p>
+<blockquote>
+<p>index_index [1]  武汉热线首页</p>
+</blockquote>
+<p>资讯</p>
+<blockquote>
+<p>inf_index [1]  新闻首页:武汉,调查,国内,国际,社会,科技,娱乐,财经,生活<br />
+inf_listText [1]  新闻分类列表<br />
+inf_contText [1]  新闻具体内容  </p>
+</blockquote>
+<p>房产</p>
+<blockquote>
+<p>est_link [0]  外链  http://fdc.wuhan.net.cn</p>
+</blockquote>
+<p>家居</p>
+<blockquote>
+<p>hou_link [0]  外链  http://dec.wuhan.net.cn</p>
+</blockquote>
+<p>交通</p>
+<blockquote>
+<p>tra_index [1]  交通首页:天翼看交通,违章查询<br />
+tra_contFun [1]  天翼看交通
+tra_contFun [1]  违章查询</p>
+</blockquote>
+<p>旅游</p>
+<blockquote>
+<p>tou_link [0]  外链  http://go.wuhan.net.cn  二期运营</p>
+</blockquote>
+<p>生活</p>
+<blockquote>
+<p>lif_link [0]  二期运营  </p>
+</blockquote>
+<p>娱乐</p>
+<blockquote>
+<p>ent_link [0]  外链  http://ent.rexian.net.cn</p>
+</blockquote>
+<p>亲子</p>
+<blockquote>
+<p>ent_link [0]  外链  http://baby.rexian.net.cn</p>
+</blockquote>
+<p>婚嫁</p>
+<blockquote>
+<p>hou_link [0]  外链  http://marry.rexian.net.cn</p>
+</blockquote>
+<p>视频</p>
+<blockquote>
+<p>vod_index [1]  视频首页:直播大武汉,经视直播,看荆楚,原创世界,10000知道,天翼视讯,iTV导视<br />
+vdo_listVdo [1]  视频列表<br />
+vdo_contVdo [1]  视频播放页  </p>
+</blockquote>
+<p>专题</p>
+<blockquote>
+<p>spe_index [0]  专题首页<br />
+spe_listSpe [1]  专题列表 (专题列表既专题首页)<br />
+spe_contSpe [5]  计划设计专题模板  </p>
+</blockquote>
+<p>应用 (应用推荐不在导航中显示,但通过首页中的链接访问应用推荐首页)</p>
+<blockquote>
+<p>app_index [1]  应用推荐<br />
+app_listApp [1]  应用列表<br />
+app_contApp [1]  应用内容  </p>
+</blockquote>
+<hr />
+<h4 id="4-cms">4. CMS后台</h4>
+<p>后台访问  </p>
+<blockquote>
+<p>http://admin.wuhan.net.cn<br />
+ID: yuanzhe<br />
+PW: 123456  </p>
+</blockquote>
+<p>hosts定向</p>
+<blockquote>
+<p>116.211.116.143  admin.wuhan.net.cn<br />
+116.211.116.143  info.wuhan.net.cn<br />
+116.211.116.143  app.wuhan.net.cn<br />
+116.211.116.143  img.wuhan.net.cn<br />
+116.211.116.143  upload.wuhan.net.cn<br />
+116.211.116.143  dbpma.wuhan.net.cn  </p>
+</blockquote>
+<hr />
+<h4 id="5-cmd">5. CMD文档模型规范</h4>
+<p><code>/modules</code>  用于存放Node.js,Sea.js,Arale.js等框架文件<br />
+<code>/static</code>  用于存放供单个文件调用的css,js文件<br />
+<code>/app</code>  用于存放网页和模板html<br />
+<code>/image</code>  用于放置页面中使用的图片文件<br />
+<code>/upload</code>  以日期子文件夹形式存放上传文件</p>
+<hr />
+<h4 id="6-html">6. HTML构建规范</h4>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;!-- Publish Info : 2014-03-06 10:00:00 Admin --&gt;
+&lt;!-- Building Info : venture vanward 2014 ver.2.71 --&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;武汉,武汉热线,武汉电信,武汉门户,武汉生活,智慧城市&quot;&gt;
+    &lt;title&gt;武汉热线 - 武汉生活门户 - 武汉人的网上家园&lt;/title&gt;
+    &lt;!-- CSS --&gt;
+    &lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;../static/main.css&quot;&gt;
+    &lt;!-- JS --&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../static/main.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p><code>/app</code>中的HTML文件需包含:  </p>
+<blockquote>
+<p>1.发布时间标记;<br />
+2.版本标记;<br />
+3.引用CSS的注释;<br />
+4.引用JavaScript的注释;<br />
+5.其他必要的注释.  </p>
+</blockquote>
+<p><code>/app</code>中HTML的head部分源代码内容确定:</p>
+<blockquote>
+<p>1.网页标题:武汉热线 - 武汉生活门户 - 武汉人的网上家园<br />
+2.关键字:<br />
+3.其他meta标签内容:  </p>
+</blockquote>
+<hr />
+<h4 id="7">7. 首页布局组件</h4>
+<p>7.0 全局</p>
+<p>7.1 顶部工具条</p>
+<blockquote>
+<p>topToolKit<br />
+100% * 30<br />
+智慧城市移动客户端二维码下载,地市州门户链接,用户系统,积分系统.  </p>
+</blockquote>
+<p>7.2 LOGO部分</p>
+<blockquote>
+<p>logoMain<br />
+1000 * 90<br />
+武汉热线LOGO,智慧城市LOGO,搜索框,热门关键字,天气信息,文字推送.  </p>
+</blockquote>
+<p>7.3 主页套嵌背景</p>
+<blockquote>
+<p>bgMain<br />
+1920 * 600<br />
+首屏底层背景,根据节日或广告需求更换.  </p>
+</blockquote>
+<p>7.4 导航组</p>
+<blockquote>
+<p>nav<br />
+首页,新闻,房产,家居,交通,旅游,生活,娱乐,亲子,婚嫁,视频,专题.  </p>
+</blockquote>
+<p>7.5 通栏广告位 [3]</p>
+<blockquote>
+<p>bigAD<br />
+1000 * 120 / 720 * 120 + 280 * 120<br />
+一号主广告位,可分解成1+1两块.  </p>
+</blockquote>
+<p>7.6 信息块单元</p>
+<blockquote>
+<p>infoUnit<br />
+title_infoUnit 340 * 50<br />
+switch_infoUnit 340 * 25<br />
+line_infoUnit 340 * 25<br />
+main_infoUnit 340 * 50<br />
+img_case1_infoUnit 340 * 225<br />
+img_case2_infoUnit 160 * 100<br />
+img_case3_infoUnit 100 * 100  </p>
+</blockquote>
+<hr />
+<h4 id="8">8. 内容布局</h4>
+<p>8.1 系统 (代码中显示)</p>
+<blockquote>
+<p>发布时间<br />
+发布版本<br />
+发布人  </p>
+</blockquote>
+<p>8.2 通知 (可选)</p>
+<blockquote>
+<p>外宣办通知事项  </p>
+</blockquote>
+<p>8.3 天气</p>
+<blockquote>
+<p>天气 默认自动读取信息源,可手动更改  </p>
+</blockquote>
+<p>8.4 图片新闻 12L</p>
+<blockquote>
+<p>图片新闻 [9L] * 5 滚动
+图片下方文字 [3L]  (3L代表3行,列表的行高为25Px,下同)  </p>
+</blockquote>
+<p>8.5 主新闻区 [2]:时政新闻,生活新闻  12L</p>
+<blockquote>
+<p>大标题新闻 [1L]<br />
+中标题新闻 [1L]<br />
+标准标题 [10L]  </p>
+</blockquote>
+<p>8.6 热线专题 10L</p>
+<blockquote>
+<p>专题标题 [1L] * 2<br />
+专题图片 [2L] * 2 <br />
+标准标题 [4L] * 2  (与图片并列)  </p>
+</blockquote>
+<p>8.7 热线智选</p>
+<blockquote>
+<p>标题 [1L]<br />
+应用图片 [4L] * 3 并列
+标准标题 [5L]  </p>
+</blockquote>
+<p>8.8 标准信息块固定块 [9L] :房产,家居,交通,旅游,生活,娱乐,婚嫁,亲子</p>
+<blockquote>
+<p>信息块标题 [1L]<br />
+信息块图片 [4L]<br />
+信息块标准标题 [4L]  (与图片并列)<br />
+信息块标准标题 [4L]  </p>
+</blockquote>
+<p>8.9 公告</p>
+<blockquote>
+<p>公告标准信息块  </p>
+</blockquote>
+<p>8.10 电信服务入口</p>
+<blockquote>
+<p>HTML代码段  </p>
+</blockquote>
+<p>8.11 掌中门户</p>
+<blockquote>
+<p>HTML 代码段  </p>
+</blockquote>
+<p>8.12 生活服务入口</p>
+<blockquote>
+<p>HTML 代码段  </p>
+</blockquote>
+<p>8.13 智慧城市区域</p>
+<blockquote>
+<p>HTML 代码段  </p>
+</blockquote>
+<p>8.14 视频</p>
+<blockquote>
+<p>HTML 代码段  </p>
+</blockquote>
+<p>8.15 广告管理</p>
+<blockquote>
+<p>Logo区广告代码<br />
+首页1号广告位Case 1 * 1<br />
+首页1号广告位Case 2 * 1<br />
+首页2号广告位<br />
+首页3号广告位<br />
+边栏1号广告位Case 1 * 1<br />
+边栏2号广告位Case 1 * 2<br />
+边栏文字广告代码<br />
+into广告代码<br />
+首页弹出广告代码<br />
+首页对联广告代码<br />
+首页二维码广告代码  </p>
+</blockquote>
+<p>8.16 友链管理</p>
+<blockquote>
+<p>HTML 代码段  </p>
+</blockquote>
+<hr />
+<h4 id="9">9. 外部接口</h4>
+<p>9.1 智慧城市客户端相关技术接口</p>
+<blockquote></blockquote>
+<p>9.2 用户积分系统技术接口</p>
+<blockquote></blockquote>
+<p>9.3 天翼看交通接口</p>
+<blockquote></blockquote>
+<p>9.4 iTV接口</p>
+<blockquote></blockquote>
+<p>9.其他技术接口</p>
+<blockquote></blockquote>
+<hr />
+<h4 id="10">10. 服务器</h4>
+<p>10.1 测试服务器</p>
+<blockquote></blockquote>
+<p>10.2 AB公测服务器</p>
+<blockquote></blockquote></body></html>
